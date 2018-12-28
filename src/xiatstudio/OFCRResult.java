@@ -20,11 +20,7 @@ public class OFCRResult {
 
             List<Driver> driverList = handler.getDriverList();
             List<Integer> lapList = handler.getLapList();
-
-            for(int i = 0; i < driverList.size(); i++){
-                System.out.print(driverList.get(i) + " ");
-                System.out.println(lapList.get(i));
-            }
+            List<Integer> posList = handler.getPosList();
 
             String fileName = handler.getFileName();
 
@@ -32,13 +28,23 @@ public class OFCRResult {
             
             try{
                 writer = new FileWriter(fileName,true);
+                writer.append("Pos.,");
                 writer.append("No.,");
                 writer.append("Name,");
                 writer.append("Team,");
                 writer.append("Laps");
                 writer.append("\r\n");
 
-                for(int i = 0; i < driverList.size();i++){
+                int i = 0;
+                int j = 1;
+                
+                while( j < driverList.size()+1){
+                    while(j != posList.get(i)){
+                        i++;
+                    }
+                    writer.append(String.valueOf(j));
+                    writer.append(',');
+
                     writer.append(String.valueOf(driverList.get(i).getNumber()));
                     writer.append(',');
 
@@ -50,6 +56,9 @@ public class OFCRResult {
 
                     writer.append(String.valueOf(lapList.get(i)));
                     writer.append("\r\n");
+
+                    i = 0;
+                    j++;
                 }
                 
                 writer.flush();

@@ -12,6 +12,7 @@ import org.xml.sax.helpers.DefaultHandler;
 public class XMLHandler extends DefaultHandler {
 	List<Driver> driverList = null;
 	List<Integer> lapList = null;
+	List<Integer> posList = null;
 	Driver currentDriver = null;
 	StringBuilder data = null;
 	String fileName = null;
@@ -24,6 +25,10 @@ public class XMLHandler extends DefaultHandler {
 		return lapList;
 	}
 
+	public List<Integer> getPosList(){
+		return posList;
+	}
+
 	public String getFileName(){
 		return fileName + ".csv";
 	}
@@ -33,6 +38,7 @@ public class XMLHandler extends DefaultHandler {
 	boolean dTeam = false;
 	boolean dSession = false;
 	boolean dLaps = false;
+	boolean dPos = false;
 
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException{
@@ -50,6 +56,12 @@ public class XMLHandler extends DefaultHandler {
 			dName = true;
 		else if(qName.equalsIgnoreCase("CarNumber"))
 			dNumber = true;
+		else if(qName.equalsIgnoreCase("Position")){
+			dPos = true;
+			if(posList == null){
+				posList = new ArrayList<>();
+			}
+		}
 		else if (qName.equalsIgnoreCase("TeamName"))
 			dTeam = true;
 		else if (qName.equalsIgnoreCase("Laps")){
@@ -59,7 +71,6 @@ public class XMLHandler extends DefaultHandler {
 			dLaps = true;
 		}
 			
-
 		data = new StringBuilder();
 	}
 
@@ -77,6 +88,10 @@ public class XMLHandler extends DefaultHandler {
 		else if(dNumber){
 			currentDriver.setNumber(Integer.parseInt(data.toString()));
 			dNumber = false;
+		}
+		else if(dPos){
+			posList.add(Integer.parseInt(data.toString()));
+			dPos = false;
 		}
 		else if(dTeam){
 			Team tmpTeam = new Team(data.toString());

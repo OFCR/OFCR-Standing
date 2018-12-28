@@ -79,7 +79,12 @@ public class OFCRResult {
                     }
                     writer.append(',');
 
-                    writer.append(timeFormat(tmpDriver.getPB()));
+                    if(tmpDriver.getTime() == 0) {
+                    	writer.append("N/A");
+                    }
+                    else {
+                    	writer.append(timeFormat(tmpDriver.getPB()));
+                    }
                     writer.append("\r\n");
 
                     i = 0;

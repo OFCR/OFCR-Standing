@@ -11,17 +11,28 @@ import org.xml.sax.helpers.DefaultHandler;
 
 public class XMLHandler extends DefaultHandler {
 	List<Driver> driverList = null;
+	List<Integer> lapList = null;
 	Driver currentDriver = null;
 	StringBuilder data = null;
+	String fileName = null;
 	
 	public List<Driver> getDriverList(){
 		return driverList;
+	}
+
+	public List<Integer> getLapList(){
+		return lapList;
+	}
+
+	public String getFileName(){
+		return fileName + ".csv";
 	}
 
 	boolean dName = false;
 	boolean dNumber = false;
 	boolean dTeam = false;
 	boolean dSession = false;
+	boolean dLaps = false;
 
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException{
@@ -41,6 +52,13 @@ public class XMLHandler extends DefaultHandler {
 			dNumber = true;
 		else if (qName.equalsIgnoreCase("TeamName"))
 			dTeam = true;
+		else if (qName.equalsIgnoreCase("Laps")){
+			if(lapList == null){
+				lapList = new ArrayList<>();
+			}
+			dLaps = true;
+		}
+			
 
 		data = new StringBuilder();
 	}
@@ -49,6 +67,7 @@ public class XMLHandler extends DefaultHandler {
 	public void endElement(String uri, String localName, String qName) throws SAXException{
 		if(dSession){
 			createCSVFile(data.toString());
+			fileName = data.toString();
 			dSession = false;
 		}
 		else if(dName){
@@ -63,6 +82,10 @@ public class XMLHandler extends DefaultHandler {
 			Team tmpTeam = new Team(data.toString());
 			currentDriver.setTeam(tmpTeam);
 			dTeam = false;
+		}
+		else if(dLaps){
+			lapList.add(Integer.parseInt(data.toString()));
+			dLaps = false;
 		}
 		
 		if(qName.equalsIgnoreCase("Driver")){

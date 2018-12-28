@@ -5,12 +5,18 @@ public class Driver {
 	int driverNumber;
 	int driverPoints;
 	Team driverTeam;
+	int laps;
+	double time;
+	int pos;
 	
 	public Driver(String name) {
 		this.driverName = name;
 		this.driverNumber = 0;
 		this.driverPoints = 0;
 		this.driverTeam = new Team("TEAMNAME");
+		this.laps = 0;
+		this.time = 0;
+		this.pos = 0;
 	}
 	
 	public void setName(String newName) {
@@ -44,9 +50,29 @@ public class Driver {
 	public Team getTeam() {
 		return this.driverTeam;
 	}
-	
-	@Override
-	public String toString() {
-		return (String.valueOf(this.driverNumber) + " " + this.driverName + " " + this.driverTeam.getName());
+
+	public void setPos(int newPos){
+		this.pos = newPos;
 	}
+
+	public int getPos(){
+		return this.pos;
+	}
+
+	public void setLap(int newLap){
+		this.laps = newLap;
+	}
+
+	public int getLap(){
+		return this.laps;
+	}
+
+	public void setTime(double newTime){
+		this.time = newTime;
+	}
+
+	public double getTime(){
+		return this.time;
+	}
+	
 }

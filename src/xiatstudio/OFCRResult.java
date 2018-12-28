@@ -16,12 +16,9 @@ public class OFCRResult {
         try{
             SAXParser saxParser = saxParserFactory.newSAXParser();
             XMLHandler handler = new XMLHandler();
-            saxParser.parse(new File("sample.xml"),handler);
+            saxParser.parse(new File("09MONR.xml"),handler);
 
             List<Driver> driverList = handler.getDriverList();
-            List<Integer> lapList = handler.getLapList();
-            List<Integer> posList = handler.getPosList();
-            List<Double> timeList = handler.getTimeList();
 
             String fileName = handler.getFileName();
 
@@ -44,36 +41,42 @@ public class OFCRResult {
                 int j = 1;
                 
                 while( j < driverList.size()+1){
-                    while(j != posList.get(i)){
+                    while(j != driverList.get(i).getPos()){
                         i++;
                     }
+
+                    Driver tmpDriver = driverList.get(i);
                     writer.append(String.valueOf(j));
                     writer.append(',');
 
-                    writer.append(String.valueOf(driverList.get(i).getNumber()));
+                    writer.append(String.valueOf(tmpDriver.getNumber()));
                     writer.append(',');
 
-                    writer.append(driverList.get(i).getName());
+                    writer.append(tmpDriver.getName());
                     writer.append(',');
 
-                    writer.append(driverList.get(i).getTeam().getName());
+                    writer.append(tmpDriver.getTeam().getName());
                     writer.append(',');
 
-                    writer.append(String.valueOf(lapList.get(i)));
+                    writer.append(String.valueOf(tmpDriver.getLap()));
                     writer.append(',');
                     
                     if(j == 1){
-                        timePivot = timeList.get(i);
-                        leaderLap = lapList.get(i);
-                        writer.append(timeFormat(timeList.get(i)));
+                        timePivot = tmpDriver.getTime();
+                        leaderLap = tmpDriver.getLap();
+                        writer.append(timeFormat(timePivot));
                         writer.append("\r\n");
                     }
-                    else if(leaderLap == lapList.get(i)){
-                        writer.append("+" + String.format("%.3f",timeList.get(i) - timePivot));
+                    else if(leaderLap == tmpDriver.getLap()){
+                        writer.append("+" + String.format("%.3f",tmpDriver.getTime() - timePivot));
+                        writer.append("\r\n");
+                    }
+                    else if(tmpDriver.getTime() != 0){
+                        writer.append("+" + String.valueOf(leaderLap - tmpDriver.getLap()) + " Lap(s)");
                         writer.append("\r\n");
                     }
                     else{
-                        writer.append("+" + String.valueOf(leaderLap - lapList.get(i)) + " Lap(s)");
+                        writer.append("DNF");
                         writer.append("\r\n");
                     }
 

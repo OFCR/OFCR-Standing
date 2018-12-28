@@ -11,27 +11,12 @@ import org.xml.sax.helpers.DefaultHandler;
 
 public class XMLHandler extends DefaultHandler {
 	List<Driver> driverList = null;
-	List<Integer> lapList = null;
-	List<Integer> posList = null;
-	List<Double> timeList = null;
 	Driver currentDriver = null;
 	StringBuilder data = null;
 	String fileName = null;
 	
 	public List<Driver> getDriverList(){
 		return driverList;
-	}
-
-	public List<Integer> getLapList(){
-		return lapList;
-	}
-
-	public List<Integer> getPosList(){
-		return posList;
-	}
-
-	public List<Double> getTimeList(){
-		return timeList;
 	}
 
 	public String getFileName(){
@@ -62,26 +47,17 @@ public class XMLHandler extends DefaultHandler {
 			dName = true;
 		else if(qName.equalsIgnoreCase("CarNumber"))
 			dNumber = true;
-		else if(qName.equalsIgnoreCase("Position")){
+		else if(qName.equalsIgnoreCase("Position"))
 			dPos = true;
-			if(posList == null){
-				posList = new ArrayList<>();
-			}
-		}
 		else if (qName.equalsIgnoreCase("TeamName"))
 			dTeam = true;
-		else if (qName.equalsIgnoreCase("FinishTime")){
+		else if (qName.equalsIgnoreCase("FinishTime"))
 			dTime = true;
-			if(timeList == null){
-				timeList = new ArrayList<>();
-			}
-		}
 		else if (qName.equalsIgnoreCase("Laps")){
-			if(lapList == null){
-				lapList = new ArrayList<>();
-			}
-			dLaps = true;
+			if(currentDriver != null)
+				dLaps = true;
 		}
+				
 			
 		data = new StringBuilder();
 	}
@@ -102,7 +78,7 @@ public class XMLHandler extends DefaultHandler {
 			dNumber = false;
 		}
 		else if(dPos){
-			posList.add(Integer.parseInt(data.toString()));
+			currentDriver.setPos(Integer.parseInt(data.toString()));
 			dPos = false;
 		}
 		else if(dTeam){
@@ -111,11 +87,11 @@ public class XMLHandler extends DefaultHandler {
 			dTeam = false;
 		}
 		else if(dTime){
-			timeList.add(Double.parseDouble(data.toString()));
+			currentDriver.setTime(Double.parseDouble(data.toString()));
 			dTime = false;
 		}
 		else if(dLaps){
-			lapList.add(Integer.parseInt(data.toString()));
+			currentDriver.setLap(Integer.parseInt(data.toString()));
 			dLaps = false;
 		}
 		

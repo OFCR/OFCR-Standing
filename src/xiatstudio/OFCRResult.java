@@ -2,6 +2,7 @@ package xiatstudio;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.List;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -16,7 +17,7 @@ public class OFCRResult {
         try{
             SAXParser saxParser = saxParserFactory.newSAXParser();
             XMLHandler handler = new XMLHandler();
-            saxParser.parse(new File("sample.xml"),handler);
+            saxParser.parse(new File("08AUTR.xml"),handler);
 
             List<Driver> driverList = handler.getDriverList();
 
@@ -34,7 +35,8 @@ public class OFCRResult {
                 writer.append("Name,");
                 writer.append("Team,");
                 writer.append("Laps,");
-                writer.append("Time/Gap");
+                writer.append("Time/Gap,");
+                writer.append("Personal Best");
                 writer.append("\r\n");
 
                 int i = 0;
@@ -65,20 +67,20 @@ public class OFCRResult {
                         timePivot = tmpDriver.getTime();
                         leaderLap = tmpDriver.getLap();
                         writer.append(timeFormat(timePivot));
-                        writer.append("\r\n");
                     }
                     else if(leaderLap == tmpDriver.getLap()){
                         writer.append("+" + String.format("%.3f",tmpDriver.getTime() - timePivot));
-                        writer.append("\r\n");
                     }
                     else if(tmpDriver.getTime() != 0){
                         writer.append("+" + String.valueOf(leaderLap - tmpDriver.getLap()) + " Lap(s)");
-                        writer.append("\r\n");
                     }
                     else{
                         writer.append("DNF");
-                        writer.append("\r\n");
                     }
+                    writer.append(',');
+
+                    writer.append(timeFormat(tmpDriver.getPB()));
+                    writer.append("\r\n");
 
                     i = 0;
                     j++;
@@ -97,10 +99,14 @@ public class OFCRResult {
 
     public static String timeFormat(double rawTime){
         String formattedTime;
+        
         int minute = (int) Math.floor(rawTime / 60);
         double second = rawTime - minute*60;
-
-        formattedTime = String.valueOf(minute) + ":" + String.format("%.3f",second);
+        
+        DecimalFormat df = new DecimalFormat("00.###");
+        String formattedSecond = df.format(second);
+        
+        formattedTime = String.valueOf(minute) + ":" + formattedSecond;
         return formattedTime;
     }
 }

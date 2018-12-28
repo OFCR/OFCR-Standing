@@ -8,7 +8,8 @@ public class Driver {
 	int laps;
 	double time;
 	int pos;
-	
+	double PB;
+
 	public Driver(String name) {
 		this.driverName = name;
 		this.driverNumber = 0;
@@ -17,6 +18,7 @@ public class Driver {
 		this.laps = 0;
 		this.time = 0;
 		this.pos = 0;
+		this.PB = 0;
 	}
 	
 	public void setName(String newName) {
@@ -74,5 +76,12 @@ public class Driver {
 	public double getTime(){
 		return this.time;
 	}
+
+	public void setPB(double newPB){
+		this.PB = newPB;
+	}
 	
+	public double getPB(){
+		return this.PB;
+	}
 }

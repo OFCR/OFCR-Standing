@@ -30,6 +30,7 @@ public class XMLHandler extends DefaultHandler {
 	boolean dLaps = false;
 	boolean dPos = false;
 	boolean dTime = false;
+	boolean dPB = false;
 
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException{
@@ -51,6 +52,8 @@ public class XMLHandler extends DefaultHandler {
 			dPos = true;
 		else if (qName.equalsIgnoreCase("TeamName"))
 			dTeam = true;
+		else if (qName.equalsIgnoreCase("BestLapTime"))
+			dPB = true;
 		else if (qName.equalsIgnoreCase("FinishTime"))
 			dTime = true;
 		else if (qName.equalsIgnoreCase("Laps")){
@@ -65,7 +68,7 @@ public class XMLHandler extends DefaultHandler {
 	@Override
 	public void endElement(String uri, String localName, String qName) throws SAXException{
 		if(dSession){
-			createCSVFile(data.toString());
+			createCSVFile(data.toString(),true);
 			fileName = data.toString();
 			dSession = false;
 		}
@@ -86,6 +89,10 @@ public class XMLHandler extends DefaultHandler {
 			currentDriver.setTeam(tmpTeam);
 			dTeam = false;
 		}
+		else if(dPB){
+			currentDriver.setPB(Double.parseDouble(data.toString()));
+			dPB = false;
+		}
 		else if(dTime){
 			currentDriver.setTime(Double.parseDouble(data.toString()));
 			dTime = false;
@@ -105,8 +112,12 @@ public class XMLHandler extends DefaultHandler {
 		data.append(new String(ch,start,length));
 	}
 
-	public void createCSVFile(String fileName){
+	public void createCSVFile(String fileName, boolean overwrite){
 		File f = new File(fileName + ".csv");
+
+		if(overwrite == true)
+			f.delete();
+
 		try{
 			f.createNewFile();
 		} catch (IOException e){

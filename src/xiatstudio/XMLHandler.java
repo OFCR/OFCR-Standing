@@ -24,6 +24,10 @@ public class XMLHandler extends DefaultHandler {
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException{
 		if(qName.equalsIgnoreCase("Driver")){
 			currentDriver = new Driver(" ");
+			
+			if(driverList == null) {
+				driverList = new ArrayList<>();
+			}
 		} else if(qName.equalsIgnoreCase("Name"))
 			dName = true;
 		else if(qName.equalsIgnoreCase("CarNumber"))
@@ -41,7 +45,7 @@ public class XMLHandler extends DefaultHandler {
 			dName = false;
 		}
 		else if(dNumber){
-			currentDriver.setNumber(Integer.parseInt(data.toString()));;
+			currentDriver.setNumber(Integer.parseInt(data.toString()));
 			dNumber = false;
 		}
 		else if(dTeam){
@@ -49,7 +53,7 @@ public class XMLHandler extends DefaultHandler {
 			currentDriver.setTeam(tmpTeam);
 			dTeam = false;
 		}
-
+		
 		if(qName.equalsIgnoreCase("Driver")){
 			driverList.add(currentDriver);
 		}

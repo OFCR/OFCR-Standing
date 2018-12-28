@@ -44,4 +44,9 @@ public class Driver {
 	public Team getTeam() {
 		return this.driverTeam;
 	}
+	
+	@Override
+	public String toString() {
+		return (String.valueOf(this.driverNumber) + " " + this.driverName + " " + this.driverTeam.getName());
+	}
 }

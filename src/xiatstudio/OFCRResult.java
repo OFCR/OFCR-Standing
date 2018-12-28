@@ -18,7 +18,7 @@ public class OFCRResult {
         try {
             SAXParser saxParser = saxParserFactory.newSAXParser();
             XMLHandler handler = new XMLHandler();
-            saxParser.parse(new File("08AUTR.xml"), handler);
+            saxParser.parse(new File("09MONR.xml"), handler);
 
             List<Driver> driverList = handler.getDriverList();
 
@@ -29,21 +29,21 @@ public class OFCRResult {
         }
     }
 
-    public static String PBParser(Driver d){
-        if(d.getLap() == 0)
+    public static String PBParser(Driver d) {
+        if (d.getLap() == 0)
             return "N/A";
         else
             return timeFormat(d.getPB());
     }
 
-    public static String posDiffParser(Driver d){
-        if(d.getPosGain() > 0)
+    public static String posDiffParser(Driver d) {
+        if (d.getPosGain() > 0)
             return ("+" + d.getPosGain());
         else
             return String.valueOf(d.getPosGain());
     }
 
-    public static void exportMD(String fileName, List<Driver> driverList){
+    public static void exportMD(String fileName, List<Driver> driverList) {
         FileWriter mdWriter;
         double timePivot = 0;
         int leaderLap = 0;
@@ -51,14 +51,13 @@ public class OFCRResult {
             mdWriter = new FileWriter(fileName, true);
             mdWriter.append("<table style=\"width:100%\">");
             mdWriter.append("\r\n");
-            String title[] = { "Pos.", "No.", "Name", "Team", "Laps", "Time/Gap", "Personal Best",
-                    "Position Diff" };
+            String title[] = { "Pos.", "No.", "Name", "Team", "Laps", "Time/Gap", "Personal Best", "Position Diff" };
             createHTMLRow(mdWriter, title);
 
             int i = 0;
             int j = 1;
-            while (j < driverList.size()+1){
-                while(j != driverList.get(i).getPos()){
+            while (j < driverList.size() + 1) {
+                while (j != driverList.get(i).getPos()) {
                     i++;
                 }
 
@@ -72,7 +71,7 @@ public class OFCRResult {
                     leaderLap = tmpDriver.getLap();
                     time_gap = timeFormat(tmpDriver.getTime());
                 } else if (leaderLap == tmpDriver.getLap()) {
-                    time_gap = "+" + String.format("%.3f",(tmpDriver.getTime() - timePivot));
+                    time_gap = "+" + String.format("%.3f", (tmpDriver.getTime() - timePivot));
                 } else if (tmpDriver.getTime() != 0) {
                     int lapGap = leaderLap - tmpDriver.getLap();
                     if (lapGap == 1)
@@ -82,12 +81,14 @@ public class OFCRResult {
                 } else {
                     time_gap = "DNF";
                 }
-              
+
                 pb = PBParser(tmpDriver);
 
                 posDiff = posDiffParser(tmpDriver);
 
-                String singleRow[] = {String.valueOf(tmpDriver.getPos()),String.valueOf(tmpDriver.getNumber()),tmpDriver.getName(),tmpDriver.getTeam().getName(),String.valueOf(tmpDriver.getNumber()),time_gap,pb,posDiff};
+                String singleRow[] = { String.valueOf(tmpDriver.getPos()), String.valueOf(tmpDriver.getNumber()),
+                        tmpDriver.getName(), tmpDriver.getTeam().getName(), String.valueOf(tmpDriver.getLap()),
+                        time_gap, pb, posDiff };
                 createHTMLRow(mdWriter, singleRow);
 
                 i = 0;
@@ -101,7 +102,7 @@ public class OFCRResult {
         }
     }
 
-    public static void exportCSV(String fileName, List<Driver> driverList){
+    public static void exportCSV(String fileName, List<Driver> driverList) {
         FileWriter writer;
         double timePivot = 0;
         int leaderLap = 0;
@@ -164,7 +165,7 @@ public class OFCRResult {
                 i = 0;
                 j++;
             }
-            
+
             writer.flush();
             writer.close();
         } catch (IOException ioe) {
@@ -187,13 +188,13 @@ public class OFCRResult {
 
     public static void createHTMLRow(FileWriter fw, String[] content) {
         try {
-            fw.append("<tr>");
+            fw.append("\t<tr>");
             fw.append("\r\n");
 
             for (int i = 0; i < content.length; i++) {
                 HTMLTableCell(fw, content[i]);
             }
-            fw.append("</tr>");
+            fw.append("\t</tr>");
             fw.append("\r\n");
         } catch (IOException ioe) {
             ioe.printStackTrace();
@@ -203,7 +204,7 @@ public class OFCRResult {
 
     public static void HTMLTableCell(FileWriter fw, String content) {
         try {
-            fw.append("<th>");
+            fw.append("\t\t<th>");
             fw.append(content);
             fw.append("</th>");
             fw.append("\r\n");

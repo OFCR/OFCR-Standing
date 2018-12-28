@@ -65,7 +65,7 @@ public class OFCRResult {
                     if(j == 1){
                         timePivot = timeList.get(i);
                         leaderLap = lapList.get(i);
-                        writer.append(String.valueOf(timeList.get(i)));
+                        writer.append(timeFormat(timeList.get(i)));
                         writer.append("\r\n");
                     }
                     else if(leaderLap == lapList.get(i)){
@@ -90,5 +90,14 @@ public class OFCRResult {
         } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public static String timeFormat(double rawTime){
+        String formattedTime;
+        int minute = (int) Math.floor(rawTime / 60);
+        double second = rawTime - minute*60;
+
+        formattedTime = String.valueOf(minute) + ":" + String.format("%.3f",second);
+        return formattedTime;
     }
 }

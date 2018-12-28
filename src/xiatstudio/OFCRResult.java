@@ -17,7 +17,7 @@ public class OFCRResult {
         try{
             SAXParser saxParser = saxParserFactory.newSAXParser();
             XMLHandler handler = new XMLHandler();
-            saxParser.parse(new File("08AUTR.xml"),handler);
+            saxParser.parse(new File("09MONR.xml"),handler);
 
             List<Driver> driverList = handler.getDriverList();
 
@@ -72,7 +72,12 @@ public class OFCRResult {
                         writer.append("+" + String.format("%.3f",tmpDriver.getTime() - timePivot));
                     }
                     else if(tmpDriver.getTime() != 0){
-                        writer.append("+" + String.valueOf(leaderLap - tmpDriver.getLap()) + " Lap(s)");
+                    	int lapGap = leaderLap - tmpDriver.getLap();
+                    	writer.append("+" + String.valueOf(lapGap));
+                        if(lapGap == 1)
+                        	writer.append(" Lap");
+                        else
+                        	writer.append(" Laps");
                     }
                     else{
                         writer.append("DNF");

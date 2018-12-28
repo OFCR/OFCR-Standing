@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rF [
+<!ENTITY rFEnt "rFactor Entity">
+]>
+<rFactorXML version="1.0">
+<RaceResults>
+<Setting>Multiplayer</Setting>
+<ServerName>OFCR Round 12 - Nurburg</ServerName>
+<PlayerFile>OMGCA</PlayerFile>
+<DateTime>1531999049</DateTime>
+<TimeString>2018/07/19 19:17:29</TimeString>
+<Mod>OFCR2018.rfm</Mod>
+<Season></Season>
+<TrackVenue>OFCR 2018 Season</TrackVenue>
+<TrackCourse>Nurburgring</TrackCourse>
+<TrackEvent>12.Nurburg</TrackEvent>
+<TrackLength>25361.3</TrackLength>
+<GameVersion>1.255g</GameVersion>
+<Dedicated>0</Dedicated>
+<ConnectionType upload="8042" download="8042">Custom</ConnectionType>
+<RaceLaps>6</RaceLaps>
+<RaceTime>0</RaceTime>
+<MechFailRate>2</MechFailRate>
+<DamageMult>60</DamageMult>
+<FuelMult>1</FuelMult>
+<TireMult>1</TireMult>
+<VehiclesAllowed>|OFCR2018</VehiclesAllowed>
+<ParcFerme>3</ParcFerme>
+<FixedSetups>0</FixedSetups>
+<FreeSettings>2147483647</FreeSettings>
+<FixedUpgrades>0</FixedUpgrades>
+<Race>
+<DateTime>1532004005</DateTime>
+<TimeString>2018/07/19 20:40:05</TimeString>
+<Laps>6</Laps>
+<Minutes>0</Minutes>
+<Stream>
+<Chat et="9.7">wagonggong: he just parked the car in the middle of the track</Chat>
+<Chat et="11.3">DumiBirdF: drive carefully</Chat>
+<Chat et="15.3">OMGCA: ok he explained</Chat>
+<Chat et="15.6">DUO MEI: MY FAULT</Chat>
+<Chat et="16.0">SennaAndProst: expected</Chat>
+<Chat et="16.9">OMGCA: forget that</Chat>
+<Chat et="25.7">KneYka: FBT NO.1</Chat>
+<Chat et="30.1">wagonggong: why did he turn before he</Chat>
+<Incident et="40.2">wagonggong(19) reported contact (0.39) with Cone</Incident>
+<Incident et="40.2">wagonggong(19) reported contact (0.10) with Cone</Incident>
+<Incident et="40.3">wagonggong(19) reported contact (0.03) with Cone</Incident>
+<Incident et="40.8">wagonggong(19) reported contact (0.52) with Cone</Incident>
+<Incident et="42.5">DanDan(2) reported contact (0.39) with Cone</Incident>
+<Chat et="47.8">SennaAndProst: wtf i missed time</Chat>
+<Chat et="50.1">OMGCA: ..</Chat>
+<Chat et="52.4">SennaAndProst: how to get out</Chat>
+<Chat et="54.3">KneYka: senna in pit</Chat>
+<Chat et="56.9">KneYka: re?</Chat>
+<Chat et="60.2">OMGCA: .....</Chat>
+<Chat et="60.6">SennaAndProst: or i just start in pit</Chat>
+<Incident et="62.3">DumiBirdF(5) reported contact (0.29) with another vehicle lovepes2010(8)</Incident>
+<Incident et="62.4">lovepes2010(8) reported contact (0.03) with another vehicle DumiBirdF(5)</Incident>
+<Incident et="62.4">DumiBirdF(5) reported contact (0.13) with another vehicle lovepes2010(8)</Incident>
+<Chat et="62.6">SennaAndProst: nvm</Chat>
+<Chat et="65.4">OMGCA: k</Chat>
+<Chat et="68.1">DumiBirdF: hey</Chat>
+<Chat et="73.9">wagonggong: omg</Chat>
+<Chat et="76.0">OMGCA: ?</Chat>
+<Chat et="77.2">KneYka: wtf again</Chat>
+<Chat et="77.7">SennaAndProst: ?</Chat>
+<Chat et="83.9">OMGCA: ..............</Chat>
+<Chat et="87.2">OMGCA: ,,,,,,,,,,</Chat>
+<Chat et="95.2">DumiBirdF: why stop</Chat>
+<Chat et="99.4">wagonggong: faster</Chat>
+<Score et="148.7">OMGCA(7) lap=0 point=1 t=-1.000 et=148.709</Score>
+<Score et="149.1">OMGCA(7) lap=0 point=2 t=-1.000 et=149.097</Score>
+<Score et="149.7">lovepes2010(8) lap=0 point=1 t=-1.000 et=149.611</Score>
+<Score et="150.1">lovepes2010(8) lap=0 point=2 t=-1.000 et=149.978</Score>
+<Score et="150.9">DumiBirdF(5) lap=0 point=1 t=-1.000 et=150.713</Score>
+<Score et="151.2">DumiBirdF(5) lap=0 point=2 t=-1.000 et=151.053</Score>
+<Score et="157.7">OMGCA(7) lap=0 point=0 t=-1.000 et=157.699</Score>
+<Score et="157.8">smallbubble(13) lap=0 point=1 t=-1.000 et=157.569</Score>
+<Score et="158.2">smallbubble(13) lap=0 point=2 t=-1.000 et=157.978</Score>
+<Score et="158.6">DUO MEI(12) lap=0 point=1 t=-1.000 et=158.431</Score>
+<Score et="158.9">DUO MEI(12) lap=0 point=2 t=-1.000 et=158.778</Score>
+<Score et="159.2">wagonggong(19) lap=0 point=1 t=-1.000 et=158.912</Score>
+<Incident et="159.2">wagonggong(19) reported contact (0.74) with Cone</Incident>
+<Incident et="159.2">wagonggong(19) reported contact (0.29) with Cone</Incident>
+<Score et="159.5">wagonggong(19) lap=0 point=2 t=-1.000 et=159.278</Score>
+<Incident et="159.8">wagonggong(19) reported contact (0.65) with Cone</Incident>
+<Incident et="159.8">wagonggong(19) reported contact (0.10) with Cone</Incident>
+<Incident et="159.8">wagonggong(19) reported contact (0.03) with Cone</Incident>
+<Incident et="159.9">smallbubble(13) reported contact (0.39) with Cone</Incident>
+<Incident et="160.1">wagonggong(19) reported contact (0.58) with Cone</Incident>
+<Incident et="160.4">smallbubble(13) reported contact (0.52) with Cone</Incident>
+<Incident et="160.5">smallbubble(13) reported contact (0.26) with Cone</Incident>
+<Score et="160.6">Eskwen(1) lap=0 point=1 t=-1.000 et=160.511</Score>
+<Score et="161.0">Eskwen(1) lap=0 point=2 t=-1.000 et=160.878</Score>
+<Incident et="161.3">wagonggong(19) reported contact (0.32) with Cone</Incident>
+<Incident et="161.5">DUO MEI(12) reported contact (0.68) with Cone</Incident>
+<Incident et="161.6">DUO MEI(12) reported contact (0.19) with Cone</Incident>
+<Incident et="161.6">DUO MEI(12) reported contact (0.03) with Cone</Incident>
+<Score et="162.0">DanDan(2) lap=0 point=1 t=-1.000 et=161.865</Score>
+<Incident et="162.2">DUO MEI(12) reported contact (0.48) with Cone</Incident>
+<Incident et="162.2">DUO MEI(12) reported contact (0.19) with Cone</Incident>
+<Score et="162.3">DanDan(2) lap=0 point=2 t=-1.000 et=162.203</Score>
+<Score et="163.1">KneYka(11) lap=0 point=1 t=-1.000 et=162.972</Score>
+<Incident et="163.2">DanDan(2) reported contact (0.65) with Cone</Incident>
+<Incident et="163.2">DanDan(2) reported contact (0.06) with Cone</Incident>
+<Incident et="163.3">DanDan(2) reported contact (0.32) with Cone</Incident>
+<Score et="163.5">KneYka(11) lap=0 point=2 t=-1.000 et=163.328</Score>
+<Incident et="163.9">wagonggong(19) reported contact (0.45) with Cone</Incident>
+<Incident et="164.0">wagonggong(19) reported contact (0.13) with Cone</Incident>
+<Score et="165.1">Parker Chen(4) lap=0 point=1 t=-1.000 et=164.980</Score>
+<Score et="165.5">Parker Chen(4) lap=0 point=2 t=-1.000 et=165.328</Score>
+<Incident et="165.9">KneYka(11) reported contact (0.74) with Cone</Incident>
+<Incident et="166.4">Eskwen(1) reported contact (0.42) with Cone</Incident>
+<Incident et="166.4">Eskwen(1) reported contact (0.13) with Cone</Incident>
+<Incident et="166.5">Eskwen(1) reported contact (0.03) with Cone</Incident>
+<Chat et="168.7">OMGCA: glhf</Chat>
+<Incident et="172.8">KneYka(11) reported contact (0.03) with Cone</Incident>
+<Chat et="175.8">KneYka: FBT NO.1</Chat>
+<Chat et="183.5">wagonggong: wth</Chat>
+<Chat et="189.0">OMGCA: ?</Chat>
+<Chat et="191.2">SennaAndProst: ?</Chat>
+<Incident et="205.7">wagonggong(19) reported contact (1.00) with Sign</Incident>
+<Incident et="205.7">wagonggong(19) reported contact (0.71) with Sign</Incident>
+<Incident et="206.4">DUO MEI(12) reported contact (0.10) with Sign</Incident>
+<Incident et="207.0">wagonggong(19) reported contact (1.00) with Sign</Incident>
+<Incident et="207.0">wagonggong(19) reported contact (0.23) with Sign</Incident>
+<Incident et="207.1">wagonggong(19) reported contact (0.03) with Sign</Incident>
+<Incident et="207.2">wagonggong(19) reported contact (0.10) with Sign</Incident>
+<Incident et="207.7">wagonggong(19) reported contact (0.16) with Sign</Incident>
+<Incident et="207.8">DUO MEI(12) reported contact (0.03) with Sign</Incident>
+<Incident et="212.9">smallbubble(13) reported contact (0.10) with another vehicle lovepes2010(8)</Incident>
+<Incident et="213.0">smallbubble(13) reported contact (0.06) with another vehicle lovepes2010(8)</Incident>
+<Incident et="213.0">lovepes2010(8) reported contact (0.06) with another vehicle smallbubble(13)</Incident>
+<Incident et="213.1">Eskwen(1) reported contact (0.29) with another vehicle smallbubble(13)</Incident>
+<Incident et="224.2">smallbubble(13) reported contact (0.65) with another vehicle DumiBirdF(5)</Incident>
+<Incident et="224.3">smallbubble(13) reported contact (1.00) with Wing</Incident>
+<Incident et="224.3">smallbubble(13) reported contact (1.00) with Wing</Incident>
+<Incident et="224.3">DumiBirdF(5) reported contact (0.03) with another vehicle smallbubble(13)</Incident>
+<Incident et="224.3">smallbubble(13) reported contact (0.52) with Wing</Incident>
+<Incident et="224.3">smallbubble(13) reported contact (0.42) with Wing</Incident>
+<Chat et="242.8">SennaAndProst: no green light?</Chat>
+<Chat et="245.2">ghgyyukg: chef senna s grill engine</Chat>
+<Incident et="251.0">smallbubble(13) reported contact (0.94) with Immovable</Incident>
+<Incident et="251.2">smallbubble(13) reported contact (0.74) with Immovable</Incident>
+<Chat et="266.0">SennaAndProst: omg</Chat>
+<Incident et="277.7">Parker Chen(4) reported contact (0.32) with another vehicle KneYka(11)</Incident>
+<Incident et="284.6">Parker Chen(4) reported contact (0.26) with Immovable</Incident>
+<Incident et="284.7">Parker Chen(4) reported contact (1.00) with Wing</Incident>
+<Incident et="284.7">Parker Chen(4) reported contact (0.87) with Wing</Incident>
+<Incident et="284.7">Parker Chen(4) reported contact (0.61) with Wing</Incident>
+<Incident et="284.9">Parker Chen(4) reported contact (0.03) with Immovable</Incident>
+<Chat et="290.4">SennaAndProst: ...</Chat>
+<Incident et="294.3">wagonggong(19) reported contact (1.00) with Immovable</Incident>
+<Incident et="294.4">wagonggong(19) reported contact (1.00) with Wing</Incident>
+<Incident et="294.4">wagonggong(19) reported contact (1.00) with Wing</Incident>
+<Incident et="294.4">wagonggong(19) reported contact (1.00) with Wing</Incident>
+<Incident et="294.4">wagonggong(19) reported contact (0.81) with Wing</Incident>
+<Incident et="294.4">wagonggong(19) reported contact (1.00) with Wing</Incident>
+<Incident et="294.4">wagonggong(19) reported contact (0.65) with Immovable</Incident>
+<Incident et="294.4">wagonggong(19) reported contact (0.48) with Wing</Incident>
+<Incident et="297.5">DumiBirdF(5) reported contact (1.00) with Wing</Incident>
+<Incident et="297.9">Parker Chen(4) reported contact (0.39) with Immovable</Incident>
+<Incident et="298.0">Parker Chen(4) reported contact (0.77) with Immovable</Incident>
+<Incident et="298.1">Parker Chen(4) reported contact (0.06) with Immovable</Incident>
+<Incident et="298.4">Parker Chen(4) reported contact (0.06) with Immovable</Incident>
+<Incident et="301.1">DanDan(2) reported contact (0.77) with Wing</Incident>
+<Incident et="306.6">Parker Chen(4) reported contact (0.32) with Immovable</Incident>
+<Incident et="306.8">Parker Chen(4) reported contact (0.45) with Immovable</Incident>
+<Incident et="320.4">Parker Chen(4) reported contact (0.35) with Immovable</Incident>
+<Incident et="320.6">Parker Chen(4) reported contact (0.65) with Immovable</Incident>
+<Incident et="320.7">Parker Chen(4) reported contact (0.03) with Immovable</Incident>
+<Incident et="321.7">wagonggong(19) reported contact (0.13) with Track</Incident>
+<Chat et="321.9">SennaAndProst: the light system is shit</Chat>
+<Chat et="322.0">DUO MEI: GREEN LIGHT/</Chat>
+<Incident et="322.8">wagonggong(19) reported contact (0.13) with Immovable</Incident>
+<Incident et="322.9">wagonggong(19) reported contact (0.77) with Immovable</Incident>
+<Incident et="322.9">wagonggong(19) reported contact (0.10) with Immovable</Incident>
+<Incident et="323.1">wagonggong(19) reported contact (0.35) with Track</Incident>
+<Incident et="323.3">wagonggong(19) reported contact (0.16) with Track</Incident>
+<Chat et="323.7">wagonggong: fuck me</Chat>
+<Incident et="323.7">wagonggong(19) reported contact (1.00) with Immovable</Incident>
+<Incident et="324.9">wagonggong(19) reported contact (1.00) with Track</Incident>
+<Incident et="325.0">wagonggong(19) reported contact (0.03) with Track</Incident>
+<Incident et="325.2">Parker Chen(4) reported contact (0.10) with Immovable</Incident>
+<Incident et="325.3">wagonggong(19) reported contact (0.29) with Track</Incident>
+<Incident et="325.3">Parker Chen(4) reported contact (0.29) with Immovable</Incident>
+<Incident et="325.6">wagonggong(19) reported contact (0.03) with Track</Incident>
+<Incident et="326.2">wagonggong(19) reported contact (0.10) with Track</Incident>
+<Incident et="326.3">wagonggong(19) reported contact (0.06) with Track</Incident>
+<Incident et="326.8">wagonggong(19) reported contact (0.06) with Track</Incident>
+<Incident et="327.0">wagonggong(19) reported contact (0.13) with Track</Incident>
+<Incident et="327.7">wagonggong(19) reported contact (0.29) with Track</Incident>
+<Incident et="328.0">KneYka(11) reported contact (0.03) with Immovable</Incident>
+<Incident et="328.0">wagonggong(19) reported contact (0.06) with Track</Incident>
+<Incident et="330.1">wagonggong(19) reported contact (0.16) with Immovable</Incident>
+<Incident et="335.0">Parker Chen(4) reported contact (0.13) with Track</Incident>
+<Incident et="336.4">Parker Chen(4) reported contact (0.97) with Immovable</Incident>
+<Incident et="336.4">Parker Chen(4) reported contact (0.81) with Track</Incident>
+<Incident et="336.4">Parker Chen(4) reported contact (0.48) with Immovable</Incident>
+<Incident et="337.2">Parker Chen(4) reported contact (0.06) with Immovable</Incident>
+<Incident et="337.2">Parker Chen(4) reported contact (0.03) with Immovable</Incident>
+<Incident et="337.6">Parker Chen(4) reported contact (0.45) with Immovable</Incident>
+<Chat et="338.3">wagonggong: up side down</Chat>
+<Score et="338.8">OMGCA(7) lap=0 point=1 t=143.492 et=338.772</Score>
+<Incident et="339.6">Parker Chen(4) reported contact (0.26) with Track</Incident>
+<Incident et="339.6">Parker Chen(4) reported contact (0.16) with Track</Incident>
+<Chat et="340.8">DUO MEI: HAHAHA/AAAAAAA</Chat>
+<Incident et="341.4">Eskwen(1) reported contact (0.61) with Immovable</Incident>
+<Incident et="341.4">Eskwen(1) reported contact (1.00) with Wing</Incident>
+<Incident et="341.4">Eskwen(1) reported contact (0.42) with Wing</Incident>
+<Incident et="341.5">Eskwen(1) reported contact (1.00) with Wing</Incident>
+<Incident et="341.5">Eskwen(1) reported contact (0.68) with Wing</Incident>
+<Incident et="341.5">Eskwen(1) reported contact (0.13) with Wing</Incident>
+<Incident et="341.6">Eskwen(1) reported contact (0.61) with Immovable</Incident>
+<Chat et="342.6">wagonggong: parker 233</Chat>
+<Score et="343.9">lovepes2010(8) lap=0 point=1 t=148.479 et=343.759</Score>
+<Incident et="344.2">Parker Chen(4) reported contact (0.81) with Immovable</Incident>
+<Score et="346.2">DumiBirdF(5) lap=0 point=1 t=150.796 et=346.076</Score>
+<Chat et="347.3">SennaAndProst: xt need a re there is a bug at pit</Chat>
+<Score et="353.3">DanDan(2) lap=0 point=1 t=157.859 et=353.139</Score>
+<Score et="354.0">Eskwen(1) lap=0 point=1 t=158.587 et=353.867</Score>
+<Score et="355.5">KneYka(11) lap=0 point=1 t=160.104 et=355.384</Score>
+<Chat et="368.3">SennaAndProst: ok whatever go on</Chat>
+<Incident et="382.3">Eskwen(1) reported contact (0.26) with Immovable</Incident>
+<Incident et="382.5">Eskwen(1) reported contact (0.35) with Immovable</Incident>
+<Score et="387.2">wagonggong(19) lap=0 point=1 t=191.684 et=386.964</Score>
+<Incident et="387.6">Eskwen(1) reported contact (0.35) with Immovable</Incident>
+<Incident et="387.8">Eskwen(1) reported contact (0.26) with Immovable</Incident>
+<Incident et="393.2">Parker Chen(4) reported contact (0.06) with Immovable</Incident>
+<Incident et="396.1">wagonggong(19) reported contact (0.32) with Immovable</Incident>
+<Incident et="396.2">wagonggong(19) reported contact (0.68) with Immovable</Incident>
+<Incident et="399.7">Parker Chen(4) reported contact (0.00) with Immovable</Incident>
+<Incident et="401.0">KneYka(11) reported contact (0.26) with Immovable</Incident>
+<Incident et="403.9">DanDan(2) reported contact (0.29) with Immovable</Incident>
+<Incident et="403.9">DanDan(2) reported contact (1.00) with Wing</Incident>
+<Incident et="403.9">DanDan(2) reported contact (1.00) with Wing</Incident>
+<Incident et="403.9">DanDan(2) reported contact (0.32) with Immovable</Incident>
+<Incident et="403.9">DanDan(2) reported contact (0.32) with Immovable</Incident>
+<Incident et="405.9">Parker Chen(4) reported contact (0.23) with Immovable</Incident>
+<Incident et="405.9">Parker Chen(4) reported contact (0.65) with Immovable</Incident>
+<Score et="406.3">Parker Chen(4) lap=0 point=1 t=210.915 et=406.195</Score>
+<Incident et="413.7">Eskwen(1) reported contact (1.00) with Wing</Incident>
+<Incident et="413.7">Eskwen(1) reported contact (0.29) with Wing</Incident>
+<Incident et="413.8">Eskwen(1) reported contact (0.48) with Wing</Incident>
+<Incident et="413.8">Eskwen(1) reported contact (0.26) with Wing</Incident>
+<Incident et="414.5">Parker Chen(4) reported contact (1.00) with Immovable</Incident>
+<Incident et="414.6">Parker Chen(4) reported contact (1.00) with Immovable</Incident>
+<Incident et="414.6">Parker Chen(4) reported contact (0.52) with Immovable</Incident>
+<Incident et="416.4">Parker Chen(4) reported contact (1.00) with Immovable</Incident>
+<Incident et="416.5">Parker Chen(4) reported contact (1.00) with Immovable</Incident>
+<Incident et="416.5">Parker Chen(4) reported contact (0.55) with Immovable</Incident>
+<Incident et="416.5">Parker Chen(4) reported contact (0.00) with Immovable</Incident>
+<Incident et="416.6">Parker Chen(4) reported contact (0.23) with Immovable</Incident>
+<Incident et="416.8">Parker Chen(4) reported contact (0.06) with Immovable</Incident>
+<Incident et="416.8">Parker Chen(4) reported contact (0.26) with Immovable</Incident>
+<Incident et="418.3">wagonggong(19) reported contact (0.23) with Immovable</Incident>
+<Incident et="418.8">wagonggong(19) reported contact (0.10) with Immovable</Incident>
+<Incident et="419.7">KneYka(11) reported contact (0.48) with Immovable</Incident>
+<Incident et="419.8">KneYka(11) reported contact (1.00) with Wing</Incident>
+<Incident et="419.8">KneYka(11) reported contact (0.74) with Wing</Incident>
+<Incident et="419.8">KneYka(11) reported contact (1.00) with Wing</Incident>
+<Incident et="419.8">KneYka(11) reported contact (0.16) with Wing</Incident>
+<Incident et="419.8">KneYka(11) reported contact (0.32) with Wing</Incident>
+<Incident et="419.9">KneYka(11) reported contact (0.06) with Immovable</Incident>
+<Incident et="420.0">Parker Chen(4) reported contact (0.16) with Immovable</Incident>
+<Incident et="426.8">KneYka(11) reported contact (0.16) with Immovable</Incident>
+<Incident et="439.6">wagonggong(19) reported contact (0.16) with Immovable</Incident>
+<Incident et="439.7">wagonggong(19) reported contact (0.45) with Immovable</Incident>
+<Incident et="440.0">wagonggong(19) reported contact (0.42) with Immovable</Incident>
+<Incident et="442.3">KneYka(11) reported contact (0.23) with Immovable</Incident>
+<Incident et="442.4">KneYka(11) reported contact (0.48) with Immovable</Incident>
+<Incident et="442.4">Eskwen(1) reported contact (0.39) with Immovable</Incident>
+<Incident et="442.5">Eskwen(1) reported contact (0.68) with Immovable</Incident>
+<Incident et="442.6">KneYka(11) reported contact (0.00) with Immovable</Incident>
+<Incident et="453.4">wagonggong(19) reported contact (0.13) with Immovable</Incident>
+<Incident et="453.5">wagonggong(19) reported contact (0.61) with Immovable</Incident>
+<Chat et="453.9">ghgyyukg: mark wabber</Chat>
+<Incident et="467.2">wagonggong(19) reported contact (0.45) with Immovable</Incident>
+<Incident et="467.4">wagonggong(19) reported contact (0.61) with Immovable</Incident>
+<Incident et="472.6">Parker Chen(4) reported contact (0.32) with Immovable</Incident>
+<Incident et="472.7">Eskwen(1) reported contact (0.06) with Immovable</Incident>
+<Incident et="472.8">Eskwen(1) reported contact (0.29) with Immovable</Incident>
+<Score et="473.4">OMGCA(7) lap=0 point=2 t=278.085 et=473.365</Score>
+<Incident et="474.2">Eskwen(1) reported contact (0.42) with Immovable</Incident>
+<Incident et="474.3">Eskwen(1) reported contact (0.68) with Immovable</Incident>
+<Incident et="474.8">DanDan(2) reported contact (0.23) with Immovable</Incident>
+<Incident et="474.8">DanDan(2) reported contact (0.65) with Immovable</Incident>
+<Incident et="476.3">Parker Chen(4) reported contact (0.06) with Immovable</Incident>
+<Chat et="477.0">SennaAndProst: not a lap yet need a red light</Chat>
+<Score et="480.4">lovepes2010(8) lap=0 point=2 t=284.996 et=480.276</Score>
+<Chat et="480.7">SennaAndProst: red flag</Chat>
+<Score et="482.5">smallbubble(13) lap=0 point=1 t=287.051 et=482.331</Score>
+<Incident et="483.0">KneYka(11) reported contact (0.06) with Immovable</Incident>
+<Incident et="483.2">KneYka(11) reported contact (0.35) with Immovable</Incident>
+<Incident et="483.2">Parker Chen(4) reported contact (0.16) with Immovable</Incident>
+<Incident et="485.3">lovepes2010(8) reported contact (0.35) with Immovable</Incident>
+<Incident et="485.3">lovepes2010(8) reported contact (1.00) with Wing</Incident>
+<Incident et="485.4">lovepes2010(8) reported contact (0.90) with Immovable</Incident>
+<Incident et="485.5">lovepes2010(8) reported contact (0.19) with Immovable</Incident>
+<Incident et="485.5">OMGCA(7) reported contact (0.10) with Immovable</Incident>
+<Incident et="485.7">Parker Chen(4) reported contact (0.03) with Immovable</Incident>
+<Incident et="485.7">lovepes2010(8) reported contact (0.03) with Immovable</Incident>
+<Incident et="485.8">Parker Chen(4) reported contact (0.94) with Immovable</Incident>
+<Score et="485.9">DUO MEI(12) lap=0 point=1 t=290.497 et=485.777</Score>
+<Score et="486.2">DumiBirdF(5) lap=0 point=2 t=290.802 et=486.082</Score>
+<Incident et="489.4">KneYka(11) reported contact (1.00) with Immovable</Incident>
+<Incident et="489.6">KneYka(11) reported contact (0.61) with Immovable</Incident>
+<Incident et="489.6">KneYka(11) reported contact (0.16) with Immovable</Incident>
+<Incident et="490.6">Parker Chen(4) reported contact (1.00) with Immovable</Incident>
+<Incident et="495.5">DanDan(2) reported contact (0.10) with Immovable</Incident>
+<Incident et="506.8">Eskwen(1) reported contact (0.03) with Immovable</Incident>
+<Incident et="507.7">DanDan(2) reported contact (1.00) with Immovable</Incident>
+<Incident et="507.8">DanDan(2) reported contact (0.48) with Immovable</Incident>
+<Incident et="507.8">DanDan(2) reported contact (0.52) with Immovable</Incident>
+<Incident et="507.8">DanDan(2) reported contact (0.16) with Immovable</Incident>
+<Incident et="507.9">DanDan(2) reported contact (0.13) with Immovable</Incident>
+<Incident et="515.0">KneYka(11) reported contact (0.71) with Immovable</Incident>
+<Incident et="515.1">KneYka(11) reported contact (0.84) with Immovable</Incident>
+<Incident et="516.5">DanDan(2) reported contact (0.00) with Immovable</Incident>
+<Score et="516.7">DanDan(2) lap=0 point=2 t=321.329 et=516.609</Score>
+<Score et="530.1">Eskwen(1) lap=0 point=2 t=334.684 et=529.964</Score>
+<Score et="530.2">KneYka(11) lap=0 point=2 t=334.803 et=530.083</Score>
+<Incident et="532.2">KneYka(11) reported contact (0.42) with another vehicle Eskwen(1)</Incident>
+<Incident et="532.2">Eskwen(1) reported contact (0.48) with another vehicle KneYka(11)</Incident>
+<Incident et="532.2">KneYka(11) reported contact (0.23) with another vehicle Eskwen(1)</Incident>
+<Incident et="534.8">KneYka(11) reported contact (0.03) with Immovable</Incident>
+<Incident et="534.9">KneYka(11) reported contact (0.23) with Immovable</Incident>
+<Incident et="538.0">Eskwen(1) reported contact (0.10) with Immovable</Incident>
+<Incident et="540.8">wagonggong(19) reported contact (0.55) with Immovable</Incident>
+<Incident et="540.9">wagonggong(19) reported contact (0.58) with Immovable</Incident>
+<Incident et="540.9">wagonggong(19) reported contact (0.35) with Immovable</Incident>
+<Incident et="540.9">wagonggong(19) reported contact (0.13) with Immovable</Incident>
+<Incident et="542.7">DanDan(2) reported contact (0.13) with Immovable</Incident>
+<Incident et="542.8">DanDan(2) reported contact (0.42) with Immovable</Incident>
+<Incident et="546.0">Eskwen(1) reported contact (0.26) with Immovable</Incident>
+<Incident et="546.1">Eskwen(1) reported contact (0.58) with Immovable</Incident>
+<Incident et="547.4">DanDan(2) reported contact (0.03) with Immovable</Incident>
+<Incident et="547.6">DanDan(2) reported contact (0.13) with Immovable</Incident>
+<Incident et="548.5">DanDan(2) reported contact (0.06) with Immovable</Incident>
+<Incident et="552.1">Eskwen(1) reported contact (0.23) with Immovable</Incident>
+<Incident et="553.7">wagonggong(19) reported contact (0.10) with Immovable</Incident>
+<Incident et="562.2">wagonggong(19) reported contact (0.35) with Immovable</Incident>
+<Incident et="564.3">KneYka(11) reported contact (0.19) with Immovable</Incident>
+<Incident et="566.7">DanDan(2) reported contact (0.10) with Immovable</Incident>
+<Incident et="566.8">DanDan(2) reported contact (0.29) with Immovable</Incident>
+<Incident et="567.4">KneYka(11) reported contact (0.03) with Immovable</Incident>
+<Incident et="568.7">KneYka(11) reported contact (0.00) with Immovable</Incident>
+<Incident et="568.8">wagonggong(19) reported contact (0.39) with Immovable</Incident>
+<Incident et="568.9">wagonggong(19) reported contact (0.84) with Immovable</Incident>
+<Chat et="582.1">Parker Chen: duo mei just hit me at the entry of nords maybe</Chat>
+<Score et="584.7">wagonggong(19) lap=0 point=2 t=389.243 et=584.523</Score>
+<Chat et="585.9">SennaAndProst: fuck the light</Chat>
+<Score et="586.6">OMGCA(7) lap=1 point=0 t=391.322 et=586.602</Score>
+<Chat et="587.4">Parker Chen: it was a</Chat>
+<Incident et="588.0">wagonggong(19) reported contact (0.06) with Immovable</Incident>
+<Incident et="588.1">wagonggong(19) reported contact (0.23) with Immovable</Incident>
+<Incident et="590.5">DanDan(2) reported contact (0.81) with Immovable</Incident>
+<Incident et="590.7">DanDan(2) reported contact (0.61) with Immovable</Incident>
+<Incident et="593.0">KneYka(11) reported contact (0.03) with Track</Incident>
+<Incident et="595.6">lovepes2010(8) reported contact (0.03) with Immovable</Incident>
+<Incident et="597.5">KneYka(11) reported contact (0.10) with Immovable</Incident>
+<Incident et="597.7">KneYka(11) reported contact (0.45) with Immovable</Incident>
+<Score et="601.3">DumiBirdF(5) lap=1 point=0 t=405.916 et=601.196</Score>
+<Incident et="609.1">wagonggong(19) reported contact (0.06) with Immovable</Incident>
+<Incident et="609.3">wagonggong(19) reported contact (0.19) with Immovable</Incident>
+<Incident et="609.9">DanDan(2) reported contact (0.19) with Immovable</Incident>
+<Incident et="610.0">DanDan(2) reported contact (0.77) with Immovable</Incident>
+<Incident et="610.1">DanDan(2) reported contact (0.00) with Immovable</Incident>
+<Incident et="610.4">KneYka(11) reported contact (1.00) with Immovable</Incident>
+<Incident et="610.5">KneYka(11) reported contact (1.00) with Immovable</Incident>
+<Score et="615.0">lovepes2010(8) lap=1 point=0 t=419.587 et=614.867</Score>
+<Incident et="616.1">DUO MEI(12) reported contact (0.23) with Immovable</Incident>
+<Chat et="618.0">KneYka: REAR WING GONE</Chat>
+<Score et="621.6">smallbubble(13) lap=0 point=2 t=426.129 et=621.409</Score>
+<Chat et="634.4">KneYka: STUCK</Chat>
+<Score et="635.3">DUO MEI(12) lap=0 point=2 t=439.832 et=635.112</Score>
+<Incident et="642.7">wagonggong(19) reported contact (0.26) with Immovable</Incident>
+<Incident et="642.7">wagonggong(19) reported contact (0.84) with Immovable</Incident>
+<Chat et="649.4">SennaAndProst: yka gg</Chat>
+<Score et="660.3">DanDan(2) lap=1 point=0 t=464.888 et=660.168</Score>
+<Chat et="666.4">Parker Chen: wgg is driving fe gen2 lol</Chat>
+<Chat et="669.2">KneYka: fresh grilled honda engine</Chat>
+<Chat et="674.7">KneYka: with  somke</Chat>
+<Score et="678.8">Eskwen(1) lap=1 point=0 t=483.489 et=678.769</Score>
+<Chat et="685.4">KneYka: senna</Chat>
+<Incident et="690.6">wagonggong(19) reported contact (0.97) with Immovable</Incident>
+<Incident et="690.8">wagonggong(19) reported contact (1.00) with Immovable</Incident>
+<Chat et="696.5">KneYka: i reported that pit box start glitch last season</Chat>
+<Chat et="706.8">KneYka: but no solution</Chat>
+<Chat et="710.5">KneYka has left the game but vehicle has been stored in the garage</Chat>
+<Incident et="720.2">DanDan(2) reported contact (0.35) with Immovable</Incident>
+<Incident et="720.4">DanDan(2) reported contact (0.55) with Immovable</Incident>
+<Chat et="723.8">lovepes2010: DONE</Chat>
+<Score et="725.2">OMGCA(7) lap=1 point=1 t=138.609 et=725.211</Score>
+<Incident et="726.2">wagonggong(19) reported contact (0.23) with Immovable</Incident>
+<Incident et="726.3">wagonggong(19) reported contact (0.52) with Immovable</Incident>
+<Incident et="729.7">Eskwen(1) reported contact (0.52) with Immovable</Incident>
+<Incident et="730.0">Eskwen(1) reported contact (0.10) with Immovable</Incident>
+<Incident et="737.3">DumiBirdF(5) reported contact (0.94) with Immovable</Incident>
+<Incident et="737.3">DumiBirdF(5) reported contact (0.68) with Immovable</Incident>
+<Score et="738.5">smallbubble(13) lap=1 point=0 t=543.067 et=738.347</Score>
+<Chat et="743.6">DumiBirdF: fuck my life</Chat>
+<Score et="748.1">wagonggong(19) lap=1 point=0 t=552.639 et=747.919</Score>
+<Chat et="754.3">SennaAndProst: expected</Chat>
+<Chat et="755.1">Parker Chen: nords should be banned for good</Chat>
+<Score et="756.8">DumiBirdF(5) lap=1 point=1 t=155.479 et=756.675</Score>
+<Score et="759.0">DUO MEI(12) lap=1 point=0 t=563.642 et=758.922</Score>
+<Incident et="759.2">wagonggong(19) reported contact (1.00) with Immovable</Incident>
+<Incident et="798.5">DumiBirdF(5) reported contact (0.06) with Immovable</Incident>
+<Incident et="803.1">DumiBirdF(5) reported contact (0.26) with Immovable</Incident>
+<Incident et="803.2">DumiBirdF(5) reported contact (0.58) with Immovable</Incident>
+<Incident et="821.2">DumiBirdF(5) reported contact (0.00) with Immovable</Incident>
+<Score et="860.1">OMGCA(7) lap=1 point=2 t=273.533 et=860.135</Score>
+<Score et="881.2">smallbubble(13) lap=1 point=1 t=142.655 et=881.003</Score>
+<Score et="881.9">lovepes2010(8) lap=1 point=1 t=266.960 et=881.826</Score>
+<Score et="904.7">DUO MEI(12) lap=1 point=1 t=145.618 et=904.540</Score>
+<Chat et="906.0">wagonggong: why i flew</Chat>
+<Incident et="920.8">DumiBirdF(5) reported contact (1.00) with Immovable</Incident>
+<Incident et="920.9">DumiBirdF(5) reported contact (1.00) with Immovable</Incident>
+<Incident et="921.0">DumiBirdF(5) reported contact (0.03) with Immovable</Incident>
+<Score et="925.1">DumiBirdF(5) lap=1 point=2 t=323.778 et=924.974</Score>
+<Incident et="940.0">DumiBirdF(5) reported contact (0.03) with Immovable</Incident>
+<Incident et="940.1">DumiBirdF(5) reported contact (0.32) with Immovable</Incident>
+<Score et="951.0">DanDan(2) lap=1 point=1 t=290.748 et=950.916</Score>
+<Score et="958.9">Eskwen(1) lap=1 point=1 t=280.075 et=958.844</Score>
+<Incident et="966.4">DumiBirdF(5) reported contact (0.06) with Immovable</Incident>
+<Score et="973.2">OMGCA(7) lap=2 point=0 t=386.588 et=973.190</Score>
+<Incident et="977.1">DumiBirdF(5) reported contact (0.13) with Immovable</Incident>
+<Incident et="977.2">DumiBirdF(5) reported contact (0.39) with Immovable</Incident>
+<Incident et="1018.3">smallbubble(13) reported contact (0.32) with Immovable</Incident>
+<Incident et="1018.3">smallbubble(13) reported contact (0.03) with Immovable</Incident>
+<Incident et="1018.5">smallbubble(13) reported contact (0.06) with Immovable</Incident>
+<Score et="1020.4">lovepes2010(8) lap=1 point=2 t=405.445 et=1020.311</Score>
+<Score et="1021.1">smallbubble(13) lap=1 point=2 t=282.584 et=1020.932</Score>
+<Incident et="1040.9">smallbubble(13) reported contact (0.26) with Immovable</Incident>
+<Incident et="1040.9">smallbubble(13) reported contact (1.00) with Wing</Incident>
+<Incident et="1041.0">smallbubble(13) reported contact (1.00) with Wing</Incident>
+<Incident et="1041.0">smallbubble(13) reported contact (0.35) with Immovable</Incident>
+<Incident et="1041.0">smallbubble(13) reported contact (0.32) with Wing</Incident>
+<Incident et="1041.0">smallbubble(13) reported contact (1.00) with Wing</Incident>
+<Incident et="1041.0">smallbubble(13) reported contact (0.03) with Wing</Incident>
+<Score et="1057.2">DUO MEI(12) lap=1 point=2 t=298.132 et=1057.054</Score>
+<Incident et="1058.6">smallbubble(13) reported contact (0.03) with Immovable</Incident>
+<Incident et="1058.8">smallbubble(13) reported contact (0.16) with Immovable</Incident>
+<Incident et="1075.4">lovepes2010(8) reported contact (0.35) with Immovable</Incident>
+<Incident et="1075.4">lovepes2010(8) reported contact (1.00) with Wing</Incident>
+<Incident et="1075.4">lovepes2010(8) reported contact (0.90) with Wing</Incident>
+<Incident et="1075.5">lovepes2010(8) reported contact (1.00) with Wing</Incident>
+<Incident et="1075.5">lovepes2010(8) reported contact (0.23) with Immovable</Incident>
+<Incident et="1075.5">lovepes2010(8) reported contact (0.68) with Wing</Incident>
+<Incident et="1075.5">lovepes2010(8) reported contact (0.26) with Wing</Incident>
+<Score et="1088.1">wagonggong(19) lap=1 point=1 t=340.022 et=1087.941</Score>
+<Incident et="1092.5">lovepes2010(8) reported contact (0.23) with Immovable</Incident>
+<Incident et="1092.8">lovepes2010(8) reported contact (0.03) with Immovable</Incident>
+<Incident et="1093.5">lovepes2010(8) reported contact (0.03) with Immovable</Incident>
+<Score et="1104.2">DanDan(2) lap=1 point=2 t=443.886 et=1104.055</Score>
+<Incident et="1106.9">smallbubble(13) reported contact (0.16) with Immovable</Incident>
+<Score et="1107.3">Eskwen(1) lap=1 point=2 t=428.483 et=1107.251</Score>
+<Score et="1110.6">OMGCA(7) lap=2 point=1 t=137.425 et=1110.614</Score>
+<Incident et="1117.9">DanDan(2) reported contact (0.26) with Immovable</Incident>
+<Incident et="1117.9">DanDan(2) reported contact (0.03) with Immovable</Incident>
+<Chat et="1121.3">SennaAndProst: order xt lap everyone</Chat>
+<Incident et="1122.8">lovepes2010(8) reported contact (0.45) with Immovable</Incident>
+<Incident et="1122.9">lovepes2010(8) reported contact (0.77) with Immovable</Incident>
+<Incident et="1123.0">lovepes2010(8) reported contact (0.13) with Immovable</Incident>
+<Incident et="1140.0">lovepes2010(8) reported contact (0.16) with Immovable</Incident>
+<Incident et="1140.2">lovepes2010(8) reported contact (0.29) with Immovable</Incident>
+<Incident et="1141.2">smallbubble(13) reported contact (0.13) with Immovable</Incident>
+<Incident et="1141.3">smallbubble(13) reported contact (0.29) with Immovable</Incident>
+<Incident et="1143.3">lovepes2010(8) reported contact (1.00) with Cone</Incident>
+<Incident et="1143.3">lovepes2010(8) reported contact (0.29) with Cone</Incident>
+<Incident et="1143.4">lovepes2010(8) reported contact (0.16) with Cone</Incident>
+<Incident et="1143.9">lovepes2010(8) reported contact (1.00) with Cone</Incident>
+<Incident et="1143.9">lovepes2010(8) reported contact (0.10) with Cone</Incident>
+<Score et="1144.4">lovepes2010(8) lap=2 point=0 t=529.410 et=1144.277</Score>
+<Incident et="1166.1">DanDan(2) reported contact (0.06) with Immovable</Incident>
+<Incident et="1166.1">DanDan(2) reported contact (0.35) with Immovable</Incident>
+<Score et="1181.7">DumiBirdF(5) lap=2 point=0 t=580.411 et=1181.607</Score>
+<Score et="1183.2">DUO MEI(12) lap=2 point=0 t=424.188 et=1183.110</Score>
+<Score et="1232.1">DanDan(2) lap=2 point=0 t=571.797 et=1231.965</Score>
+<Score et="1233.2">Eskwen(1) lap=2 point=0 t=554.330 et=1233.099</Score>
+<Score et="1240.2">wagonggong(19) lap=1 point=2 t=492.132 et=1240.052</Score>
+<Score et="1245.2">OMGCA(7) lap=2 point=2 t=271.984 et=1245.174</Score>
+<Chat et="1259.0">lovepes2010: XT WIN SURE</Chat>
+<Chat et="1275.1">Kne_Yka: why lp stop?</Chat>
+<Score et="1276.5">smallbubble(13) lap=2 point=0 t=537.989 et=1276.337</Score>
+<Chat et="1281.0">SennaAndProst: no because xt gonna lap wgg</Chat>
+<Chat et="1284.8">SennaAndProst: remember dc?</Chat>
+<Chat et="1292.4">Parker Chen: with not even a half finished,xt led every one for at least 3mins</Chat>
+<Chat et="1298.7">SennaAndProst: ok nothing happened</Chat>
+<Score et="1324.7">DumiBirdF(5) lap=2 point=1 t=142.955 et=1324.562</Score>
+<Incident et="1327.5">DanDan(2) reported contact (0.19) with Immovable</Incident>
+<Incident et="1327.6">DanDan(2) reported contact (1.00) with Wing</Incident>
+<Incident et="1327.6">DanDan(2) reported contact (1.00) with Wing</Incident>
+<Incident et="1327.6">DanDan(2) reported contact (0.48) with Immovable</Incident>
+<Incident et="1327.7">DanDan(2) reported contact (0.06) with Immovable</Incident>
+<Incident et="1327.8">DanDan(2) reported contact (0.06) with Immovable</Incident>
+<Score et="1328.5">DUO MEI(12) lap=2 point=1 t=145.339 et=1328.449</Score>
+<Incident et="1351.7">DanDan(2) reported contact (0.19) with Immovable</Incident>
+<Incident et="1351.8">DanDan(2) reported contact (0.48) with Immovable</Incident>
+<Incident et="1359.0">Eskwen(1) reported contact (0.06) with Immovable</Incident>
+<Incident et="1359.0">Eskwen(1) reported contact (0.45) with Immovable</Incident>
+<Score et="1361.0">OMGCA(7) lap=3 point=0 t=387.768 et=1360.958</Score>
+<Incident et="1361.0">DanDan(2) reported contact (0.00) with Track</Incident>
+<Incident et="1362.2">DanDan(2) reported contact (1.00) with Immovable</Incident>
+<Incident et="1362.2">DanDan(2) reported contact (0.13) with Track</Incident>
+<Incident et="1362.6">DanDan(2) reported contact (0.03) with Immovable</Incident>
+<Incident et="1362.6">DanDan(2) reported contact (0.13) with Track</Incident>
+<Incident et="1362.7">DanDan(2) reported contact (0.03) with Track</Incident>
+<Incident et="1362.7">DanDan(2) reported contact (0.03) with Track</Incident>
+<Incident et="1362.8">DanDan(2) reported contact (0.48) with Track</Incident>
+<Incident et="1363.4">DanDan(2) reported contact (0.77) with Immovable</Incident>
+<Incident et="1363.6">DanDan(2) reported contact (0.16) with Immovable</Incident>
+<Incident et="1363.9">DanDan(2) reported contact (0.10) with Immovable</Incident>
+<Incident et="1364.0">DanDan(2) reported contact (0.13) with Track</Incident>
+<Incident et="1364.5">DanDan(2) reported contact (0.03) with Track</Incident>
+<Incident et="1365.6">DanDan(2) reported contact (0.61) with Immovable</Incident>
+<Incident et="1366.4">DanDan(2) reported contact (0.26) with Track</Incident>
+<Score et="1366.6">wagonggong(19) lap=2 point=0 t=618.497 et=1366.416</Score>
+<Incident et="1383.1">DanDan(2) reported contact (0.19) with Immovable</Incident>
+<Incident et="1383.2">DanDan(2) reported contact (0.39) with Immovable</Incident>
+<Incident et="1383.4">DanDan(2) reported contact (0.00) with Immovable</Incident>
+<Score et="1383.7">Eskwen(1) lap=2 point=1 t=150.553 et=1383.651</Score>
+<Chat et="1386.5">Kne_Yka: i joined mid session and can&apos;t see gaps but whatever</Chat>
+<Incident et="1390.5">DanDan(2) reported contact (0.06) with Track</Incident>
+<Incident et="1390.6">DanDan(2) reported contact (0.03) with Track</Incident>
+<Incident et="1390.8">DanDan(2) reported contact (0.06) with Track</Incident>
+<Incident et="1398.6">DanDan(2) reported contact (0.35) with Immovable</Incident>
+<Incident et="1399.0">DanDan(2) reported contact (0.13) with Immovable</Incident>
+<Incident et="1410.0">DanDan(2) reported contact (0.32) with Immovable</Incident>
+<Incident et="1410.1">DanDan(2) reported contact (0.68) with Immovable</Incident>
+<Incident et="1410.2">DanDan(2) reported contact (0.16) with Immovable</Incident>
+<Incident et="1412.1">DanDan(2) reported contact (0.13) with Immovable</Incident>
+<Incident et="1412.2">DanDan(2) reported contact (0.55) with Immovable</Incident>
+<Score et="1412.9">lovepes2010(8) lap=2 point=1 t=268.529 et=1412.806</Score>
+<Score et="1413.3">DanDan(2) lap=2 point=1 t=181.236 et=1413.200</Score>
+<Score et="1421.2">smallbubble(13) lap=2 point=1 t=144.623 et=1420.959</Score>
+<Incident et="1422.5">DanDan(2) reported contact (0.77) with Immovable</Incident>
+<Incident et="1422.6">DanDan(2) reported contact (1.00) with Immovable</Incident>
+<Incident et="1422.7">DanDan(2) reported contact (0.13) with Immovable</Incident>
+<Incident et="1425.0">DanDan(2) reported contact (0.52) with Immovable</Incident>
+<Incident et="1425.1">DanDan(2) reported contact (1.00) with Immovable</Incident>
+<Incident et="1425.1">DanDan(2) reported contact (0.03) with Immovable</Incident>
+<Incident et="1425.4">DanDan(2) reported contact (0.03) with Immovable</Incident>
+<Incident et="1433.1">DanDan(2) reported contact (0.19) with Immovable</Incident>
+<Score et="1465.0">DumiBirdF(5) lap=2 point=2 t=283.246 et=1464.853</Score>
+<Incident et="1470.5">DanDan(2) reported contact (0.35) with Immovable</Incident>
+<Chat et="1472.5">SennaAndProst: xt can even do a normal pit</Chat>
+<Chat et="1476.6">SennaAndProst: that&apos;s master</Chat>
+<Score et="1477.4">DUO MEI(12) lap=2 point=2 t=294.207 et=1477.317</Score>
+<Incident et="1496.9">Eskwen(1) reported contact (0.29) with Immovable</Incident>
+<Incident et="1496.9">Eskwen(1) reported contact (1.00) with Wing</Incident>
+<Incident et="1496.9">Eskwen(1) reported contact (0.10) with Wing</Incident>
+<Incident et="1496.9">Eskwen(1) reported contact (0.45) with Immovable</Incident>
+<Incident et="1503.6">Eskwen(1) reported contact (0.61) with Immovable</Incident>
+<Incident et="1503.8">Eskwen(1) reported contact (0.55) with Immovable</Incident>
+<Score et="1514.4">wagonggong(19) lap=2 point=1 t=147.801 et=1514.218</Score>
+<Incident et="1515.4">Eskwen(1) reported contact (0.23) with Immovable</Incident>
+<Score et="1543.6">Eskwen(1) lap=2 point=2 t=310.401 et=1543.500</Score>
+<Score et="1552.9">lovepes2010(8) lap=2 point=2 t=408.485 et=1552.762</Score>
+<Chat et="1565.0">Kne_Yka: &quot;performances that redefine precision&quot;</Chat>
+<Score et="1566.0">smallbubble(13) lap=2 point=2 t=289.503 et=1565.840</Score>
+<Chat et="1577.4">Parker Chen: zhi ding guan jun xt</Chat>
+<Score et="1580.4">DumiBirdF(5) lap=3 point=0 t=398.673 et=1580.280</Score>
+<Incident et="1599.5">Eskwen(1) reported contact (0.06) with Immovable</Incident>
+<Incident et="1599.7">Eskwen(1) reported contact (0.23) with Immovable</Incident>
+<Chat et="1599.9">Kne_Yka: post-race:everyone who chat gets banned</Chat>
+<Score et="1600.9">DUO MEI(12) lap=3 point=0 t=417.731 et=1600.842</Score>
+<Chat et="1605.6">SennaAndProst: gg</Chat>
+<Score et="1607.4">OMGCA(7) lap=3 point=1 t=246.372 et=1607.330</Score>
+<Chat et="1608.6">OMGCA: lel</Chat>
+<Chat et="1626.2">Kne_Yka: typing @300 kph</Chat>
+<Incident et="1627.0">Eskwen(1) reported contact (0.65) with Immovable</Incident>
+<Incident et="1627.1">Eskwen(1) reported contact (0.68) with Immovable</Incident>
+<Incident et="1627.2">Eskwen(1) reported contact (0.10) with Immovable</Incident>
+<Chat et="1628.0">Kne_Yka: master</Chat>
+<Chat et="1628.2">Parker Chen: ofcr with few drivers</Chat>
+<Chat et="1644.7">SennaAndProst: ???</Chat>
+<Incident et="1645.2">OMGCA(7) reported contact (0.45) with Immovable</Incident>
+<Incident et="1645.2">OMGCA(7) reported contact (1.00) with Wing</Incident>
+<Incident et="1645.3">OMGCA(7) reported contact (1.00) with Wing</Incident>
+<Incident et="1645.3">OMGCA(7) reported contact (0.74) with Immovable</Incident>
+<Incident et="1645.5">OMGCA(7) reported contact (0.19) with Immovable</Incident>
+<Incident et="1645.9">OMGCA(7) reported contact (0.06) with Immovable</Incident>
+<Chat et="1646.0">SennaAndProst: xt losty</Chat>
+<Chat et="1647.9">OMGCA: fuck you win10</Chat>
+<Chat et="1651.3">SennaAndProst: oh</Chat>
+<Incident et="1655.6">OMGCA(7) reported contact (0.06) with Immovable</Incident>
+<Incident et="1655.7">OMGCA(7) reported contact (0.32) with Immovable</Incident>
+<Chat et="1656.5">Kne_Yka: oh no!</Chat>
+<Chat et="1658.7">SennaAndProst: gg</Chat>
+<Incident et="1660.2">OMGCA(7) reported contact (0.16) with Immovable</Incident>
+<Score et="1665.6">wagonggong(19) lap=2 point=2 t=299.036 et=1665.452</Score>
+<Incident et="1666.0">OMGCA(7) reported contact (0.03) with Immovable</Incident>
+<Incident et="1666.0">OMGCA(7) reported contact (0.32) with Immovable</Incident>
+<Chat et="1667.2">Kne_Yka: I just said master for god&apos;s sake</Chat>
+<Chat et="1667.8">SennaAndProst: it was a</Chat>
+<Score et="1667.9">lovepes2010(8) lap=3 point=0 t=523.507 et=1667.784</Score>
+<Chat et="1675.8">Kne_Yka: how could this even happen</Chat>
+<Chat et="1685.3">Parker Chen: so where is xt</Chat>
+<Score et="1685.3">smallbubble(13) lap=3 point=0 t=408.816 et=1685.152</Score>
+<Chat et="1697.0">Parker Chen: had he arrive the first karussell</Chat>
+<Incident et="1716.9">wagonggong(19) reported contact (0.13) with Immovable</Incident>
+<Incident et="1716.9">wagonggong(19) reported contact (0.58) with Immovable</Incident>
+<Incident et="1717.2">wagonggong(19) reported contact (0.00) with Immovable</Incident>
+<Score et="1720.0">DumiBirdF(5) lap=3 point=1 t=139.594 et=1719.874</Score>
+<Incident et="1731.4">OMGCA(7) reported contact (0.03) with Immovable</Incident>
+<Incident et="1731.5">OMGCA(7) reported contact (0.42) with Immovable</Incident>
+<Score et="1745.0">DUO MEI(12) lap=3 point=1 t=144.053 et=1744.895</Score>
+<Chat et="1764.7">Parker Chen: okay he&apos;s at the first</Chat>
+<Score et="1771.9">OMGCA(7) lap=3 point=2 t=410.909 et=1771.867</Score>
+<Chat et="1772.0">SennaAndProst: xt you can pit first then do another south</Chat>
+<Chat et="1775.2">SennaAndProst: save time</Chat>
+<Incident et="1786.8">OMGCA(7) reported contact (0.00) with Immovable</Incident>
+<Incident et="1787.0">OMGCA(7) reported contact (0.32) with Immovable</Incident>
+<Incident et="1788.6">wagonggong(19) reported contact (1.00) with Cone</Incident>
+<Score et="1789.6">wagonggong(19) lap=3 point=0 t=422.955 et=1789.372</Score>
+<Score et="1807.8">lovepes2010(8) lap=3 point=1 t=139.876 et=1807.660</Score>
+<Score et="1818.8">Eskwen(1) lap=3 point=0 t=585.559 et=1818.657</Score>
+<Score et="1828.3">smallbubble(13) lap=3 point=1 t=142.948 et=1828.101</Score>
+<Incident et="1829.8">OMGCA(7) reported contact (0.19) with Immovable</Incident>
+<Incident et="1829.9">OMGCA(7) reported contact (0.65) with Immovable</Incident>
+<Chat et="1835.4">Kne_Yka: i think he knows it</Chat>
+<Chat et="1847.5">Kne_Yka: dumi gave two pit options that day</Chat>
+<Score et="1861.7">DumiBirdF(5) lap=3 point=2 t=281.300 et=1861.580</Score>
+<Score et="1892.1">DUO MEI(12) lap=3 point=2 t=291.174 et=1892.016</Score>
+<Incident et="1900.3">DumiBirdF(5) reported contact (0.06) with Immovable</Incident>
+<Chat et="1932.9">OMGCA: fucking hell</Chat>
+<Score et="1933.3">wagonggong(19) lap=3 point=1 t=143.706 et=1933.077</Score>
+<Score et="1944.7">lovepes2010(8) lap=3 point=2 t=276.806 et=1944.589</Score>
+<Incident et="1951.7">DUO MEI(12) reported contact (0.26) with Immovable</Incident>
+<Incident et="1951.7">DUO MEI(12) reported contact (0.81) with Wing</Incident>
+<Incident et="1951.7">DUO MEI(12) reported contact (1.00) with Wing</Incident>
+<Incident et="1951.7">DUO MEI(12) reported contact (0.55) with Immovable</Incident>
+<Incident et="1951.8">DUO MEI(12) reported contact (0.32) with Wing</Incident>
+<Incident et="1951.8">DUO MEI(12) reported contact (0.32) with Wing</Incident>
+<Incident et="1951.8">DUO MEI(12) reported contact (0.06) with Wing</Incident>
+<Chat et="1954.2">SennaAndProst: ok xt you are still leading </Chat>
+<Chat et="1957.6">SennaAndProst: dont panic</Chat>
+<Incident et="1964.6">smallbubble(13) reported contact (1.00) with Immovable</Incident>
+<Incident et="1964.6">smallbubble(13) reported contact (1.00) with Wing</Incident>
+<Incident et="1964.6">smallbubble(13) reported contact (1.00) with Wing</Incident>
+<Incident et="1964.7">smallbubble(13) reported contact (0.68) with Immovable</Incident>
+<Incident et="1964.7">smallbubble(13) reported contact (0.16) with Immovable</Incident>
+<Score et="1965.7">Eskwen(1) lap=3 point=1 t=146.933 et=1965.590</Score>
+<Score et="1978.3">smallbubble(13) lap=3 point=2 t=292.915 et=1978.068</Score>
+<Chat et="1979.1">Kne_Yka: well</Chat>
+<Chat et="1980.8">SennaAndProst: oh nope</Chat>
+<Score et="1983.7">DumiBirdF(5) lap=4 point=0 t=403.346 et=1983.626</Score>
+<Incident et="1993.0">smallbubble(13) reported contact (0.35) with Immovable</Incident>
+<Incident et="1993.1">smallbubble(13) reported contact (0.87) with Immovable</Incident>
+<Chat et="1993.2">Kne_Yka: senna dunai</Chat>
+<Incident et="1993.2">smallbubble(13) reported contact (0.06) with Immovable</Incident>
+<Incident et="2002.8">Eskwen(1) reported contact (0.26) with Immovable</Incident>
+<Chat et="2012.6">Parker Chen: it was a</Chat>
+<Incident et="2020.2">DUO MEI(12) reported contact (0.77) with Immovable</Incident>
+<Score et="2027.0">OMGCA(7) lap=4 point=0 t=666.061 et=2027.020</Score>
+<Chat et="2027.5">Kne_Yka: duomei??</Chat>
+<Chat et="2027.5">SennaAndProst: lol</Chat>
+<Chat et="2030.2">smallbubble: known I should not race in his one</Chat>
+<Chat et="2030.3">SennaAndProst: lmao</Chat>
+<Chat et="2031.8">Parker Chen: and will dumi earn his first win</Chat>
+<Score et="2057.9">lovepes2010(8) lap=4 point=0 t=390.036 et=2057.820</Score>
+<Chat et="2068.6">Parker Chen: with 2 to go, he led for 43s</Chat>
+<Score et="2083.2">wagonggong(19) lap=3 point=2 t=293.679 et=2083.051</Score>
+<Chat et="2084.3">smallbubble: what a stupid track lol</Chat>
+<Chat et="2088.7">DanDan has left the game but vehicle has been stored in the garage</Chat>
+<Score et="2117.4">Eskwen(1) lap=3 point=2 t=298.672 et=2117.329</Score>
+<Chat et="2119.6">SennaAndProst: xt i trust in you come on</Chat>
+<Score et="2125.7">DumiBirdF(5) lap=4 point=1 t=141.943 et=2125.570</Score>
+<Chat et="2129.4">smallbubble: I think my brakes are gone after too many crashes</Chat>
+<Incident et="2130.8">Eskwen(1) reported contact (0.29) with Immovable</Incident>
+<Score et="2139.2">DUO MEI(12) lap=4 point=0 t=538.222 et=2139.064</Score>
+<Score et="2167.1">OMGCA(7) lap=4 point=1 t=140.014 et=2167.033</Score>
+<Score et="2198.8">lovepes2010(8) lap=4 point=1 t=140.864 et=2198.684</Score>
+<Score et="2209.1">wagonggong(19) lap=4 point=0 t=419.541 et=2208.913</Score>
+<Incident et="2235.2">Eskwen(1) reported contact (0.03) with Immovable</Incident>
+<Incident et="2235.3">Eskwen(1) reported contact (0.23) with Immovable</Incident>
+<Incident et="2235.3">Eskwen(1) reported contact (0.06) with Immovable</Incident>
+<Incident et="2235.6">Eskwen(1) reported contact (0.03) with Immovable</Incident>
+<Score et="2246.6">Eskwen(1) lap=4 point=0 t=427.880 et=2246.537</Score>
+<Chat et="2260.8">smallbubble has left the game but vehicle has been stored in the garage</Chat>
+<Score et="2267.6">DumiBirdF(5) lap=4 point=2 t=283.896 et=2267.522</Score>
+<Score et="2285.0">DUO MEI(12) lap=4 point=1 t=145.825 et=2284.889</Score>
+<Score et="2302.0">OMGCA(7) lap=4 point=2 t=274.904 et=2301.923</Score>
+<Chat et="2332.3">SennaAndProst: -7s last sector</Chat>
+<Score et="2337.3">lovepes2010(8) lap=4 point=2 t=279.456 et=2337.276</Score>
+<Score et="2384.2">DumiBirdF(5) lap=5 point=0 t=400.444 et=2384.070</Score>
+<Score et="2393.2">Eskwen(1) lap=4 point=1 t=146.517 et=2393.054</Score>
+<Score et="2415.3">OMGCA(7) lap=5 point=0 t=388.250 et=2415.270</Score>
+<Chat et="2422.0">SennaAndProst: -3s</Chat>
+<Chat et="2424.5">Parker Chen: white flag for dumi</Chat>
+<Chat et="2428.6">Parker Chen: and xt</Chat>
+<Score et="2435.4">DUO MEI(12) lap=4 point=2 t=296.167 et=2435.231</Score>
+<Chat et="2436.3">Parker Chen: 31s left</Chat>
+<Incident et="2438.0">Eskwen(1) reported contact (0.03) with Immovable</Incident>
+<Incident et="2438.2">Eskwen(1) reported contact (0.13) with Immovable</Incident>
+<Incident et="2438.4">Eskwen(1) reported contact (0.10) with Immovable</Incident>
+<Incident et="2438.6">Eskwen(1) reported contact (0.10) with Immovable</Incident>
+<Incident et="2441.2">Eskwen(1) reported contact (1.00) with Immovable</Incident>
+<Incident et="2441.2">Eskwen(1) reported contact (0.13) with Wing</Incident>
+<Incident et="2441.2">Eskwen(1) reported contact (0.13) with Immovable</Incident>
+<Incident et="2444.5">Eskwen(1) reported contact (1.00) with Wing</Incident>
+<Incident et="2444.5">Eskwen(1) reported contact (0.35) with Wing</Incident>
+<Incident et="2444.5">Eskwen(1) reported contact (0.19) with Wing</Incident>
+<Incident et="2444.6">Eskwen(1) reported contact (0.10) with Wing</Incident>
+<Incident et="2444.6">Eskwen(1) reported contact (0.06) with Wing</Incident>
+<Incident et="2447.3">Eskwen(1) reported contact (0.23) with Immovable</Incident>
+<Incident et="2447.3">Eskwen(1) reported contact (0.42) with Immovable</Incident>
+<Incident et="2453.6">Eskwen(1) reported contact (0.19) with Immovable</Incident>
+<Score et="2453.9">lovepes2010(8) lap=5 point=0 t=396.013 et=2453.833</Score>
+<Score et="2460.6">wagonggong(19) lap=4 point=1 t=251.468 et=2460.381</Score>
+<Incident et="2501.8">Eskwen(1) reported contact (0.23) with Immovable</Incident>
+<Incident et="2501.9">Eskwen(1) reported contact (0.42) with Immovable</Incident>
+<Incident et="2503.4">Eskwen(1) reported contact (0.03) with Immovable</Incident>
+<Incident et="2503.5">Eskwen(1) reported contact (0.13) with Immovable</Incident>
+<Incident et="2511.2">wagonggong(19) reported contact (0.19) with Immovable</Incident>
+<Incident et="2511.2">wagonggong(19) reported contact (0.52) with Immovable</Incident>
+<Incident et="2511.2">wagonggong(19) reported contact (0.52) with Immovable</Incident>
+<Incident et="2511.2">wagonggong(19) reported contact (0.23) with Wing</Incident>
+<Incident et="2512.4">wagonggong(19) reported contact (0.87) with Immovable</Incident>
+<Incident et="2512.4">wagonggong(19) reported contact (0.32) with Immovable</Incident>
+<Chat et="2514.2">wagonggong: wtf</Chat>
+<Score et="2525.8">DumiBirdF(5) lap=5 point=1 t=141.632 et=2525.702</Score>
+<Incident et="2540.7">Eskwen(1) reported contact (0.03) with Immovable</Incident>
+<Score et="2553.7">OMGCA(7) lap=5 point=1 t=138.374 et=2553.644</Score>
+<Score et="2559.9">DUO MEI(12) lap=5 point=0 t=420.785 et=2559.849</Score>
+<Incident et="2568.1">Eskwen(1) reported contact (0.10) with Immovable</Incident>
+<Incident et="2568.3">Eskwen(1) reported contact (0.42) with Immovable</Incident>
+<Score et="2570.3">Eskwen(1) lap=4 point=2 t=323.699 et=2570.236</Score>
+<Incident et="2578.5">Eskwen(1) reported contact (0.10) with Immovable</Incident>
+<Incident et="2586.3">Eskwen(1) reported contact (0.10) with Immovable</Incident>
+<Incident et="2586.5">Eskwen(1) reported contact (0.58) with Immovable</Incident>
+<Score et="2597.1">lovepes2010(8) lap=5 point=1 t=143.208 et=2597.041</Score>
+<Chat et="2600.0">wagonggong: watch out</Chat>
+<Chat et="2632.9">SennaAndProst: wgg strategy for u: wait for xt and dumi to finish the lap</Chat>
+<Incident et="2633.7">Eskwen(1) reported contact (0.26) with Immovable</Incident>
+<Incident et="2633.8">Eskwen(1) reported contact (0.65) with Immovable</Incident>
+<Incident et="2637.6">Eskwen(1) reported contact (0.03) with Immovable</Incident>
+<Score et="2667.8">DumiBirdF(5) lap=5 point=2 t=283.600 et=2667.670</Score>
+<Incident et="2668.1">Eskwen(1) reported contact (0.03) with Immovable</Incident>
+<Incident et="2668.2">Eskwen(1) reported contact (0.32) with Immovable</Incident>
+<Score et="2688.7">OMGCA(7) lap=5 point=2 t=273.430 et=2688.700</Score>
+<Incident et="2700.4">Eskwen(1) reported contact (0.39) with Immovable</Incident>
+<Incident et="2700.5">Eskwen(1) reported contact (0.45) with Immovable</Incident>
+<Incident et="2700.9">Eskwen(1) reported contact (0.10) with Immovable</Incident>
+<Score et="2706.2">DUO MEI(12) lap=5 point=1 t=146.247 et=2706.096</Score>
+<Score et="2713.4">wagonggong(19) lap=4 point=2 t=504.250 et=2713.163</Score>
+<Score et="2740.1">lovepes2010(8) lap=5 point=2 t=286.218 et=2740.051</Score>
+<Chat et="2745.4">SennaAndProst: dumi heading for his first win</Chat>
+<Chat et="2749.8">SennaAndProst: final straight!</Chat>
+<Chat et="2769.4">OMGCA: brake gone</Chat>
+<Chat et="2776.0">wagonggong: why no f5</Chat>
+<Chat et="2777.8">SennaAndProst: dont give up</Chat>
+<Score et="2784.5">Checkered for DumiBirdF, laps=6/6, endET=2784.361328/306254101833471170000000000000000000000.000000, crossedAfterTime=0</Score>
+<Score et="2784.5">DumiBirdF(5) lap=6 point=0 t=400.291 et=2784.361</Score>
+<Chat et="2785.5">Parker Chen: It&apos;s dumi to win this race and also his first ever career win</Chat>
+<Chat et="2785.6">SennaAndProst: gg</Chat>
+<Incident et="2788.5">wagonggong(19) reported contact (0.58) with Immovable</Incident>
+<Chat et="2791.3">lovepes2010: YES!</Chat>
+<Incident et="2791.3">wagonggong(19) reported contact (0.71) with Immovable</Incident>
+<Chat et="2792.7">DumiBirdF: YES</Chat>
+<Chat et="2802.3">wagonggong: fucking great</Chat>
+<Chat et="2807.2">Parker Chen: after a exhausting 43 minutes race</Chat>
+<Incident et="2807.4">lovepes2010(8) reported contact (0.45) with Immovable</Incident>
+<Incident et="2807.4">lovepes2010(8) reported contact (0.35) with Immovable</Incident>
+<Incident et="2807.5">lovepes2010(8) reported contact (0.68) with Wing</Incident>
+<Incident et="2807.5">lovepes2010(8) reported contact (0.32) with Wing</Incident>
+<Incident et="2807.5">lovepes2010(8) reported contact (0.06) with Wing</Incident>
+<Incident et="2807.6">lovepes2010(8) reported contact (0.61) with Wing</Incident>
+<Incident et="2807.6">lovepes2010(8) reported contact (0.45) with Wing</Incident>
+<Score et="2809.7">OMGCA(7) lap=6 point=0 t=394.411 et=2809.681</Score>
+<Chat et="2811.2">Parker Chen: an4</Chat>
+<Chat et="2811.5">OMGCA: congrats</Chat>
+<Chat et="2812.5">SennaAndProst: man of the race</Chat>
+<Chat et="2812.5">wagonggong: watch out my car</Chat>
+<Chat et="2814.7">SennaAndProst: windows10</Chat>
+<Incident et="2832.2">lovepes2010(8) reported contact (0.10) with Immovable</Incident>
+<Incident et="2832.4">lovepes2010(8) reported contact (0.16) with Immovable</Incident>
+<Score et="2835.9">Eskwen(1) lap=5 point=0 t=589.208 et=2835.745</Score>
+<Chat et="2836.6">OMGCA: this car is gone</Chat>
+<Chat et="2840.7">OMGCA: i tried</Chat>
+<Chat et="2843.5">Parker Chen: now we are waiting lp to finish 3rd</Chat>
+<Chat et="2847.6">SennaAndProst: wgg no point</Chat>
+<Chat et="2847.8">wagonggong: why i retire of brake</Chat>
+<Chat et="2847.9">DumiBirdF: Audi engine gone</Chat>
+<Chat et="2851.0">Parker Chen: and he crashed</Chat>
+<Chat et="2855.6">SennaAndProst: because not 75%</Chat>
+<Chat et="2859.6">wagonggong: i got stuck</Chat>
+<Chat et="2861.9">SennaAndProst: gg</Chat>
+<Score et="2862.7">DUO MEI(12) lap=5 point=2 t=302.795 et=2862.644</Score>
+<Chat et="2875.5">Parker Chen: lp</Chat>
+<Chat et="2892.4">Parker Chen: lp will cross the line with no front wing</Chat>
+<Incident et="2904.8">lovepes2010(8) reported contact (0.03) with Immovable</Incident>
+<Chat et="2906.0">SennaAndProst: what&apos;s wrong with lp</Chat>
+<Chat et="2911.6">SennaAndProst: ok crossed</Chat>
+<Score et="2914.7">lovepes2010(8) lap=6 point=0 t=460.760 et=2914.593</Score>
+<Chat et="2925.7">Parker Chen: and cross the line</Chat>
+<Chat et="2926.6">lovepes2010: TOUGH RACE</Chat>
+<Chat et="2930.1">lovepes2010: GREAT WIN</Chat>
+<Chat et="2939.2">SennaAndProst: duo mei :ni men pao de kuai you shen me yong</Chat>
+<Chat et="2940.0">Parker Chen: so we will wait duo mei</Chat>
+<Chat et="2943.2">OMGCA: wgg will get full points</Chat>
+<Chat et="2944.2">SennaAndProst: hai bu shi kan wo pao wan</Chat>
+<Chat et="2961.0">OMGCA: i can shut down the server now</Chat>
+<Chat et="2965.0">OMGCA: so we dont have to  wait</Chat>
+<Chat et="2970.6">lovepes2010: no</Chat>
+<Chat et="2974.6">OMGCA: i know i know</Chat>
+<Chat et="2981.6">OMGCA: oh we have german anthem today</Chat>
+<Chat et="2984.9">Parker Chen: final corners</Chat>
+<Chat et="2990.3">wagonggong: zhixi bisai</Chat>
+<Chat et="2993.7">OMGCA: gg</Chat>
+<Score et="2995.4">DUO MEI(12) lap=6 point=0 t=435.449 et=2995.298</Score>
+<Chat et="2995.4">Parker Chen: and duo mei cross the line</Chat>
+<Chat et="2999.8">DUO MEI: YES1111</Chat>
+<Chat et="3002.6">SennaAndProst: rubbish race</Chat>
+<Chat et="3003.1">DUO MEI: THANKS</Chat>
+</Stream>
+<MostLapsCompleted>6</MostLapsCompleted>
+<Driver>
+<Name>OMGCA</Name>
+<Connected>1</Connected>
+<VehFile>XTG_23.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>1-#23 OMGCA</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>23</CarNumber>
+<TeamName>xTacing OFCR Team</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>1</GridPos>
+<Position>2</Position>
+<ClassGridPos>1</ClassGridPos>
+<ClassPosition>2</ClassPosition>
+<Points>18</Points>
+<ClassPoints>18</ClassPoints>
+<LapRankIncludingDiscos>1</LapRankIncludingDiscos>
+<Lap num="1" p="1" et="195.2800" s1="143.4918" s2="134.5930" s3="113.2371" fuel="0.486">391.3218</Lap>
+<Lap num="2" p="1" et="586.6019" s1="138.6094" s2="134.9240" s3="113.0546" fuel="0.325">386.5880</Lap>
+<Lap num="3" p="1" et="973.1898" s1="137.4246" s2="134.5592" s3="115.7845" fuel="0.165">387.7683</Lap>
+<Lap num="4" p="2" et="1360.9581" s1="246.3719" s2="164.5374" s3="255.1521" fuel="0.553" pit="1">666.0614</Lap>
+<Lap num="5" p="2" et="2027.0195" s1="140.0139" s2="134.8896" s3="113.3469" fuel="0.392">388.2505</Lap>
+<Lap num="6" p="2" et="2415.2700" s1="138.3740" s2="135.0564" s3="120.9805" fuel="0.235">394.4109</Lap>
+<BestLapTime>386.5880</BestLapTime>
+<FinishTime>2614.4009</FinishTime>
+<Laps>6</Laps>
+<Pitstops>2</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="6">PlayerControl,TC=3,ABS=2,Stability=2,Steering=2,Clutch</ControlAndAids>
+</Driver>
+<Driver>
+<Name>lovepes2010</Name>
+<Connected>1</Connected>
+<VehFile>FBT_21.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>1-#21 lovepes2010</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>21</CarNumber>
+<TeamName>Audi Sport Team FlyingBird</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>2</GridPos>
+<Position>3</Position>
+<ClassGridPos>2</ClassGridPos>
+<ClassPosition>3</ClassPosition>
+<Points>15</Points>
+<ClassPoints>15</ClassPoints>
+<LapRankIncludingDiscos>2</LapRankIncludingDiscos>
+<Lap num="1" p="3" et="195.2800" s1="148.4794" s2="136.5168" s3="134.5905" fuel="0.286">419.5868</Lap>
+<Lap num="2" p="3" et="614.8668" s1="266.9597" s2="138.4850" s3="123.9657" fuel="0.427" pit="1">529.4103</Lap>
+<Lap num="3" p="4" et="1144.2772" s1="268.5291" s2="139.9558" s3="115.0217" fuel="0.306" pit="1">523.5066</Lap>
+<Lap num="4" p="4" et="1667.7838" s1="139.8765" s2="136.9291" s3="113.2309" fuel="0.188">390.0365</Lap>
+<Lap num="5" p="3" et="2057.8203" s1="140.8640" s2="138.5920" s3="116.5565" fuel="0.098">396.0125</Lap>
+<Lap num="6" p="3" et="2453.8328" s1="143.2083" s2="143.0101" s3="174.5414" fuel="0.008">460.7598</Lap>
+<BestLapTime>390.0365</BestLapTime>
+<FinishTime>2719.3125</FinishTime>
+<Laps>6</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="5">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+<ControlAndAids startLap="6" endLap="6">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=2,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>DumiBirdF</Name>
+<Connected>1</Connected>
+<VehFile>FBT_99.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>2-#99 DumiBirdF</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>99</CarNumber>
+<TeamName>Audi Sport Team FlyingBird</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>3</GridPos>
+<Position>1</Position>
+<ClassGridPos>3</ClassGridPos>
+<ClassPosition>1</ClassPosition>
+<Points>25</Points>
+<ClassPoints>25</ClassPoints>
+<LapRankIncludingDiscos>3</LapRankIncludingDiscos>
+<Lap num="1" p="2" et="195.2800" s1="150.7961" s2="140.0055" s3="115.1140" fuel="0.282">405.9156</Lap>
+<Lap num="2" p="4" et="601.1957" s1="155.4792" s2="168.2986" s3="256.6333" fuel="0.212" pit="1">580.4111</Lap>
+<Lap num="3" p="2" et="1181.6068" s1="142.9548" s2="140.2911" s3="115.4276" fuel="0.435">398.6735</Lap>
+<Lap num="4" p="2" et="1580.2803" s1="139.5939" s2="141.7061" s3="122.0463" fuel="0.302">403.3463</Lap>
+<Lap num="5" p="1" et="1983.6265" s1="141.9433" s2="141.9527" s3="116.5475" fuel="0.188">400.4435</Lap>
+<Lap num="6" p="1" et="2384.0701" s1="141.6324" s2="141.9676" s3="116.6913" fuel="0.059">400.2913</Lap>
+<BestLapTime>398.6735</BestLapTime>
+<FinishTime>2589.0813</FinishTime>
+<Laps>6</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="6">PlayerControl,TC=3,ABS=2,Stability=2,Clutch,Opposite,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>smallbubble</Name>
+<Connected>1</Connected>
+<VehFile>NCR_22.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>3-#22 smallbubble</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>22</CarNumber>
+<TeamName>NorthernChina Racing</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>4</GridPos>
+<Position>7</Position>
+<ClassGridPos>4</ClassGridPos>
+<ClassPosition>6</ClassPosition>
+<Points>2</Points>
+<ClassPoints>4</ClassPoints>
+<LapRankIncludingDiscos>4</LapRankIncludingDiscos>
+<Lap num="1" p="6" et="195.2800" s1="287.0509" s2="139.0779" s3="116.9385" fuel="0.306" pit="1">543.0673</Lap>
+<Lap num="2" p="7" et="738.3474" s1="142.6552" s2="139.9293" s3="255.4047" fuel="0.220" pit="1">537.9891</Lap>
+<Lap num="3" p="5" et="1276.3365" s1="144.6226" s2="144.8806" s3="119.3127" fuel="0.416">408.8159</Lap>
+<BestLapTime>408.8159</BestLapTime>
+<Laps>3</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>DNF</DNFReason>
+<ControlAndAids startLap="1" endLap="3">PlayerControl,TC=3,ABS=2,Stability=1,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>DUO MEI</Name>
+<Connected>1</Connected>
+<VehFile>KST_TMP1.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>#60 KST Tmp1</VehName>
+<CarType>OFCR 2018 Temporary Drivers</CarType>
+<CarClass>OFCR 2018 Temporary Drivers</CarClass>
+<CarNumber>60</CarNumber>
+<TeamName>KST</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>5</GridPos>
+<Position>4</Position>
+<ClassGridPos>1</ClassGridPos>
+<ClassPosition>1</ClassPosition>
+<Points>10</Points>
+<ClassPoints>25</ClassPoints>
+<LapRankIncludingDiscos>5</LapRankIncludingDiscos>
+<Lap num="1" p="8" et="195.2800" s1="290.4970" s2="149.3351" s3="123.8098" fuel="0.569" pit="1">563.6419</Lap>
+<Lap num="2" p="5" et="758.9219" s1="145.6179" s2="152.5141" s3="126.0562" fuel="0.592">424.1882</Lap>
+<Lap num="3" p="3" et="1183.1101" s1="145.3388" s2="148.8684" s3="123.5242" fuel="0.482">417.7315</Lap>
+<Lap num="4" p="4" et="1600.8416" s1="144.0533" s2="147.1208" s3="247.0483" fuel="0.396" pit="1">538.2225</Lap>
+<Lap num="5" p="4" et="2139.0640" s1="145.8252" s2="150.3419" s3="124.6181" fuel="0.302">420.7852</Lap>
+<Lap num="6" p="4" et="2559.8491" s1="146.2472" s2="156.5473" s3="132.6540" fuel="0.212">435.4485</Lap>
+<BestLapTime>417.7315</BestLapTime>
+<FinishTime>2800.0176</FinishTime>
+<Laps>6</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="6">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>wagonggong</Name>
+<Connected>1</Connected>
+<VehFile>RPM_15.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>2-#15 wagonggong</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>15</CarNumber>
+<TeamName>Team Russian Poisonous Milk</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>6</GridPos>
+<Position>6</Position>
+<ClassGridPos>5</ClassGridPos>
+<ClassPosition>5</ClassPosition>
+<Points>4</Points>
+<ClassPoints>6</ClassPoints>
+<LapRankIncludingDiscos>6</LapRankIncludingDiscos>
+<Lap num="1" p="7" et="195.2800" s1="191.6839" s2="197.5588" s3="163.3966" fuel="0.318">552.6393</Lap>
+<Lap num="2" p="8" et="747.9193" s1="340.0215" s2="152.1107" s3="126.3647" fuel="0.282" pit="1">618.4970</Lap>
+<Lap num="3" p="7" et="1366.4164" s1="147.8013" s2="151.2343" s3="123.9198" fuel="0.153">422.9554</Lap>
+<Lap num="4" p="5" et="1789.3718" s1="143.7056" s2="149.9734" s3="125.8620" fuel="0.035">419.5410</Lap>
+<BestLapTime>419.5410</BestLapTime>
+<Laps>4</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>Brakes</DNFReason>
+<ControlAndAids startLap="1" endLap="4">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Eskwen</Name>
+<Connected>1</Connected>
+<VehFile>RPM_17.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>1-#17 eskwen</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>17</CarNumber>
+<TeamName>Team Russian Poisonous Milk</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>7</GridPos>
+<Position>5</Position>
+<ClassGridPos>6</ClassGridPos>
+<ClassPosition>4</ClassPosition>
+<Points>6</Points>
+<ClassPoints>10</ClassPoints>
+<LapRankIncludingDiscos>7</LapRankIncludingDiscos>
+<Lap num="1" p="5" et="195.2800" s1="158.5871" s2="176.0971" s3="148.8044" fuel="0.263">483.4885</Lap>
+<Lap num="2" p="7" et="678.7686" s1="280.0750" s2="148.4076" s3="125.8476" fuel="0.227" pit="1">554.3301</Lap>
+<Lap num="3" p="7" et="1233.0986" s1="150.5528" s2="159.8486" s3="275.1573" fuel="0.149" pit="1">585.5587</Lap>
+<Lap num="4" p="6" et="1818.6573" s1="146.9327" s2="151.7388" s3="129.2082" fuel="0.224">427.8797</Lap>
+<Lap num="5" p="5" et="2246.5371" s1="146.5170" s2="177.1823" s3="265.5085" fuel="0.157" pit="1">589.2078</Lap>
+<BestLapTime>427.8797</BestLapTime>
+<FinishTime>2640.4648</FinishTime>
+<Laps>5</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="5">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>DanDan</Name>
+<Connected>1</Connected>
+<VehFile>SPR_TMP1.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>#54 SPR Tmp1</VehName>
+<CarType>OFCR 2018 Temporary Drivers</CarType>
+<CarClass>OFCR 2018 Temporary Drivers</CarClass>
+<CarNumber>54</CarNumber>
+<TeamName>SPR</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>8</GridPos>
+<Position>8</Position>
+<ClassGridPos>2</ClassGridPos>
+<ClassPosition>2</ClassPosition>
+<Points>0</Points>
+<ClassPoints>0</ClassPoints>
+<LapRankIncludingDiscos>8</LapRankIncludingDiscos>
+<Lap num="1" p="4" et="195.2800" s1="157.8591" s2="163.4699" s3="143.5593" fuel="0.565">464.8882</Lap>
+<Lap num="2" p="6" et="660.1683" s1="290.7481" s2="153.1384" s3="127.9101" fuel="0.878" pit="1">571.7966</Lap>
+<BestLapTime>464.8882</BestLapTime>
+<Laps>2</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>DNF</DNFReason>
+<ControlAndAids startLap="1" endLap="2">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,Opposite,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>KneYka</Name>
+<Connected>1</Connected>
+<VehFile>XTG_12.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>3-#12 Kne_Yka</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>12</CarNumber>
+<TeamName>xTacing OFCR Team</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>9</GridPos>
+<Position>9</Position>
+<ClassGridPos>7</ClassGridPos>
+<ClassPosition>7</ClassPosition>
+<Points>0</Points>
+<ClassPoints>0</ClassPoints>
+<LapRankIncludingDiscos>9</LapRankIncludingDiscos>
+<Laps>0</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>Engine</DNFReason>
+</Driver>
+<Driver>
+<Name>Parker Chen</Name>
+<Connected>1</Connected>
+<VehFile>SPR_48.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>1-#48 Parker Chen</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>48</CarNumber>
+<TeamName>Shanghai Power Racing</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>11</GridPos>
+<Position>10</Position>
+<ClassGridPos>9</ClassGridPos>
+<ClassPosition>8</ClassPosition>
+<Points>0</Points>
+<ClassPoints>0</ClassPoints>
+<LapRankIncludingDiscos>10</LapRankIncludingDiscos>
+<Laps>0</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>Engine</DNFReason>
+</Driver>
+<Driver>
+<Name>SennaAndProst</Name>
+<Connected>1</Connected>
+<VehFile>KST_27.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>2-#27 SennaAndProst</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>27</CarNumber>
+<TeamName>Kimi Sleeping Team</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>10</GridPos>
+<Position>11</Position>
+<ClassGridPos>8</ClassGridPos>
+<ClassPosition>9</ClassPosition>
+<Points>0</Points>
+<ClassPoints>0</ClassPoints>
+<LapRankIncludingDiscos>11</LapRankIncludingDiscos>
+<Laps>0</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DQ</FinishStatus>
+</Driver>
+</Race>
+</RaceResults>
+</rFactorXML>

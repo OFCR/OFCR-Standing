@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rF [
+<!ENTITY rFEnt "rFactor Entity">
+]>
+<rFactorXML version="1.0">
+<RaceResults>
+<Setting>Multiplayer</Setting>
+<ServerName>OFCR Round 18 - Bahrain</ServerName>
+<PlayerFile>OMGCA</PlayerFile>
+<DateTime>1533902479</DateTime>
+<TimeString>2018/08/10 20:01:19</TimeString>
+<Mod>OFCR2018.rfm</Mod>
+<Season></Season>
+<TrackVenue>OFCR 2018 Season</TrackVenue>
+<TrackCourse>Bahrain International Circuit</TrackCourse>
+<TrackEvent>18.Bahrain</TrackEvent>
+<TrackLength>5338.7</TrackLength>
+<GameVersion>1.255g</GameVersion>
+<Dedicated>0</Dedicated>
+<ConnectionType upload="8042" download="8042">Custom</ConnectionType>
+<RaceLaps>24</RaceLaps>
+<RaceTime>0</RaceTime>
+<MechFailRate>2</MechFailRate>
+<DamageMult>60</DamageMult>
+<FuelMult>1</FuelMult>
+<TireMult>1</TireMult>
+<VehiclesAllowed>|OFCR2018</VehiclesAllowed>
+<ParcFerme>3</ParcFerme>
+<FixedSetups>0</FixedSetups>
+<FreeSettings>2147483647</FreeSettings>
+<FixedUpgrades>0</FixedUpgrades>
+<Race>
+<DateTime>1533904631</DateTime>
+<TimeString>2018/08/10 20:37:11</TimeString>
+<Laps>24</Laps>
+<Minutes>0</Minutes>
+<Stream>
+<Chat et="12.0">OMGCA: nvm</Chat>
+<Chat et="12.0">wagonggong: he doesn;t want to start before thwm</Chat>
+<Chat et="12.0">OMGCA: nvm</Chat>
+<Chat et="5.7">OMGCA: rule is rule</Chat>
+<Chat et="7.2">Ping: 113ms (Best: 51ms)</Chat>
+<Chat et="23.6">wagonggong: duo mei</Chat>
+<Chat et="25.3">Ping: 67ms (Best: 51ms)</Chat>
+<Chat et="25.6">wagonggong: go back</Chat>
+<Chat et="28.2">wagonggong: go on</Chat>
+<Chat et="54.1">OMGCA: ..</Chat>
+<Chat et="65.4">OMGCA: vivian not again</Chat>
+<Score et="70.6">wagonggong(11) lap=0 point=1 t=-1.000 et=70.311</Score>
+<Score et="73.4">lovepes2010(4) lap=0 point=1 t=-1.000 et=73.310</Score>
+<Score et="74.3">DUO MEI(7) lap=0 point=1 t=-1.000 et=74.145</Score>
+<Score et="76.2">OMGCA(13) lap=0 point=1 t=-1.000 et=76.200</Score>
+<Chat et="77.5">wagonggong: what</Chat>
+<Score et="78.2">smallbubble(10) lap=0 point=1 t=-1.000 et=77.956</Score>
+<Score et="78.9">DumiBirdF(5) lap=0 point=1 t=-1.000 et=78.820</Score>
+<Score et="80.2">bob(12) lap=0 point=1 t=-1.000 et=80.093</Score>
+<Score et="81.3">MSC(9) lap=0 point=1 t=-1.000 et=81.224</Score>
+<Score et="82.1">Parker Chen(14) lap=0 point=1 t=-1.000 et=81.962</Score>
+<Chat et="82.1">OMGCA: tooslow</Chat>
+<Score et="116.8">wagonggong(11) lap=0 point=2 t=-1.000 et=116.630</Score>
+<Score et="118.1">lovepes2010(4) lap=0 point=2 t=-1.000 et=118.034</Score>
+<Score et="119.3">DUO MEI(7) lap=0 point=2 t=-1.000 et=119.196</Score>
+<Score et="120.4">OMGCA(13) lap=0 point=2 t=-1.000 et=120.350</Score>
+<Score et="123.9">smallbubble(10) lap=0 point=2 t=-1.000 et=123.614</Score>
+<Score et="124.7">DumiBirdF(5) lap=0 point=2 t=-1.000 et=124.577</Score>
+<Score et="126.7">bob(12) lap=0 point=2 t=-1.000 et=126.594</Score>
+<Score et="127.8">MSC(9) lap=0 point=2 t=-1.000 et=127.754</Score>
+<Score et="129.0">Parker Chen(14) lap=0 point=2 t=-1.000 et=128.872</Score>
+<Incident et="129.1">bob(12) reported contact (0.74) with Post</Incident>
+<Incident et="129.1">bob(12) reported contact (0.06) with Post</Incident>
+<Incident et="136.5">wagonggong(11) reported contact (0.45) with Post</Incident>
+<Incident et="136.5">wagonggong(11) reported contact (0.06) with Post</Incident>
+<Chat et="136.7">DumiBirdF: dast</Chat>
+<Incident et="141.8">OMGCA(13) reported contact (0.81) with Post</Incident>
+<Score et="150.4">wagonggong(11) lap=0 point=0 t=-1.000 et=150.060</Score>
+<Score et="151.5">lovepes2010(4) lap=0 point=0 t=-1.000 et=151.376</Score>
+<Score et="153.8">DUO MEI(7) lap=0 point=0 t=-1.000 et=153.681</Score>
+<Score et="154.7">OMGCA(13) lap=0 point=0 t=-1.000 et=154.689</Score>
+<Score et="154.7">smallbubble(10) lap=0 point=0 t=-1.000 et=154.560</Score>
+<Score et="155.8">DumiBirdF(5) lap=0 point=0 t=-1.000 et=155.739</Score>
+<Score et="157.3">bob(12) lap=0 point=0 t=-1.000 et=157.188</Score>
+<Score et="160.2">MSC(9) lap=0 point=0 t=-1.000 et=160.110</Score>
+<Score et="160.8">Parker Chen(14) lap=0 point=0 t=-1.000 et=160.704</Score>
+<Score et="212.2">wagonggong(11) lap=0 point=1 t=29.906 et=212.037</Score>
+<Score et="212.6">DUO MEI(7) lap=0 point=1 t=30.374 et=212.504</Score>
+<Score et="213.1">lovepes2010(4) lap=0 point=1 t=30.815 et=212.945</Score>
+<Score et="213.5">DumiBirdF(5) lap=0 point=1 t=31.221 et=213.352</Score>
+<Score et="214.3">MSC(9) lap=0 point=1 t=32.105 et=214.235</Score>
+<Score et="214.3">OMGCA(13) lap=0 point=1 t=32.191 et=214.322</Score>
+<Score et="215.1">Parker Chen(14) lap=0 point=1 t=32.860 et=214.991</Score>
+<Score et="215.4">smallbubble(10) lap=0 point=1 t=33.029 et=215.159</Score>
+<Score et="215.7">bob(12) lap=0 point=1 t=33.479 et=215.610</Score>
+<Incident et="233.7">Parker Chen(14) reported contact (0.32) with Post</Incident>
+<Score et="250.3">wagonggong(11) lap=0 point=2 t=67.944 et=250.074</Score>
+<Score et="250.4">DUO MEI(7) lap=0 point=2 t=68.194 et=250.325</Score>
+<Score et="251.4">lovepes2010(4) lap=0 point=2 t=69.221 et=251.352</Score>
+<Score et="252.3">DumiBirdF(5) lap=0 point=2 t=70.070 et=252.200</Score>
+<Score et="253.1">OMGCA(13) lap=0 point=2 t=70.900 et=253.030</Score>
+<Score et="253.7">MSC(9) lap=0 point=2 t=71.491 et=253.621</Score>
+<Score et="255.1">smallbubble(10) lap=0 point=2 t=72.759 et=254.889</Score>
+<Score et="255.5">Parker Chen(14) lap=0 point=2 t=73.228 et=255.358</Score>
+<Score et="256.7">bob(12) lap=0 point=2 t=74.478 et=256.609</Score>
+<Score et="272.6">DUO MEI(7) lap=1 point=0 t=90.405 et=272.536</Score>
+<Score et="273.2">wagonggong(11) lap=1 point=0 t=90.785 et=272.915</Score>
+<Score et="273.5">lovepes2010(4) lap=1 point=0 t=91.290 et=273.420</Score>
+<Score et="274.9">OMGCA(13) lap=1 point=0 t=92.702 et=274.832</Score>
+<Score et="274.9">DumiBirdF(5) lap=1 point=0 t=92.627 et=274.758</Score>
+<Score et="276.2">MSC(9) lap=1 point=0 t=94.000 et=276.130</Score>
+<Score et="277.2">smallbubble(10) lap=1 point=0 t=94.880 et=277.010</Score>
+<Score et="277.5">Parker Chen(14) lap=1 point=0 t=95.243 et=277.373</Score>
+<Score et="279.8">bob(12) lap=1 point=0 t=97.544 et=279.674</Score>
+<Score et="301.5">wagonggong(11) lap=1 point=1 t=28.387 et=301.302</Score>
+<Score et="302.2">DUO MEI(7) lap=1 point=1 t=29.566 et=302.101</Score>
+<Score et="302.7">lovepes2010(4) lap=1 point=1 t=29.176 et=302.596</Score>
+<Score et="304.4">OMGCA(13) lap=1 point=1 t=29.588 et=304.420</Score>
+<Score et="304.7">DumiBirdF(5) lap=1 point=1 t=29.810 et=304.568</Score>
+<Score et="306.0">smallbubble(10) lap=1 point=1 t=28.795 et=305.805</Score>
+<Score et="306.8">Parker Chen(14) lap=1 point=1 t=29.303 et=306.676</Score>
+<Score et="309.4">bob(12) lap=1 point=1 t=29.578 et=309.253</Score>
+<Incident et="315.3">Parker Chen(14) reported contact (0.32) with Post</Incident>
+<Incident et="315.3">Parker Chen(14) reported contact (0.00) with Post</Incident>
+<Score et="316.4">MSC(9) lap=1 point=1 t=40.212 et=316.342</Score>
+<Score et="338.7">wagonggong(11) lap=1 point=2 t=65.561 et=338.477</Score>
+<Score et="339.6">DUO MEI(7) lap=1 point=2 t=66.977 et=339.513</Score>
+<Score et="340.3">lovepes2010(4) lap=1 point=2 t=66.806 et=340.226</Score>
+<Score et="342.2">OMGCA(13) lap=1 point=2 t=67.335 et=342.167</Score>
+<Score et="343.2">DumiBirdF(5) lap=1 point=2 t=68.345 et=343.103</Score>
+<Score et="343.9">smallbubble(10) lap=1 point=2 t=66.721 et=343.731</Score>
+<Score et="345.8">Parker Chen(14) lap=1 point=2 t=68.346 et=345.719</Score>
+<Score et="348.1">bob(12) lap=1 point=2 t=68.341 et=348.016</Score>
+<Score et="355.2">MSC(9) lap=1 point=2 t=79.004 et=355.134</Score>
+<Score et="360.6">wagonggong(11) lap=2 point=0 t=87.328 et=360.244</Score>
+<Score et="361.3">DUO MEI(7) lap=2 point=0 t=88.692 et=361.228</Score>
+<Score et="362.0">lovepes2010(4) lap=2 point=0 t=88.536 et=361.956</Score>
+<Score et="363.8">OMGCA(13) lap=2 point=0 t=88.904 et=363.736</Score>
+<Score et="365.4">DumiBirdF(5) lap=2 point=0 t=90.551 et=365.309</Score>
+<Score et="365.6">smallbubble(10) lap=2 point=0 t=88.517 et=365.527</Score>
+<Score et="368.1">Parker Chen(14) lap=2 point=0 t=90.596 et=367.969</Score>
+<Score et="370.5">bob(12) lap=2 point=0 t=90.691 et=370.365</Score>
+<Score et="377.6">MSC(9) lap=2 point=0 t=101.384 et=377.515</Score>
+<Score et="388.9">wagonggong(11) lap=2 point=1 t=28.426 et=388.670</Score>
+<Score et="389.9">DUO MEI(7) lap=2 point=1 t=28.605 et=389.833</Score>
+<Score et="390.3">lovepes2010(4) lap=2 point=1 t=28.284 et=390.240</Score>
+<Score et="392.5">OMGCA(13) lap=2 point=1 t=28.735 et=392.470</Score>
+<Score et="394.4">DumiBirdF(5) lap=2 point=1 t=29.006 et=394.315</Score>
+<Score et="394.6">smallbubble(10) lap=2 point=1 t=28.920 et=394.448</Score>
+<Score et="397.5">Parker Chen(14) lap=2 point=1 t=29.412 et=397.381</Score>
+<Score et="399.7">bob(12) lap=2 point=1 t=29.164 et=399.529</Score>
+<Score et="406.6">MSC(9) lap=2 point=1 t=29.006 et=406.520</Score>
+<Score et="426.0">wagonggong(11) lap=2 point=2 t=65.525 et=425.768</Score>
+<Score et="427.0">DUO MEI(7) lap=2 point=2 t=65.709 et=426.937</Score>
+<Score et="428.3">lovepes2010(4) lap=2 point=2 t=66.239 et=428.195</Score>
+<Score et="429.8">OMGCA(13) lap=2 point=2 t=66.006 et=429.742</Score>
+<Score et="432.2">DumiBirdF(5) lap=2 point=2 t=66.808 et=432.117</Score>
+<Score et="433.0">smallbubble(10) lap=2 point=2 t=67.273 et=432.800</Score>
+<Score et="435.8">Parker Chen(14) lap=2 point=2 t=67.674 et=435.643</Score>
+<Score et="438.5">bob(12) lap=2 point=2 t=68.055 et=438.420</Score>
+<Score et="446.2">MSC(9) lap=2 point=2 t=68.557 et=446.071</Score>
+<Score et="447.8">wagonggong(11) lap=3 point=0 t=87.240 et=447.484</Score>
+<Score et="448.7">DUO MEI(7) lap=3 point=0 t=87.373 et=448.601</Score>
+<Score et="449.9">lovepes2010(4) lap=3 point=0 t=87.880 et=449.836</Score>
+<Score et="451.6">OMGCA(13) lap=3 point=0 t=87.800 et=451.535</Score>
+<Score et="453.9">DumiBirdF(5) lap=3 point=0 t=88.511 et=453.821</Score>
+<Score et="454.8">smallbubble(10) lap=3 point=0 t=89.086 et=454.613</Score>
+<Score et="458.2">Parker Chen(14) lap=3 point=0 t=90.081 et=458.050</Score>
+<Score et="460.5">bob(12) lap=3 point=0 t=89.994 et=460.359</Score>
+<Incident et="464.5">OMGCA(13) reported contact (0.71) with Post</Incident>
+<Incident et="467.6">DumiBirdF(5) reported contact (1.00) with Post</Incident>
+<Score et="468.1">MSC(9) lap=3 point=0 t=90.520 et=468.035</Score>
+<Score et="475.9">wagonggong(11) lap=3 point=1 t=28.274 et=475.758</Score>
+<Score et="477.1">DUO MEI(7) lap=3 point=1 t=28.448 et=477.049</Score>
+<Score et="478.3">lovepes2010(4) lap=3 point=1 t=28.405 et=478.241</Score>
+<Score et="480.3">OMGCA(13) lap=3 point=1 t=28.708 et=480.243</Score>
+<Score et="482.5">DumiBirdF(5) lap=3 point=1 t=28.556 et=482.376</Score>
+<Score et="483.5">smallbubble(10) lap=3 point=1 t=28.691 et=483.304</Score>
+<Score et="488.1">Parker Chen(14) lap=3 point=1 t=29.931 et=487.982</Score>
+<Score et="489.8">bob(12) lap=3 point=1 t=29.369 et=489.728</Score>
+<Score et="497.1">MSC(9) lap=3 point=1 t=29.001 et=497.036</Score>
+<Score et="513.6">wagonggong(11) lap=3 point=2 t=65.972 et=513.456</Score>
+<Score et="514.5">DUO MEI(7) lap=3 point=2 t=65.778 et=514.379</Score>
+<Score et="515.7">lovepes2010(4) lap=3 point=2 t=65.748 et=515.584</Score>
+<Score et="517.7">OMGCA(13) lap=3 point=2 t=66.145 et=517.681</Score>
+<Score et="520.2">DumiBirdF(5) lap=3 point=2 t=66.240 et=520.061</Score>
+<Score et="521.1">smallbubble(10) lap=3 point=2 t=66.276 et=520.889</Score>
+<Score et="526.5">Parker Chen(14) lap=3 point=2 t=68.307 et=526.357</Score>
+<Score et="528.4">bob(12) lap=3 point=2 t=67.961 et=528.320</Score>
+<Score et="535.1">MSC(9) lap=3 point=2 t=66.930 et=534.964</Score>
+<Score et="535.6">wagonggong(11) lap=4 point=0 t=87.852 et=535.336</Score>
+<Score et="536.2">DUO MEI(7) lap=4 point=0 t=87.530 et=536.131</Score>
+<Score et="537.5">lovepes2010(4) lap=4 point=0 t=87.544 et=537.380</Score>
+<Score et="539.2">OMGCA(13) lap=4 point=0 t=87.614 et=539.150</Score>
+<Score et="541.8">DumiBirdF(5) lap=4 point=0 t=87.908 et=541.728</Score>
+<Score et="542.7">smallbubble(10) lap=4 point=0 t=87.906 et=542.519</Score>
+<Score et="549.1">Parker Chen(14) lap=4 point=0 t=90.966 et=549.016</Score>
+<Score et="551.1">bob(12) lap=4 point=0 t=90.623 et=550.983</Score>
+<Score et="557.1">MSC(9) lap=4 point=0 t=88.972 et=557.007</Score>
+<Score et="564.1">wagonggong(11) lap=4 point=1 t=28.571 et=563.906</Score>
+<Score et="565.2">DUO MEI(7) lap=4 point=1 t=28.942 et=565.073</Score>
+<Score et="566.0">lovepes2010(4) lap=4 point=1 t=28.516 et=565.896</Score>
+<Score et="567.6">OMGCA(13) lap=4 point=1 t=28.435 et=567.585</Score>
+<Score et="570.4">DumiBirdF(5) lap=4 point=1 t=28.539 et=570.267</Score>
+<Score et="571.2">smallbubble(10) lap=4 point=1 t=28.516 et=571.035</Score>
+<Score et="578.6">Parker Chen(14) lap=4 point=1 t=29.538 et=578.554</Score>
+<Score et="580.7">bob(12) lap=4 point=1 t=29.622 et=580.605</Score>
+<Score et="585.9">MSC(9) lap=4 point=1 t=28.814 et=585.821</Score>
+<Score et="601.1">wagonggong(11) lap=4 point=2 t=65.591 et=600.927</Score>
+<Score et="602.6">DUO MEI(7) lap=4 point=2 t=66.363 et=602.494</Score>
+<Score et="603.3">lovepes2010(4) lap=4 point=2 t=65.849 et=603.229</Score>
+<Score et="604.6">OMGCA(13) lap=4 point=2 t=65.480 et=604.630</Score>
+<Score et="608.2">DumiBirdF(5) lap=4 point=2 t=66.357 et=608.085</Score>
+<Score et="608.9">smallbubble(10) lap=4 point=2 t=66.240 et=608.760</Score>
+<Score et="617.9">Parker Chen(14) lap=4 point=2 t=68.823 et=617.839</Score>
+<Score et="620.3">bob(12) lap=4 point=2 t=69.159 et=620.142</Score>
+<Score et="622.8">wagonggong(11) lap=5 point=0 t=87.181 et=622.516</Score>
+<Score et="624.2">MSC(9) lap=4 point=2 t=67.081 et=624.088</Score>
+<Score et="624.4">DUO MEI(7) lap=5 point=0 t=88.177 et=624.308</Score>
+<Score et="625.0">lovepes2010(4) lap=5 point=0 t=87.472 et=624.853</Score>
+<Score et="626.2">OMGCA(13) lap=5 point=0 t=87.022 et=626.172</Score>
+<Score et="630.2">DumiBirdF(5) lap=5 point=0 t=88.405 et=630.133</Score>
+<Score et="631.3">smallbubble(10) lap=5 point=0 t=87.957 et=630.477</Score>
+<Score et="640.9">Parker Chen(14) lap=5 point=0 t=91.811 et=640.827</Score>
+<Score et="642.4">bob(12) lap=5 point=0 t=91.338 et=642.320</Score>
+<Score et="646.1">MSC(9) lap=5 point=0 t=89.056 et=646.063</Score>
+<Score et="651.0">wagonggong(11) lap=5 point=1 t=28.304 et=650.820</Score>
+<Score et="652.9">DUO MEI(7) lap=5 point=1 t=28.537 et=652.845</Score>
+<Score et="653.6">lovepes2010(4) lap=5 point=1 t=28.636 et=653.489</Score>
+<Score et="654.8">OMGCA(13) lap=5 point=1 t=28.663 et=654.835</Score>
+<Score et="658.7">DumiBirdF(5) lap=5 point=1 t=28.443 et=658.577</Score>
+<Score et="659.3">smallbubble(10) lap=5 point=1 t=28.675 et=659.151</Score>
+<Score et="670.4">Parker Chen(14) lap=5 point=1 t=29.529 et=670.356</Score>
+<Score et="672.5">bob(12) lap=5 point=1 t=30.110 et=672.431</Score>
+<Score et="675.1">MSC(9) lap=5 point=1 t=28.946 et=675.010</Score>
+<Score et="688.3">wagonggong(11) lap=5 point=2 t=65.567 et=688.083</Score>
+<Score et="689.9">DUO MEI(7) lap=5 point=2 t=65.497 et=689.805</Score>
+<Score et="691.2">lovepes2010(4) lap=5 point=2 t=66.219 et=691.072</Score>
+<Score et="691.8">OMGCA(13) lap=5 point=2 t=65.656 et=691.828</Score>
+<Score et="696.2">DumiBirdF(5) lap=5 point=2 t=66.001 et=696.135</Score>
+<Score et="697.1">smallbubble(10) lap=5 point=2 t=66.395 et=696.872</Score>
+<Score et="709.1">Parker Chen(14) lap=5 point=2 t=68.131 et=708.958</Score>
+<Score et="709.9">wagonggong(11) lap=6 point=0 t=87.146 et=709.662</Score>
+<Score et="711.4">DUO MEI(7) lap=6 point=0 t=87.000 et=711.308</Score>
+<Score et="712.1">bob(12) lap=5 point=2 t=69.677 et=711.997</Score>
+<Score et="712.9">lovepes2010(4) lap=6 point=0 t=87.951 et=712.804</Score>
+<Score et="713.6">MSC(9) lap=5 point=2 t=67.450 et=713.513</Score>
+<Score et="713.6">OMGCA(13) lap=6 point=0 t=87.445 et=713.616</Score>
+<Score et="719.1">smallbubble(10) lap=6 point=0 t=88.366 et=718.843</Score>
+<Score et="721.7">DumiBirdF(5) lap=6 point=0 t=91.411 et=721.544</Score>
+<Score et="731.7">Parker Chen(14) lap=6 point=0 t=90.750 et=731.577</Score>
+<Score et="734.3">bob(12) lap=6 point=0 t=91.899 et=734.219</Score>
+<Score et="736.0">MSC(9) lap=6 point=0 t=89.900 et=735.963</Score>
+<Score et="738.2">wagonggong(11) lap=6 point=1 t=28.353 et=738.016</Score>
+<Score et="739.7">DUO MEI(7) lap=6 point=1 t=28.318 et=739.626</Score>
+<Score et="741.3">lovepes2010(4) lap=6 point=1 t=28.453 et=741.257</Score>
+<Score et="742.1">OMGCA(13) lap=6 point=1 t=28.467 et=742.083</Score>
+<Score et="747.7">smallbubble(10) lap=6 point=1 t=28.640 et=747.482</Score>
+<Score et="751.2">DumiBirdF(5) lap=6 point=1 t=29.483 et=751.027</Score>
+<Score et="761.0">Parker Chen(14) lap=6 point=1 t=29.331 et=760.907</Score>
+<Score et="763.8">bob(12) lap=6 point=1 t=29.414 et=763.633</Score>
+<Score et="765.1">MSC(9) lap=6 point=1 t=29.100 et=765.063</Score>
+<Score et="775.4">wagonggong(11) lap=6 point=2 t=65.455 et=775.118</Score>
+<Score et="776.9">DUO MEI(7) lap=6 point=2 t=65.462 et=776.770</Score>
+<Score et="778.9">lovepes2010(4) lap=6 point=2 t=66.010 et=778.814</Score>
+<Score et="779.5">OMGCA(13) lap=6 point=2 t=65.886 et=779.502</Score>
+<Score et="785.1">smallbubble(10) lap=6 point=2 t=66.092 et=784.935</Score>
+<Score et="788.7">DumiBirdF(5) lap=6 point=2 t=67.036 et=788.580</Score>
+<Score et="797.0">wagonggong(11) lap=7 point=0 t=87.112 et=796.774</Score>
+<Score et="798.6">DUO MEI(7) lap=7 point=0 t=87.243 et=798.551</Score>
+<Score et="799.3">Parker Chen(14) lap=6 point=2 t=67.608 et=799.185</Score>
+<Score et="800.6">lovepes2010(4) lap=7 point=0 t=87.751 et=800.555</Score>
+<Score et="801.3">OMGCA(13) lap=7 point=0 t=87.648 et=801.264</Score>
+<Score et="802.4">bob(12) lap=6 point=2 t=68.107 et=802.326</Score>
+<Score et="804.1">MSC(9) lap=6 point=2 t=67.992 et=803.955</Score>
+<Score et="807.0">smallbubble(10) lap=7 point=0 t=87.991 et=806.834</Score>
+<Score et="810.8">DumiBirdF(5) lap=7 point=0 t=89.151 et=810.695</Score>
+<Score et="821.4">Parker Chen(14) lap=7 point=0 t=89.681 et=821.258</Score>
+<Score et="824.5">bob(12) lap=7 point=0 t=90.155 et=824.374</Score>
+<Score et="825.3">wagonggong(11) lap=7 point=1 t=28.315 et=825.090</Score>
+<Score et="826.5">MSC(9) lap=7 point=0 t=90.432 et=826.396</Score>
+<Score et="827.3">DUO MEI(7) lap=7 point=1 t=28.672 et=827.223</Score>
+<Score et="829.1">lovepes2010(4) lap=7 point=1 t=28.426 et=828.981</Score>
+<Score et="829.9">OMGCA(13) lap=7 point=1 t=28.649 et=829.914</Score>
+<Score et="835.6">smallbubble(10) lap=7 point=1 t=28.546 et=835.380</Score>
+<Score et="839.4">DumiBirdF(5) lap=7 point=1 t=28.626 et=839.321</Score>
+<Score et="851.0">Parker Chen(14) lap=7 point=1 t=29.596 et=850.854</Score>
+<Score et="853.8">bob(12) lap=7 point=1 t=29.317 et=853.691</Score>
+<Score et="855.4">MSC(9) lap=7 point=1 t=28.864 et=855.260</Score>
+<Score et="862.4">wagonggong(11) lap=7 point=2 t=65.408 et=862.182</Score>
+<Score et="864.3">DUO MEI(7) lap=7 point=2 t=65.669 et=864.220</Score>
+<Score et="866.4">lovepes2010(4) lap=7 point=2 t=65.724 et=866.278</Score>
+<Score et="867.3">OMGCA(13) lap=7 point=2 t=66.033 et=867.297</Score>
+<Score et="873.1">smallbubble(10) lap=7 point=2 t=66.093 et=872.927</Score>
+<Score et="877.2">DumiBirdF(5) lap=7 point=2 t=66.407 et=877.101</Score>
+<Score et="884.0">wagonggong(11) lap=8 point=0 t=87.055 et=883.829</Score>
+<Score et="885.9">DUO MEI(7) lap=8 point=0 t=87.205 et=885.756</Score>
+<Score et="888.7">lovepes2010(4) lap=8 point=0 t=88.035 et=888.590</Score>
+<Score et="888.9">OMGCA(13) lap=8 point=0 t=87.651 et=888.915</Score>
+<Score et="889.5">Parker Chen(14) lap=7 point=2 t=68.090 et=889.348</Score>
+<Score et="893.2">bob(12) lap=7 point=2 t=68.711 et=893.086</Score>
+<Score et="894.0">MSC(9) lap=7 point=2 t=67.469 et=893.864</Score>
+<Score et="895.5">smallbubble(10) lap=8 point=0 t=87.799 et=894.633</Score>
+<Score et="899.1">DumiBirdF(5) lap=8 point=0 t=88.280 et=898.974</Score>
+<Score et="911.7">Parker Chen(14) lap=8 point=0 t=90.382 et=911.640</Score>
+<Score et="912.3">wagonggong(11) lap=8 point=1 t=28.302 et=912.131</Score>
+<Score et="914.3">DUO MEI(7) lap=8 point=1 t=28.385 et=914.141</Score>
+<Score et="915.4">bob(12) lap=8 point=0 t=90.890 et=915.264</Score>
+<Score et="915.9">MSC(9) lap=8 point=0 t=89.400 et=915.796</Score>
+<Score et="917.3">lovepes2010(4) lap=8 point=1 t=28.689 et=917.279</Score>
+<Score et="917.8">OMGCA(13) lap=8 point=1 t=28.819 et=917.734</Score>
+<Score et="923.6">smallbubble(10) lap=8 point=1 t=28.731 et=923.364</Score>
+<Score et="927.9">DumiBirdF(5) lap=8 point=1 t=28.722 et=927.696</Score>
+<Score et="940.8">Parker Chen(14) lap=8 point=1 t=29.086 et=940.726</Score>
+<Score et="945.8">bob(12) lap=8 point=1 t=30.391 et=945.655</Score>
+<Score et="945.8">MSC(9) lap=8 point=1 t=29.933 et=945.729</Score>
+<Score et="949.4">wagonggong(11) lap=8 point=2 t=65.297 et=949.126</Score>
+<Score et="951.4">DUO MEI(7) lap=8 point=2 t=65.560 et=951.316</Score>
+<Score et="954.8">lovepes2010(4) lap=8 point=2 t=66.162 et=954.752</Score>
+<Score et="955.2">OMGCA(13) lap=8 point=2 t=66.313 et=955.228</Score>
+<Score et="961.3">smallbubble(10) lap=8 point=2 t=66.479 et=961.112</Score>
+<Score et="965.6">DumiBirdF(5) lap=8 point=2 t=66.511 et=965.485</Score>
+<Score et="971.9">wagonggong(11) lap=9 point=0 t=87.059 et=970.888</Score>
+<Score et="973.1">DUO MEI(7) lap=9 point=0 t=87.211 et=972.967</Score>
+<Score et="976.5">lovepes2010(4) lap=9 point=0 t=87.811 et=976.400</Score>
+<Score et="977.0">OMGCA(13) lap=9 point=0 t=88.040 et=976.955</Score>
+<Score et="979.6">Parker Chen(14) lap=8 point=2 t=67.892 et=979.532</Score>
+<Score et="983.7">smallbubble(10) lap=9 point=0 t=88.927 et=983.560</Score>
+<Score et="985.0">bob(12) lap=8 point=2 t=69.572 et=984.836</Score>
+<Score et="985.8">MSC(9) lap=8 point=2 t=69.879 et=985.675</Score>
+<Score et="987.5">DumiBirdF(5) lap=9 point=0 t=88.386 et=987.360</Score>
+<Score et="999.3">wagonggong(11) lap=9 point=1 t=28.276 et=999.164</Score>
+<Score et="1001.5">DUO MEI(7) lap=9 point=1 t=28.411 et=1001.378</Score>
+<Score et="1002.1">Parker Chen(14) lap=9 point=0 t=90.390 et=1002.030</Score>
+<Score et="1004.9">lovepes2010(4) lap=9 point=1 t=28.452 et=1004.853</Score>
+<Score et="1005.5">OMGCA(13) lap=9 point=1 t=28.507 et=1005.462</Score>
+<Score et="1008.0">MSC(9) lap=9 point=0 t=92.091 et=1007.887</Score>
+<Score et="1008.1">bob(12) lap=9 point=0 t=92.690 et=1007.954</Score>
+<Score et="1012.5">smallbubble(10) lap=9 point=1 t=28.738 et=1012.298</Score>
+<Score et="1016.2">DumiBirdF(5) lap=9 point=1 t=28.651 et=1016.011</Score>
+<Score et="1031.2">Parker Chen(14) lap=9 point=1 t=29.031 et=1031.060</Score>
+<Score et="1036.5">wagonggong(11) lap=9 point=2 t=65.420 et=1036.308</Score>
+<Score et="1036.9">MSC(9) lap=9 point=1 t=28.980 et=1036.867</Score>
+<Score et="1037.8">bob(12) lap=9 point=1 t=29.726 et=1037.680</Score>
+<Score et="1038.7">DUO MEI(7) lap=9 point=2 t=65.627 et=1038.594</Score>
+<Score et="1042.5">OMGCA(13) lap=9 point=2 t=65.511 et=1042.466</Score>
+<Score et="1042.8">lovepes2010(4) lap=9 point=2 t=66.312 et=1042.713</Score>
+<Score et="1050.0">smallbubble(10) lap=9 point=2 t=66.261 et=1049.821</Score>
+<Score et="1053.5">DumiBirdF(5) lap=9 point=2 t=65.972 et=1053.332</Score>
+<Score et="1058.4">wagonggong(11) lap=10 point=0 t=87.137 et=1058.025</Score>
+<Score et="1060.2">DUO MEI(7) lap=10 point=0 t=87.138 et=1060.105</Score>
+<Score et="1064.0">OMGCA(13) lap=10 point=0 t=87.056 et=1064.011</Score>
+<Score et="1064.6">lovepes2010(4) lap=10 point=0 t=88.109 et=1064.510</Score>
+<Score et="1070.3">Parker Chen(14) lap=9 point=2 t=68.160 et=1070.190</Score>
+<Score et="1071.9">smallbubble(10) lap=10 point=0 t=88.175 et=1071.735</Score>
+<Score et="1075.3">DumiBirdF(5) lap=10 point=0 t=87.805 et=1075.165</Score>
+<Score et="1077.5">bob(12) lap=9 point=2 t=69.425 et=1077.379</Score>
+<Score et="1079.6">MSC(9) lap=9 point=2 t=71.581 et=1079.467</Score>
+<Score et="1086.4">wagonggong(11) lap=10 point=1 t=28.225 et=1086.250</Score>
+<Score et="1088.5">DUO MEI(7) lap=10 point=1 t=28.331 et=1088.436</Score>
+<Score et="1092.8">OMGCA(13) lap=10 point=1 t=28.742 et=1092.753</Score>
+<Score et="1092.9">Parker Chen(14) lap=10 point=0 t=90.759 et=1092.788</Score>
+<Score et="1093.3">lovepes2010(4) lap=10 point=1 t=28.733 et=1093.243</Score>
+<Score et="1099.8">bob(12) lap=10 point=0 t=91.716 et=1099.670</Score>
+<Score et="1100.6">smallbubble(10) lap=10 point=1 t=28.616 et=1100.352</Score>
+<Score et="1102.0">MSC(9) lap=10 point=0 t=94.046 et=1101.933</Score>
+<Score et="1103.9">DumiBirdF(5) lap=10 point=1 t=28.643 et=1103.808</Score>
+<Score et="1122.1">Parker Chen(14) lap=10 point=1 t=29.153 et=1121.941</Score>
+<Score et="1123.6">wagonggong(11) lap=10 point=2 t=65.406 et=1123.431</Score>
+<Score et="1125.3">DUO MEI(7) lap=10 point=2 t=65.066 et=1125.171</Score>
+<Score et="1129.2">bob(12) lap=10 point=1 t=29.405 et=1129.075</Score>
+<Score et="1130.1">OMGCA(13) lap=10 point=2 t=66.070 et=1130.081</Score>
+<Score et="1130.5">lovepes2010(4) lap=10 point=2 t=65.935 et=1130.444</Score>
+<Score et="1131.3">MSC(9) lap=10 point=1 t=29.240 et=1131.173</Score>
+<Score et="1138.0">smallbubble(10) lap=10 point=2 t=66.036 et=1137.771</Score>
+<Score et="1141.2">DumiBirdF(5) lap=10 point=2 t=65.973 et=1141.138</Score>
+<Score et="1145.4">wagonggong(11) lap=11 point=0 t=87.042 et=1145.067</Score>
+<Score et="1149.5">DUO MEI(7) lap=11 point=0 t=89.262 et=1149.367</Score>
+<Score et="1152.0">OMGCA(13) lap=11 point=0 t=87.939 et=1151.951</Score>
+<Score et="1152.4">lovepes2010(4) lap=11 point=0 t=87.735 et=1152.245</Score>
+<Score et="1159.7">smallbubble(10) lap=11 point=0 t=87.742 et=1159.477</Score>
+<Score et="1160.4">Parker Chen(14) lap=10 point=2 t=67.549 et=1160.337</Score>
+<Incident et="1161.1">MSC(9) reported contact (0.32) with another vehicle bob(12)</Incident>
+<Incident et="1161.1">MSC(9) reported contact (1.00) with Wing</Incident>
+<Incident et="1161.1">MSC(9) reported contact (0.16) with Wing</Incident>
+<Incident et="1161.2">bob(12) reported contact (0.29) with another vehicle MSC(9)</Incident>
+<Score et="1167.2">DumiBirdF(5) lap=11 point=0 t=91.946 et=1167.111</Score>
+<Score et="1169.8">bob(12) lap=10 point=2 t=70.057 et=1169.727</Score>
+<Score et="1173.5">wagonggong(11) lap=11 point=1 t=28.260 et=1173.326</Score>
+<Score et="1174.1">MSC(9) lap=10 point=2 t=72.043 et=1173.975</Score>
+<Score et="1180.5">OMGCA(13) lap=11 point=1 t=28.576 et=1180.526</Score>
+<Score et="1181.1">lovepes2010(4) lap=11 point=1 t=28.812 et=1181.056</Score>
+<Score et="1182.5">Parker Chen(14) lap=11 point=0 t=89.578 et=1182.366</Score>
+<Score et="1188.3">smallbubble(10) lap=11 point=1 t=28.595 et=1188.072</Score>
+<Score et="1192.4">bob(12) lap=11 point=0 t=92.605 et=1192.274</Score>
+<Score et="1203.3">MSC(9) lap=11 point=0 t=101.244 et=1203.177</Score>
+<Score et="1203.7">DUO MEI(7) lap=11 point=1 t=54.285 et=1203.651</Score>
+<Score et="1210.8">wagonggong(11) lap=11 point=2 t=65.510 et=1210.577</Score>
+<Score et="1211.7">Parker Chen(14) lap=11 point=1 t=29.248 et=1211.614</Score>
+<Score et="1218.0">OMGCA(13) lap=11 point=2 t=65.988 et=1217.938</Score>
+<Score et="1219.2">lovepes2010(4) lap=11 point=2 t=66.848 et=1219.092</Score>
+<Score et="1222.5">bob(12) lap=11 point=1 t=30.077 et=1222.351</Score>
+<Score et="1223.4">DumiBirdF(5) lap=11 point=1 t=56.224 et=1223.335</Score>
+<Score et="1226.0">smallbubble(10) lap=11 point=2 t=66.326 et=1225.803</Score>
+<Score et="1235.8">wagonggong(11) lap=12 point=0 t=90.445 et=1235.511</Score>
+<Incident et="1239.0">OMGCA(13) reported contact (1.00) with Sign</Incident>
+<Incident et="1239.1">OMGCA(13) reported contact (0.06) with Sign</Incident>
+<Incident et="1239.1">OMGCA(13) reported contact (0.13) with Sign</Incident>
+<Score et="1240.8">lovepes2010(4) lap=12 point=0 t=88.404 et=1240.649</Score>
+<Score et="1241.5">DUO MEI(7) lap=11 point=2 t=92.101 et=1241.468</Score>
+<Score et="1242.9">OMGCA(13) lap=12 point=0 t=90.938 et=1242.889</Score>
+<Score et="1247.7">smallbubble(10) lap=12 point=0 t=88.062 et=1247.539</Score>
+<Score et="1250.8">Parker Chen(14) lap=11 point=2 t=68.307 et=1250.673</Score>
+<Score et="1260.1">MSC(9) lap=11 point=1 t=56.898 et=1260.075</Score>
+<Score et="1262.4">DumiBirdF(5) lap=11 point=2 t=95.153 et=1262.264</Score>
+<Score et="1262.4">bob(12) lap=11 point=2 t=70.038 et=1262.313</Score>
+<Score et="1263.5">DUO MEI(7) lap=12 point=0 t=114.077 et=1263.444</Score>
+<Score et="1269.1">lovepes2010(4) lap=12 point=1 t=28.329 et=1268.978</Score>
+<Score et="1276.0">Parker Chen(14) lap=12 point=0 t=93.542 et=1275.908</Score>
+<Score et="1276.3">smallbubble(10) lap=12 point=1 t=28.571 et=1276.111</Score>
+<Score et="1285.4">DumiBirdF(5) lap=12 point=0 t=118.218 et=1285.329</Score>
+<Score et="1285.7">bob(12) lap=12 point=0 t=93.361 et=1285.636</Score>
+<Score et="1290.1">wagonggong(11) lap=12 point=1 t=54.374 et=1289.885</Score>
+<Score et="1292.1">DUO MEI(7) lap=12 point=1 t=28.567 et=1292.010</Score>
+<Score et="1298.9">OMGCA(13) lap=12 point=1 t=55.967 et=1298.855</Score>
+<Score et="1299.6">MSC(9) lap=11 point=2 t=96.323 et=1299.500</Score>
+<Score et="1306.5">lovepes2010(4) lap=12 point=2 t=65.810 et=1306.459</Score>
+<Score et="1314.1">smallbubble(10) lap=12 point=2 t=66.352 et=1313.891</Score>
+<Score et="1314.6">DumiBirdF(5) lap=12 point=1 t=29.177 et=1314.506</Score>
+<Score et="1316.2">bob(12) lap=12 point=1 t=30.471 et=1316.106</Score>
+<Score et="1322.1">MSC(9) lap=12 point=0 t=118.807 et=1321.985</Score>
+<Score et="1328.3">wagonggong(11) lap=12 point=2 t=92.383 et=1327.894</Score>
+<Score et="1329.2">DUO MEI(7) lap=12 point=2 t=65.709 et=1329.153</Score>
+<Score et="1332.8">lovepes2010(4) lap=13 point=0 t=92.081 et=1332.730</Score>
+<Score et="1335.8">smallbubble(10) lap=13 point=0 t=88.061 et=1335.600</Score>
+<Score et="1336.9">OMGCA(13) lap=12 point=2 t=93.965 et=1336.853</Score>
+<Score et="1341.3">Parker Chen(14) lap=12 point=1 t=65.327 et=1341.235</Score>
+<Score et="1350.9">wagonggong(11) lap=13 point=0 t=114.430 et=1349.941</Score>
+<Score et="1351.1">MSC(9) lap=12 point=1 t=29.025 et=1351.010</Score>
+<Score et="1351.1">DUO MEI(7) lap=13 point=0 t=87.579 et=1351.023</Score>
+<Score et="1352.7">DumiBirdF(5) lap=12 point=2 t=67.293 et=1352.622</Score>
+<Score et="1356.0">bob(12) lap=12 point=2 t=70.273 et=1355.909</Score>
+<Score et="1358.7">OMGCA(13) lap=13 point=0 t=115.810 et=1358.699</Score>
+<Score et="1364.5">smallbubble(10) lap=13 point=1 t=28.660 et=1364.260</Score>
+<Score et="1375.3">DumiBirdF(5) lap=13 point=0 t=89.878 et=1375.207</Score>
+<Score et="1378.8">wagonggong(11) lap=13 point=1 t=28.555 et=1378.496</Score>
+<Score et="1379.6">DUO MEI(7) lap=13 point=1 t=28.494 et=1379.517</Score>
+<Score et="1380.7">Parker Chen(14) lap=12 point=2 t=104.708 et=1380.616</Score>
+<Score et="1382.7">bob(12) lap=13 point=0 t=96.988 et=1382.624</Score>
+<Score et="1386.1">lovepes2010(4) lap=13 point=1 t=53.287 et=1386.017</Score>
+<Score et="1387.2">OMGCA(13) lap=13 point=1 t=28.497 et=1387.197</Score>
+<Score et="1390.5">MSC(9) lap=12 point=2 t=68.383 et=1390.367</Score>
+<Score et="1402.2">smallbubble(10) lap=13 point=2 t=66.376 et=1401.977</Score>
+<Score et="1403.8">Parker Chen(14) lap=13 point=0 t=127.753 et=1403.661</Score>
+<Score et="1404.2">DumiBirdF(5) lap=13 point=1 t=28.887 et=1404.094</Score>
+<Score et="1412.7">MSC(9) lap=13 point=0 t=90.616 et=1412.601</Score>
+<Score et="1416.5">wagonggong(11) lap=13 point=2 t=66.196 et=1416.137</Score>
+<Score et="1416.9">DUO MEI(7) lap=13 point=2 t=65.748 et=1416.771</Score>
+<Score et="1424.1">lovepes2010(4) lap=13 point=2 t=91.242 et=1423.972</Score>
+<Score et="1424.8">OMGCA(13) lap=13 point=2 t=66.078 et=1424.777</Score>
+<Score et="1427.0">smallbubble(10) lap=14 point=0 t=91.184 et=1426.785</Score>
+<Score et="1433.2">Parker Chen(14) lap=13 point=1 t=29.466 et=1433.128</Score>
+<Score et="1437.7">bob(12) lap=13 point=1 t=55.017 et=1437.641</Score>
+<Score et="1438.5">DUO MEI(7) lap=14 point=0 t=87.333 et=1438.356</Score>
+<Score et="1441.3">wagonggong(11) lap=14 point=0 t=88.206 et=1438.147</Score>
+<Score et="1442.0">MSC(9) lap=13 point=1 t=29.276 et=1441.877</Score>
+<Score et="1442.7">DumiBirdF(5) lap=13 point=2 t=67.383 et=1442.590</Score>
+<Score et="1445.8">lovepes2010(4) lap=14 point=0 t=112.993 et=1445.724</Score>
+<Score et="1446.4">OMGCA(13) lap=14 point=0 t=87.716 et=1446.415</Score>
+<Score et="1464.7">DumiBirdF(5) lap=14 point=0 t=89.343 et=1464.550</Score>
+<Score et="1467.1">DUO MEI(7) lap=14 point=1 t=28.688 et=1467.044</Score>
+<Score et="1472.6">Parker Chen(14) lap=13 point=2 t=68.799 et=1472.460</Score>
+<Score et="1474.5">lovepes2010(4) lap=14 point=1 t=28.639 et=1474.362</Score>
+<Score et="1474.9">OMGCA(13) lap=14 point=1 t=28.476 et=1474.891</Score>
+<Score et="1477.4">bob(12) lap=13 point=2 t=94.634 et=1477.258</Score>
+<Score et="1479.6">smallbubble(10) lap=14 point=1 t=52.676 et=1479.461</Score>
+<Score et="1480.7">MSC(9) lap=13 point=2 t=68.039 et=1480.639</Score>
+<Score et="1493.3">DumiBirdF(5) lap=14 point=1 t=28.646 et=1493.197</Score>
+<Score et="1495.0">Parker Chen(14) lap=14 point=0 t=91.251 et=1494.912</Score>
+<Score et="1500.2">bob(12) lap=14 point=0 t=117.457 et=1500.081</Score>
+<Score et="1503.5">MSC(9) lap=14 point=0 t=90.827 et=1503.428</Score>
+<Score et="1503.9">wagonggong(11) lap=14 point=2 t=65.618 et=1503.765</Score>
+<Score et="1508.4">DUO MEI(7) lap=14 point=2 t=69.933 et=1508.289</Score>
+<Score et="1512.1">lovepes2010(4) lap=14 point=2 t=66.318 et=1512.041</Score>
+<Score et="1512.8">OMGCA(13) lap=14 point=2 t=66.349 et=1512.765</Score>
+<Score et="1517.6">smallbubble(10) lap=14 point=2 t=90.583 et=1517.368</Score>
+<Score et="1524.0">Parker Chen(14) lap=14 point=1 t=28.986 et=1523.898</Score>
+<Score et="1529.5">bob(12) lap=14 point=1 t=29.313 et=1529.395</Score>
+<Score et="1530.2">DUO MEI(7) lap=15 point=0 t=91.725 et=1530.081</Score>
+<Score et="1531.4">DumiBirdF(5) lap=14 point=2 t=66.722 et=1531.272</Score>
+<Score et="1531.6">wagonggong(11) lap=15 point=0 t=87.425 et=1525.572</Score>
+<Score et="1533.0">MSC(9) lap=14 point=1 t=29.434 et=1532.861</Score>
+<Score et="1533.6">lovepes2010(4) lap=15 point=0 t=87.780 et=1533.504</Score>
+<Score et="1534.4">OMGCA(13) lap=15 point=0 t=87.922 et=1534.338</Score>
+<Score et="1539.7">smallbubble(10) lap=15 point=0 t=112.738 et=1539.523</Score>
+<Score et="1554.0">wagonggong(11) lap=15 point=1 t=28.294 et=1553.865</Score>
+<Score et="1558.7">DUO MEI(7) lap=15 point=1 t=28.572 et=1558.652</Score>
+<Score et="1559.1">DumiBirdF(5) lap=15 point=0 t=88.844 et=1553.394</Score>
+<Score et="1562.0">lovepes2010(4) lap=15 point=1 t=28.363 et=1561.867</Score>
+<Score et="1562.8">Parker Chen(14) lap=14 point=2 t=67.782 et=1562.694</Score>
+<Score et="1562.9">OMGCA(13) lap=15 point=1 t=28.572 et=1562.909</Score>
+<Score et="1568.4">smallbubble(10) lap=15 point=1 t=28.602 et=1568.125</Score>
+<Score et="1569.3">bob(12) lap=14 point=2 t=69.139 et=1569.221</Score>
+<Score et="1571.8">MSC(9) lap=14 point=2 t=68.211 et=1571.639</Score>
+<Score et="1584.9">Parker Chen(14) lap=15 point=0 t=89.883 et=1584.795</Score>
+<Score et="1591.2">wagonggong(11) lap=15 point=2 t=65.474 et=1591.045</Score>
+<Score et="1592.0">bob(12) lap=15 point=0 t=91.869 et=1591.950</Score>
+<Score et="1594.3">MSC(9) lap=15 point=0 t=90.751 et=1594.178</Score>
+<Score et="1595.9">DUO MEI(7) lap=15 point=2 t=65.736 et=1595.817</Score>
+<Score et="1599.5">lovepes2010(4) lap=15 point=2 t=65.860 et=1599.364</Score>
+<Score et="1600.3">OMGCA(13) lap=15 point=2 t=65.920 et=1600.257</Score>
+<Score et="1606.4">smallbubble(10) lap=15 point=2 t=66.646 et=1606.169</Score>
+<Score et="1613.1">wagonggong(11) lap=16 point=0 t=87.208 et=1612.779</Score>
+<Score et="1614.7">Parker Chen(14) lap=15 point=1 t=29.837 et=1614.632</Score>
+<Score et="1617.7">DUO MEI(7) lap=16 point=0 t=87.482 et=1617.562</Score>
+<Score et="1619.8">DumiBirdF(5) lap=15 point=2 t=66.318 et=1619.713</Score>
+<Score et="1621.1">lovepes2010(4) lap=16 point=0 t=87.497 et=1621.001</Score>
+<Score et="1621.5">bob(12) lap=15 point=1 t=29.420 et=1621.370</Score>
+<Score et="1621.8">OMGCA(13) lap=16 point=0 t=87.402 et=1621.740</Score>
+<Score et="1623.6">MSC(9) lap=15 point=1 t=29.305 et=1623.483</Score>
+<Score et="1628.1">smallbubble(10) lap=16 point=0 t=88.410 et=1627.933</Score>
+<Score et="1641.3">wagonggong(11) lap=16 point=1 t=28.365 et=1641.145</Score>
+<Score et="1641.7">DumiBirdF(5) lap=16 point=0 t=88.168 et=1641.562</Score>
+<Score et="1646.2">DUO MEI(7) lap=16 point=1 t=28.552 et=1646.115</Score>
+<Score et="1649.5">lovepes2010(4) lap=16 point=1 t=28.397 et=1649.398</Score>
+<Score et="1650.4">OMGCA(13) lap=16 point=1 t=28.640 et=1650.380</Score>
+<Score et="1654.5">Parker Chen(14) lap=15 point=2 t=69.618 et=1654.413</Score>
+<Score et="1656.7">smallbubble(10) lap=16 point=1 t=28.626 et=1656.559</Score>
+<Score et="1661.7">MSC(9) lap=15 point=2 t=67.445 et=1661.624</Score>
+<Score et="1662.6">bob(12) lap=15 point=2 t=70.532 et=1662.482</Score>
+<Score et="1670.2">DumiBirdF(5) lap=16 point=1 t=28.483 et=1670.046</Score>
+<Score et="1676.4">Parker Chen(14) lap=16 point=0 t=91.544 et=1676.339</Score>
+<Score et="1678.8">wagonggong(11) lap=16 point=2 t=65.854 et=1678.634</Score>
+<Score et="1683.4">DUO MEI(7) lap=16 point=2 t=65.769 et=1683.332</Score>
+<Score et="1684.2">MSC(9) lap=16 point=0 t=89.884 et=1684.062</Score>
+<Score et="1686.6">bob(12) lap=16 point=0 t=94.558 et=1686.508</Score>
+<Score et="1686.9">lovepes2010(4) lap=16 point=2 t=65.745 et=1686.746</Score>
+<Score et="1687.5">OMGCA(13) lap=16 point=2 t=65.711 et=1687.451</Score>
+<Score et="1694.2">smallbubble(10) lap=16 point=2 t=66.094 et=1694.027</Score>
+<Score et="1700.8">wagonggong(11) lap=17 point=0 t=87.668 et=1700.448</Score>
+<Score et="1705.1">DUO MEI(7) lap=17 point=0 t=87.404 et=1704.967</Score>
+<Score et="1705.8">Parker Chen(14) lap=16 point=1 t=29.315 et=1705.654</Score>
+<Score et="1708.1">DumiBirdF(5) lap=16 point=2 t=66.483 et=1708.046</Score>
+<Score et="1708.7">lovepes2010(4) lap=17 point=0 t=87.621 et=1708.622</Score>
+<Score et="1709.0">OMGCA(13) lap=17 point=0 t=87.242 et=1708.982</Score>
+<Score et="1713.3">MSC(9) lap=16 point=1 t=29.152 et=1713.214</Score>
+<Score et="1715.7">bob(12) lap=16 point=1 t=29.110 et=1715.618</Score>
+<Score et="1715.8">smallbubble(10) lap=17 point=0 t=87.682 et=1715.615</Score>
+<Score et="1729.1">wagonggong(11) lap=17 point=1 t=28.492 et=1728.940</Score>
+<Score et="1730.2">DumiBirdF(5) lap=17 point=0 t=88.502 et=1730.064</Score>
+<Score et="1733.6">DUO MEI(7) lap=17 point=1 t=28.524 et=1733.491</Score>
+<Score et="1737.9">lovepes2010(4) lap=17 point=1 t=29.232 et=1737.854</Score>
+<Score et="1738.1">OMGCA(13) lap=17 point=1 t=29.056 et=1738.037</Score>
+<Score et="1744.8">Parker Chen(14) lap=16 point=2 t=68.368 et=1744.707</Score>
+<Score et="1751.9">MSC(9) lap=16 point=2 t=67.726 et=1751.788</Score>
+<Score et="1755.2">bob(12) lap=16 point=2 t=68.542 et=1755.049</Score>
+<Score et="1758.7">DumiBirdF(5) lap=17 point=1 t=28.508 et=1758.572</Score>
+<Score et="1766.4">wagonggong(11) lap=17 point=2 t=65.703 et=1766.151</Score>
+<Score et="1768.9">Parker Chen(14) lap=17 point=0 t=92.502 et=1768.842</Score>
+<Score et="1770.5">DUO MEI(7) lap=17 point=2 t=65.444 et=1770.411</Score>
+<Score et="1774.6">MSC(9) lap=17 point=0 t=90.417 et=1774.479</Score>
+<Score et="1775.6">lovepes2010(4) lap=17 point=2 t=66.924 et=1775.546</Score>
+<Score et="1775.9">OMGCA(13) lap=17 point=2 t=66.852 et=1775.833</Score>
+<Score et="1778.0">bob(12) lap=17 point=0 t=91.356 et=1777.863</Score>
+<Score et="1788.0">wagonggong(11) lap=18 point=0 t=87.318 et=1787.766</Score>
+<Score et="1792.3">DUO MEI(7) lap=18 point=0 t=87.204 et=1792.171</Score>
+<Score et="1797.0">DumiBirdF(5) lap=17 point=2 t=66.826 et=1796.890</Score>
+<Score et="1797.8">OMGCA(13) lap=18 point=0 t=88.791 et=1797.772</Score>
+<Score et="1797.8">lovepes2010(4) lap=18 point=0 t=89.138 et=1797.760</Score>
+<Score et="1798.3">Parker Chen(14) lap=17 point=1 t=29.383 et=1798.225</Score>
+<Score et="1803.7">smallbubble(10) lap=18 point=0 t=87.906 et=1803.521</Score>
+<Score et="1803.8">MSC(9) lap=17 point=1 t=29.216 et=1803.695</Score>
+<Score et="1807.3">bob(12) lap=17 point=1 t=29.400 et=1807.263</Score>
+<Score et="1816.2">wagonggong(11) lap=18 point=1 t=28.244 et=1816.010</Score>
+<Score et="1818.9">DumiBirdF(5) lap=18 point=0 t=88.778 et=1818.842</Score>
+<Score et="1821.2">DUO MEI(7) lap=18 point=1 t=28.970 et=1821.141</Score>
+<Score et="1826.9">lovepes2010(4) lap=18 point=1 t=29.048 et=1826.809</Score>
+<Score et="1827.0">OMGCA(13) lap=18 point=1 t=29.182 et=1826.954</Score>
+<Score et="1847.0">bob(12) lap=17 point=2 t=69.027 et=1846.890</Score>
+<Score et="1847.4">DumiBirdF(5) lap=18 point=1 t=28.445 et=1847.287</Score>
+<Chat et="1850.5">OMGCA: fuck you win10</Chat>
+<Score et="1853.4">wagonggong(11) lap=18 point=2 t=65.439 et=1853.205</Score>
+<Score et="1858.6">DUO MEI(7) lap=18 point=2 t=66.301 et=1858.471</Score>
+<Score et="1859.6">Parker Chen(14) lap=18 point=0 t=90.669 et=1859.511</Score>
+<Score et="1864.3">lovepes2010(4) lap=18 point=2 t=66.401 et=1864.161</Score>
+<Score et="1864.5">MSC(9) lap=18 point=0 t=89.910 et=1864.389</Score>
+<Score et="1869.2">bob(12) lap=18 point=0 t=91.259 et=1869.122</Score>
+<Score et="1870.0">smallbubble(10) lap=18 point=2 t=66.315 et=1869.836</Score>
+<Score et="1875.2">wagonggong(11) lap=19 point=0 t=87.148 et=1874.914</Score>
+<Score et="1880.3">DUO MEI(7) lap=19 point=0 t=88.033 et=1880.203</Score>
+<Score et="1885.5">DumiBirdF(5) lap=18 point=2 t=66.515 et=1885.357</Score>
+<Score et="1885.9">lovepes2010(4) lap=19 point=0 t=88.100 et=1885.860</Score>
+<Score et="1888.7">OMGCA(13) lap=18 point=2 t=90.903 et=1888.675</Score>
+<Score et="1888.8">Parker Chen(14) lap=18 point=1 t=29.157 et=1888.668</Score>
+<Score et="1891.6">smallbubble(10) lap=19 point=0 t=87.874 et=1891.395</Score>
+<Score et="1893.6">MSC(9) lap=18 point=1 t=29.166 et=1893.556</Score>
+<Score et="1899.0">bob(12) lap=18 point=1 t=29.776 et=1898.899</Score>
+<Score et="1903.6">wagonggong(11) lap=19 point=1 t=28.470 et=1903.384</Score>
+<Score et="1907.6">DumiBirdF(5) lap=19 point=0 t=88.587 et=1907.430</Score>
+<Score et="1909.0">DUO MEI(7) lap=19 point=1 t=28.664 et=1908.867</Score>
+<Score et="1910.4">OMGCA(13) lap=19 point=0 t=112.604 et=1910.376</Score>
+<Score et="1914.3">lovepes2010(4) lap=19 point=1 t=28.394 et=1914.255</Score>
+<Score et="1919.9">smallbubble(10) lap=19 point=1 t=28.340 et=1919.735</Score>
+<Score et="1927.4">Parker Chen(14) lap=18 point=2 t=67.808 et=1927.319</Score>
+<Score et="1932.4">MSC(9) lap=18 point=2 t=67.920 et=1932.309</Score>
+<Score et="1936.2">DumiBirdF(5) lap=19 point=1 t=28.640 et=1936.070</Score>
+<Score et="1938.0">bob(12) lap=18 point=2 t=68.694 et=1937.817</Score>
+<Score et="1939.0">OMGCA(13) lap=19 point=1 t=28.562 et=1938.938</Score>
+<Score et="1941.0">wagonggong(11) lap=19 point=2 t=65.884 et=1940.798</Score>
+<Score et="1946.6">DUO MEI(7) lap=19 point=2 t=66.298 et=1946.502</Score>
+<Score et="1949.9">Parker Chen(14) lap=19 point=0 t=90.271 et=1949.782</Score>
+<Score et="1951.9">lovepes2010(4) lap=19 point=2 t=65.993 et=1951.853</Score>
+<Score et="1954.5">MSC(9) lap=19 point=0 t=90.065 et=1954.454</Score>
+<Score et="1957.2">smallbubble(10) lap=19 point=2 t=65.599 et=1956.995</Score>
+<Score et="1960.9">bob(12) lap=19 point=0 t=91.606 et=1960.729</Score>
+<Score et="1963.0">wagonggong(11) lap=20 point=0 t=87.741 et=1962.655</Score>
+<Score et="1968.4">DUO MEI(7) lap=20 point=0 t=88.069 et=1968.273</Score>
+<Score et="1973.5">lovepes2010(4) lap=20 point=0 t=87.514 et=1973.374</Score>
+<Score et="1974.3">DumiBirdF(5) lap=19 point=2 t=66.829 et=1974.259</Score>
+<Score et="1976.0">OMGCA(13) lap=19 point=2 t=65.652 et=1976.028</Score>
+<Score et="1978.7">smallbubble(10) lap=20 point=0 t=87.161 et=1978.556</Score>
+<Score et="1979.1">Parker Chen(14) lap=19 point=1 t=29.212 et=1978.994</Score>
+<Score et="1984.9">MSC(9) lap=19 point=1 t=30.310 et=1984.764</Score>
+<Score et="1991.2">wagonggong(11) lap=20 point=1 t=28.376 et=1991.031</Score>
+<Score et="1992.4">bob(12) lap=19 point=1 t=31.505 et=1992.234</Score>
+<Score et="1996.4">DumiBirdF(5) lap=20 point=0 t=88.795 et=1996.225</Score>
+<Score et="1996.9">DUO MEI(7) lap=20 point=1 t=28.523 et=1996.796</Score>
+<Score et="1997.8">OMGCA(13) lap=20 point=0 t=87.408 et=1997.784</Score>
+<Score et="2001.5">lovepes2010(4) lap=20 point=1 t=28.077 et=2001.451</Score>
+<Score et="2007.1">smallbubble(10) lap=20 point=1 t=28.372 et=2006.928</Score>
+<Score et="2018.1">Parker Chen(14) lap=19 point=2 t=68.239 et=2018.021</Score>
+<Score et="2023.6">MSC(9) lap=19 point=2 t=69.019 et=2023.473</Score>
+<Score et="2024.8">DumiBirdF(5) lap=20 point=1 t=28.484 et=2024.709</Score>
+<Score et="2026.7">OMGCA(13) lap=20 point=1 t=28.871 et=2026.655</Score>
+<Score et="2028.3">wagonggong(11) lap=20 point=2 t=65.423 et=2028.078</Score>
+<Score et="2031.0">bob(12) lap=19 point=2 t=70.195 et=2030.924</Score>
+<Score et="2034.2">DUO MEI(7) lap=20 point=2 t=65.823 et=2034.096</Score>
+<Score et="2038.6">lovepes2010(4) lap=20 point=2 t=65.156 et=2038.530</Score>
+<Score et="2040.4">Parker Chen(14) lap=20 point=0 t=90.488 et=2040.270</Score>
+<Score et="2044.5">smallbubble(10) lap=20 point=2 t=65.798 et=2044.354</Score>
+<Score et="2045.9">MSC(9) lap=20 point=0 t=91.312 et=2045.766</Score>
+<Score et="2050.8">wagonggong(11) lap=21 point=0 t=87.171 et=2049.826</Score>
+<Score et="2054.2">bob(12) lap=20 point=0 t=93.378 et=2054.107</Score>
+<Score et="2055.8">DUO MEI(7) lap=21 point=0 t=87.481 et=2055.754</Score>
+<Score et="2060.0">lovepes2010(4) lap=21 point=0 t=86.553 et=2059.927</Score>
+<Score et="2062.3">DumiBirdF(5) lap=20 point=2 t=66.015 et=2062.240</Score>
+<Score et="2063.6">OMGCA(13) lap=20 point=2 t=65.826 et=2063.610</Score>
+<Score et="2066.1">smallbubble(10) lap=21 point=0 t=87.349 et=2065.905</Score>
+<Score et="2069.7">Parker Chen(14) lap=20 point=1 t=29.344 et=2069.615</Score>
+<Score et="2074.6">MSC(9) lap=20 point=1 t=28.703 et=2074.469</Score>
+<Score et="2078.6">wagonggong(11) lap=21 point=1 t=28.565 et=2078.391</Score>
+<Score et="2083.4">bob(12) lap=20 point=1 t=29.150 et=2083.257</Score>
+<Score et="2084.0">DumiBirdF(5) lap=21 point=0 t=87.661 et=2083.885</Score>
+<Score et="2084.6">DUO MEI(7) lap=21 point=1 t=28.722 et=2084.476</Score>
+<Score et="2085.1">OMGCA(13) lap=21 point=0 t=87.332 et=2085.115</Score>
+<Score et="2088.2">lovepes2010(4) lap=21 point=1 t=28.165 et=2088.092</Score>
+<Score et="2094.7">smallbubble(10) lap=21 point=1 t=28.509 et=2094.414</Score>
+<Score et="2108.5">Parker Chen(14) lap=20 point=2 t=68.080 et=2108.350</Score>
+<Score et="2112.3">DumiBirdF(5) lap=21 point=1 t=28.313 et=2112.199</Score>
+<Score et="2112.5">MSC(9) lap=20 point=2 t=66.587 et=2112.354</Score>
+<Score et="2113.4">OMGCA(13) lap=21 point=1 t=28.278 et=2113.393</Score>
+<Score et="2115.7">wagonggong(11) lap=21 point=2 t=65.665 et=2115.491</Score>
+<Score et="2121.9">DUO MEI(7) lap=21 point=2 t=66.036 et=2121.790</Score>
+<Score et="2124.0">bob(12) lap=20 point=2 t=69.796 et=2123.903</Score>
+<Score et="2125.3">lovepes2010(4) lap=21 point=2 t=65.247 et=2125.174</Score>
+<Score et="2130.4">Parker Chen(14) lap=21 point=0 t=90.059 et=2130.329</Score>
+<Score et="2131.9">smallbubble(10) lap=21 point=2 t=65.781 et=2131.686</Score>
+<Score et="2134.4">MSC(9) lap=21 point=0 t=88.566 et=2134.332</Score>
+<Score et="2137.3">wagonggong(11) lap=22 point=0 t=87.220 et=2137.047</Score>
+<Score et="2143.6">DUO MEI(7) lap=22 point=0 t=87.744 et=2143.498</Score>
+<Score et="2146.8">lovepes2010(4) lap=22 point=0 t=86.821 et=2146.748</Score>
+<Score et="2148.8">bob(12) lap=21 point=0 t=94.566 et=2148.672</Score>
+<Score et="2149.9">DumiBirdF(5) lap=21 point=2 t=65.942 et=2149.827</Score>
+<Score et="2150.7">OMGCA(13) lap=21 point=2 t=65.596 et=2150.711</Score>
+<Score et="2153.3">smallbubble(10) lap=22 point=0 t=87.257 et=2153.163</Score>
+<Score et="2159.2">Parker Chen(14) lap=21 point=1 t=28.699 et=2159.028</Score>
+<Score et="2163.4">MSC(9) lap=21 point=1 t=28.953 et=2163.284</Score>
+<Score et="2165.6">wagonggong(11) lap=22 point=1 t=28.367 et=2165.414</Score>
+<Score et="2172.0">DUO MEI(7) lap=22 point=1 t=28.380 et=2171.878</Score>
+<Score et="2172.0">DumiBirdF(5) lap=22 point=0 t=88.002 et=2171.887</Score>
+<Score et="2172.1">OMGCA(13) lap=22 point=0 t=87.004 et=2172.119</Score>
+<Score et="2175.2">lovepes2010(4) lap=22 point=1 t=28.396 et=2175.145</Score>
+<Score et="2179.0">bob(12) lap=21 point=1 t=30.167 et=2178.839</Score>
+<Score et="2181.9">smallbubble(10) lap=22 point=1 t=28.535 et=2181.698</Score>
+<Score et="2197.4">Parker Chen(14) lap=21 point=2 t=66.948 et=2197.277</Score>
+<Score et="2200.8">OMGCA(13) lap=22 point=1 t=28.647 et=2200.766</Score>
+<Score et="2201.5">MSC(9) lap=21 point=2 t=67.021 et=2201.353</Score>
+<Score et="2202.4">DumiBirdF(5) lap=22 point=1 t=30.370 et=2202.258</Score>
+<Score et="2203.0">wagonggong(11) lap=22 point=2 t=65.739 et=2202.786</Score>
+<Score et="2208.9">DUO MEI(7) lap=22 point=2 t=65.332 et=2208.830</Score>
+<Score et="2212.7">lovepes2010(4) lap=22 point=2 t=65.846 et=2212.595</Score>
+<Score et="2218.5">bob(12) lap=21 point=2 t=69.772 et=2218.445</Score>
+<Score et="2219.4">smallbubble(10) lap=22 point=2 t=66.050 et=2219.212</Score>
+<Score et="2219.7">Parker Chen(14) lap=22 point=0 t=89.223 et=2219.552</Score>
+<Score et="2223.6">MSC(9) lap=22 point=0 t=89.179 et=2223.511</Score>
+<Score et="2224.7">wagonggong(11) lap=23 point=0 t=87.420 et=2224.466</Score>
+<Score et="2230.9">DUO MEI(7) lap=23 point=0 t=87.281 et=2230.779</Score>
+<Score et="2234.1">lovepes2010(4) lap=23 point=0 t=87.305 et=2234.053</Score>
+<Score et="2237.8">OMGCA(13) lap=22 point=2 t=65.686 et=2237.805</Score>
+<Score et="2240.1">DumiBirdF(5) lap=22 point=2 t=68.090 et=2239.977</Score>
+<Score et="2241.6">smallbubble(10) lap=23 point=0 t=88.281 et=2241.444</Score>
+<Score et="2242.8">bob(12) lap=22 point=0 t=94.072 et=2242.744</Score>
+<Score et="2249.6">Parker Chen(14) lap=22 point=1 t=29.894 et=2249.446</Score>
+<Score et="2253.1">wagonggong(11) lap=23 point=1 t=28.463 et=2252.929</Score>
+<Score et="2253.4">MSC(9) lap=22 point=1 t=29.742 et=2253.253</Score>
+<Score et="2259.2">DUO MEI(7) lap=23 point=1 t=28.362 et=2259.141</Score>
+<Score et="2259.4">OMGCA(13) lap=23 point=0 t=87.301 et=2259.420</Score>
+<Score et="2261.5">DumiBirdF(5) lap=23 point=0 t=89.505 et=2261.393</Score>
+<Score et="2262.4">lovepes2010(4) lap=23 point=1 t=28.298 et=2262.351</Score>
+<Score et="2270.0">smallbubble(10) lap=23 point=1 t=28.381 et=2269.825</Score>
+<Score et="2272.5">bob(12) lap=22 point=1 t=29.647 et=2272.391</Score>
+<Incident et="2280.6">lovepes2010(4) reported contact (0.35) with Sign</Incident>
+<Score et="2288.1">Parker Chen(14) lap=22 point=2 t=68.448 et=2288.000</Score>
+<Score et="2288.3">OMGCA(13) lap=23 point=1 t=28.823 et=2288.242</Score>
+<Score et="2289.9">DumiBirdF(5) lap=23 point=1 t=28.431 et=2289.824</Score>
+<Score et="2290.3">wagonggong(11) lap=23 point=2 t=65.646 et=2290.112</Score>
+<Score et="2292.3">MSC(9) lap=22 point=2 t=68.674 et=2292.185</Score>
+<Score et="2296.2">DUO MEI(7) lap=23 point=2 t=65.285 et=2296.064</Score>
+<Score et="2299.6">lovepes2010(4) lap=23 point=2 t=65.435 et=2299.489</Score>
+<Score et="2307.2">smallbubble(10) lap=23 point=2 t=65.611 et=2307.055</Score>
+<Score et="2309.9">Parker Chen(14) lap=23 point=0 t=90.272 et=2309.825</Score>
+<Score et="2312.2">Checkered for wagonggong, laps=24/24, endET=2311.907959/306254101833471170000000000000000000000.000000, crossedAfterTime=0</Score>
+<Score et="2312.2">wagonggong(11) lap=24 point=0 t=87.442 et=2311.908</Score>
+<Score et="2313.0">bob(12) lap=22 point=2 t=70.088 et=2312.832</Score>
+<Score et="2314.8">MSC(9) lap=23 point=0 t=91.213 et=2314.724</Score>
+<Score et="2317.6">DUO MEI(7) lap=24 point=0 t=86.683 et=2317.462</Score>
+<Score et="2321.1">lovepes2010(4) lap=24 point=0 t=86.917 et=2320.970</Score>
+<Chat et="2322.6">wagonggong: no firework tonight</Chat>
+<Score et="2325.4">OMGCA(13) lap=23 point=2 t=65.980 et=2325.400</Score>
+<Score et="2327.7">DumiBirdF(5) lap=23 point=2 t=66.188 et=2327.581</Score>
+<Score et="2328.8">smallbubble(10) lap=24 point=0 t=87.154 et=2328.598</Score>
+<Chat et="2329.3">DUO MEI: WE DO IT</Chat>
+<Chat et="2330.9">DUO MEI: 233</Chat>
+<Score et="2337.1">bob(12) lap=23 point=0 t=94.224 et=2336.969</Score>
+<Incident et="2338.7">bob(12) reported contact (1.00) with Immovable</Incident>
+<Incident et="2338.8">bob(12) reported contact (0.58) with Wing</Incident>
+<Score et="2339.3">Parker Chen(14) lap=23 point=1 t=29.410 et=2339.235</Score>
+<Incident et="2339.6">DUO MEI(7) reported contact (0.03) with another vehicle wagonggong(11)</Incident>
+<Incident et="2341.2">wagonggong(11) reported contact (0.00) with another vehicle DUO MEI(7)</Incident>
+<Incident et="2343.5">DUO MEI(7) reported contact (0.06) with another vehicle wagonggong(11)</Incident>
+<Score et="2347.0">OMGCA(13) lap=24 point=0 t=87.590 et=2347.010</Score>
+<Score et="2349.5">DumiBirdF(5) lap=24 point=0 t=87.990 et=2349.383</Score>
+<Chat et="2351.0">smallbubble: somehow another 4th</Chat>
+<Chat et="2351.2">OMGCA: congrats wgg</Chat>
+<Chat et="2353.4">smallbubble: lol</Chat>
+<Incident et="2355.3">OMGCA(13) reported contact (1.00) with another vehicle DUO MEI(7)</Incident>
+<Incident et="2355.3">OMGCA(13) reported contact (1.00) with Wing</Incident>
+<Incident et="2355.3">OMGCA(13) reported contact (0.77) with another vehicle DUO MEI(7)</Incident>
+<Incident et="2355.3">OMGCA(13) reported contact (0.90) with another vehicle DUO MEI(7)</Incident>
+<Incident et="2355.3">OMGCA(13) reported contact (1.00) with Wing</Incident>
+<Incident et="2355.3">OMGCA(13) reported contact (0.32) with another vehicle DUO MEI(7)</Incident>
+<Incident et="2355.3">OMGCA(13) reported contact (0.39) with Wing</Incident>
+<Incident et="2355.3">OMGCA(13) reported contact (0.26) with another vehicle wagonggong(11)</Incident>
+<Incident et="2355.3">OMGCA(13) reported contact (0.42) with another vehicle wagonggong(11)</Incident>
+<Incident et="2355.4">DUO MEI(7) reported contact (1.00) with another vehicle OMGCA(13)</Incident>
+<Incident et="2355.4">DUO MEI(7) reported contact (1.00) with another vehicle OMGCA(13)</Incident>
+<Incident et="2355.4">DUO MEI(7) reported contact (0.03) with another vehicle wagonggong(11)</Incident>
+<Incident et="2355.4">DUO MEI(7) reported contact (0.29) with another vehicle OMGCA(13)</Incident>
+<Incident et="2355.4">DUO MEI(7) reported contact (0.45) with another vehicle wagonggong(11)</Incident>
+<Incident et="2355.4">OMGCA(13) reported contact (0.13) with another vehicle wagonggong(11)</Incident>
+<Incident et="2355.4">OMGCA(13) reported contact (0.26) with another vehicle wagonggong(11)</Incident>
+<Incident et="2355.4">DUO MEI(7) reported contact (0.58) with another vehicle wagonggong(11)</Incident>
+<Incident et="2355.4">OMGCA(13) reported contact (0.35) with another vehicle wagonggong(11)</Incident>
+<Incident et="2355.4">DUO MEI(7) reported contact (0.55) with another vehicle wagonggong(11)</Incident>
+<Incident et="2355.5">wagonggong(11) reported contact (1.00) with another vehicle OMGCA(13)</Incident>
+<Incident et="2355.6">DUO MEI(7) reported contact (0.16) with another vehicle OMGCA(13)</Incident>
+<Incident et="2355.6">wagonggong(11) reported contact (0.68) with another vehicle OMGCA(13)</Incident>
+<Chat et="2356.1">DumiBirdF: nice block</Chat>
+<Incident et="2356.1">wagonggong(11) reported contact (0.61) with Sign</Incident>
+<Incident et="2356.4">wagonggong(11) reported contact (1.00) with Immovable</Incident>
+<Incident et="2356.4">wagonggong(11) reported contact (0.26) with Immovable</Incident>
+<Incident et="2356.5">wagonggong(11) reported contact (0.13) with Immovable</Incident>
+<Chat et="2359.4">wagonggong: wo the</Chat>
+<Chat et="2366.2">DUO MEI: WTF</Chat>
+<Chat et="2372.7">lovepes2010: wdc right</Chat>
+<Chat et="2374.8">lovepes2010: ?</Chat>
+<Score et="2377.9">Parker Chen(14) lap=23 point=2 t=67.727 et=2377.552</Score>
+<Chat et="2383.8">DumiBirdF has left the game but vehicle has been stored in the garage</Chat>
+<Chat et="2386.6">DUO MEI has left the game but vehicle has been stored in the garage</Chat>
+<Chat et="2392.5">bob has left the game but vehicle has been stored in the garage</Chat>
+<Chat et="2399.1">smallbubble: my tyre literally felt like a stone on the 1st lap</Chat>
+<Score et="2400.1">Parker Chen(14) lap=24 point=0 t=90.214 et=2400.039</Score>
+<Incident et="2403.5">Parker Chen(14) reported contact (0.84) with Immovable</Incident>
+<Incident et="2403.6">Parker Chen(14) reported contact (1.00) with Wing</Incident>
+<Incident et="2403.6">Parker Chen(14) reported contact (0.55) with Immovable</Incident>
+<Chat et="2406.0">OMGCA: parker somehow still hasn&apos;t finished</Chat>
+<Incident et="2406.0">Parker Chen(14) reported contact (1.00) with Immovable</Incident>
+<Incident et="2406.1">Parker Chen(14) reported contact (1.00) with Immovable</Incident>
+<Incident et="2406.2">Parker Chen(14) reported contact (0.13) with Immovable</Incident>
+<Incident et="2407.3">Parker Chen(14) reported contact (0.06) with Immovable</Incident>
+<Chat et="2407.9">smallbubble: got overtaken by parker...</Chat>
+<Chat et="2410.2">OMGCA: nvm</Chat>
+<Chat et="2410.4">lovepes2010 has left the game but vehicle has been stored in the garage</Chat>
+</Stream>
+<MostLapsCompleted>24</MostLapsCompleted>
+<Driver>
+<Name>lovepes2010</Name>
+<Connected>1</Connected>
+<VehFile>FBT_21.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>1-#21 lovepes2010</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>21</CarNumber>
+<TeamName>Audi Sport Team FlyingBird</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>2</GridPos>
+<Position>3</Position>
+<ClassGridPos>2</ClassGridPos>
+<ClassPosition>2</ClassPosition>
+<Points>15</Points>
+<ClassPoints>18</ClassPoints>
+<LapRankIncludingDiscos>1</LapRankIncludingDiscos>
+<Lap num="1" p="3" et="182.1305" s1="30.8145" s2="38.4067" s3="22.0684" fuel="0.373">91.2896</Lap>
+<Lap num="2" p="3" et="273.4201" s1="29.1758" s2="37.6304" s3="21.7296" fuel="0.341">88.5358</Lap>
+<Lap num="3" p="3" et="361.9559" s1="28.2839" s2="37.9547" s3="21.6413" fuel="0.314">87.8799</Lap>
+<Lap num="4" p="3" et="449.8358" s1="28.4051" s2="37.3434" s3="21.7960" fuel="0.282">87.5444</Lap>
+<Lap num="5" p="3" et="537.3802" s1="28.5159" s2="37.3331" s3="21.6233" fuel="0.255">87.4723</Lap>
+<Lap num="6" p="3" et="624.8525" s1="28.6362" s2="37.5832" s3="21.7317" fuel="0.224">87.9511</Lap>
+<Lap num="7" p="3" et="712.8037" s1="28.4532" s2="37.5573" s3="21.7406" fuel="0.192">87.7511</Lap>
+<Lap num="8" p="3" et="800.5548" s1="28.4260" s2="37.2977" s3="22.3114" fuel="0.161">88.0350</Lap>
+<Lap num="9" p="3" et="888.5898" s1="28.6890" s2="37.4727" s3="21.6487" fuel="0.129">87.8105</Lap>
+<Lap num="10" p="4" et="976.4003" s1="28.4525" s2="37.8598" s3="21.7970" fuel="0.098">88.1093</Lap>
+<Lap num="11" p="4" et="1064.5096" s1="28.7334" s2="37.2012" s3="21.8002" fuel="0.071">87.7348</Lap>
+<Lap num="12" p="2" et="1152.2445" s1="28.8117" s2="38.0359" s3="21.5565" fuel="0.039">88.4040</Lap>
+<Lap num="13" p="1" et="1240.6486" s1="28.3290" s2="37.4814" s3="26.2710" fuel="0.008" pit="1">92.0815</Lap>
+<Lap num="14" p="4" et="1332.7300" s1="53.2872" s2="37.9548" s3="21.7514" fuel="0.345">112.9935</Lap>
+<Lap num="15" p="3" et="1445.7235" s1="28.6390" s2="37.6787" s3="21.4628" fuel="0.314">87.7804</Lap>
+<Lap num="16" p="3" et="1533.5039" s1="28.3633" s2="37.4968" s3="21.6368" fuel="0.286">87.4968</Lap>
+<Lap num="17" p="3" et="1621.0007" s1="28.3974" s2="37.3480" s3="21.8760" fuel="0.255">87.6213</Lap>
+<Lap num="18" p="3" et="1708.6221" s1="29.2319" s2="37.6921" s3="22.2145" fuel="0.224">89.1384</Lap>
+<Lap num="19" p="3" et="1797.7605" s1="29.0484" s2="37.3525" s3="21.6988" fuel="0.196">88.0998</Lap>
+<Lap num="20" p="3" et="1885.8602" s1="28.3943" s2="37.5986" s3="21.5212" fuel="0.157">87.5140</Lap>
+<Lap num="21" p="3" et="1973.3743" s1="28.0767" s2="37.0792" s3="21.3970" fuel="0.122">86.5530</Lap>
+<Lap num="22" p="3" et="2059.9272" s1="28.1650" s2="37.0821" s3="21.5740" fuel="0.086">86.8211</Lap>
+<Lap num="23" p="3" et="2146.7483" s1="28.3962" s2="37.4503" s3="21.4587" fuel="0.051">87.3051</Lap>
+<Lap num="24" p="3" et="2234.0535" s1="28.2976" s2="37.1377" s3="21.4816" fuel="0.016">86.9169</Lap>
+<BestLapTime>86.5530</BestLapTime>
+<FinishTime>2138.8401</FinishTime>
+<Laps>24</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="24">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>DUO MEI</Name>
+<Connected>1</Connected>
+<VehFile>RPM_TMP2.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>#91 RPM Tmp2</VehName>
+<CarType>OFCR 2018 Temporary Drivers</CarType>
+<CarClass>OFCR 2018 Temporary Drivers</CarClass>
+<CarNumber>91</CarNumber>
+<TeamName>RPM</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>3</GridPos>
+<Position>2</Position>
+<ClassGridPos>1</ClassGridPos>
+<ClassPosition>1</ClassPosition>
+<Points>18</Points>
+<ClassPoints>25</ClassPoints>
+<LapRankIncludingDiscos>2</LapRankIncludingDiscos>
+<Lap num="1" p="1" et="182.1305" s1="30.3737" s2="37.8206" s3="22.2108" fuel="0.325">90.4051</Lap>
+<Lap num="2" p="2" et="272.5356" s1="29.5655" s2="37.4115" s3="21.7152" fuel="0.298">88.6922</Lap>
+<Lap num="3" p="2" et="361.2278" s1="28.6052" s2="37.1039" s3="21.6640" fuel="0.267">87.3731</Lap>
+<Lap num="4" p="2" et="448.6009" s1="28.4483" s2="37.3296" s3="21.7523" fuel="0.235">87.5302</Lap>
+<Lap num="5" p="2" et="536.1310" s1="28.9416" s2="37.4216" s3="21.8136" fuel="0.208">88.1768</Lap>
+<Lap num="6" p="2" et="624.3078" s1="28.5370" s2="36.9605" s3="21.5027" fuel="0.176">87.0002</Lap>
+<Lap num="7" p="2" et="711.3080" s1="28.3180" s2="37.1438" s3="21.7816" fuel="0.145">87.2434</Lap>
+<Lap num="8" p="2" et="798.5514" s1="28.6719" s2="36.9968" s3="21.5360" fuel="0.114">87.2047</Lap>
+<Lap num="9" p="2" et="885.7561" s1="28.3848" s2="37.1748" s3="21.6514" fuel="0.086">87.2111</Lap>
+<Lap num="10" p="2" et="972.9672" s1="28.4113" s2="37.2154" s3="21.5109" fuel="0.055">87.1376</Lap>
+<Lap num="11" p="2" et="1060.1047" s1="28.3310" s2="36.7348" s3="24.1961" fuel="0.020" pit="1">89.2619</Lap>
+<Lap num="12" p="5" et="1149.3666" s1="54.2846" s2="37.8163" s3="21.9761" fuel="0.369">114.0770</Lap>
+<Lap num="13" p="4" et="1263.4436" s1="28.5670" s2="37.1424" s3="21.8701" fuel="0.337">87.5795</Lap>
+<Lap num="14" p="3" et="1351.0231" s1="28.4941" s2="37.2543" s3="21.5844" fuel="0.306">87.3328</Lap>
+<Lap num="15" p="2" et="1438.3560" s1="28.6883" s2="41.2450" s3="21.7916" fuel="0.275">91.7249</Lap>
+<Lap num="16" p="2" et="1530.0808" s1="28.5715" s2="37.1645" s3="21.7456" fuel="0.243">87.4816</Lap>
+<Lap num="17" p="2" et="1617.5624" s1="28.5524" s2="37.2167" s3="21.6350" fuel="0.216">87.4041</Lap>
+<Lap num="18" p="2" et="1704.9666" s1="28.5242" s2="36.9199" s3="21.7600" fuel="0.184">87.2041</Lap>
+<Lap num="19" p="2" et="1792.1707" s1="28.9702" s2="37.3303" s3="21.7321" fuel="0.157">88.0326</Lap>
+<Lap num="20" p="2" et="1880.2032" s1="28.6642" s2="37.6343" s3="21.7710" fuel="0.133">88.0694</Lap>
+<Lap num="21" p="2" et="1968.2727" s1="28.5232" s2="37.2999" s3="21.6582" fuel="0.106">87.4812</Lap>
+<Lap num="22" p="2" et="2055.7539" s1="28.7220" s2="37.3139" s3="21.7084" fuel="0.078">87.7442</Lap>
+<Lap num="23" p="2" et="2143.4980" s1="28.3795" s2="36.9525" s3="21.9490" fuel="0.051">87.2811</Lap>
+<Lap num="24" p="2" et="2230.7791" s1="28.3618" s2="36.9230" s3="21.3979" fuel="0.012">86.6827</Lap>
+<BestLapTime>86.6827</BestLapTime>
+<FinishTime>2135.3313</FinishTime>
+<Laps>24</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="24">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>OMGCA</Name>
+<Connected>1</Connected>
+<VehFile>XTG_23.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>1-#23 OMGCA</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>23</CarNumber>
+<TeamName>xTacing OFCR Team</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>4</GridPos>
+<Position>5</Position>
+<ClassGridPos>3</ClassGridPos>
+<ClassPosition>4</ClassPosition>
+<Points>6</Points>
+<ClassPoints>10</ClassPoints>
+<LapRankIncludingDiscos>3</LapRankIncludingDiscos>
+<Lap num="1" p="5" et="182.1305" s1="32.1911" s2="38.7084" s3="21.8023" fuel="0.404">92.7018</Lap>
+<Lap num="2" p="4" et="274.8323" s1="29.5875" s2="37.7474" s3="21.5686" fuel="0.369">88.9035</Lap>
+<Lap num="3" p="4" et="363.7358" s1="28.7346" s2="37.2717" s3="21.7933" fuel="0.333">87.7997</Lap>
+<Lap num="4" p="4" et="451.5355" s1="28.7080" s2="37.4371" s3="21.4692" fuel="0.294">87.6144</Lap>
+<Lap num="5" p="4" et="539.1498" s1="28.4353" s2="37.0444" s3="21.5419" fuel="0.259">87.0217</Lap>
+<Lap num="6" p="4" et="626.1715" s1="28.6635" s2="36.9930" s3="21.7884" fuel="0.224">87.4448</Lap>
+<Lap num="7" p="4" et="713.6163" s1="28.4668" s2="37.4188" s3="21.7626" fuel="0.192">87.6481</Lap>
+<Lap num="8" p="4" et="801.2645" s1="28.6491" s2="37.3839" s3="21.6180" fuel="0.161">87.6510</Lap>
+<Lap num="9" p="4" et="888.9155" s1="28.8188" s2="37.4941" s3="21.7269" fuel="0.125">88.0399</Lap>
+<Lap num="10" p="3" et="976.9553" s1="28.5065" s2="37.0046" s3="21.5449" fuel="0.090">87.0560</Lap>
+<Lap num="11" p="3" et="1064.0114" s1="28.7421" s2="37.3280" s3="21.8693" fuel="0.059">87.9393</Lap>
+<Lap num="12" p="3" et="1151.9507" s1="28.5757" s2="37.4120" s3="24.9503" fuel="0.024" pit="1">90.9380</Lap>
+<Lap num="13" p="5" et="1242.8887" s1="55.9668" s2="37.9978" s3="21.8458" fuel="0.506">115.8104</Lap>
+<Lap num="14" p="5" et="1358.6991" s1="28.4974" s2="37.5803" s3="21.6385" fuel="0.471">87.7163</Lap>
+<Lap num="15" p="4" et="1446.4154" s1="28.4757" s2="37.8735" s3="21.5731" fuel="0.435">87.9224</Lap>
+<Lap num="16" p="4" et="1534.3378" s1="28.5715" s2="37.3481" s3="21.4825" fuel="0.396">87.4022</Lap>
+<Lap num="17" p="4" et="1621.7400" s1="28.6396" s2="37.0714" s3="21.5305" fuel="0.361">87.2416</Lap>
+<Lap num="18" p="4" et="1708.9816" s1="29.0559" s2="37.7958" s3="21.9391" fuel="0.325">88.7908</Lap>
+<Lap num="19" p="6" et="1797.7723" s1="29.1821" s2="61.7206" s3="21.7009" fuel="0.290">112.6036</Lap>
+<Lap num="20" p="6" et="1910.3760" s1="28.5620" s2="37.0898" s3="21.7557" fuel="0.251">87.4076</Lap>
+<Lap num="21" p="6" et="1997.7836" s1="28.8712" s2="36.9551" s3="21.5054" fuel="0.216">87.3317</Lap>
+<Lap num="22" p="6" et="2085.1152" s1="28.2778" s2="37.3184" s3="21.4077" fuel="0.180">87.0039</Lap>
+<Lap num="23" p="5" et="2172.1191" s1="28.6467" s2="37.0388" s3="21.6152" fuel="0.145">87.3008</Lap>
+<Lap num="24" p="5" et="2259.4199" s1="28.8225" s2="37.1577" s3="21.6099" fuel="0.106">87.5901</Lap>
+<BestLapTime>87.0039</BestLapTime>
+<FinishTime>2164.8796</FinishTime>
+<Laps>24</Laps>
+<Pitstops>1</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="24">PlayerControl,TC=3,ABS=2,Stability=2,Steering=2,Clutch,Opposite</ControlAndAids>
+</Driver>
+<Driver>
+<Name>wagonggong</Name>
+<Connected>1</Connected>
+<VehFile>RPM_15.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>2-#15 wagonggong</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>15</CarNumber>
+<TeamName>Team Russian Poisonous Milk</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>1</GridPos>
+<Position>1</Position>
+<ClassGridPos>1</ClassGridPos>
+<ClassPosition>1</ClassPosition>
+<Points>25</Points>
+<ClassPoints>25</ClassPoints>
+<LapRankIncludingDiscos>4</LapRankIncludingDiscos>
+<Lap num="1" p="2" et="182.1305" s1="29.9060" s2="38.0375" s3="22.8412" fuel="0.357">90.7847</Lap>
+<Lap num="2" p="1" et="272.9152" s1="28.3868" s2="37.1746" s3="21.7670" fuel="0.329">87.3283</Lap>
+<Lap num="3" p="1" et="360.2436" s1="28.4264" s2="37.0986" s3="21.7154" fuel="0.298">87.2403</Lap>
+<Lap num="4" p="1" et="447.4839" s1="28.2740" s2="37.6977" s3="21.8800" fuel="0.267">87.8517</Lap>
+<Lap num="5" p="1" et="535.3356" s1="28.5708" s2="37.0207" s3="21.5895" fuel="0.239">87.1809</Lap>
+<Lap num="6" p="1" et="622.5165" s1="28.3036" s2="37.2631" s3="21.5793" fuel="0.208">87.1460</Lap>
+<Lap num="7" p="1" et="709.6624" s1="28.3534" s2="37.1019" s3="21.6565" fuel="0.176">87.1117</Lap>
+<Lap num="8" p="1" et="796.7742" s1="28.3154" s2="37.0925" s3="21.6467" fuel="0.149">87.0546</Lap>
+<Lap num="9" p="1" et="883.8288" s1="28.3021" s2="36.9946" s3="21.7625" fuel="0.118">87.0592</Lap>
+<Lap num="10" p="1" et="970.8880" s1="28.2757" s2="37.1443" s3="21.7167" fuel="0.086">87.1367</Lap>
+<Lap num="11" p="1" et="1058.0247" s1="28.2253" s2="37.1809" s3="21.6356" fuel="0.059">87.0418</Lap>
+<Lap num="12" p="1" et="1145.0665" s1="28.2598" s2="37.2503" s3="24.9347" fuel="0.027" pit="1">90.4448</Lap>
+<Lap num="13" p="3" et="1235.5114" s1="54.3740" s2="38.0091" s3="22.0470" fuel="0.361">114.4300</Lap>
+<Lap num="14" p="3" et="1349.9414" s1="28.5550" s2="37.6408" s3="22.0098" fuel="0.333">88.2056</Lap>
+<Lap num="15" p="2" et="1438.1470" fuel="0.302">87.4247</Lap>
+<Lap num="16" p="1" et="1525.5717" s1="28.2936" s2="37.1800" s3="21.7340" fuel="0.271">87.2076</Lap>
+<Lap num="17" p="1" et="1612.7793" s1="28.3653" s2="37.4891" s3="21.8140" fuel="0.243">87.6684</Lap>
+<Lap num="18" p="1" et="1700.4476" s1="28.4922" s2="37.2108" s3="21.6151" fuel="0.212">87.3181</Lap>
+<Lap num="19" p="1" et="1787.7657" s1="28.2443" s2="37.1948" s3="21.7092" fuel="0.180">87.1483</Lap>
+<Lap num="20" p="1" et="1874.9141" s1="28.4698" s2="37.4140" s3="21.8572" fuel="0.153">87.7410</Lap>
+<Lap num="21" p="1" et="1962.6550" s1="28.3757" s2="37.0475" s3="21.7482" fuel="0.122">87.1713</Lap>
+<Lap num="22" p="1" et="2049.8264" s1="28.5649" s2="37.1001" s3="21.5552" fuel="0.090">87.2201</Lap>
+<Lap num="23" p="1" et="2137.0466" s1="28.3669" s2="37.3721" s3="21.6806" fuel="0.063">87.4197</Lap>
+<Lap num="24" p="1" et="2224.4663" s1="28.4630" s2="37.1827" s3="21.7959" fuel="0.031">87.4417</Lap>
+<BestLapTime>87.0418</BestLapTime>
+<FinishTime>2129.7776</FinishTime>
+<Laps>24</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="24">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>smallbubble</Name>
+<Connected>1</Connected>
+<VehFile>NCR_22.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>3-#22 smallbubble</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>22</CarNumber>
+<TeamName>NorthernChina Racing</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>5</GridPos>
+<Position>4</Position>
+<ClassGridPos>4</ClassGridPos>
+<ClassPosition>3</ClassPosition>
+<Points>10</Points>
+<ClassPoints>15</ClassPoints>
+<LapRankIncludingDiscos>5</LapRankIncludingDiscos>
+<Lap num="1" p="7" et="182.1305" s1="33.0287" s2="39.7301" s3="22.1211" fuel="0.373">94.8799</Lap>
+<Lap num="2" p="6" et="277.0104" s1="28.7949" s2="37.9259" s3="21.7962" fuel="0.345">88.5170</Lap>
+<Lap num="3" p="6" et="365.5274" s1="28.9202" s2="38.3524" s3="21.8132" fuel="0.318">89.0858</Lap>
+<Lap num="4" p="6" et="454.6132" s1="28.6908" s2="37.5852" s3="21.6303" fuel="0.290">87.9063</Lap>
+<Lap num="5" p="6" et="542.5195" s1="28.5155" s2="37.7248" s3="21.7169" fuel="0.263">87.9572</Lap>
+<Lap num="6" p="5" et="630.4767" s1="28.6746" s2="37.7208" s3="21.9704" fuel="0.239">88.3659</Lap>
+<Lap num="7" p="5" et="718.8425" s1="28.6400" s2="37.4525" s3="21.8990" fuel="0.212">87.9914</Lap>
+<Lap num="8" p="5" et="806.8340" s1="28.5457" s2="37.5470" s3="21.7060" fuel="0.184">87.7988</Lap>
+<Lap num="9" p="5" et="894.6328" s1="28.7309" s2="37.7480" s3="22.4482" fuel="0.157">88.9271</Lap>
+<Lap num="10" p="5" et="983.5599" s1="28.7384" s2="37.5227" s3="21.9140" fuel="0.129">88.1752</Lap>
+<Lap num="11" p="5" et="1071.7351" s1="28.6164" s2="37.4200" s3="21.7057" fuel="0.098">87.7420</Lap>
+<Lap num="12" p="4" et="1159.4771" s1="28.5946" s2="37.7316" s3="21.7363" fuel="0.071">88.0624</Lap>
+<Lap num="13" p="2" et="1247.5394" s1="28.5714" s2="37.7804" s3="21.7091" fuel="0.039">88.0609</Lap>
+<Lap num="14" p="1" et="1335.6003" s1="28.6599" s2="37.7164" s3="24.8081" fuel="0.008">91.1845</Lap>
+<Lap num="15" p="5" et="1426.7848" s1="52.6760" s2="37.9072" s3="22.1549" fuel="0.282">112.7381</Lap>
+<Lap num="16" p="5" et="1539.5228" s1="28.6018" s2="38.0443" s3="21.7640" fuel="0.255">88.4102</Lap>
+<Lap num="17" p="5" et="1627.9330" s1="28.6257" s2="37.4688" s3="21.5878" fuel="0.227">87.6823</Lap>
+<Lap num="18" p="9" et="1715.6152" fuel="0.200">87.9058</Lap>
+<Lap num="19" p="4" et="1803.5210" fuel="0.173">87.8741</Lap>
+<Lap num="20" p="4" et="1891.3951" s1="28.3401" s2="37.2592" s3="21.5613" fuel="0.145">87.1607</Lap>
+<Lap num="21" p="4" et="1978.5559" s1="28.3723" s2="37.4256" s3="21.5511" fuel="0.114">87.3491</Lap>
+<Lap num="22" p="4" et="2065.9050" s1="28.5089" s2="37.2717" s3="21.4768" fuel="0.082">87.2575</Lap>
+<Lap num="23" p="4" et="2153.1626" s1="28.5354" s2="37.5142" s3="22.2318" fuel="0.055">88.2814</Lap>
+<Lap num="24" p="4" et="2241.4441" s1="28.3807" s2="37.2303" s3="21.5434" fuel="0.024">87.1544</Lap>
+<BestLapTime>87.1544</BestLapTime>
+<FinishTime>2146.4680</FinishTime>
+<Laps>24</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="24">PlayerControl,TC=3,ABS=2,Stability=1,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>DumiBirdF</Name>
+<Connected>1</Connected>
+<VehFile>FBT_99.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>2-#99 DumiBirdF</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>99</CarNumber>
+<TeamName>Audi Sport Team FlyingBird</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>6</GridPos>
+<Position>6</Position>
+<ClassGridPos>5</ClassGridPos>
+<ClassPosition>5</ClassPosition>
+<Points>4</Points>
+<ClassPoints>6</ClassPoints>
+<LapRankIncludingDiscos>6</LapRankIncludingDiscos>
+<Lap num="1" p="4" et="182.1305" s1="31.2214" s2="38.8485" s3="22.5575" fuel="0.329">92.6274</Lap>
+<Lap num="2" p="5" et="274.7579" s1="29.8100" s2="38.5347" s3="22.2066" fuel="0.298">90.5513</Lap>
+<Lap num="3" p="5" et="365.3092" s1="29.0058" s2="37.8022" s3="21.7034" fuel="0.267">88.5114</Lap>
+<Lap num="4" p="5" et="453.8206" s1="28.5557" s2="37.6846" s3="21.6674" fuel="0.235">87.9077</Lap>
+<Lap num="5" p="5" et="541.7283" s1="28.5388" s2="37.8179" s3="22.0484" fuel="0.208">88.4052</Lap>
+<Lap num="6" p="6" et="630.1335" s1="28.4434" s2="37.5577" s3="25.4095" fuel="0.176">91.4107</Lap>
+<Lap num="7" p="6" et="721.5441" s1="29.4831" s2="37.5532" s3="22.1143" fuel="0.145">89.1505</Lap>
+<Lap num="8" p="6" et="810.6946" s1="28.6260" s2="37.7806" s3="21.8731" fuel="0.118">88.2796</Lap>
+<Lap num="9" p="6" et="898.9742" s1="28.7217" s2="37.7892" s3="21.8747" fuel="0.090">88.3856</Lap>
+<Lap num="10" p="6" et="987.3599" s1="28.6512" s2="37.3209" s3="21.8334" fuel="0.063">87.8055</Lap>
+<Lap num="11" p="6" et="1075.1654" s1="28.6430" s2="37.3298" s3="25.9728" fuel="0.035" pit="1">91.9456</Lap>
+<Lap num="12" p="7" et="1167.1110" s1="56.2244" s2="38.9289" s3="23.0648" fuel="0.471">118.2181</Lap>
+<Lap num="13" p="6" et="1285.3290" s1="29.1769" s2="38.1159" s3="22.5855" fuel="0.439">89.8783</Lap>
+<Lap num="14" p="6" et="1375.2073" s1="28.8866" s2="38.4960" s3="21.9601" fuel="0.408">89.3427</Lap>
+<Lap num="15" p="6" et="1464.5500" s1="28.6465" s2="38.0754" s3="22.1225" fuel="0.373">88.8443</Lap>
+<Lap num="16" p="6" et="1553.3944" fuel="0.341">88.1679</Lap>
+<Lap num="17" p="6" et="1641.5623" s1="28.4834" s2="37.9999" s3="22.0185" fuel="0.310">88.5018</Lap>
+<Lap num="18" p="6" et="1730.0641" s1="28.5081" s2="38.3180" s3="21.9522" fuel="0.275">88.7783</Lap>
+<Lap num="19" p="5" et="1818.8424" s1="28.4449" s2="38.0699" s3="22.0724" fuel="0.243">88.5872</Lap>
+<Lap num="20" p="5" et="1907.4296" s1="28.6401" s2="38.1889" s3="21.9662" fuel="0.208">88.7952</Lap>
+<Lap num="21" p="5" et="1996.2247" s1="28.4839" s2="37.5314" s3="21.6456" fuel="0.176">87.6609</Lap>
+<Lap num="22" p="5" et="2083.8855" s1="28.3134" s2="37.6285" s3="22.0600" fuel="0.145">88.0019</Lap>
+<Lap num="23" p="6" et="2171.8875" s1="30.3703" s2="37.7193" s3="21.4157" fuel="0.110">89.5052</Lap>
+<Lap num="24" p="6" et="2261.3926" s1="28.4315" s2="37.7570" s3="21.8016" fuel="0.075">87.9901</Lap>
+<BestLapTime>87.6609</BestLapTime>
+<FinishTime>2167.2522</FinishTime>
+<Laps>24</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="24">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=1,Clutch,Opposite,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>MSC</Name>
+<Connected>1</Connected>
+<VehFile>SPR_TMP2.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>#65 SPR Tmp2</VehName>
+<CarType>OFCR 2018 Temporary Drivers</CarType>
+<CarClass>OFCR 2018 Temporary Drivers</CarClass>
+<CarNumber>65</CarNumber>
+<TeamName>SPR</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>8</GridPos>
+<Position>8</Position>
+<ClassGridPos>2</ClassGridPos>
+<ClassPosition>2</ClassPosition>
+<Points>1</Points>
+<ClassPoints>18</ClassPoints>
+<LapRankIncludingDiscos>7</LapRankIncludingDiscos>
+<Lap num="1" p="6" et="182.1305" s1="32.1049" s2="39.3859" s3="22.5088" fuel="0.357">93.9996</Lap>
+<Lap num="2" p="9" et="276.1301" s1="40.2116" s2="38.7925" s3="22.3804" fuel="0.333">101.3845</Lap>
+<Lap num="3" p="9" et="377.5146" s1="29.0056" s2="39.5512" s3="21.9634" fuel="0.310">90.5202</Lap>
+<Lap num="4" p="9" et="468.0348" s1="29.0010" s2="37.9287" s3="22.0425" fuel="0.286">88.9722</Lap>
+<Lap num="5" p="9" et="557.0070" s1="28.8143" s2="38.2666" s3="21.9753" fuel="0.263">89.0562</Lap>
+<Lap num="6" p="9" et="646.0632" s1="28.9465" s2="38.5033" s3="22.4503" fuel="0.239">89.9000</Lap>
+<Lap num="7" p="9" et="735.9633" s1="29.0996" s2="38.8920" s3="22.4407" fuel="0.216">90.4322</Lap>
+<Lap num="8" p="9" et="826.3955" s1="28.8642" s2="38.6045" s3="21.9316" fuel="0.192">89.4003</Lap>
+<Lap num="9" p="8" et="915.7958" s1="29.9334" s2="39.9459" s3="22.2116" fuel="0.161">92.0908</Lap>
+<Lap num="10" p="9" et="1007.8867" s1="28.9801" s2="42.6007" s3="22.4651" fuel="0.137">94.0459</Lap>
+<Lap num="11" p="9" et="1101.9326" s1="29.2401" s2="42.8026" s3="29.2019" fuel="0.114" pit="1">101.2445</Lap>
+<Lap num="12" p="9" et="1203.1771" s1="56.8983" s2="39.4244" s3="22.4847" fuel="0.478">118.8074</Lap>
+<Lap num="13" p="9" et="1321.9846" s1="29.0252" s2="39.3576" s3="22.2331" fuel="0.451">90.6159</Lap>
+<Lap num="14" p="9" et="1412.6006" s1="29.2761" s2="38.7624" s3="22.7885" fuel="0.427">90.8271</Lap>
+<Lap num="15" p="9" et="1503.4276" s1="29.4337" s2="38.7773" s3="22.5395" fuel="0.400">90.7506</Lap>
+<Lap num="16" p="8" et="1594.1782" s1="29.3046" s2="38.1406" s3="22.4386" fuel="0.376">89.8839</Lap>
+<Lap num="17" p="8" et="1684.0621" s1="29.1520" s2="38.5737" s3="22.6911" fuel="0.349">90.4168</Lap>
+<Lap num="18" p="8" et="1774.4789" s1="29.2160" fuel="0.322">89.9105</Lap>
+<Lap num="19" p="8" et="1864.3894" s1="29.1664" s2="38.7532" s3="22.1452" fuel="0.294">90.0648</Lap>
+<Lap num="20" p="8" et="1954.4542" s1="30.3096" s2="38.7093" s3="22.2928" fuel="0.271">91.3118</Lap>
+<Lap num="21" p="8" et="2045.7660" s1="28.7032" s2="37.8843" s3="21.9781" fuel="0.239">88.5655</Lap>
+<Lap num="22" p="8" et="2134.3315" s1="28.9525" s2="38.0687" s3="22.1580" fuel="0.212">89.1793</Lap>
+<Lap num="23" p="8" et="2223.5107" s1="29.7420" s2="38.9321" s3="22.5389" fuel="0.180">91.2131</Lap>
+<BestLapTime>88.5655</BestLapTime>
+<FinishTime>2132.5935</FinishTime>
+<Laps>23</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="23">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Steering=2,Clutch,Opposite,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Parker Chen</Name>
+<Connected>1</Connected>
+<VehFile>SPR_48.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>1-#48 Parker Chen</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>48</CarNumber>
+<TeamName>Shanghai Power Racing</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>9</GridPos>
+<Position>7</Position>
+<ClassGridPos>7</ClassGridPos>
+<ClassPosition>6</ClassPosition>
+<Points>2</Points>
+<ClassPoints>4</ClassPoints>
+<LapRankIncludingDiscos>8</LapRankIncludingDiscos>
+<Lap num="1" p="8" et="182.1305" s1="32.8602" s2="40.3676" s3="22.0149" fuel="0.322">95.2428</Lap>
+<Lap num="2" p="7" et="277.3732" s1="29.3030" s2="39.0428" s3="22.2503" fuel="0.290">90.5961</Lap>
+<Lap num="3" p="7" et="367.9694" s1="29.4120" s2="38.2619" s3="22.4070" fuel="0.259">90.0809</Lap>
+<Lap num="4" p="7" et="458.0503" s1="29.9314" s2="38.3758" s3="22.6586" fuel="0.231">90.9658</Lap>
+<Lap num="5" p="7" et="549.0161" s1="29.5384" s2="39.2846" s3="22.9882" fuel="0.204">91.8112</Lap>
+<Lap num="6" p="7" et="640.8272" s1="29.5288" s2="38.6017" s3="22.6191" fuel="0.176">90.7496</Lap>
+<Lap num="7" p="7" et="731.5768" s1="29.3307" s2="38.2774" s3="22.0732" fuel="0.149">89.6813</Lap>
+<Lap num="8" p="7" et="821.2581" s1="29.5963" s2="38.4933" s3="22.2924" fuel="0.122">90.3820</Lap>
+<Lap num="9" p="7" et="911.6400" s1="29.0857" s2="38.8059" s3="22.4982" fuel="0.098">90.3898</Lap>
+<Lap num="10" p="7" et="1002.0298" s1="29.0306" s2="39.1298" s3="22.5983" fuel="0.071">90.7586</Lap>
+<Lap num="11" p="7" et="1092.7883" s1="29.1530" s2="38.3960" s3="22.0289" fuel="0.043">89.5778</Lap>
+<Lap num="12" p="6" et="1182.3662" s1="29.2478" s2="39.0591" s3="25.2352" fuel="0.020" pit="1">93.5420</Lap>
+<Lap num="13" p="8" et="1275.9082" s1="65.3265" s2="39.3814" s3="23.0453" fuel="0.400">127.7532</Lap>
+<Lap num="14" p="7" et="1403.6614" s1="29.4663" s2="39.3324" s3="22.4520" fuel="0.373">91.2507</Lap>
+<Lap num="15" p="7" et="1494.9121" s1="28.9863" s2="38.7956" s3="22.1008" fuel="0.345">89.8827</Lap>
+<Lap num="16" p="7" et="1584.7948" s1="29.8370" s2="39.7815" s3="21.9259" fuel="0.318">91.5444</Lap>
+<Lap num="17" p="7" et="1676.3392" s1="29.3147" s2="39.0530" s3="24.1347" fuel="0.286">92.5023</Lap>
+<Lap num="18" p="7" et="1768.8416" s1="29.3831" fuel="0.255">90.6692</Lap>
+<Lap num="19" p="7" et="1859.5107" s1="29.1574" s2="38.6508" s3="22.4633" fuel="0.224">90.2715</Lap>
+<Lap num="20" p="7" et="1949.7822" s1="29.2117" s2="39.0272" s3="22.2493" fuel="0.196">90.4882</Lap>
+<Lap num="21" p="7" et="2040.2704" s1="29.3442" s2="38.7356" s3="21.9790" fuel="0.165">90.0588</Lap>
+<Lap num="22" p="7" et="2130.3291" s1="28.6990" s2="38.2492" s3="22.2749" fuel="0.133">89.2232</Lap>
+<Lap num="23" p="7" et="2219.5522" s1="29.8935" s2="38.5544" s3="21.8245" fuel="0.102">90.2725</Lap>
+<Lap num="24" p="7" et="2309.8247" s1="29.4101" s2="38.3168" s3="22.4870" fuel="0.071">90.2139</Lap>
+<BestLapTime>89.2232</BestLapTime>
+<FinishTime>2217.9082</FinishTime>
+<Laps>24</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="24">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Steering=1,Clutch,Opposite,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>bob</Name>
+<Connected>1</Connected>
+<VehFile>XTG_28.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>2-#28 Bob</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>28</CarNumber>
+<TeamName>xTacing OFCR Team</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>7</GridPos>
+<Position>9</Position>
+<ClassGridPos>6</ClassGridPos>
+<ClassPosition>7</ClassPosition>
+<Points>0</Points>
+<ClassPoints>2</ClassPoints>
+<LapRankIncludingDiscos>9</LapRankIncludingDiscos>
+<Lap num="1" p="9" et="182.1305" s1="33.4791" s2="40.9992" s3="23.0655" fuel="0.349">97.5438</Lap>
+<Lap num="2" p="8" et="279.6743" s1="29.5785" s2="38.7630" s3="22.3494" fuel="0.322">90.6909</Lap>
+<Lap num="3" p="8" et="370.3652" s1="29.1635" s2="38.8917" s3="21.9390" fuel="0.294">89.9942</Lap>
+<Lap num="4" p="8" et="460.3594" s1="29.3686" s2="38.5921" s3="22.6625" fuel="0.267">90.6232</Lap>
+<Lap num="5" p="8" et="550.9827" s1="29.6220" s2="39.5373" s3="22.1783" fuel="0.239">91.3376</Lap>
+<Lap num="6" p="8" et="642.3203" s1="30.1103" s2="39.5667" s3="22.2217" fuel="0.212">91.8986</Lap>
+<Lap num="7" p="8" et="734.2189" s1="29.4139" s2="38.6932" s3="22.0483" fuel="0.184">90.1554</Lap>
+<Lap num="8" p="8" et="824.3743" s1="29.3165" s2="39.3948" s3="22.1782" fuel="0.157">90.8895</Lap>
+<Lap num="9" p="9" et="915.2638" s1="30.3910" s2="39.1807" s3="23.1182" fuel="0.129">92.6900</Lap>
+<Lap num="10" p="8" et="1007.9538" s1="29.7260" s2="39.6991" s3="22.2908" fuel="0.102">91.7159</Lap>
+<Lap num="11" p="8" et="1099.6697" s1="29.4053" s2="40.6521" s3="22.5474" fuel="0.075">92.6048</Lap>
+<Lap num="12" p="8" et="1192.2744" s1="30.0765" s2="39.9616" s3="23.3232" fuel="0.047">93.3613</Lap>
+<Lap num="13" p="7" et="1285.6357" s1="30.4706" s2="39.8027" s3="26.7150" fuel="0.020" pit="1">96.9883</Lap>
+<Lap num="14" p="8" et="1382.6240" s1="55.0166" s2="39.6172" s3="22.8234" fuel="0.388">117.4572</Lap>
+<Lap num="15" p="8" et="1500.0813" s1="29.3135" s2="39.8258" s3="22.7293" fuel="0.361">91.8685</Lap>
+<Lap num="16" p="9" et="1591.9498" s1="29.4200" s2="41.1121" s3="24.0255" fuel="0.333">94.5577</Lap>
+<Lap num="17" p="9" et="1686.5076" s1="29.1103" s2="39.4314" s3="22.8140" fuel="0.306">91.3557</Lap>
+<Lap num="18" p="9" et="1777.8633" s1="29.4001" s2="39.6269" s3="22.2320" fuel="0.278">91.2590</Lap>
+<Lap num="19" p="9" et="1869.1223" s1="29.7763" s2="38.9180" s3="22.9121" fuel="0.251">91.6064</Lap>
+<Lap num="20" p="9" et="1960.7288" s1="31.5048" s2="38.6904" s3="23.1828" fuel="0.224">93.3780</Lap>
+<Lap num="21" p="9" et="2054.1067" s1="29.1498" s2="40.6462" s3="24.7696" fuel="0.196">94.5656</Lap>
+<Lap num="22" p="9" et="2148.6724" s1="30.1667" s2="39.6058" s3="24.2997" fuel="0.169">94.0721</Lap>
+<Lap num="23" p="9" et="2242.7444" s1="29.6468" s2="40.4411" s3="24.1362" fuel="0.141">94.2241</Lap>
+<BestLapTime>89.9942</BestLapTime>
+<FinishTime>2154.8381</FinishTime>
+<Laps>23</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="23">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Steering=2,Clutch,Opposite,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+</Race>
+</RaceResults>
+</rFactorXML>

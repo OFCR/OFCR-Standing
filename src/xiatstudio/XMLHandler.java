@@ -41,6 +41,7 @@ public class XMLHandler extends DefaultHandler {
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException{
 		if(qName.equalsIgnoreCase("ServerName")){
 			dSession = true;
+			driverList = null;
 		}
 		else if(qName.equalsIgnoreCase("Driver")){
 			currentDriver = new Driver(" ");
@@ -75,8 +76,8 @@ public class XMLHandler extends DefaultHandler {
 	@Override
 	public void endElement(String uri, String localName, String qName) throws SAXException{
 		if(dSession){
-			createCSVFile(data.toString(),true);
-			createMDFile(data.toString(),true);
+			createCSVFile(".\\2018_Result_CSV\\"+data.toString(),true);
+			createMDFile(".\\2018_Result_MD\\"+data.toString(),true);
 			fileName = data.toString();
 			dSession = false;
 		}

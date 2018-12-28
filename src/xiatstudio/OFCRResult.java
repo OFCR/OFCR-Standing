@@ -17,13 +17,20 @@ public class OFCRResult {
         SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
         try {
             SAXParser saxParser = saxParserFactory.newSAXParser();
-            XMLHandler handler = new XMLHandler();
-            saxParser.parse(new File("09MONR.xml"), handler);
+            XMLHandler handler = new XMLHandler();            
 
-            List<Driver> driverList = handler.getDriverList();
+            File folder = new File(".\\2018_Result_RAW\\");
+            File[] listOfFiles = folder.listFiles();
+            String[] fileList = new String[listOfFiles.length];
 
-            exportCSV(handler.getFileName(), driverList);
-            exportMD(handler.getMDFile(), driverList);
+            for(int i = 0; i < listOfFiles.length; i++){
+                fileList[i] = (".\\2018_Result_RAW\\"+listOfFiles[i].getName());
+                saxParser.parse(new File(fileList[i]),handler);
+                List<Driver> driverList = handler.getDriverList();
+                exportCSV(handler.getFileName(), driverList);
+                exportMD(handler.getMDFile(), driverList);
+            }
+            
         } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
@@ -48,7 +55,7 @@ public class OFCRResult {
         double timePivot = 0;
         int leaderLap = 0;
         try {
-            mdWriter = new FileWriter(fileName, true);
+            mdWriter = new FileWriter(".\\2018_Result_MD\\"+fileName, true);
             mdWriter.append("<table style=\"width:100%\">");
             mdWriter.append("\r\n");
             String title[] = { "Pos.", "No.", "Name", "Team", "Laps", "Time/Gap", "Personal Best", "Position Diff" };
@@ -107,7 +114,7 @@ public class OFCRResult {
         double timePivot = 0;
         int leaderLap = 0;
         try {
-            writer = new FileWriter(fileName, true);
+            writer = new FileWriter(".\\2018_Result_CSV\\"+fileName, true);
             writer.append("Pos.,");
             writer.append("No.,");
             writer.append("Name,");

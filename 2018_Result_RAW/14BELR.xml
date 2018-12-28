@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rF [
+<!ENTITY rFEnt "rFactor Entity">
+]>
+<rFactorXML version="1.0">
+<RaceResults>
+<Setting>Multiplayer</Setting>
+<ServerName>OFCR Round 14 - Belgium</ServerName>
+<PlayerFile>OMGCA</PlayerFile>
+<DateTime>1532604324</DateTime>
+<TimeString>2018/07/26 19:25:24</TimeString>
+<Mod>OFCR2018.rfm</Mod>
+<Season></Season>
+<TrackVenue>OFCR 2018 Season</TrackVenue>
+<TrackCourse>Circuit de Spa-Francorchamps</TrackCourse>
+<TrackEvent>14.Belgium</TrackEvent>
+<TrackLength>7018.7</TrackLength>
+<GameVersion>1.255g</GameVersion>
+<Dedicated>0</Dedicated>
+<ConnectionType upload="8042" download="8042">Custom</ConnectionType>
+<RaceLaps>20</RaceLaps>
+<RaceTime>0</RaceTime>
+<MechFailRate>2</MechFailRate>
+<DamageMult>60</DamageMult>
+<FuelMult>1</FuelMult>
+<TireMult>1</TireMult>
+<VehiclesAllowed>|OFCR2018</VehiclesAllowed>
+<ParcFerme>3</ParcFerme>
+<FixedSetups>0</FixedSetups>
+<FreeSettings>2147483647</FreeSettings>
+<FixedUpgrades>0</FixedUpgrades>
+<Race>
+<DateTime>1532609165</DateTime>
+<TimeString>2018/07/26 20:46:05</TimeString>
+<Laps>20</Laps>
+<Minutes>0</Minutes>
+<Stream>
+<Chat et="5.3">LeonardoChan: ...</Chat>
+<Chat et="9.6">Weber Niraschtoe: Well...</Chat>
+<Chat et="11.0">SennaAndProst: who fucking brake</Chat>
+<Chat et="13.9">Weber Niraschtoe: I didnt even see what happened</Chat>
+<Chat et="17.1">OMGCA: everyone</Chat>
+<Chat et="19.2">Weber Niraschtoe: it was EK in front of you</Chat>
+<Chat et="24.7">SennaAndProst: ....</Chat>
+<Score et="74.7">wagonggong(11) lap=0 point=1 t=-1.000 et=74.519</Score>
+<Score et="75.6">lovepes2010(3) lap=0 point=1 t=-1.000 et=75.490</Score>
+<Score et="76.4">OMGCA(6) lap=0 point=1 t=-1.000 et=76.377</Score>
+<Score et="77.5">DUO MEI(4) lap=0 point=1 t=-1.000 et=77.422</Score>
+<Score et="79.0">smallbubble(13) lap=0 point=1 t=-1.000 et=78.819</Score>
+<Score et="79.5">DumiBirdF(10) lap=0 point=1 t=-1.000 et=79.342</Score>
+<Score et="81.2">Kne Yka(12) lap=0 point=1 t=-1.000 et=81.064</Score>
+<Score et="82.2">Eskwen(1) lap=0 point=1 t=-1.000 et=82.123</Score>
+<Score et="83.7">SennaAndProst(9) lap=0 point=1 t=-1.000 et=83.660</Score>
+<Score et="84.2">Parker Chen(2) lap=0 point=1 t=-1.000 et=84.083</Score>
+<Score et="86.3">LeonardoChan(7) lap=0 point=1 t=-1.000 et=86.252</Score>
+<Score et="131.4">wagonggong(11) lap=0 point=2 t=-1.000 et=131.202</Score>
+<Score et="132.0">lovepes2010(3) lap=0 point=2 t=-1.000 et=131.868</Score>
+<Score et="133.9">OMGCA(6) lap=0 point=2 t=-1.000 et=133.912</Score>
+<Score et="134.7">DUO MEI(4) lap=0 point=2 t=-1.000 et=134.620</Score>
+<Score et="137.1">smallbubble(13) lap=0 point=2 t=-1.000 et=136.936</Score>
+<Score et="137.9">DumiBirdF(10) lap=0 point=2 t=-1.000 et=137.762</Score>
+<Score et="138.8">Kne Yka(12) lap=0 point=2 t=-1.000 et=138.713</Score>
+<Score et="139.9">Eskwen(1) lap=0 point=2 t=-1.000 et=139.776</Score>
+<Score et="140.7">SennaAndProst(9) lap=0 point=2 t=-1.000 et=140.611</Score>
+<Score et="142.0">Parker Chen(2) lap=0 point=2 t=-1.000 et=141.874</Score>
+<Score et="144.2">LeonardoChan(7) lap=0 point=2 t=-1.000 et=144.094</Score>
+<Chat et="169.5">Weber Niraschtoe: well</Chat>
+<Chat et="174.1">Kne Yka: ??/</Chat>
+<Chat et="177.7">wagonggong: sry</Chat>
+<Penalty et="217.4">Eskwen received Drive Thru penalty, 0s, 0laps. Result: penalties=1, 1st=Drive Thru,0s</Penalty>
+<Incident et="220.6">LeonardoChan(7) reported contact (0.16) with another vehicle SennaAndProst(9)</Incident>
+<Incident et="225.8">Eskwen(1) reported contact (0.03) with another vehicle smallbubble(13)</Incident>
+<Incident et="240.3">LeonardoChan(7) reported contact (0.35) with another vehicle Kne Yka(12)</Incident>
+<Incident et="240.3">LeonardoChan(7) reported contact (1.00) with Wing</Incident>
+<Incident et="240.4">Kne Yka(12) reported contact (0.35) with another vehicle LeonardoChan(7)</Incident>
+<Incident et="241.7">LeonardoChan(7) reported contact (1.00) with Immovable</Incident>
+<Incident et="241.7">LeonardoChan(7) reported contact (0.87) with Immovable</Incident>
+<Incident et="242.9">OMGCA(6) reported contact (0.81) with Immovable</Incident>
+<Incident et="242.9">OMGCA(6) reported contact (0.39) with Immovable</Incident>
+<Incident et="242.9">OMGCA(6) reported contact (0.42) with Wing</Incident>
+<Incident et="243.0">OMGCA(6) reported contact (0.23) with Wing</Incident>
+<Incident et="245.2">LeonardoChan(7) reported contact (0.94) with Wing</Incident>
+<Incident et="245.3">LeonardoChan(7) reported contact (0.26) with Wing</Incident>
+<Incident et="245.3">OMGCA(6) reported contact (1.00) with another vehicle LeonardoChan(7)</Incident>
+<Incident et="245.3">OMGCA(6) reported contact (0.81) with another vehicle LeonardoChan(7)</Incident>
+<Incident et="245.4">LeonardoChan(7) reported contact (1.00) with another vehicle OMGCA(6)</Incident>
+<Incident et="245.4">OMGCA(6) reported contact (0.74) with another vehicle LeonardoChan(7)</Incident>
+<Incident et="245.4">LeonardoChan(7) reported contact (1.00) with another vehicle OMGCA(6)</Incident>
+<Incident et="245.5">LeonardoChan(7) reported contact (0.77) with another vehicle OMGCA(6)</Incident>
+<Incident et="246.2">LeonardoChan(7) reported contact (0.03) with Wing</Incident>
+<Incident et="247.9">OMGCA(6) reported contact (0.10) with Immovable</Incident>
+<Chat et="249.2">OMGCA: fucking hell</Chat>
+<Score et="249.2">wagonggong(11) lap=0 point=1 t=31.712 et=248.989</Score>
+<Score et="249.6">lovepes2010(3) lap=0 point=1 t=32.201 et=249.478</Score>
+<Chat et="250.0">Weber Niraschtoe: SC DEPLOYED</Chat>
+<Score et="250.2">Eskwen(1) lap=0 point=1 t=32.806 et=250.082</Score>
+<Score et="250.8">smallbubble(13) lap=0 point=1 t=33.319 et=250.596</Score>
+<Chat et="251.4">Weber Niraschtoe: SC </Chat>
+<Score et="251.6">DUO MEI(4) lap=0 point=1 t=34.161 et=251.437</Score>
+<Score et="251.6">Parker Chen(2) lap=0 point=1 t=34.241 et=251.518</Score>
+<Score et="252.2">Kne Yka(12) lap=0 point=1 t=34.853 et=252.130</Score>
+<Score et="253.0">DumiBirdF(10) lap=0 point=1 t=35.631 et=252.908</Score>
+<Score et="253.3">SennaAndProst(9) lap=0 point=1 t=35.889 et=253.166</Score>
+<Chat et="262.6">wagonggong: ek wth</Chat>
+<Incident et="265.5">Eskwen(1) reported contact (0.10) with another vehicle lovepes2010(3)</Incident>
+<Incident et="265.5">lovepes2010(3) reported contact (0.32) with another vehicle Eskwen(1)</Incident>
+<Score et="267.4">LeonardoChan(7) lap=0 point=1 t=50.025 et=267.301</Score>
+<Incident et="269.0">OMGCA(6) reported contact (0.29) with Immovable</Incident>
+<Incident et="269.1">OMGCA(6) reported contact (0.06) with Immovable</Incident>
+<Score et="284.2">OMGCA(6) lap=0 point=1 t=66.885 et=284.161</Score>
+<Score et="299.5">wagonggong(11) lap=0 point=2 t=81.980 et=299.257</Score>
+<Incident et="300.3">lovepes2010(3) reported contact (0.10) with another vehicle Eskwen(1)</Incident>
+<Score et="300.7">Eskwen(1) lap=0 point=2 t=83.359 et=300.635</Score>
+<Score et="300.9">lovepes2010(3) lap=0 point=2 t=83.488 et=300.765</Score>
+<Score et="301.1">Parker Chen(2) lap=0 point=2 t=83.748 et=301.024</Score>
+<Score et="301.8">smallbubble(13) lap=0 point=2 t=84.358 et=301.634</Score>
+<Score et="302.6">DUO MEI(4) lap=0 point=2 t=85.239 et=302.515</Score>
+<Score et="303.3">Kne Yka(12) lap=0 point=2 t=85.976 et=303.252</Score>
+<Chat et="304.3">Weber Niraschtoe: SAfety car: no overtaking</Chat>
+<Score et="304.5">DumiBirdF(10) lap=0 point=2 t=87.126 et=304.403</Score>
+<Score et="305.5">SennaAndProst(9) lap=0 point=2 t=88.085 et=305.361</Score>
+<Score et="333.1">lovepes2010(3) lap=1 point=0 t=115.687 et=332.963</Score>
+<Score et="333.5">Eskwen(1) lap=1 point=0 t=116.126 et=333.402</Score>
+<Score et="333.6">wagonggong(11) lap=1 point=0 t=115.082 et=332.359</Score>
+<Score et="334.9">Parker Chen(2) lap=1 point=0 t=117.501 et=334.778</Score>
+<Chat et="335.2">smallbubble: paRKER</Chat>
+<Chat et="335.4">DUO MEI: PARK</Chat>
+<Score et="337.3">smallbubble(13) lap=1 point=0 t=119.804 et=337.080</Score>
+<Score et="338.2">DUO MEI(4) lap=1 point=0 t=120.806 et=338.082</Score>
+<Score et="338.8">LeonardoChan(7) lap=0 point=2 t=121.442 et=338.718</Score>
+<Score et="339.3">Kne Yka(12) lap=1 point=0 t=121.911 et=339.188</Score>
+<Score et="340.3">DumiBirdF(10) lap=1 point=0 t=122.882 et=340.158</Score>
+<Chat et="341.7">DUO MEI: OVERTAKE</Chat>
+<Chat et="343.8">lovepes2010: wtf ek</Chat>
+<Incident et="344.5">LeonardoChan(7) reported contact (0.10) with Immovable</Incident>
+<Incident et="344.6">LeonardoChan(7) reported contact (0.26) with Immovable</Incident>
+<Chat et="351.7">Weber Niraschtoe: EK, you need to be P3</Chat>
+<Incident et="352.5">Eskwen(1) reported contact (0.13) with another vehicle wagonggong(11)</Incident>
+<Incident et="352.7">wagonggong(11) reported contact (0.71) with another vehicle Eskwen(1)</Incident>
+<Incident et="352.8">wagonggong(11) reported contact (0.06) with another vehicle Eskwen(1)</Incident>
+<Score et="352.8">SennaAndProst(9) lap=1 point=0 t=135.371 et=352.647</Score>
+<Incident et="353.9">Eskwen(1) reported contact (0.23) with Immovable</Incident>
+<Incident et="353.9">Eskwen(1) reported contact (1.00) with Wing</Incident>
+<Incident et="353.9">Eskwen(1) reported contact (1.00) with Wing</Incident>
+<Incident et="353.9">Eskwen(1) reported contact (0.68) with Wing</Incident>
+<Incident et="353.9">Eskwen(1) reported contact (0.00) with Wing</Incident>
+<Incident et="354.0">Eskwen(1) reported contact (0.16) with Immovable</Incident>
+<Chat et="355.1">wagonggong: wtf</Chat>
+<Score et="366.7">ghgyyukg(15) lap=0 point=1 t=149.345 et=366.621</Score>
+<Score et="368.0">wagonggong(11) lap=1 point=1 t=35.217 et=367.576</Score>
+<Score et="368.5">lovepes2010(3) lap=1 point=1 t=35.393 et=368.356</Score>
+<Score et="368.9">Eskwen(1) lap=1 point=1 t=35.371 et=368.773</Score>
+<Score et="369.6">Parker Chen(2) lap=1 point=1 t=34.715 et=369.493</Score>
+<Score et="369.6">smallbubble(13) lap=1 point=1 t=32.357 et=369.437</Score>
+<Score et="370.7">DUO MEI(4) lap=1 point=1 t=32.535 et=370.618</Score>
+<Score et="371.6">Kne Yka(12) lap=1 point=1 t=32.351 et=371.539</Score>
+<Score et="372.6">DumiBirdF(10) lap=1 point=1 t=32.320 et=372.479</Score>
+<Incident et="392.1">OMGCA(6) reported contact (0.06) with Immovable</Incident>
+<Score et="395.5">LeonardoChan(7) lap=1 point=0 t=178.117 et=395.393</Score>
+<Score et="399.6">SennaAndProst(9) lap=1 point=1 t=46.870 et=399.518</Score>
+<Chat et="411.6">wagonggong: it was a</Chat>
+<Chat et="429.2">Weber Niraschtoe: PArker shuld be P4, behind smallbubble.</Chat>
+<Score et="434.6">ghgyyukg(15) lap=0 point=2 t=217.217 et=434.494</Score>
+<Score et="435.2">wagonggong(11) lap=1 point=2 t=102.493 et=434.852</Score>
+<Score et="435.6">lovepes2010(3) lap=1 point=2 t=102.543 et=435.506</Score>
+<Score et="436.5">smallbubble(13) lap=1 point=2 t=99.258 et=436.338</Score>
+<Score et="436.8">Parker Chen(2) lap=1 point=2 t=101.982 et=436.760</Score>
+<Score et="437.4">DUO MEI(4) lap=1 point=2 t=99.232 et=437.314</Score>
+<Score et="438.0">Kne Yka(12) lap=1 point=2 t=98.686 et=437.874</Score>
+<Chat et="438.4">DUO MEI: NO</Chat>
+<Score et="438.4">DumiBirdF(10) lap=1 point=2 t=98.144 et=438.303</Score>
+<Score et="439.5">Eskwen(1) lap=1 point=2 t=105.961 et=439.363</Score>
+<Score et="443.1">LeonardoChan(7) lap=1 point=1 t=47.607 et=443.000</Score>
+<Chat et="444.0">DUO MEI: AND MW.</Chat>
+<Chat et="448.6">OMGCA: FUCK!</Chat>
+<Score et="448.6">SennaAndProst(9) lap=1 point=2 t=95.873 et=448.520</Score>
+<Chat et="448.7">DUO MEI: ME</Chat>
+<Incident et="452.5">Eskwen(1) reported contact (0.03) with Immovable</Incident>
+<Incident et="457.3">Kne Yka(12) reported contact (0.16) with Immovable</Incident>
+<Chat et="464.1">DUO MEI: HE TOOK ME</Chat>
+<Chat et="468.4">DUO MEI: LAP 1</Chat>
+<Chat et="470.7">Weber Niraschtoe: I will look at the replay one more time, for position regarding PArker and duomei</Chat>
+<Chat et="477.4">Weber Niraschtoe: for now, remain where you are. tHanks</Chat>
+<Score et="478.0">ghgyyukg(15) lap=1 point=0 t=260.667 et=477.943</Score>
+<Score et="479.3">wagonggong(11) lap=2 point=0 t=146.617 et=478.975</Score>
+<Score et="480.2">lovepes2010(3) lap=2 point=0 t=147.130 et=480.093</Score>
+<Score et="481.2">smallbubble(13) lap=2 point=0 t=143.899 et=480.979</Score>
+<Score et="481.6">Parker Chen(2) lap=2 point=0 t=146.744 et=481.522</Score>
+<Score et="482.2">DUO MEI(4) lap=2 point=0 t=143.986 et=482.069</Score>
+<Score et="483.7">DumiBirdF(10) lap=2 point=0 t=143.397 et=483.555</Score>
+<Score et="485.2">SennaAndProst(9) lap=2 point=0 t=132.495 et=485.142</Score>
+<Chat et="486.0">DUO MEI: OK</Chat>
+<Score et="486.7">Kne Yka(12) lap=2 point=0 t=147.370 et=486.558</Score>
+<Score et="490.7">Eskwen(1) lap=2 point=0 t=157.199 et=490.601</Score>
+<Score et="492.0">LeonardoChan(7) lap=1 point=2 t=96.509 et=491.902</Score>
+<Chat et="512.1">SennaAndProst: scin?</Chat>
+<Chat et="513.7">wagonggong: my lag</Chat>
+<Score et="517.3">ghgyyukg(15) lap=1 point=1 t=39.300 et=517.243</Score>
+<Score et="519.4">wagonggong(11) lap=2 point=1 t=40.114 et=519.090</Score>
+<Score et="520.3">lovepes2010(3) lap=2 point=1 t=40.138 et=520.231</Score>
+<Score et="521.2">smallbubble(13) lap=2 point=1 t=39.984 et=520.963</Score>
+<Score et="521.6">Parker Chen(2) lap=2 point=1 t=40.010 et=521.532</Score>
+<Score et="523.0">DUO MEI(4) lap=2 point=1 t=40.819 et=522.887</Score>
+<Score et="523.5">DumiBirdF(10) lap=2 point=1 t=39.846 et=523.401</Score>
+<Score et="524.8">SennaAndProst(9) lap=2 point=1 t=39.509 et=524.651</Score>
+<Score et="524.8">LeonardoChan(7) lap=2 point=0 t=129.271 et=524.664</Score>
+<Score et="525.4">Kne Yka(12) lap=2 point=1 t=38.766 et=525.324</Score>
+<Score et="535.2">Eskwen(1) lap=2 point=1 t=44.475 et=535.076</Score>
+<Chat et="552.6">wagonggong: when sc in</Chat>
+<Incident et="554.3">SennaAndProst(9) reported contact (0.39) with another vehicle DumiBirdF(10)</Incident>
+<Incident et="554.4">SennaAndProst(9) reported contact (1.00) with Wing</Incident>
+<Incident et="554.4">SennaAndProst(9) reported contact (0.13) with another vehicle DumiBirdF(10)</Incident>
+<Score et="554.4">LeonardoChan(7) lap=2 point=1 t=29.631 et=554.295</Score>
+<Incident et="554.4">DumiBirdF(10) reported contact (0.16) with another vehicle SennaAndProst(9)</Incident>
+<Incident et="554.5">DumiBirdF(10) reported contact (0.74) with another vehicle DUO MEI(4)</Incident>
+<Incident et="554.5">DUO MEI(4) reported contact (0.48) with another vehicle DumiBirdF(10)</Incident>
+<Incident et="554.5">DumiBirdF(10) reported contact (1.00) with Wing</Incident>
+<Incident et="554.5">DumiBirdF(10) reported contact (0.23) with another vehicle DUO MEI(4)</Incident>
+<Incident et="554.5">DUO MEI(4) reported contact (0.94) with another vehicle DumiBirdF(10)</Incident>
+<Incident et="554.5">DUO MEI(4) reported contact (0.16) with another vehicle DumiBirdF(10)</Incident>
+<Chat et="557.0">SennaAndProst: fuck</Chat>
+<Incident et="558.2">SennaAndProst(9) reported contact (0.35) with Sign</Incident>
+<Incident et="558.3">SennaAndProst(9) reported contact (0.00) with Sign</Incident>
+<Incident et="558.3">SennaAndProst(9) reported contact (0.03) with Sign</Incident>
+<Chat et="568.4">DumiBirdF: why you stop</Chat>
+<Chat et="569.7">Weber Niraschtoe: SC stay out please.</Chat>
+<Incident et="570.7">SennaAndProst(9) reported contact (1.00) with Sign</Incident>
+<Incident et="570.8">SennaAndProst(9) reported contact (0.03) with Sign</Incident>
+<Incident et="572.6">SennaAndProst(9) reported contact (0.81) with Sign</Incident>
+<Incident et="572.7">SennaAndProst(9) reported contact (0.32) with Sign</Incident>
+<Incident et="575.9">DUO MEI(4) reported contact (1.00) with Sign</Incident>
+<Incident et="575.9">DUO MEI(4) reported contact (0.39) with Sign</Incident>
+<Incident et="576.0">DUO MEI(4) reported contact (0.03) with Sign</Incident>
+<Incident et="576.0">DUO MEI(4) reported contact (0.87) with Immovable</Incident>
+<Incident et="576.0">DUO MEI(4) reported contact (1.00) with Wing</Incident>
+<Incident et="576.0">DUO MEI(4) reported contact (0.03) with Wing</Incident>
+<Incident et="576.0">DUO MEI(4) reported contact (0.06) with Sign</Incident>
+<Incident et="576.2">DUO MEI(4) reported contact (0.65) with Immovable</Incident>
+<Incident et="577.4">DUO MEI(4) reported contact (0.23) with Sign</Incident>
+<Incident et="577.4">DUO MEI(4) reported contact (0.29) with Sign</Incident>
+<Chat et="580.5">DumiBirdF: no typ pleae</Chat>
+<Score et="585.1">ghgyyukg(15) lap=1 point=2 t=107.015 et=584.958</Score>
+<Score et="585.7">wagonggong(11) lap=2 point=2 t=106.421 et=585.396</Score>
+<Score et="587.0">lovepes2010(3) lap=2 point=2 t=106.767 et=586.860</Score>
+<Score et="587.2">smallbubble(13) lap=2 point=2 t=106.065 et=587.044</Score>
+<Score et="587.5">Parker Chen(2) lap=2 point=2 t=105.878 et=587.401</Score>
+<Score et="588.1">Kne Yka(12) lap=2 point=2 t=101.409 et=587.967</Score>
+<Score et="590.6">SennaAndProst(9) lap=2 point=2 t=105.321 et=590.463</Score>
+<Score et="590.8">Eskwen(1) lap=2 point=2 t=100.107 et=590.708</Score>
+<Chat et="597.0">Weber Niraschtoe: Incidents under the safety car will be reviewed after the race.</Chat>
+<Score et="603.8">LeonardoChan(7) lap=2 point=2 t=79.043 et=603.707</Score>
+<Score et="604.7">DUO MEI(4) lap=2 point=2 t=122.502 et=604.570</Score>
+<Score et="622.5">DumiBirdF(10) lap=2 point=2 t=138.822 et=622.377</Score>
+<Incident et="627.2">SennaAndProst(9) reported contact (1.00) with Immovable</Incident>
+<Score et="628.5">ghgyyukg(15) lap=2 point=0 t=150.477 et=628.420</Score>
+<Incident et="630.3">SennaAndProst(9) reported contact (0.29) with Immovable</Incident>
+<Score et="631.4">wagonggong(11) lap=3 point=0 t=152.126 et=631.101</Score>
+<Score et="632.1">smallbubble(13) lap=3 point=0 t=150.891 et=631.870</Score>
+<Score et="632.6">lovepes2010(3) lap=3 point=0 t=152.422 et=632.514</Score>
+<Score et="633.3">Parker Chen(2) lap=3 point=0 t=151.637 et=633.159</Score>
+<Score et="634.6">Kne Yka(12) lap=3 point=0 t=147.924 et=634.482</Score>
+<Score et="638.7">LeonardoChan(7) lap=3 point=0 t=113.892 et=638.556</Score>
+<Score et="640.2">Eskwen(1) lap=3 point=0 t=149.525 et=640.126</Score>
+<Score et="646.8">SennaAndProst(9) lap=3 point=0 t=161.610 et=646.752</Score>
+<Penalty et="647.0">Eskwen served 1st Drive Thru penalty, result: penalties=0, 1st=Drive Thru,0s</Penalty>
+<Chat et="660.7">SennaAndProst: that speed lol</Chat>
+<Score et="667.6">ghgyyukg(15) lap=2 point=1 t=39.090 et=667.510</Score>
+<Score et="668.7">wagonggong(11) lap=3 point=1 t=37.300 et=668.402</Score>
+<Score et="669.4">lovepes2010(3) lap=3 point=1 t=36.792 et=669.306</Score>
+<Score et="670.2">smallbubble(13) lap=3 point=1 t=38.038 et=669.908</Score>
+<Score et="671.1">Parker Chen(2) lap=3 point=1 t=37.881 et=671.040</Score>
+<Score et="672.5">Kne Yka(12) lap=3 point=1 t=37.855 et=672.337</Score>
+<Score et="674.0">LeonardoChan(7) lap=3 point=1 t=35.396 et=673.952</Score>
+<Score et="675.1">Eskwen(1) lap=3 point=1 t=34.887 et=675.013</Score>
+<Score et="678.5">DUO MEI(4) lap=3 point=0 t=196.352 et=678.420</Score>
+<Score et="687.9">DumiBirdF(10) lap=3 point=0 t=204.248 et=687.803</Score>
+<Score et="693.6">SennaAndProst(9) lap=3 point=1 t=46.704 et=693.456</Score>
+<Chat et="709.6">Weber Niraschtoe: SC IN THIS LAP</Chat>
+<Incident et="710.5">Parker Chen(2) reported contact (1.00) with Immovable</Incident>
+<Incident et="710.5">Parker Chen(2) reported contact (1.00) with Immovable</Incident>
+<Incident et="710.5">Parker Chen(2) reported contact (1.00) with Wing</Incident>
+<Incident et="710.6">Parker Chen(2) reported contact (1.00) with Immovable</Incident>
+<Incident et="710.6">Parker Chen(2) reported contact (0.65) with Immovable</Incident>
+<Incident et="711.3">Parker Chen(2) reported contact (0.39) with Immovable</Incident>
+<Incident et="711.4">Parker Chen(2) reported contact (0.13) with Immovable</Incident>
+<Incident et="711.4">Parker Chen(2) reported contact (0.13) with Track</Incident>
+<Incident et="711.7">Parker Chen(2) reported contact (0.00) with Track</Incident>
+<Chat et="713.3">Weber Niraschtoe: SC IN THIS LAP</Chat>
+<Chat et="720.0">Weber Niraschtoe: nO</Chat>
+<Chat et="721.0">Kne Yka: parker huge</Chat>
+<Chat et="721.2">Weber Niraschtoe: STAY OUT</Chat>
+<Chat et="723.4">Weber Niraschtoe: SC STAY OUT</Chat>
+<Chat et="724.6">Weber Niraschtoe: STAY OUT</Chat>
+<Score et="727.0">DUO MEI(4) lap=3 point=1 t=48.498 et=726.919</Score>
+<Chat et="728.7">Weber Niraschtoe: STAY OUT</Chat>
+<Score et="734.3">ghgyyukg(15) lap=2 point=2 t=105.737 et=734.157</Score>
+<Score et="735.2">wagonggong(11) lap=3 point=2 t=103.807 et=734.909</Score>
+<Score et="735.9">lovepes2010(3) lap=3 point=2 t=103.295 et=735.809</Score>
+<Score et="736.2">DumiBirdF(10) lap=3 point=1 t=48.283 et=736.087</Score>
+<Score et="736.8">smallbubble(13) lap=3 point=2 t=104.793 et=736.663</Score>
+<Score et="737.9">Kne Yka(12) lap=3 point=2 t=103.366 et=737.849</Score>
+<Score et="739.0">LeonardoChan(7) lap=3 point=2 t=100.375 et=738.931</Score>
+<Score et="740.1">Eskwen(1) lap=3 point=2 t=99.936 et=740.062</Score>
+<Score et="743.3">SennaAndProst(9) lap=3 point=2 t=96.403 et=743.156</Score>
+<Chat et="773.2">Parker Chen: fuck off tan chuang</Chat>
+<Score et="775.3">DUO MEI(4) lap=3 point=2 t=96.830 et=775.251</Score>
+<Score et="777.4">ghgyyukg(15) lap=3 point=0 t=148.833 et=777.253</Score>
+<Score et="778.1">wagonggong(11) lap=4 point=0 t=146.651 et=777.752</Score>
+<Score et="780.1">lovepes2010(3) lap=4 point=0 t=147.515 et=780.030</Score>
+<Score et="780.7">smallbubble(13) lap=4 point=0 t=148.626 et=780.496</Score>
+<Score et="781.8">Kne Yka(12) lap=4 point=0 t=147.181 et=781.663</Score>
+<Score et="782.4">LeonardoChan(7) lap=4 point=0 t=143.789 et=782.345</Score>
+<Score et="783.0">Eskwen(1) lap=4 point=0 t=142.783 et=782.909</Score>
+<Score et="784.6">DumiBirdF(10) lap=3 point=2 t=96.673 et=784.477</Score>
+<Score et="785.2">SennaAndProst(9) lap=4 point=0 t=138.295 et=785.047</Score>
+<Chat et="786.0">Parker Chen: ruined my fantastic start</Chat>
+<Chat et="790.8">wagonggong: parade</Chat>
+<Chat et="792.5">Parker Chen: fuck off</Chat>
+<Chat et="796.8">Weber Niraschtoe: SC IN THIS LAP</Chat>
+<Chat et="797.7">SennaAndProst: sry fot that</Chat>
+<Chat et="799.0">Weber Niraschtoe: SC IN THIS LAP</Chat>
+<Chat et="806.8">SennaAndProst: hope no crash</Chat>
+<Score et="808.5">DUO MEI(4) lap=4 point=0 t=129.972 et=808.393</Score>
+<Score et="816.0">ghgyyukg(15) lap=3 point=1 t=38.651 et=815.904</Score>
+<Score et="817.4">DumiBirdF(10) lap=4 point=0 t=129.433 et=817.237</Score>
+<Score et="817.6">wagonggong(11) lap=4 point=1 t=39.565 et=817.317</Score>
+<Score et="817.9">lovepes2010(3) lap=4 point=1 t=37.838 et=817.867</Score>
+<Score et="819.4">smallbubble(13) lap=4 point=1 t=38.764 et=819.260</Score>
+<Score et="820.4">Kne Yka(12) lap=4 point=1 t=38.639 et=820.302</Score>
+<Score et="821.8">LeonardoChan(7) lap=4 point=1 t=39.350 et=821.695</Score>
+<Score et="822.8">Eskwen(1) lap=4 point=1 t=39.808 et=822.717</Score>
+<Score et="825.6">SennaAndProst(9) lap=4 point=1 t=40.385 et=825.432</Score>
+<Score et="837.4">DUO MEI(4) lap=4 point=1 t=28.935 et=837.327</Score>
+<Score et="846.5">DumiBirdF(10) lap=4 point=1 t=29.221 et=846.458</Score>
+<Score et="882.2">ghgyyukg(15) lap=3 point=2 t=104.783 et=882.035</Score>
+<Chat et="889.8">Weber Niraschtoe: SC IN THIS LAP</Chat>
+<Score et="890.4">wagonggong(11) lap=4 point=2 t=112.334 et=890.086</Score>
+<Score et="891.0">lovepes2010(3) lap=4 point=2 t=110.887 et=890.917</Score>
+<Score et="891.7">smallbubble(13) lap=4 point=2 t=110.969 et=891.465</Score>
+<Score et="892.1">Kne Yka(12) lap=4 point=2 t=110.297 et=891.960</Score>
+<Score et="892.4">LeonardoChan(7) lap=4 point=2 t=109.986 et=892.332</Score>
+<Score et="893.1">Eskwen(1) lap=4 point=2 t=110.117 et=893.026</Score>
+<Score et="894.6">SennaAndProst(9) lap=4 point=2 t=109.425 et=894.472</Score>
+<Score et="896.0">DUO MEI(4) lap=4 point=2 t=87.487 et=895.880</Score>
+<Score et="897.7">DumiBirdF(10) lap=4 point=2 t=80.350 et=897.586</Score>
+<Chat et="927.2">Weber Niraschtoe: GREEN FLAG</Chat>
+<Score et="937.5">wagonggong(11) lap=5 point=0 t=159.352 et=937.104</Score>
+<Score et="938.1">lovepes2010(3) lap=5 point=0 t=158.027 et=938.057</Score>
+<Score et="938.9">smallbubble(13) lap=5 point=0 t=158.161 et=938.657</Score>
+<Score et="940.2">LeonardoChan(7) lap=5 point=0 t=157.722 et=940.067</Score>
+<Score et="940.2">Kne Yka(12) lap=5 point=0 t=158.459 et=940.122</Score>
+<Score et="940.5">Eskwen(1) lap=5 point=0 t=157.471 et=940.380</Score>
+<Score et="941.6">SennaAndProst(9) lap=5 point=0 t=156.478 et=941.525</Score>
+<Score et="942.9">DUO MEI(4) lap=5 point=0 t=134.371 et=942.764</Score>
+<Score et="944.7">DumiBirdF(10) lap=5 point=0 t=127.360 et=944.597</Score>
+<Score et="965.4">wagonggong(11) lap=5 point=1 t=28.013 et=965.117</Score>
+<Score et="966.5">lovepes2010(3) lap=5 point=1 t=28.370 et=966.427</Score>
+<Score et="966.8">smallbubble(13) lap=5 point=1 t=27.992 et=966.649</Score>
+<Score et="969.2">Kne Yka(12) lap=5 point=1 t=28.902 et=969.024</Score>
+<Score et="969.2">LeonardoChan(7) lap=5 point=1 t=29.064 et=969.132</Score>
+<Score et="969.3">Eskwen(1) lap=5 point=1 t=28.826 et=969.206</Score>
+<Score et="970.6">SennaAndProst(9) lap=5 point=1 t=28.918 et=970.443</Score>
+<Score et="972.4">DUO MEI(4) lap=5 point=1 t=29.547 et=972.311</Score>
+<Score et="973.6">DumiBirdF(10) lap=5 point=1 t=28.879 et=973.475</Score>
+<Score et="1010.6">wagonggong(11) lap=5 point=2 t=73.246 et=1010.350</Score>
+<Score et="1011.5">lovepes2010(3) lap=5 point=2 t=73.412 et=1011.469</Score>
+<Score et="1013.4">smallbubble(13) lap=5 point=2 t=74.518 et=1013.175</Score>
+<Score et="1015.5">Kne Yka(12) lap=5 point=2 t=75.295 et=1015.418</Score>
+<Score et="1016.5">LeonardoChan(7) lap=5 point=2 t=76.328 et=1016.396</Score>
+<Score et="1017.2">Eskwen(1) lap=5 point=2 t=76.781 et=1017.161</Score>
+<Score et="1019.0">SennaAndProst(9) lap=5 point=2 t=77.351 et=1018.877</Score>
+<Score et="1019.4">DUO MEI(4) lap=5 point=2 t=76.541 et=1019.304</Score>
+<Score et="1020.1">DumiBirdF(10) lap=5 point=2 t=75.356 et=1019.953</Score>
+<Score et="1041.4">wagonggong(11) lap=6 point=0 t=104.043 et=1041.148</Score>
+<Score et="1042.4">lovepes2010(3) lap=6 point=0 t=104.282 et=1042.339</Score>
+<Score et="1044.3">smallbubble(13) lap=6 point=0 t=105.445 et=1044.103</Score>
+<Score et="1046.4">Kne Yka(12) lap=6 point=0 t=106.157 et=1046.280</Score>
+<Score et="1048.4">LeonardoChan(7) lap=6 point=0 t=108.258 et=1048.326</Score>
+<Score et="1049.0">Eskwen(1) lap=6 point=0 t=108.550 et=1048.930</Score>
+<Score et="1050.9">SennaAndProst(9) lap=6 point=0 t=109.227 et=1050.752</Score>
+<Score et="1051.6">DUO MEI(4) lap=6 point=0 t=108.696 et=1051.459</Score>
+<Score et="1052.6">DumiBirdF(10) lap=6 point=0 t=107.933 et=1052.530</Score>
+<Score et="1069.3">wagonggong(11) lap=6 point=1 t=27.789 et=1068.936</Score>
+<Score et="1070.4">lovepes2010(3) lap=6 point=1 t=27.964 et=1070.302</Score>
+<Score et="1072.4">smallbubble(13) lap=6 point=1 t=28.028 et=1072.130</Score>
+<Score et="1074.3">Kne Yka(12) lap=6 point=1 t=27.914 et=1074.194</Score>
+<Score et="1077.2">LeonardoChan(7) lap=6 point=1 t=28.737 et=1077.063</Score>
+<Score et="1077.3">Eskwen(1) lap=6 point=1 t=28.289 et=1077.219</Score>
+<Score et="1079.6">SennaAndProst(9) lap=6 point=1 t=28.790 et=1079.542</Score>
+<Score et="1080.6">DUO MEI(4) lap=6 point=1 t=29.040 et=1080.499</Score>
+<Score et="1081.2">DumiBirdF(10) lap=6 point=1 t=28.527 et=1081.058</Score>
+<Incident et="1083.4">LeonardoChan(7) reported contact (0.29) with another vehicle Eskwen(1)</Incident>
+<Incident et="1083.4">LeonardoChan(7) reported contact (1.00) with Wing</Incident>
+<Incident et="1083.4">Eskwen(1) reported contact (0.23) with another vehicle LeonardoChan(7)</Incident>
+<Incident et="1083.5">LeonardoChan(7) reported contact (0.87) with Wing</Incident>
+<Incident et="1083.5">LeonardoChan(7) reported contact (1.00) with Wing</Incident>
+<Incident et="1085.6">LeonardoChan(7) reported contact (0.00) with Immovable</Incident>
+<Incident et="1087.2">DumiBirdF(10) reported contact (0.97) with Wing</Incident>
+<Incident et="1087.3">DumiBirdF(10) reported contact (0.35) with Wing</Incident>
+<Incident et="1087.3">DumiBirdF(10) reported contact (0.42) with Wing</Incident>
+<Incident et="1087.3">DumiBirdF(10) reported contact (0.16) with Wing</Incident>
+<Incident et="1087.3">DumiBirdF(10) reported contact (0.26) with Wing</Incident>
+<Incident et="1087.4">DumiBirdF(10) reported contact (0.23) with Wing</Incident>
+<Incident et="1087.4">DumiBirdF(10) reported contact (0.10) with Wing</Incident>
+<Chat et="1087.6">Weber Niraschtoe: SC DEPLOYED</Chat>
+<Chat et="1089.9">Weber Niraschtoe: SC DEPLOYED</Chat>
+<Chat et="1092.3">Weber Niraschtoe: SC DEPLYED</Chat>
+<Chat et="1095.9">ghgyyukg: are you sure</Chat>
+<Chat et="1101.3">Weber Niraschtoe: YES</Chat>
+<Chat et="1104.2">OMGCA: why</Chat>
+<Chat et="1112.0">Weber Niraschtoe: Dangerous slow car</Chat>
+<Score et="1113.7">ghgyyukg(15) lap=4 point=0 t=336.255 et=1113.508</Score>
+<Score et="1116.6">wagonggong(11) lap=6 point=2 t=75.059 et=1116.206</Score>
+<Score et="1117.5">lovepes2010(3) lap=6 point=2 t=75.056 et=1117.394</Score>
+<Score et="1118.8">smallbubble(13) lap=6 point=2 t=74.519 et=1118.621</Score>
+<Score et="1120.4">Kne Yka(12) lap=6 point=2 t=74.023 et=1120.302</Score>
+<Score et="1125.3">Eskwen(1) lap=6 point=2 t=76.264 et=1125.194</Score>
+<Score et="1126.3">SennaAndProst(9) lap=6 point=2 t=75.479 et=1126.231</Score>
+<Score et="1128.5">DUO MEI(4) lap=6 point=2 t=76.870 et=1128.329</Score>
+<Score et="1129.1">DumiBirdF(10) lap=6 point=2 t=76.428 et=1128.958</Score>
+<Score et="1147.3">LeonardoChan(7) lap=6 point=2 t=98.909 et=1147.234</Score>
+<Score et="1155.6">wagonggong(11) lap=7 point=0 t=114.166 et=1155.314</Score>
+<Score et="1156.3">lovepes2010(3) lap=7 point=0 t=113.842 et=1156.180</Score>
+<Score et="1157.5">smallbubble(13) lap=7 point=0 t=113.189 et=1157.292</Score>
+<Score et="1158.7">Kne Yka(12) lap=7 point=0 t=112.260 et=1158.540</Score>
+<Chat et="1158.7">SennaAndProst: fia stylea</Chat>
+<Score et="1159.2">Eskwen(1) lap=7 point=0 t=110.183 et=1159.113</Score>
+<Score et="1160.6">SennaAndProst(9) lap=7 point=0 t=109.739 et=1160.491</Score>
+<Score et="1161.8">DumiBirdF(10) lap=7 point=0 t=109.137 et=1161.667</Score>
+<Chat et="1162.5">Weber Niraschtoe: Potential debris at Turn 6, unconfirmed.</Chat>
+<Score et="1170.9">DUO MEI(4) lap=7 point=0 t=119.298 et=1170.757</Score>
+<Score et="1184.9">ghgyyukg(15) lap=4 point=1 t=71.275 et=1184.783</Score>
+<Score et="1187.4">wagonggong(11) lap=7 point=1 t=31.750 et=1187.063</Score>
+<Score et="1188.6">lovepes2010(3) lap=7 point=1 t=32.312 et=1188.492</Score>
+<Score et="1192.1">smallbubble(13) lap=7 point=1 t=34.592 et=1191.884</Score>
+<Score et="1193.2">Kne Yka(12) lap=7 point=1 t=34.520 et=1193.060</Score>
+<Score et="1194.3">Eskwen(1) lap=7 point=1 t=35.128 et=1194.241</Score>
+<Score et="1196.9">LeonardoChan(7) lap=7 point=0 t=148.442 et=1196.767</Score>
+<Score et="1197.7">DumiBirdF(10) lap=7 point=1 t=35.968 et=1197.636</Score>
+<Chat et="1199.6">OMGCA: cbt you cunt</Chat>
+<Chat et="1200.8">SennaAndProst: think hce will be disqualified from the race control</Chat>
+<Score et="1203.4">SennaAndProst(9) lap=7 point=1 t=42.797 et=1203.289</Score>
+<Score et="1211.4">DUO MEI(4) lap=7 point=1 t=40.561 et=1211.318</Score>
+<Chat et="1215.9">Parker Chen: ham</Chat>
+<Chat et="1230.1">DumiBirdF: don&apos;t stop for typing OK?</Chat>
+<Chat et="1241.5">SennaAndProst: affirm</Chat>
+<Chat et="1242.2">Parker Chen: i retired</Chat>
+<Score et="1244.6">LeonardoChan(7) lap=7 point=1 t=47.727 et=1244.495</Score>
+<Chat et="1252.2">Parker Chen: for fucking sake</Chat>
+<Score et="1252.2">ghgyyukg(15) lap=4 point=2 t=138.623 et=1252.131</Score>
+<Score et="1252.7">wagonggong(11) lap=7 point=2 t=97.063 et=1252.377</Score>
+<Score et="1254.0">lovepes2010(3) lap=7 point=2 t=97.746 et=1253.926</Score>
+<Score et="1254.4">smallbubble(13) lap=7 point=2 t=96.971 et=1254.262</Score>
+<Score et="1254.9">Kne Yka(12) lap=7 point=2 t=96.227 et=1254.766</Score>
+<Score et="1255.3">Eskwen(1) lap=7 point=2 t=96.057 et=1255.170</Score>
+<Score et="1256.3">SennaAndProst(9) lap=7 point=2 t=95.720 et=1256.212</Score>
+<Score et="1261.9">DUO MEI(4) lap=7 point=2 t=90.983 et=1261.740</Score>
+<Chat et="1262.0">wagonggong: oo slow</Chat>
+<Chat et="1269.5">OMGCA: i&apos;m pretty sure dumi is saying senna</Chat>
+<Chat et="1276.0">SennaAndProst: yes</Chat>
+<Score et="1279.2">DumiBirdF(10) lap=7 point=2 t=117.408 et=1279.076</Score>
+<Chat et="1287.7">Parker Chen: why sc is out again?</Chat>
+<Chat et="1292.0">OMGCA: cbt crashed</Chat>
+<Score et="1294.4">LeonardoChan(7) lap=7 point=2 t=97.477 et=1294.244</Score>
+<Score et="1295.1">ghgyyukg(15) lap=5 point=0 t=181.437 et=1294.946</Score>
+<Score et="1297.0">lovepes2010(3) lap=8 point=0 t=140.767 et=1296.948</Score>
+<Score et="1298.0">smallbubble(13) lap=8 point=0 t=140.528 et=1297.819</Score>
+<Score et="1298.5">Kne Yka(12) lap=8 point=0 t=139.824 et=1298.363</Score>
+<Score et="1299.4">Eskwen(1) lap=8 point=0 t=140.193 et=1299.306</Score>
+<Score et="1300.4">SennaAndProst(9) lap=8 point=0 t=139.785 et=1300.276</Score>
+<Chat et="1304.8">Weber Niraschtoe: SC IN THIS LAP</Chat>
+<Chat et="1306.5">Parker Chen: disaster number x for spr</Chat>
+<Chat et="1307.2">OMGCA: yka can you see my message before?</Chat>
+<Score et="1310.3">DUO MEI(4) lap=8 point=0 t=139.451 et=1310.208</Score>
+<Score et="1311.2">wagonggong(11) lap=8 point=0 t=147.208 et=1302.522</Score>
+<Score et="1312.0">DumiBirdF(10) lap=8 point=0 t=150.207 et=1311.874</Score>
+<Chat et="1312.9">Kne Yka: yes</Chat>
+<Chat et="1315.0">OMGCA: ok</Chat>
+<Score et="1327.2">LeonardoChan(7) lap=8 point=0 t=130.377 et=1327.144</Score>
+<Chat et="1331.0">Parker Chen: volvo just like f2 engine</Chat>
+<Score et="1333.7">ghgyyukg(15) lap=5 point=1 t=38.694 et=1333.640</Score>
+<Score et="1335.3">lovepes2010(3) lap=8 point=1 t=38.260 et=1335.207</Score>
+<Score et="1336.4">smallbubble(13) lap=8 point=1 t=38.426 et=1336.245</Score>
+<Score et="1337.7">Kne Yka(12) lap=8 point=1 t=39.172 et=1337.535</Score>
+<Score et="1338.4">SennaAndProst(9) lap=8 point=1 t=38.024 et=1338.300</Score>
+<Score et="1342.1">Eskwen(1) lap=8 point=1 t=42.733 et=1342.039</Score>
+<Score et="1342.9">DumiBirdF(10) lap=8 point=1 t=30.883 et=1342.757</Score>
+<Score et="1343.9">DUO MEI(4) lap=8 point=1 t=33.560 et=1343.767</Score>
+<Score et="1345.0">wagonggong(11) lap=8 point=1 t=42.084 et=1344.606</Score>
+<Score et="1357.4">LeonardoChan(7) lap=8 point=1 t=30.118 et=1357.263</Score>
+<Chat et="1372.1">Weber Niraschtoe: SAFETY CAR IN THIS LAP</Chat>
+<Score et="1400.0">ghgyyukg(15) lap=5 point=2 t=104.915 et=1399.861</Score>
+<Incident et="1401.0">SennaAndProst(9) reported contact (0.26) with another vehicle Eskwen(1)</Incident>
+<Incident et="1401.0">Eskwen(1) reported contact (0.29) with another vehicle SennaAndProst(9)</Incident>
+<Chat et="1404.4">wagonggong: wtf</Chat>
+<Chat et="1405.0">Weber Niraschtoe: STAY OUT</Chat>
+<Chat et="1406.2">Weber Niraschtoe: STAY OUT</Chat>
+<Score et="1407.2">lovepes2010(3) lap=8 point=2 t=110.126 et=1407.074</Score>
+<Score et="1408.0">smallbubble(13) lap=8 point=2 t=109.946 et=1407.766</Score>
+<Score et="1408.2">Kne Yka(12) lap=8 point=2 t=109.782 et=1408.146</Score>
+<Score et="1410.6">Eskwen(1) lap=8 point=2 t=111.184 et=1410.491</Score>
+<Score et="1411.4">DumiBirdF(10) lap=8 point=2 t=99.358 et=1411.232</Score>
+<Score et="1412.4">DUO MEI(4) lap=8 point=2 t=102.135 et=1412.343</Score>
+<Score et="1413.3">wagonggong(11) lap=8 point=2 t=110.395 et=1412.917</Score>
+<Score et="1414.2">LeonardoChan(7) lap=8 point=2 t=86.953 et=1414.098</Score>
+<Score et="1416.0">SennaAndProst(9) lap=8 point=2 t=115.636 et=1415.912</Score>
+<Chat et="1418.8">OMGCA: what&apos;s going on</Chat>
+<Chat et="1423.5">Parker Chen: 8 had done,maybe 7 under sc</Chat>
+<Chat et="1430.2">Parker Chen: typical spa race</Chat>
+<Score et="1442.8">ghgyyukg(15) lap=6 point=0 t=147.713 et=1442.659</Score>
+<Score et="1444.6">lovepes2010(3) lap=9 point=0 t=147.520 et=1444.468</Score>
+<Incident et="1446.1">DUO MEI(4) reported contact (0.06) with Immovable</Incident>
+<Score et="1446.1">smallbubble(13) lap=9 point=0 t=148.127 et=1445.946</Score>
+<Incident et="1446.3">DUO MEI(4) reported contact (0.29) with Immovable</Incident>
+<Score et="1446.8">Kne Yka(12) lap=9 point=0 t=148.314 et=1446.677</Score>
+<Score et="1448.6">Eskwen(1) lap=9 point=0 t=149.215 et=1448.521</Score>
+<Score et="1449.8">DumiBirdF(10) lap=9 point=0 t=137.765 et=1449.639</Score>
+<Score et="1452.3">LeonardoChan(7) lap=9 point=0 t=125.032 et=1452.176</Score>
+<Score et="1453.4">SennaAndProst(9) lap=9 point=0 t=152.984 et=1453.260</Score>
+<Score et="1458.3">DUO MEI(4) lap=9 point=0 t=148.042 et=1458.250</Score>
+<Score et="1460.4">wagonggong(11) lap=9 point=0 t=156.592 et=1459.114</Score>
+<Score et="1480.9">ghgyyukg(15) lap=6 point=1 t=38.070 et=1480.729</Score>
+<Score et="1481.9">lovepes2010(3) lap=9 point=1 t=37.318 et=1481.786</Score>
+<Score et="1483.7">smallbubble(13) lap=9 point=1 t=37.569 et=1483.516</Score>
+<Score et="1484.5">Kne Yka(12) lap=9 point=1 t=37.714 et=1484.391</Score>
+<Score et="1484.9">Eskwen(1) lap=9 point=1 t=36.273 et=1484.794</Score>
+<Score et="1485.8">DumiBirdF(10) lap=9 point=1 t=36.039 et=1485.678</Score>
+<Score et="1487.0">LeonardoChan(7) lap=9 point=1 t=34.749 et=1486.926</Score>
+<Chat et="1487.3">OMGCA: sc in this lap or next?</Chat>
+<Chat et="1487.4">SennaAndProst: ghg: shuang si</Chat>
+<Score et="1488.7">SennaAndProst(9) lap=9 point=1 t=35.320 et=1488.580</Score>
+<Chat et="1489.3">Weber Niraschtoe: SAFETY CAR IN THIS LAP</Chat>
+<Score et="1498.6">wagonggong(11) lap=9 point=1 t=39.229 et=1498.344</Score>
+<Score et="1500.3">DUO MEI(4) lap=9 point=1 t=41.931 et=1500.181</Score>
+<Chat et="1522.9">Weber Niraschtoe: SAFETY CAR IN THIS LAP</Chat>
+<Score et="1547.8">ghgyyukg(15) lap=6 point=2 t=105.051 et=1547.710</Score>
+<Score et="1552.1">lovepes2010(3) lap=9 point=2 t=107.609 et=1552.077</Score>
+<Score et="1553.1">smallbubble(13) lap=9 point=2 t=106.972 et=1552.918</Score>
+<Score et="1553.3">Kne Yka(12) lap=9 point=2 t=106.559 et=1553.237</Score>
+<Score et="1553.5">Eskwen(1) lap=9 point=2 t=104.934 et=1553.455</Score>
+<Score et="1553.9">DumiBirdF(10) lap=9 point=2 t=104.168 et=1553.807</Score>
+<Score et="1554.5">LeonardoChan(7) lap=9 point=2 t=102.188 et=1554.364</Score>
+<Score et="1555.7">SennaAndProst(9) lap=9 point=2 t=102.341 et=1555.601</Score>
+<Score et="1556.8">wagonggong(11) lap=9 point=2 t=97.335 et=1556.450</Score>
+<Score et="1557.9">DUO MEI(4) lap=9 point=2 t=99.553 et=1557.803</Score>
+<Chat et="1589.8">Weber Niraschtoe: GREEN FLAG</Chat>
+<Score et="1599.9">lovepes2010(3) lap=10 point=0 t=155.278 et=1599.746</Score>
+<Score et="1600.5">smallbubble(13) lap=10 point=0 t=154.417 et=1600.364</Score>
+<Score et="1601.5">Kne Yka(12) lap=10 point=0 t=154.677 et=1601.355</Score>
+<Score et="1601.6">Eskwen(1) lap=10 point=0 t=152.993 et=1601.514</Score>
+<Score et="1603.3">LeonardoChan(7) lap=10 point=0 t=150.991 et=1603.167</Score>
+<Score et="1603.5">DumiBirdF(10) lap=10 point=0 t=153.790 et=1603.428</Score>
+<Score et="1603.6">SennaAndProst(9) lap=10 point=0 t=150.202 et=1603.462</Score>
+<Score et="1604.2">wagonggong(11) lap=10 point=0 t=144.786 et=1603.900</Score>
+<Score et="1606.0">DUO MEI(4) lap=10 point=0 t=147.646 et=1605.896</Score>
+<Score et="1628.2">lovepes2010(3) lap=10 point=1 t=28.402 et=1628.148</Score>
+<Score et="1628.8">smallbubble(13) lap=10 point=1 t=28.225 et=1628.588</Score>
+<Score et="1629.7">Eskwen(1) lap=10 point=1 t=28.141 et=1629.656</Score>
+<Score et="1629.8">Kne Yka(12) lap=10 point=1 t=28.326 et=1629.681</Score>
+<Score et="1632.1">LeonardoChan(7) lap=10 point=1 t=28.829 et=1631.996</Score>
+<Score et="1632.1">SennaAndProst(9) lap=10 point=1 t=28.532 et=1631.994</Score>
+<Score et="1633.9">DumiBirdF(10) lap=10 point=1 t=30.324 et=1633.752</Score>
+<Score et="1634.0">wagonggong(11) lap=10 point=1 t=29.783 et=1633.683</Score>
+<Score et="1635.3">DUO MEI(4) lap=10 point=1 t=29.314 et=1635.210</Score>
+<Score et="1673.0">lovepes2010(3) lap=10 point=2 t=73.195 et=1672.940</Score>
+<Score et="1674.3">smallbubble(13) lap=10 point=2 t=73.744 et=1674.107</Score>
+<Score et="1676.3">Kne Yka(12) lap=10 point=2 t=74.847 et=1676.202</Score>
+<Score et="1678.3">Eskwen(1) lap=10 point=2 t=76.710 et=1678.224</Score>
+<Score et="1678.6">LeonardoChan(7) lap=10 point=2 t=75.374 et=1678.542</Score>
+<Score et="1679.5">SennaAndProst(9) lap=10 point=2 t=75.952 et=1679.413</Score>
+<Score et="1680.0">wagonggong(11) lap=10 point=2 t=75.747 et=1679.647</Score>
+<Score et="1681.2">DumiBirdF(10) lap=10 point=2 t=77.624 et=1681.053</Score>
+<Score et="1681.8">DUO MEI(4) lap=10 point=2 t=75.778 et=1681.673</Score>
+<Score et="1703.7">lovepes2010(3) lap=11 point=0 t=103.922 et=1703.667</Score>
+<Score et="1705.0">smallbubble(13) lap=11 point=0 t=104.421 et=1704.784</Score>
+<Score et="1707.5">Kne Yka(12) lap=11 point=0 t=105.962 et=1707.317</Score>
+<Score et="1709.8">Eskwen(1) lap=11 point=0 t=108.159 et=1709.674</Score>
+<Score et="1710.5">LeonardoChan(7) lap=11 point=0 t=107.204 et=1710.371</Score>
+<Score et="1711.1">SennaAndProst(9) lap=11 point=0 t=107.515 et=1710.976</Score>
+<Score et="1712.2">wagonggong(11) lap=11 point=0 t=107.956 et=1711.857</Score>
+<Score et="1712.7">DumiBirdF(10) lap=11 point=0 t=109.147 et=1712.576</Score>
+<Score et="1713.4">DUO MEI(4) lap=11 point=0 t=107.426 et=1713.322</Score>
+<Score et="1731.7">lovepes2010(3) lap=11 point=1 t=27.925 et=1731.592</Score>
+<Score et="1732.8">smallbubble(13) lap=11 point=1 t=27.781 et=1732.565</Score>
+<Score et="1735.5">Kne Yka(12) lap=11 point=1 t=28.057 et=1735.374</Score>
+<Score et="1739.0">Eskwen(1) lap=11 point=1 t=29.250 et=1738.923</Score>
+<Score et="1739.1">LeonardoChan(7) lap=11 point=1 t=28.627 et=1738.998</Score>
+<Score et="1739.5">SennaAndProst(9) lap=11 point=1 t=28.419 et=1739.396</Score>
+<Score et="1740.7">DumiBirdF(10) lap=11 point=1 t=28.024 et=1740.600</Score>
+<Score et="1740.7">wagonggong(11) lap=11 point=1 t=28.537 et=1740.393</Score>
+<Score et="1742.8">DUO MEI(4) lap=11 point=1 t=29.416 et=1742.738</Score>
+<Incident et="1745.7">SennaAndProst(9) reported contact (0.55) with another vehicle Eskwen(1)</Incident>
+<Incident et="1745.8">SennaAndProst(9) reported contact (1.00) with Wing</Incident>
+<Incident et="1745.8">SennaAndProst(9) reported contact (1.00) with Wing</Incident>
+<Incident et="1745.8">Eskwen(1) reported contact (0.45) with another vehicle SennaAndProst(9)</Incident>
+<Incident et="1745.9">SennaAndProst(9) reported contact (0.39) with Wing</Incident>
+<Incident et="1746.7">Eskwen(1) reported contact (0.39) with another vehicle wagonggong(11)</Incident>
+<Incident et="1746.7">Eskwen(1) reported contact (0.06) with another vehicle wagonggong(11)</Incident>
+<Chat et="1748.6">SennaAndProst: fuck</Chat>
+<Incident et="1749.3">Eskwen(1) reported contact (0.10) with another vehicle wagonggong(11)</Incident>
+<Score et="1776.0">lovepes2010(3) lap=11 point=2 t=72.197 et=1775.865</Score>
+<Score et="1777.8">smallbubble(13) lap=11 point=2 t=72.867 et=1777.651</Score>
+<Score et="1781.8">Kne Yka(12) lap=11 point=2 t=74.379 et=1781.696</Score>
+<Score et="1786.7">LeonardoChan(7) lap=11 point=2 t=76.207 et=1786.578</Score>
+<Chat et="1787.8">Weber Niraschtoe: SAFETY CAR DEPLOYED</Chat>
+<Score et="1787.8">wagonggong(11) lap=11 point=2 t=75.575 et=1787.432</Score>
+<Score et="1788.7">DumiBirdF(10) lap=11 point=2 t=75.964 et=1788.540</Score>
+<Chat et="1790.0">Weber Niraschtoe: FRONT WING TURN 6</Chat>
+<Score et="1790.5">Eskwen(1) lap=11 point=2 t=80.699 et=1790.372</Score>
+<Score et="1792.5">DUO MEI(4) lap=11 point=2 t=79.115 et=1792.437</Score>
+<Score et="1798.7">SennaAndProst(9) lap=11 point=2 t=87.625 et=1798.602</Score>
+<Score et="1801.7">ghgyyukg(15) lap=7 point=0 t=358.946 et=1801.605</Score>
+<Incident et="1803.6">lovepes2010(3) reported contact (0.13) with Immovable</Incident>
+<Chat et="1806.9">wagonggong: dna u just not</Chat>
+<Chat et="1806.9">Weber Niraschtoe: SAFETY CAR DEPLOYED</Chat>
+<Chat et="1814.0">Parker Chen: race only last 1 lap and few metres</Chat>
+<Score et="1815.1">lovepes2010(3) lap=12 point=0 t=111.332 et=1814.999</Score>
+<Score et="1819.1">smallbubble(13) lap=12 point=0 t=114.182 et=1818.966</Score>
+<Score et="1819.3">LeonardoChan(7) lap=12 point=0 t=108.871 et=1819.243</Score>
+<Score et="1822.7">wagonggong(11) lap=12 point=0 t=110.537 et=1822.394</Score>
+<Score et="1823.4">Kne Yka(12) lap=12 point=0 t=115.959 et=1823.276</Score>
+<Score et="1825.5">Eskwen(1) lap=12 point=0 t=115.770 et=1825.443</Score>
+<Chat et="1825.9">Parker Chen: and sc deployed</Chat>
+<Chat et="1829.4">OMGCA: i feel much better now</Chat>
+<Score et="1831.3">DumiBirdF(10) lap=12 point=0 t=118.629 et=1831.205</Score>
+<Chat et="1834.1">OMGCA: except lp is leading</Chat>
+<Score et="1838.1">DUO MEI(4) lap=12 point=0 t=124.643 et=1837.966</Score>
+<Chat et="1841.8">Parker Chen: so xt why are you out</Chat>
+<Score et="1843.3">SennaAndProst(9) lap=12 point=0 t=132.182 et=1843.158</Score>
+<Score et="1846.1">ghgyyukg(15) lap=7 point=1 t=44.426 et=1846.031</Score>
+<Chat et="1849.9">OMGCA: crashed front wing by myself</Chat>
+<Score et="1850.0">LeonardoChan(7) lap=12 point=1 t=30.681 et=1849.923</Score>
+<Score et="1851.5">wagonggong(11) lap=12 point=1 t=28.745 et=1851.139</Score>
+<Chat et="1855.0">OMGCA: rear destoryed by cbt</Chat>
+<Score et="1855.4">Eskwen(1) lap=12 point=1 t=29.912 et=1855.355</Score>
+<Chat et="1856.3">SennaAndProst: esk is a legend</Chat>
+<Chat et="1856.8">Parker Chen: it was a</Chat>
+<Score et="1857.2">lovepes2010(3) lap=12 point=1 t=42.137 et=1857.135</Score>
+<Chat et="1859.6">Weber Niraschtoe: XT crashed heavily out of Eau Rouge</Chat>
+<Score et="1859.8">smallbubble(13) lap=12 point=1 t=40.675 et=1859.641</Score>
+<Score et="1862.0">DumiBirdF(10) lap=12 point=1 t=30.633 et=1861.838</Score>
+<Score et="1866.0">Kne Yka(12) lap=12 point=1 t=42.589 et=1865.865</Score>
+<Chat et="1868.2">OMGCA: that front wing crash is really nothing</Chat>
+<Chat et="1871.9">OMGCA: it was the second one</Chat>
+<Score et="1878.1">DUO MEI(4) lap=12 point=1 t=40.003 et=1877.968</Score>
+<Chat et="1878.9">Parker Chen: wait</Chat>
+<Chat et="1885.6">Parker Chen: cbt is leading?????</Chat>
+<Chat et="1889.8">Weber Niraschtoe: ah I didnt see it, I just saw you had no rear wing and in the middle of the track lol</Chat>
+<Score et="1890.0">SennaAndProst(9) lap=12 point=1 t=46.703 et=1889.862</Score>
+<Chat et="1903.0">OMGCA: cbt lost control and blind at the same time</Chat>
+<Chat et="1905.0">Weber Niraschtoe: SAFETY CAR IN THIS LAP</Chat>
+<Chat et="1907.4">Weber Niraschtoe: SAFETY CAR IN THIS LAP</Chat>
+<Chat et="1908.6">OMGCA: just crash into me without thinking</Chat>
+<Chat et="1909.5">Parker Chen: highlight for spr</Chat>
+<Chat et="1910.3">Weber Niraschtoe: SAFETY CAR IN THIS LAP</Chat>
+<Score et="1913.6">ghgyyukg(15) lap=7 point=2 t=111.872 et=1913.478</Score>
+<Score et="1914.3">LeonardoChan(7) lap=12 point=2 t=94.999 et=1914.241</Score>
+<Score et="1915.6">wagonggong(11) lap=12 point=2 t=92.831 et=1915.225</Score>
+<Score et="1916.1">Eskwen(1) lap=12 point=2 t=90.554 et=1915.998</Score>
+<Score et="1916.7">lovepes2010(3) lap=12 point=2 t=101.626 et=1916.624</Score>
+<Score et="1917.6">smallbubble(13) lap=12 point=2 t=98.396 et=1917.361</Score>
+<Score et="1917.9">DumiBirdF(10) lap=12 point=2 t=86.510 et=1917.715</Score>
+<Score et="1918.9">Kne Yka(12) lap=12 point=2 t=95.517 et=1918.793</Score>
+<Score et="1926.1">DUO MEI(4) lap=12 point=2 t=87.980 et=1925.946</Score>
+<Score et="1936.7">SennaAndProst(9) lap=12 point=2 t=93.485 et=1936.644</Score>
+<Chat et="1954.4">Weber Niraschtoe: GREEN FLAG</Chat>
+<Score et="1964.7">LeonardoChan(7) lap=13 point=0 t=145.353 et=1964.595</Score>
+<Score et="1965.3">wagonggong(11) lap=13 point=0 t=142.590 et=1964.984</Score>
+<Score et="1966.5">Eskwen(1) lap=13 point=0 t=140.972 et=1966.415</Score>
+<Score et="1967.0">lovepes2010(3) lap=13 point=0 t=151.934 et=1966.933</Score>
+<Score et="1967.4">smallbubble(13) lap=13 point=0 t=148.241 et=1967.207</Score>
+<Score et="1968.0">DumiBirdF(10) lap=13 point=0 t=136.699 et=1967.905</Score>
+<Score et="1968.6">Kne Yka(12) lap=13 point=0 t=145.199 et=1968.475</Score>
+<Score et="1969.1">DUO MEI(4) lap=13 point=0 t=131.041 et=1969.006</Score>
+<Score et="1969.4">SennaAndProst(9) lap=13 point=0 t=126.192 et=1969.350</Score>
+<Score et="1993.1">wagonggong(11) lap=13 point=1 t=27.806 et=1992.791</Score>
+<Score et="1993.8">LeonardoChan(7) lap=13 point=1 t=29.109 et=1993.705</Score>
+<Score et="1995.9">Eskwen(1) lap=13 point=1 t=29.400 et=1995.815</Score>
+<Score et="1996.7">lovepes2010(3) lap=13 point=1 t=29.646 et=1996.579</Score>
+<Score et="1996.8">smallbubble(13) lap=13 point=1 t=29.407 et=1996.615</Score>
+<Score et="1996.9">Kne Yka(12) lap=13 point=1 t=28.280 et=1996.755</Score>
+<Score et="1997.1">DumiBirdF(10) lap=13 point=1 t=29.011 et=1996.916</Score>
+<Score et="1998.5">SennaAndProst(9) lap=13 point=1 t=29.032 et=1998.383</Score>
+<Score et="1998.6">DUO MEI(4) lap=13 point=1 t=29.514 et=1998.521</Score>
+<Score et="2037.9">wagonggong(11) lap=13 point=2 t=72.568 et=2037.553</Score>
+<Score et="2039.7">LeonardoChan(7) lap=13 point=2 t=75.076 et=2039.672</Score>
+<Score et="2043.1">lovepes2010(3) lap=13 point=2 t=76.048 et=2042.981</Score>
+<Score et="2044.3">Eskwen(1) lap=13 point=2 t=77.753 et=2044.168</Score>
+<Score et="2044.6">Kne Yka(12) lap=13 point=2 t=75.941 et=2044.416</Score>
+<Score et="2044.9">DumiBirdF(10) lap=13 point=2 t=76.863 et=2044.768</Score>
+<Score et="2045.7">SennaAndProst(9) lap=13 point=2 t=76.251 et=2045.602</Score>
+<Score et="2046.2">DUO MEI(4) lap=13 point=2 t=77.056 et=2046.063</Score>
+<Score et="2047.3">smallbubble(13) lap=13 point=2 t=79.931 et=2047.138</Score>
+<Incident et="2056.2">Kne Yka(12) reported contact (0.16) with Immovable</Incident>
+<Incident et="2056.2">Eskwen(1) reported contact (0.26) with Immovable</Incident>
+<Incident et="2065.3">SennaAndProst(9) reported contact (0.65) with Sign</Incident>
+<Incident et="2065.4">SennaAndProst(9) reported contact (1.00) with Sign</Incident>
+<Incident et="2065.4">SennaAndProst(9) reported contact (0.06) with Immovable</Incident>
+<Incident et="2066.7">SennaAndProst(9) reported contact (0.03) with another vehicle Eskwen(1)</Incident>
+<Incident et="2066.7">Eskwen(1) reported contact (0.39) with another vehicle SennaAndProst(9)</Incident>
+<Incident et="2066.8">SennaAndProst(9) reported contact (0.26) with another vehicle Eskwen(1)</Incident>
+<Incident et="2066.8">Eskwen(1) reported contact (0.03) with another vehicle SennaAndProst(9)</Incident>
+<Incident et="2066.8">SennaAndProst(9) reported contact (1.00) with Wing</Incident>
+<Incident et="2068.5">SennaAndProst(9) reported contact (0.16) with another vehicle Eskwen(1)</Incident>
+<Incident et="2068.5">Eskwen(1) reported contact (0.06) with another vehicle SennaAndProst(9)</Incident>
+<Incident et="2068.6">SennaAndProst(9) reported contact (0.06) with another vehicle Eskwen(1)</Incident>
+<Score et="2068.6">wagonggong(11) lap=14 point=0 t=103.328 et=2068.313</Score>
+<Penalty et="2070.5">SennaAndProst received Stop/Go penalty, 10s, 0laps. Result: penalties=1, 1st=Stop/Go,10s</Penalty>
+<Score et="2071.3">LeonardoChan(7) lap=14 point=0 t=106.644 et=2071.240</Score>
+<Incident et="2072.0">Kne Yka(12) reported contact (1.00) with another vehicle SennaAndProst(9)</Incident>
+<Incident et="2072.0">Kne Yka(12) reported contact (0.74) with Wing</Incident>
+<Incident et="2072.0">Kne Yka(12) reported contact (0.29) with another vehicle SennaAndProst(9)</Incident>
+<Incident et="2072.0">Kne Yka(12) reported contact (0.23) with Wing</Incident>
+<Incident et="2072.1">SennaAndProst(9) reported contact (1.00) with another vehicle Kne Yka(12)</Incident>
+<Incident et="2072.2">Kne Yka(12) reported contact (0.61) with another vehicle SennaAndProst(9)</Incident>
+<Incident et="2072.2">SennaAndProst(9) reported contact (0.13) with another vehicle Kne Yka(12)</Incident>
+<Incident et="2072.2">Kne Yka(12) reported contact (0.03) with another vehicle SennaAndProst(9)</Incident>
+<Score et="2074.4">lovepes2010(3) lap=14 point=0 t=107.350 et=2074.283</Score>
+<Score et="2076.7">DumiBirdF(10) lap=14 point=0 t=108.678 et=2076.583</Score>
+<Chat et="2077.1">Weber Niraschtoe: safety car deployed</Chat>
+<Chat et="2078.3">SennaAndProst: fuckyou esl</Chat>
+<Score et="2078.4">Eskwen(1) lap=14 point=0 t=111.870 et=2078.285</Score>
+<Incident et="2078.8">Kne Yka(12) reported contact (0.71) with Immovable</Incident>
+<Incident et="2078.8">Kne Yka(12) reported contact (0.32) with Immovable</Incident>
+<Score et="2079.6">DUO MEI(4) lap=14 point=0 t=110.505 et=2079.512</Score>
+<Chat et="2079.7">Weber Niraschtoe: SAFETY CAR DEPLOYED</Chat>
+<Score et="2082.0">smallbubble(13) lap=14 point=0 t=114.611 et=2081.818</Score>
+<Chat et="2082.5">SennaAndProst: esk</Chat>
+<Chat et="2082.7">wagonggong: omg</Chat>
+<Chat et="2082.8">Weber Niraschtoe: SAFETY CAR DEPLOYED</Chat>
+<Chat et="2084.8">Parker Chen: again...</Chat>
+<Chat et="2088.0">Weber Niraschtoe: CARS AND DEBRIS AT THE FINAL CORNER</Chat>
+<Chat et="2089.8">OMGCA: ek wtf is that</Chat>
+<Score et="2091.5">ghgyyukg(15) lap=8 point=0 t=289.775 et=2091.381</Score>
+<Chat et="2093.3">Kne Yka: sttcuk</Chat>
+<Chat et="2096.0">OMGCA: ek just turned into sfc</Chat>
+<Chat et="2097.0">Parker Chen: this time only race 2 laps</Chat>
+<Score et="2098.9">wagonggong(11) lap=14 point=1 t=30.234 et=2098.546</Score>
+<Score et="2100.3">LeonardoChan(7) lap=14 point=1 t=28.953 et=2100.193</Score>
+<Score et="2102.8">lovepes2010(3) lap=14 point=1 t=28.408 et=2102.691</Score>
+<Score et="2105.7">DumiBirdF(10) lap=14 point=1 t=29.003 et=2105.586</Score>
+<Chat et="2105.8">Kne Yka: sorry that&apos;s it</Chat>
+<Score et="2107.9">Eskwen(1) lap=14 point=1 t=29.506 et=2107.791</Score>
+<Score et="2108.8">DUO MEI(4) lap=14 point=1 t=29.222 et=2108.733</Score>
+<Chat et="2110.7">Parker Chen: and yka is out</Chat>
+<Score et="2111.2">smallbubble(13) lap=14 point=1 t=29.190 et=2111.008</Score>
+<Chat et="2113.6">OMGCA: no worries mate that wasn&apos;t your fault</Chat>
+<Chat et="2115.3">Kne Yka: sry senna</Chat>
+<Score et="2116.7">SennaAndProst(9) lap=14 point=0 t=-1.000 et=2116.558</Score>
+<Penalty et="2123.2">SennaAndProst served 1st Stop/Go penalty, result: penalties=0, 1st=Stop/Go,10s</Penalty>
+<Chat et="2124.2">OMGCA: Suggest investigation on ek after race</Chat>
+<Chat et="2127.8">SennaAndProst: not your fault</Chat>
+<Chat et="2127.9">OMGCA: it was just reckless</Chat>
+<Chat et="2130.4">SennaAndProst: genius esk</Chat>
+<Chat et="2132.5">Weber Niraschtoe: Affirmative</Chat>
+<Chat et="2133.7">Parker Chen: +1</Chat>
+<Score et="2149.5">LeonardoChan(7) lap=14 point=2 t=78.168 et=2149.408</Score>
+<Score et="2150.7">lovepes2010(3) lap=14 point=2 t=76.344 et=2150.627</Score>
+<Chat et="2153.0">Weber Niraschtoe: Incident on Lap2, 9 under SC, and incident between senna, ek, and yka will be investigated.</Chat>
+<Penalty et="2153.1">SennaAndProst received Stop/Go penalty, 10s, 0laps. Result: penalties=1, 1st=Stop/Go,10s</Penalty>
+<Chat et="2155.3">Kne Yka: /w actually ek pushed me out at turn 1 lap 1</Chat>
+<Chat et="2155.5">OMGCA: incl. reckless driving and illegal defense on yka</Chat>
+<Score et="2156.7">Eskwen(1) lap=14 point=2 t=78.300 et=2156.585</Score>
+<Score et="2157.5">DUO MEI(4) lap=14 point=2 t=77.889 et=2157.401</Score>
+<Score et="2159.7">smallbubble(13) lap=14 point=2 t=77.675 et=2159.493</Score>
+<Score et="2165.1">DumiBirdF(10) lap=14 point=2 t=88.442 et=2165.025</Score>
+<Score et="2179.2">SennaAndProst(9) lap=14 point=1 t=62.566 et=2179.124</Score>
+<Score et="2180.8">wagonggong(11) lap=15 point=0 t=112.119 et=2180.432</Score>
+<Score et="2181.7">LeonardoChan(7) lap=15 point=0 t=110.410 et=2181.650</Score>
+<Score et="2186.5">lovepes2010(3) lap=15 point=0 t=112.112 et=2186.395</Score>
+<Score et="2189.3">Eskwen(1) lap=15 point=0 t=110.928 et=2189.213</Score>
+<Score et="2191.4">DUO MEI(4) lap=15 point=0 t=111.813 et=2191.324</Score>
+<Score et="2193.3">smallbubble(13) lap=15 point=0 t=111.270 et=2193.088</Score>
+<Score et="2197.4">DumiBirdF(10) lap=15 point=0 t=120.734 et=2197.317</Score>
+<Chat et="2199.0">Parker Chen: rf lt chou feng le</Chat>
+<Chat et="2201.2">Parker Chen: lol</Chat>
+<Score et="2208.4">ghgyyukg(15) lap=8 point=1 t=116.956 et=2208.337</Score>
+<Chat et="2211.3">OMGCA: cbt still on second</Chat>
+<Score et="2212.3">wagonggong(11) lap=15 point=1 t=31.510 et=2211.942</Score>
+<Score et="2213.0">LeonardoChan(7) lap=15 point=1 t=31.264 et=2212.913</Score>
+<Chat et="2217.0">OMGCA: a likely podium for spr</Chat>
+<Score et="2218.1">lovepes2010(3) lap=15 point=1 t=31.570 et=2217.966</Score>
+<Score et="2219.3">Eskwen(1) lap=15 point=1 t=29.953 et=2219.166</Score>
+<Score et="2222.1">DUO MEI(4) lap=15 point=1 t=30.609 et=2221.934</Score>
+<Score et="2224.4">smallbubble(13) lap=15 point=1 t=31.135 et=2224.222</Score>
+<Chat et="2226.5">smallbubble: SC IN?</Chat>
+<Score et="2226.7">SennaAndProst(9) lap=14 point=2 t=110.032 et=2226.590</Score>
+<Score et="2227.1">DumiBirdF(10) lap=15 point=1 t=29.643 et=2226.960</Score>
+<Chat et="2232.1">Parker Chen: don&apos;t give us poisonous milk</Chat>
+<Chat et="2239.4">Weber Niraschtoe: Correct</Chat>
+<Chat et="2242.5">Parker Chen: we are bottom team</Chat>
+<Chat et="2243.9">Weber Niraschtoe: SAFETY CAR IN THIS LAP</Chat>
+<Chat et="2256.3">Weber Niraschtoe: SAFETY CAR IN THIS LAP</Chat>
+<Score et="2267.7">SennaAndProst(9) lap=15 point=0 t=151.043 et=2267.601</Score>
+<Chat et="2271.2">Weber Niraschtoe: SAFETY CAR IN THIS LAP</Chat>
+<Incident et="2272.2">wagonggong(11) reported contact (0.19) with another vehicle LeonardoChan(7)</Incident>
+<Incident et="2272.2">wagonggong(11) reported contact (0.06) with another vehicle LeonardoChan(7)</Incident>
+<Incident et="2272.3">wagonggong(11) reported contact (0.03) with another vehicle LeonardoChan(7)</Incident>
+<Score et="2276.5">ghgyyukg(15) lap=8 point=2 t=184.983 et=2276.364</Score>
+<Score et="2283.3">wagonggong(11) lap=15 point=2 t=102.545 et=2282.977</Score>
+<Score et="2283.4">LeonardoChan(7) lap=15 point=2 t=101.689 et=2283.338</Score>
+<Score et="2284.5">lovepes2010(3) lap=15 point=2 t=98.040 et=2284.435</Score>
+<Score et="2284.7">Eskwen(1) lap=15 point=2 t=95.406 et=2284.619</Score>
+<Score et="2285.5">DUO MEI(4) lap=15 point=2 t=94.039 et=2285.364</Score>
+<Score et="2286.5">smallbubble(13) lap=15 point=2 t=93.240 et=2286.327</Score>
+<Score et="2287.3">DumiBirdF(10) lap=15 point=2 t=89.820 et=2287.137</Score>
+<Chat et="2290.4">Parker Chen: ghg had finished 9 laps lol</Chat>
+<Score et="2300.5">SennaAndProst(9) lap=15 point=1 t=32.840 et=2300.441</Score>
+<Chat et="2307.7">OMGCA: master</Chat>
+<Chat et="2321.1">Parker Chen: nearly a half</Chat>
+<Chat et="2321.7">Weber Niraschtoe: GREEN FLAG</Chat>
+<Chat et="2331.6">OMGCA: well</Chat>
+<Score et="2332.2">wagonggong(11) lap=16 point=0 t=151.404 et=2331.836</Score>
+<Score et="2333.0">lovepes2010(3) lap=16 point=0 t=146.555 et=2332.950</Score>
+<Score et="2333.3">LeonardoChan(7) lap=16 point=0 t=151.511 et=2333.161</Score>
+<Score et="2333.7">Eskwen(1) lap=16 point=0 t=144.415 et=2333.628</Score>
+<Score et="2334.6">DUO MEI(4) lap=16 point=0 t=143.150 et=2334.475</Score>
+<Score et="2335.0">smallbubble(13) lap=16 point=0 t=141.722 et=2334.809</Score>
+<Score et="2335.8">DumiBirdF(10) lap=16 point=0 t=138.339 et=2335.656</Score>
+<Score et="2346.1">SennaAndProst(9) lap=15 point=2 t=78.409 et=2346.010</Score>
+<Chat et="2352.6">Kne Yka: so how is wgg winning this lol</Chat>
+<Chat et="2353.8">Kne Yka: magic</Chat>
+<Chat et="2359.5">OMGCA: wgg&apos;s pit stop under sc</Chat>
+<Score et="2359.8">wagonggong(11) lap=16 point=1 t=27.689 et=2359.525</Score>
+<Score et="2361.4">lovepes2010(3) lap=16 point=1 t=28.427 et=2361.377</Score>
+<Score et="2361.5">LeonardoChan(7) lap=16 point=1 t=28.276 et=2361.437</Score>
+<Score et="2361.7">Eskwen(1) lap=16 point=1 t=27.961 et=2361.590</Score>
+<Score et="2363.5">DUO MEI(4) lap=16 point=1 t=28.924 et=2363.399</Score>
+<Score et="2364.3">DumiBirdF(10) lap=16 point=1 t=28.563 et=2364.219</Score>
+<Score et="2364.4">smallbubble(13) lap=16 point=1 t=29.436 et=2364.245</Score>
+<Incident et="2375.4">SennaAndProst(9) reported contact (0.06) with Immovable</Incident>
+<Score et="2386.9">SennaAndProst(9) lap=16 point=0 t=119.147 et=2386.748</Score>
+<Penalty et="2393.2">SennaAndProst served 1st Stop/Go penalty, result: penalties=0, 1st=Stop/Go,10s</Penalty>
+<Chat et="2395.1">Parker Chen: cbt 5th???</Chat>
+<Chat et="2398.8">Parker Chen: what happened</Chat>
+<Chat et="2402.5">OMGCA: Macau Internet</Chat>
+<Chat et="2402.7">Weber Niraschtoe: LAG</Chat>
+<Chat et="2403.0">SennaAndProst: i got 2 10 secs penalty for that cutting</Chat>
+<Score et="2405.0">wagonggong(11) lap=16 point=2 t=72.863 et=2404.698</Score>
+<Chat et="2406.5">SennaAndProst: genius esk</Chat>
+<Score et="2407.4">lovepes2010(3) lap=16 point=2 t=74.371 et=2407.321</Score>
+<Score et="2409.9">DUO MEI(4) lap=16 point=2 t=75.235 et=2409.709</Score>
+<Score et="2410.6">Eskwen(1) lap=16 point=2 t=76.907 et=2410.535</Score>
+<Score et="2411.8">smallbubble(13) lap=16 point=2 t=76.797 et=2411.607</Score>
+<Score et="2412.1">LeonardoChan(7) lap=16 point=2 t=78.835 et=2411.995</Score>
+<Score et="2412.4">DumiBirdF(10) lap=16 point=2 t=76.663 et=2412.318</Score>
+<Chat et="2418.1">Parker Chen: disaster</Chat>
+<Score et="2436.1">wagonggong(11) lap=17 point=0 t=103.896 et=2435.732</Score>
+<Score et="2436.5">SennaAndProst(9) lap=16 point=1 t=49.657 et=2436.405</Score>
+<Incident et="2437.8">DumiBirdF(10) reported contact (0.23) with another vehicle LeonardoChan(7)</Incident>
+<Incident et="2437.8">smallbubble(13) reported contact (0.13) with another vehicle LeonardoChan(7)</Incident>
+<Incident et="2437.9">DumiBirdF(10) reported contact (0.06) with another vehicle LeonardoChan(7)</Incident>
+<Incident et="2437.9">DumiBirdF(10) reported contact (0.03) with another vehicle LeonardoChan(7)</Incident>
+<Score et="2438.8">lovepes2010(3) lap=17 point=0 t=105.715 et=2438.665</Score>
+<Incident et="2439.7">Eskwen(1) reported contact (0.03) with another vehicle smallbubble(13)</Incident>
+<Score et="2441.3">DUO MEI(4) lap=17 point=0 t=106.701 et=2441.176</Score>
+<Chat et="2442.9">OMGCA: the fuck is this race....</Chat>
+<Score et="2444.9">smallbubble(13) lap=17 point=0 t=109.916 et=2444.726</Score>
+<Score et="2445.5">LeonardoChan(7) lap=17 point=0 t=112.219 et=2445.379</Score>
+<Score et="2446.0">DumiBirdF(10) lap=17 point=0 t=110.227 et=2445.883</Score>
+<Score et="2452.0">Eskwen(1) lap=17 point=0 t=118.302 et=2451.931</Score>
+<Score et="2463.8">wagonggong(11) lap=17 point=1 t=27.762 et=2463.494</Score>
+<Score et="2466.9">lovepes2010(3) lap=17 point=1 t=28.156 et=2466.821</Score>
+<Score et="2469.7">DUO MEI(4) lap=17 point=1 t=28.403 et=2469.579</Score>
+<Score et="2473.0">smallbubble(13) lap=17 point=1 t=28.099 et=2472.825</Score>
+<Score et="2473.9">DumiBirdF(10) lap=17 point=1 t=27.892 et=2473.775</Score>
+<Score et="2473.9">LeonardoChan(7) lap=17 point=1 t=28.445 et=2473.825</Score>
+<Chat et="2475.0">Kne Yka: /w i think what we learned today is don&apos;t masterbate before you drive</Chat>
+<Score et="2481.1">Eskwen(1) lap=17 point=1 t=29.041 et=2480.971</Score>
+<Score et="2483.5">SennaAndProst(9) lap=16 point=2 t=96.656 et=2483.405</Score>
+<Chat et="2495.1">Parker Chen: master defense</Chat>
+<Score et="2508.4">wagonggong(11) lap=17 point=2 t=72.284 et=2508.016</Score>
+<Score et="2513.9">lovepes2010(3) lap=17 point=2 t=75.161 et=2513.825</Score>
+<Score et="2515.2">DUO MEI(4) lap=17 point=2 t=73.923 et=2515.099</Score>
+<Score et="2515.6">SennaAndProst(9) lap=17 point=0 t=128.768 et=2515.516</Score>
+<Score et="2518.5">smallbubble(13) lap=17 point=2 t=73.533 et=2518.258</Score>
+<Score et="2521.2">LeonardoChan(7) lap=17 point=2 t=75.734 et=2521.113</Score>
+<Score et="2521.9">DumiBirdF(10) lap=17 point=2 t=75.923 et=2521.806</Score>
+<Score et="2528.2">Eskwen(1) lap=17 point=2 t=76.174 et=2528.105</Score>
+<Score et="2539.8">wagonggong(11) lap=18 point=0 t=103.711 et=2539.443</Score>
+<Score et="2544.5">SennaAndProst(9) lap=17 point=1 t=28.849 et=2544.365</Score>
+<Score et="2545.0">lovepes2010(3) lap=18 point=0 t=106.280 et=2544.945</Score>
+<Score et="2546.5">DUO MEI(4) lap=18 point=0 t=105.192 et=2546.368</Score>
+<Score et="2549.6">smallbubble(13) lap=18 point=0 t=104.629 et=2549.354</Score>
+<Score et="2553.3">LeonardoChan(7) lap=18 point=0 t=107.856 et=2553.236</Score>
+<Score et="2553.7">DumiBirdF(10) lap=18 point=0 t=107.680 et=2553.563</Score>
+<Score et="2559.8">Eskwen(1) lap=18 point=0 t=107.780 et=2559.711</Score>
+<Score et="2567.8">wagonggong(11) lap=18 point=1 t=28.074 et=2567.517</Score>
+<Score et="2572.9">lovepes2010(3) lap=18 point=1 t=27.907 et=2572.852</Score>
+<Score et="2575.0">DUO MEI(4) lap=18 point=1 t=28.446 et=2574.814</Score>
+<Score et="2577.7">smallbubble(13) lap=18 point=1 t=28.130 et=2577.484</Score>
+<Score et="2582.0">DumiBirdF(10) lap=18 point=1 t=28.369 et=2581.932</Score>
+<Score et="2582.2">LeonardoChan(7) lap=18 point=1 t=28.902 et=2582.138</Score>
+<Score et="2588.1">Eskwen(1) lap=18 point=1 t=28.323 et=2588.033</Score>
+<Score et="2590.3">SennaAndProst(9) lap=17 point=2 t=74.724 et=2590.240</Score>
+<Incident et="2593.7">Eskwen(1) reported contact (0.52) with Immovable</Incident>
+<Incident et="2593.7">Eskwen(1) reported contact (1.00) with Wing</Incident>
+<Incident et="2593.7">Eskwen(1) reported contact (0.61) with Wing</Incident>
+<Incident et="2593.8">Eskwen(1) reported contact (1.00) with Wing</Incident>
+<Incident et="2593.8">Eskwen(1) reported contact (0.39) with Immovable</Incident>
+<Chat et="2595.3">Kne Yka: /w strangely i got more pace here than aut</Chat>
+<Score et="2612.8">wagonggong(11) lap=18 point=2 t=72.971 et=2612.414</Score>
+<Score et="2616.9">lovepes2010(3) lap=18 point=2 t=71.809 et=2616.753</Score>
+<Score et="2619.7">DUO MEI(4) lap=18 point=2 t=73.274 et=2619.642</Score>
+<Score et="2621.5">SennaAndProst(9) lap=18 point=0 t=105.923 et=2621.439</Score>
+<Score et="2623.0">smallbubble(13) lap=18 point=2 t=73.456 et=2622.811</Score>
+<Score et="2628.2">DumiBirdF(10) lap=18 point=2 t=74.494 et=2628.057</Score>
+<Score et="2628.4">LeonardoChan(7) lap=18 point=2 t=75.087 et=2628.323</Score>
+<Chat et="2638.1">Kne Yka: /w obviously we can play the RPM tactics</Chat>
+<Score et="2643.8">wagonggong(11) lap=19 point=0 t=104.004 et=2643.448</Score>
+<Chat et="2643.9">Parker Chen: still good to earn some points for the team</Chat>
+<Score et="2647.7">lovepes2010(3) lap=19 point=0 t=102.623 et=2647.567</Score>
+<Score et="2651.2">DUO MEI(4) lap=19 point=0 t=104.674 et=2651.042</Score>
+<Score et="2651.4">SennaAndProst(9) lap=18 point=1 t=29.909 et=2651.349</Score>
+<Score et="2653.7">smallbubble(13) lap=19 point=0 t=104.131 et=2653.485</Score>
+<Score et="2655.7">Eskwen(1) lap=18 point=2 t=95.947 et=2655.658</Score>
+<Score et="2660.1">DumiBirdF(10) lap=19 point=0 t=106.396 et=2659.959</Score>
+<Score et="2660.2">LeonardoChan(7) lap=19 point=0 t=106.858 et=2660.094</Score>
+<Chat et="2666.6">Kne Yka: /w or you just send me on loan to other teams and I crash everyone out</Chat>
+<Score et="2671.7">wagonggong(11) lap=19 point=1 t=27.851 et=2671.299</Score>
+<Score et="2675.6">lovepes2010(3) lap=19 point=1 t=27.897 et=2675.465</Score>
+<Incident et="2678.2">LeonardoChan(7) reported contact (0.13) with another vehicle DumiBirdF(10)</Incident>
+<Score et="2679.8">DUO MEI(4) lap=19 point=1 t=28.621 et=2679.662</Score>
+<Score et="2681.4">smallbubble(13) lap=19 point=1 t=27.726 et=2681.211</Score>
+<Incident et="2681.5">DumiBirdF(10) reported contact (0.23) with Immovable</Incident>
+<Incident et="2681.5">DumiBirdF(10) reported contact (0.61) with Immovable</Incident>
+<Incident et="2681.5">DumiBirdF(10) reported contact (0.61) with Immovable</Incident>
+<Incident et="2681.6">DumiBirdF(10) reported contact (0.03) with Wing</Incident>
+<Incident et="2681.6">DumiBirdF(10) reported contact (0.03) with Wing</Incident>
+<Incident et="2681.6">DumiBirdF(10) reported contact (0.03) with Wing</Incident>
+<Incident et="2681.7">DumiBirdF(10) reported contact (0.13) with Wing</Incident>
+<Incident et="2681.7">DumiBirdF(10) reported contact (0.06) with Wing</Incident>
+<Incident et="2682.3">DumiBirdF(10) reported contact (0.16) with Wing</Incident>
+<Chat et="2688.2">OMGCA: where&apos;s dumi?</Chat>
+<Score et="2688.8">LeonardoChan(7) lap=19 point=1 t=28.611 et=2688.705</Score>
+<Chat et="2695.9">Parker Chen: off the track</Chat>
+<Score et="2697.7">SennaAndProst(9) lap=18 point=2 t=76.207 et=2697.646</Score>
+<Score et="2701.8">DumiBirdF(10) lap=19 point=1 t=41.692 et=2701.652</Score>
+<Chat et="2703.4">OMGCA: well that&apos;s how I crashed</Chat>
+<Score et="2704.2">Eskwen(1) lap=19 point=0 t=144.432 et=2704.143</Score>
+<Chat et="2705.9">Parker Chen: mistake on eau rouge</Chat>
+<Incident et="2708.3">DumiBirdF(10) reported contact (0.19) with Track</Incident>
+<Chat et="2711.6">Weber Niraschtoe: dirty air to me</Chat>
+<Chat et="2712.2">Kne Yka: /w so we buy a controller from merc and let wgg&apos;s car &quot;mysteriously&quot; crash</Chat>
+<Score et="2716.3">wagonggong(11) lap=19 point=2 t=72.488 et=2715.936</Score>
+<Score et="2719.7">lovepes2010(3) lap=19 point=2 t=72.040 et=2719.608</Score>
+<Score et="2724.5">DUO MEI(4) lap=19 point=2 t=73.388 et=2724.430</Score>
+<Score et="2726.5">smallbubble(13) lap=19 point=2 t=72.837 et=2726.322</Score>
+<Score et="2729.3">SennaAndProst(9) lap=19 point=0 t=107.752 et=2729.191</Score>
+<Incident et="2732.9">DumiBirdF(10) reported contact (0.03) with Immovable</Incident>
+<Score et="2735.3">LeonardoChan(7) lap=19 point=2 t=75.106 et=2735.200</Score>
+<Score et="2746.9">Checkered for wagonggong, laps=20/20, endET=2746.562012/306254101833471170000000000000000000000.000000, crossedAfterTime=0</Score>
+<Score et="2746.9">wagonggong(11) lap=20 point=0 t=103.114 et=2746.562</Score>
+<Score et="2748.6">Eskwen(1) lap=19 point=1 t=44.387 et=2748.530</Score>
+<Score et="2750.7">lovepes2010(3) lap=20 point=0 t=103.029 et=2750.597</Score>
+<Chat et="2750.9">Weber Niraschtoe: WGG wins</Chat>
+<Chat et="2756.4">OMGCA: congrats</Chat>
+<Score et="2756.6">DUO MEI(4) lap=20 point=0 t=105.427 et=2756.468</Score>
+<Score et="2757.3">smallbubble(13) lap=20 point=0 t=103.549 et=2757.034</Score>
+<Score et="2758.2">SennaAndProst(9) lap=19 point=1 t=28.866 et=2758.058</Score>
+<Chat et="2758.8">Weber Niraschtoe: BATTLE FOR P6 STILL ON</Chat>
+<Chat et="2760.4">OMGCA: truly deserved</Chat>
+<Chat et="2761.1">Parker Chen: disaster for xt</Chat>
+<Chat et="2767.4">Kne Yka: wtf is today</Chat>
+<Score et="2767.5">LeonardoChan(7) lap=20 point=0 t=107.306 et=2767.400</Score>
+<Score et="2768.7">DumiBirdF(10) lap=19 point=2 t=108.604 et=2768.564</Score>
+<Chat et="2769.0">Kne Yka: wtf</Chat>
+<Chat et="2771.2">Kne Yka: honestly</Chat>
+<Incident et="2774.0">DUO MEI(4) reported contact (0.06) with another vehicle wagonggong(11)</Incident>
+<Chat et="2776.6">Kne Yka: fuck sake fuck sake shit</Chat>
+<Chat et="2782.0">OMGCA: no worries mate we&apos;ll get&apos;em</Chat>
+<Chat et="2782.7">LeonardoChan: SORRY DUMI</Chat>
+<Chat et="2784.6">OMGCA: don&apos;t too worry</Chat>
+<Chat et="2784.7">smallbubble: struggles so badly with brakes on the restarts</Chat>
+<Chat et="2785.0">Parker Chen: good job for some points cbt</Chat>
+<Chat et="2793.5">OMGCA: cbt you need to apologize to a lot people </Chat>
+<Score et="2794.8">Eskwen(1) lap=19 point=2 t=90.524 et=2794.667</Score>
+<Chat et="2795.4">OMGCA: it seems to me</Chat>
+<Score et="2803.4">SennaAndProst(9) lap=19 point=2 t=74.136 et=2803.327</Score>
+<Chat et="2804.2">Kne Yka has left the game but vehicle has been stored in the garage</Chat>
+<Score et="2805.2">DumiBirdF(10) lap=20 point=0 t=145.088 et=2805.048</Score>
+<Chat et="2806.3">smallbubble: last lap closed in by 1.9</Chat>
+<Chat et="2818.6">DumiBirdF: my mistake</Chat>
+<Score et="2825.7">Eskwen(1) lap=20 point=0 t=121.469 et=2825.612</Score>
+<Chat et="2828.8">OMGCA: senna......</Chat>
+<Penalty et="2828.9">SennaAndProst received Stop/Go penalty, 10s, 0laps. Result: penalties=1, 1st=Stop/Go,10s</Penalty>
+<Penalty et="2832.2">SennaAndProst finished before serving penalty, added 35 seconds to totalET</Penalty>
+<Score et="2832.2">SennaAndProst(9) lap=20 point=0 t=-1.000 et=2832.073</Score>
+</Stream>
+<MostLapsCompleted>20</MostLapsCompleted>
+<Driver>
+<Name>lovepes2010</Name>
+<Connected>1</Connected>
+<VehFile>FBT_21.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>1-#21 lovepes2010</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>21</CarNumber>
+<TeamName>Audi Sport Team FlyingBird</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>2</GridPos>
+<Position>2</Position>
+<ClassGridPos>2</ClassGridPos>
+<ClassPosition>2</ClassPosition>
+<Points>18</Points>
+<ClassPoints>18</ClassPoints>
+<LapRankIncludingDiscos>1</LapRankIncludingDiscos>
+<Lap num="1" p="2" et="217.2764" s1="32.2014" s2="51.2871" s3="32.1983" fuel="0.396">115.6868</Lap>
+<Lap num="2" p="2" et="332.9632" s1="35.3932" s2="67.1498" s3="44.5865" fuel="0.376">147.1295</Lap>
+<Lap num="3" p="3" et="480.0927" s1="40.1383" s2="66.6290" s3="45.6545" fuel="0.361">152.4218</Lap>
+<Lap num="4" p="2" et="632.5145" s1="36.7918" s2="66.5030" s3="44.2204" fuel="0.341">147.5152</Lap>
+<Lap num="5" p="2" et="780.0297" s1="37.8376" s2="73.0495" s3="47.1400" fuel="0.322">158.0271</Lap>
+<Lap num="6" p="2" et="938.0568" s1="28.3703" s2="45.0421" s3="30.8695" fuel="0.278">104.2819</Lap>
+<Lap num="7" p="2" et="1042.3386" s1="27.9635" s2="47.0922" s3="38.7859" fuel="0.239">113.8417</Lap>
+<Lap num="8" p="1" et="1156.1803" s1="32.3120" s2="65.4339" s3="43.0216" fuel="0.220">140.7674</Lap>
+<Lap num="9" p="1" et="1296.9478" s1="38.2595" s2="71.8664" s3="37.3940" fuel="0.204">147.5199</Lap>
+<Lap num="10" p="1" et="1444.4677" s1="37.3180" s2="70.2909" s3="47.6693" fuel="0.188">155.2782</Lap>
+<Lap num="11" p="1" et="1599.7458" s1="28.4021" s2="44.7925" s3="30.7269" fuel="0.141">103.9215</Lap>
+<Lap num="12" p="1" et="1703.6674" s1="27.9249" s2="44.2726" s3="39.1341" fuel="0.098" pit="1">111.3315</Lap>
+<Lap num="13" p="4" et="1814.9989" s1="42.1366" s2="59.4889" s3="50.3085" fuel="0.314">151.9341</Lap>
+<Lap num="14" p="3" et="1966.9330" s1="29.6459" s2="46.4025" s3="31.3015" fuel="0.275">107.3498</Lap>
+<Lap num="15" p="3" et="2074.2827" s1="28.4083" s2="47.9360" s3="35.7680" fuel="0.247">112.1123</Lap>
+<Lap num="16" p="2" et="2186.3950" s1="31.5704" s2="66.4694" s3="48.5148" fuel="0.227">146.5546</Lap>
+<Lap num="17" p="2" et="2332.9497" s1="28.4274" s2="45.9437" s3="31.3438" fuel="0.188">105.7149</Lap>
+<Lap num="18" p="2" et="2438.6646" s1="28.1563" s2="47.0044" s3="31.1192" fuel="0.149">106.2800</Lap>
+<Lap num="19" p="2" et="2544.9446" s1="27.9074" s2="43.9016" s3="30.8139" fuel="0.106">102.6228</Lap>
+<Lap num="20" p="2" et="2647.5674" s1="27.8974" s2="44.1428" s3="30.9892" fuel="0.063">103.0294</Lap>
+<BestLapTime>102.6228</BestLapTime>
+<FinishTime>2533.3203</FinishTime>
+<Laps>20</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="2">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+<ControlAndAids startLap="3" endLap="4">PlayerControl,TC=3,ABS=2,Stability=2,Clutch,AutoBlip</ControlAndAids>
+<ControlAndAids startLap="5" endLap="7">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+<ControlAndAids startLap="8" endLap="9">PlayerControl,TC=3,ABS=2,Stability=2,Clutch,AutoBlip</ControlAndAids>
+<ControlAndAids startLap="10" endLap="20">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>wagonggong</Name>
+<Connected>1</Connected>
+<VehFile>RPM_15.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>2-#15 wagonggong</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>15</CarNumber>
+<TeamName>Team Russian Poisonous Milk</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>1</GridPos>
+<Position>1</Position>
+<ClassGridPos>1</ClassGridPos>
+<ClassPosition>1</ClassPosition>
+<Points>25</Points>
+<ClassPoints>25</ClassPoints>
+<LapRankIncludingDiscos>2</LapRankIncludingDiscos>
+<Lap num="1" p="2" et="217.2764" s1="31.7123" s2="50.2681" s3="33.1018" fuel="0.361">115.0822</Lap>
+<Lap num="2" p="1" et="332.3586" s1="35.2175" s2="67.2759" s3="44.1234" fuel="0.341">146.6168</Lap>
+<Lap num="3" p="1" et="478.9754" s1="40.1142" s2="66.3068" s3="45.7049" fuel="0.318">152.1258</Lap>
+<Lap num="4" p="1" et="631.1013" s1="37.3005" s2="66.5069" s3="42.8437" fuel="0.298">146.6511</Lap>
+<Lap num="5" p="1" et="777.7523" s1="39.5648" s2="72.7693" s3="47.0180" fuel="0.275">159.3520</Lap>
+<Lap num="6" p="1" et="937.1044" s1="28.0128" s2="45.2328" s3="30.7978" fuel="0.235">104.0433</Lap>
+<Lap num="7" p="1" et="1041.1477" s1="27.7887" s2="47.2700" s3="39.1072" fuel="0.208">114.1659</Lap>
+<Lap num="8" p="7" et="1155.3136" s1="31.7499" s2="65.3134" s3="50.1452" fuel="0.184" pit="1">147.2085</Lap>
+<Lap num="9" p="9" et="1302.5221" s1="42.0843" s2="68.3107" s3="46.1973" fuel="0.459" pit="1">156.5923</Lap>
+<Lap num="10" p="8" et="1459.1144" s1="39.2294" s2="58.1060" s3="47.4506" fuel="0.431">144.7860</Lap>
+<Lap num="11" p="7" et="1603.9004" s1="29.7831" s2="45.9639" s3="32.2091" fuel="0.388">107.9562</Lap>
+<Lap num="12" p="4" et="1711.8566" s1="28.5366" s2="47.0388" s3="34.9618" fuel="0.349">110.5372</Lap>
+<Lap num="13" p="2" et="1822.3938" s1="28.7455" s2="64.0855" s3="49.7595" fuel="0.322">142.5905</Lap>
+<Lap num="14" p="1" et="1964.9843" s1="27.8065" s2="44.7619" s3="30.7601" fuel="0.282">103.3284</Lap>
+<Lap num="15" p="8" et="2068.3127" s1="30.2336" fuel="0.259">112.1189</Lap>
+<Lap num="16" p="1" et="2180.4316" s1="31.5099" s2="71.0351" s3="48.8590" fuel="0.235">151.4041</Lap>
+<Lap num="17" p="1" et="2331.8357" s1="27.6891" s2="45.1736" s3="31.0337" fuel="0.192">103.8964</Lap>
+<Lap num="18" p="1" et="2435.7322" s1="27.7617" s2="44.5225" s3="31.4269" fuel="0.153">103.7111</Lap>
+<Lap num="19" p="1" et="2539.4431" s1="28.0742" s2="44.8967" s3="31.0335" fuel="0.114">104.0045</Lap>
+<Lap num="20" p="1" et="2643.4475" s1="27.8511" s2="44.6374" s3="30.6260" fuel="0.075">103.1144</Lap>
+<BestLapTime>103.1144</BestLapTime>
+<FinishTime>2529.2856</FinishTime>
+<Laps>20</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="20">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>smallbubble</Name>
+<Connected>1</Connected>
+<VehFile>NCR_22.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>3-#22 smallbubble</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>22</CarNumber>
+<TeamName>NorthernChina Racing</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>5</GridPos>
+<Position>4</Position>
+<ClassGridPos>4</ClassGridPos>
+<ClassPosition>3</ClassPosition>
+<Points>10</Points>
+<ClassPoints>15</ClassPoints>
+<LapRankIncludingDiscos>3</LapRankIncludingDiscos>
+<Lap num="1" p="5" et="217.2764" s1="33.3193" s2="51.0387" s3="35.4457" fuel="0.357">119.8037</Lap>
+<Lap num="2" p="3" et="337.0800" s1="32.3573" s2="66.9003" s3="44.6411" fuel="0.333">143.8988</Lap>
+<Lap num="3" p="2" et="480.9788" s1="39.9838" s2="66.0810" s3="44.8263" fuel="0.314">150.8912</Lap>
+<Lap num="4" p="3" et="631.8700" s1="38.0381" s2="66.7547" s3="43.8331" fuel="0.298">148.6259</Lap>
+<Lap num="5" p="3" et="780.4960" s1="38.7643" s2="72.2048" s3="47.1922" fuel="0.275">158.1613</Lap>
+<Lap num="6" p="3" et="938.6572" s1="27.9921" s2="46.5262" s3="30.9271" fuel="0.243">105.4454</Lap>
+<Lap num="7" p="3" et="1044.1025" s1="28.0278" s2="46.4911" s3="38.6702" fuel="0.212">113.1892</Lap>
+<Lap num="8" p="2" et="1157.2917" s1="34.5918" s2="62.3789" s3="43.5570" fuel="0.192">140.5277</Lap>
+<Lap num="9" p="2" et="1297.8195" s1="38.4256" s2="71.5208" s3="38.1805" fuel="0.173">148.1269</Lap>
+<Lap num="10" p="2" et="1445.9464" s1="37.5694" s2="69.4023" s3="47.4456" fuel="0.153">154.4172</Lap>
+<Lap num="11" p="2" et="1600.3636" s1="28.2245" s2="45.5191" s3="30.6769" fuel="0.118">104.4205</Lap>
+<Lap num="12" p="2" et="1704.7842" s1="27.7806" s2="45.0863" s3="41.3148" fuel="0.082" pit="1">114.1817</Lap>
+<Lap num="13" p="5" et="1818.9659" s1="40.6750" s2="57.7205" s3="49.8458" fuel="0.271">148.2413</Lap>
+<Lap num="14" p="7" et="1967.2073" s1="29.4073" s2="50.5238" s3="34.6796" fuel="0.243">114.6107</Lap>
+<Lap num="15" p="6" et="2081.8179" s1="29.1897" s2="48.4851" s3="33.5950" fuel="0.220">111.2697</Lap>
+<Lap num="16" p="6" et="2193.0876" s1="31.1345" s2="62.1053" s3="48.4819" fuel="0.196">141.7216</Lap>
+<Lap num="17" p="4" et="2334.8093" s1="29.4357" s2="47.3617" s3="33.1190" fuel="0.165">109.9164</Lap>
+<Lap num="18" p="4" et="2444.7256" s1="28.0995" s2="45.4332" s3="31.0959" fuel="0.133">104.6286</Lap>
+<Lap num="19" p="4" et="2549.3542" s1="28.1297" s2="45.3266" s3="30.6746" fuel="0.098">104.1309</Lap>
+<Lap num="20" p="4" et="2653.4851" s1="27.7256" s2="45.1115" s3="30.7114" fuel="0.059">103.5485</Lap>
+<BestLapTime>103.5485</BestLapTime>
+<FinishTime>2539.7573</FinishTime>
+<Laps>20</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="20">PlayerControl,TC=3,ABS=2,Stability=1,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>DUO MEI</Name>
+<Connected>1</Connected>
+<VehFile>KST_TMP1.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>#60 KST Tmp1</VehName>
+<CarType>OFCR 2018 Temporary Drivers</CarType>
+<CarClass>OFCR 2018 Temporary Drivers</CarClass>
+<CarNumber>60</CarNumber>
+<TeamName>KST</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>4</GridPos>
+<Position>3</Position>
+<ClassGridPos>1</ClassGridPos>
+<ClassPosition>1</ClassPosition>
+<Points>15</Points>
+<ClassPoints>25</ClassPoints>
+<LapRankIncludingDiscos>4</LapRankIncludingDiscos>
+<Lap num="1" p="6" et="217.2764" s1="34.1609" s2="51.0781" s3="35.5668" fuel="0.529">120.8057</Lap>
+<Lap num="2" p="5" et="338.0821" s1="32.5355" s2="66.6965" s3="44.7545" fuel="0.510">143.9865</Lap>
+<Lap num="3" p="9" et="482.0686" s1="40.8187" s2="81.6830" s3="73.8501" fuel="0.482" pit="1">196.3519</Lap>
+<Lap num="4" p="8" et="678.4205" s1="48.4983" s2="48.3321" s3="33.1421" fuel="0.682">129.9725</Lap>
+<Lap num="5" p="8" et="808.3929" s1="28.9345" s2="58.5524" s3="46.8838" fuel="0.647">134.3707</Lap>
+<Lap num="6" p="8" et="942.7637" s1="29.5472" s2="46.9934" s3="32.1553" fuel="0.616">108.6958</Lap>
+<Lap num="7" p="8" et="1051.4595" s1="29.0400" s2="47.8300" s3="42.4276" fuel="0.584" pit="1">119.2976</Lap>
+<Lap num="8" p="7" et="1170.7571" s1="40.5612" s2="50.4216" s3="48.4678" fuel="0.569" pit="1">139.4506</Lap>
+<Lap num="9" p="8" et="1310.2076" s1="33.5597" s2="68.5758" s3="45.9069" fuel="0.541" pit="1">148.0423</Lap>
+<Lap num="10" p="9" et="1458.2500" s1="41.9308" s2="57.6218" s3="48.0931" fuel="0.553">147.6458</Lap>
+<Lap num="11" p="9" et="1605.8958" s1="29.3142" s2="46.4635" s3="31.6488" fuel="0.514">107.4265</Lap>
+<Lap num="12" p="8" et="1713.3223" s1="29.4160" s2="49.6985" s3="45.5289" fuel="0.478" pit="1">124.6434</Lap>
+<Lap num="13" p="8" et="1837.9657" s1="40.0027" s2="47.9777" s3="43.0604" fuel="0.451">131.0408</Lap>
+<Lap num="14" p="6" et="1969.0065" s1="29.5142" s2="47.5421" s3="33.4489" fuel="0.412">110.5053</Lap>
+<Lap num="15" p="5" et="2079.5117" s1="29.2218" s2="48.6677" s3="33.9231" fuel="0.388">111.8126</Lap>
+<Lap num="16" p="5" et="2191.3245" s1="30.6094" s2="63.4300" s3="49.1108" fuel="0.353">143.1502</Lap>
+<Lap num="17" p="3" et="2334.4746" s1="28.9243" s2="46.3103" s3="31.4668" fuel="0.310">106.7013</Lap>
+<Lap num="18" p="3" et="2441.1760" s1="28.4034" s2="45.5193" s3="31.2690" fuel="0.267">105.1916</Lap>
+<Lap num="19" p="3" et="2546.3677" s1="28.4464" s2="44.8276" s3="31.3998" fuel="0.220">104.6737</Lap>
+<Lap num="20" p="3" et="2651.0415" s1="28.6209" s2="44.7676" s3="32.0384" fuel="0.176">105.4268</Lap>
+<BestLapTime>104.6737</BestLapTime>
+<FinishTime>2539.1919</FinishTime>
+<Laps>20</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="20">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>SennaAndProst</Name>
+<Connected>1</Connected>
+<VehFile>KST_27.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>2-#27 SennaAndProst</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>27</CarNumber>
+<TeamName>Kimi Sleeping Team</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>9</GridPos>
+<Position>8</Position>
+<ClassGridPos>8</ClassGridPos>
+<ClassPosition>7</ClassPosition>
+<Points>1</Points>
+<ClassPoints>2</ClassPoints>
+<LapRankIncludingDiscos>5</LapRankIncludingDiscos>
+<Lap num="1" p="9" et="217.2764" s1="35.8892" s2="52.1955" s3="47.2862" fuel="0.439" pit="1">135.3709</Lap>
+<Lap num="2" p="7" et="352.6472" s1="46.8705" s2="49.0026" s3="36.6220" fuel="0.961">132.4950</Lap>
+<Lap num="3" p="8" et="485.1423" s1="39.5089" s2="65.8123" s3="56.2889" fuel="0.929" pit="1">161.6101</Lap>
+<Lap num="4" p="7" et="646.7524" s1="46.7041" s2="49.6992" s3="41.8918" fuel="0.925">138.2951</Lap>
+<Lap num="5" p="7" et="785.0475" s1="40.3846" s2="69.0400" s3="47.0533" fuel="0.894">156.4780</Lap>
+<Lap num="6" p="7" et="941.5255" s1="28.9178" s2="48.4335" s3="31.8753" fuel="0.847">109.2266</Lap>
+<Lap num="7" p="6" et="1050.7521" s1="28.7902" s2="46.6891" s3="34.2598" fuel="0.804">109.7390</Lap>
+<Lap num="8" p="5" et="1160.4911" s1="42.7975" s2="52.9230" s3="44.0643" fuel="0.769">139.7848</Lap>
+<Lap num="9" p="7" et="1300.2759" s1="38.0237" s2="77.6127" s3="37.3480" fuel="0.729">152.9844</Lap>
+<Lap num="10" p="7" et="1453.2603" s1="35.3202" s2="67.0210" s3="47.8604" fuel="0.694">150.2015</Lap>
+<Lap num="11" p="6" et="1603.4618" s1="28.5319" s2="47.4197" s3="31.5631" fuel="0.647">107.5146</Lap>
+<Lap num="12" p="9" et="1710.9764" s1="28.4192" s2="59.2062" s3="44.5566" fuel="0.608" pit="1">132.1820</Lap>
+<Lap num="13" p="9" et="1843.1584" s1="46.7032" s2="46.7820" s3="32.7068" fuel="0.561">126.1920</Lap>
+<Lap num="14" p="8" et="1969.3505" s1="29.0322" s2="47.2190" fuel="0.514" pit="1">--.----</Lap>
+<Lap num="15" p="8" et="2116.5576" s1="62.5662" s2="47.4658" s3="41.0112" fuel="0.471" pit="1">151.0432</Lap>
+<Lap num="16" p="8" et="2267.6008" s1="32.8401" s2="45.5691" s3="40.7383" fuel="0.427" pit="1">119.1475</Lap>
+<Lap num="17" p="8" et="2386.7483" s1="49.6567" s2="46.9995" s3="32.1113" fuel="0.463">128.7676</Lap>
+<Lap num="18" p="8" et="2515.5159" s1="28.8486" s2="45.8757" s3="31.1990" fuel="0.416">105.9233</Lap>
+<Lap num="19" p="8" et="2621.4392" s1="29.9094" s2="46.2974" s3="31.5454" fuel="0.373">107.7522</Lap>
+<Lap num="20" p="8" et="2729.1914" s1="28.8662" s2="45.2695" fuel="0.325">--.----</Lap>
+<BestLapTime>105.9233</BestLapTime>
+<FinishTime>2649.7969</FinishTime>
+<Laps>20</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="14">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Steering=2,Clutch,Opposite,AutoLift,AutoBlip</ControlAndAids>
+<ControlAndAids startLap="15" endLap="20">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,Opposite,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Kne Yka</Name>
+<Connected>1</Connected>
+<VehFile>XTG_12.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>3-#12 Kne_Yka</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>12</CarNumber>
+<TeamName>xTacing OFCR Team</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>7</GridPos>
+<Position>9</Position>
+<ClassGridPos>6</ClassGridPos>
+<ClassPosition>8</ClassPosition>
+<Points>0</Points>
+<ClassPoints>1</ClassPoints>
+<LapRankIncludingDiscos>6</LapRankIncludingDiscos>
+<Lap num="1" p="7" et="217.2764" s1="34.8533" s2="51.1223" s3="35.9359" fuel="0.443">121.9115</Lap>
+<Lap num="2" p="8" et="339.1878" s1="32.3514" s2="66.3344" s3="48.6846" fuel="0.412">147.3704</Lap>
+<Lap num="3" p="5" et="486.5582" s1="38.7658" s2="62.6429" s3="46.5156" fuel="0.384">147.9243</Lap>
+<Lap num="4" p="4" et="634.4825" s1="37.8550" s2="65.5112" s3="43.8144" fuel="0.365">147.1806</Lap>
+<Lap num="5" p="5" et="781.6631" s1="38.6392" s2="71.6575" s3="48.1625" fuel="0.337">158.4592</Lap>
+<Lap num="6" p="4" et="940.1223" s1="28.9019" s2="46.3936" s3="30.8619" fuel="0.294">106.1573</Lap>
+<Lap num="7" p="4" et="1046.2797" s1="27.9141" s2="46.1086" s3="38.2373" fuel="0.259">112.2600</Lap>
+<Lap num="8" p="3" et="1158.5397" s1="34.5203" s2="61.7065" s3="43.5969" fuel="0.239">139.8237</Lap>
+<Lap num="9" p="3" et="1298.3634" s1="39.1716" s2="70.6106" s3="38.5317" fuel="0.216">148.3140</Lap>
+<Lap num="10" p="3" et="1446.6774" s1="37.7137" s2="68.8455" s3="48.1182" fuel="0.192">154.6774</Lap>
+<Lap num="11" p="3" et="1601.3547" s1="28.3264" s2="46.5205" s3="31.1155" fuel="0.149">105.9624</Lap>
+<Lap num="12" p="5" et="1707.3171" s1="28.0566" s2="46.3226" s3="41.5798" fuel="0.110" pit="1">115.9591</Lap>
+<Lap num="13" p="7" et="1823.2762" s1="42.5889" s2="52.9281" s3="49.6821" fuel="0.306">145.1991</Lap>
+<BestLapTime>105.9624</BestLapTime>
+<Laps>13</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>DNF</DNFReason>
+<ControlAndAids startLap="1" endLap="13">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Steering=2,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>DumiBirdF</Name>
+<Connected>1</Connected>
+<VehFile>FBT_99.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>2-#99 DumiBirdF</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>99</CarNumber>
+<TeamName>Audi Sport Team FlyingBird</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>6</GridPos>
+<Position>6</Position>
+<ClassGridPos>5</ClassGridPos>
+<ClassPosition>5</ClassPosition>
+<Points>4</Points>
+<ClassPoints>6</ClassPoints>
+<LapRankIncludingDiscos>7</LapRankIncludingDiscos>
+<Lap num="1" p="8" et="217.2764" s1="35.6313" s2="51.4949" s3="35.7557" fuel="0.369">122.8819</Lap>
+<Lap num="2" p="6" et="340.1583" s1="32.3204" s2="65.8240" s3="45.2524" fuel="0.349">143.3969</Lap>
+<Lap num="3" p="10" et="483.5551" s1="39.8462" s2="98.9760" s3="65.4259" fuel="0.325" pit="1">204.2481</Lap>
+<Lap num="4" p="9" et="687.8032" s1="48.2834" s2="48.3901" s3="32.7600" fuel="0.639">129.4335</Lap>
+<Lap num="5" p="9" et="817.2367" s1="29.2210" s2="51.1285" s3="47.0107" fuel="0.616">127.3603</Lap>
+<Lap num="6" p="9" et="944.5969" s1="28.8786" s2="46.4772" s3="32.5777" fuel="0.584">107.9334</Lap>
+<Lap num="7" p="7" et="1052.5304" s1="28.5274" s2="47.9004" s3="32.7092" fuel="0.557">109.1370</Lap>
+<Lap num="8" p="8" et="1161.6675" s1="35.9684" s2="81.4398" s3="32.7986" fuel="0.533">150.2067</Lap>
+<Lap num="9" p="5" et="1311.8741" s1="30.8833" s2="68.4750" s3="38.4064" fuel="0.514">137.7647</Lap>
+<Lap num="10" p="6" et="1449.6389" s1="36.0391" s2="68.1285" s3="49.6219" fuel="0.498">153.7895</Lap>
+<Lap num="11" p="8" et="1603.4285" s1="30.3238" s2="47.3004" s3="31.5232" fuel="0.463">109.1475</Lap>
+<Lap num="12" p="7" et="1712.5759" s1="28.0240" s2="47.9401" s3="42.6651" fuel="0.424">118.6291</Lap>
+<Lap num="13" p="6" et="1831.2051" s1="30.6328" s2="55.8771" s3="50.1895" fuel="0.396">136.6994</Lap>
+<Lap num="14" p="4" et="1967.9045" s1="29.0111" s2="47.8523" s3="31.8148" fuel="0.357">108.6782</Lap>
+<Lap num="15" p="7" et="2076.5828" s1="29.0033" s2="59.4386" s3="32.2923" fuel="0.329">120.7342</Lap>
+<Lap num="16" p="7" et="2197.3169" s1="29.6434" s2="60.1767" s3="48.5188" fuel="0.306">138.3389</Lap>
+<Lap num="17" p="6" et="2335.6558" s1="28.5626" s2="48.1001" s3="33.5644" fuel="0.263">110.2271</Lap>
+<Lap num="18" p="6" et="2445.8828" s1="27.8920" s2="48.0309" s3="31.7576" fuel="0.224">107.6805</Lap>
+<Lap num="19" p="5" et="2553.5632" s1="28.3690" s2="46.1253" s3="31.9021" fuel="0.184">106.3963</Lap>
+<Lap num="20" p="6" et="2659.9595" s1="41.6922" s2="66.9120" s3="36.4839" fuel="0.149">145.0881</Lap>
+<BestLapTime>106.3963</BestLapTime>
+<FinishTime>2587.7712</FinishTime>
+<Laps>20</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="20">PlayerControl,TC=3,ABS=2,Stability=2,Steering=2,Clutch,Opposite,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>LeonardoChan</Name>
+<Connected>1</Connected>
+<VehFile>SPR_07.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>2-#07 Leonardo Chan</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>7</CarNumber>
+<TeamName>Shanghai Power Racing</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>11</GridPos>
+<Position>5</Position>
+<ClassGridPos>10</ClassGridPos>
+<ClassPosition>4</ClassPosition>
+<Points>6</Points>
+<ClassPoints>10</ClassPoints>
+<LapRankIncludingDiscos>8</LapRankIncludingDiscos>
+<Lap num="1" p="10" et="217.2764" s1="50.0250" s2="71.4170" s3="56.6746" fuel="0.310" pit="1">178.1166</Lap>
+<Lap num="2" p="10" et="395.3929" s1="47.6069" s2="48.9025" s3="32.7615" fuel="0.349">129.2709</Lap>
+<Lap num="3" p="6" et="524.6638" s1="29.6311" s2="49.4117" s3="34.8493" fuel="0.322">113.8922</Lap>
+<Lap num="4" p="5" et="638.5560" s1="35.3961" s2="64.9792" s3="43.4141" fuel="0.302">143.7894</Lap>
+<Lap num="5" p="4" et="782.3454" s1="39.3500" s2="70.6364" s3="47.7355" fuel="0.275">157.7220</Lap>
+<Lap num="6" p="5" et="940.0673" s1="29.0643" s2="47.2640" s3="31.9299" fuel="0.235">108.2582</Lap>
+<Lap num="7" p="9" et="1048.3256" s1="28.7372" s2="70.1716" s3="49.5331" fuel="0.200" pit="1">148.4418</Lap>
+<Lap num="8" p="9" et="1196.7675" s1="47.7270" s2="49.7495" s3="32.9004" fuel="0.455">130.3769</Lap>
+<Lap num="9" p="6" et="1327.1444" s1="30.1184" s2="56.8348" s3="38.0788" fuel="0.431">125.0320</Lap>
+<Lap num="10" p="5" et="1452.1764" s1="34.7491" s2="67.4386" s3="48.8033" fuel="0.404">150.9910</Lap>
+<Lap num="11" p="5" et="1603.1675" s1="28.8290" s2="46.5455" s3="31.8294" fuel="0.361">107.2039</Lap>
+<Lap num="12" p="3" et="1710.3713" s1="28.6269" s2="47.5796" s3="32.6647" fuel="0.322">108.8712</Lap>
+<Lap num="13" p="1" et="1819.2426" s1="30.6808" s2="64.3178" s3="50.3542" fuel="0.294">145.3528</Lap>
+<Lap num="14" p="2" et="1964.5953" s1="29.1092" s2="45.9671" s3="31.5681" fuel="0.251">106.6444</Lap>
+<Lap num="15" p="2" et="2071.2397" s1="28.9533" s2="49.2146" s3="32.2420" fuel="0.220">110.4100</Lap>
+<Lap num="16" p="3" et="2181.6497" s1="31.2637" s2="70.4250" s3="49.8223" fuel="0.192">151.5109</Lap>
+<Lap num="17" p="5" et="2333.1606" s1="28.2762" s2="50.5583" s3="33.3843" fuel="0.145">112.2188</Lap>
+<Lap num="18" p="5" et="2445.3794" s1="28.4455" s2="47.2885" s3="32.1224" fuel="0.098">107.8564</Lap>
+<Lap num="19" p="6" et="2553.2358" s1="28.9022" s2="46.1846" s3="31.7717" fuel="0.051">106.8585</Lap>
+<Lap num="20" p="5" et="2660.0942" s1="28.6106" s2="46.4956" s3="32.1998" fuel="0.016">107.3060</Lap>
+<BestLapTime>106.6444</BestLapTime>
+<FinishTime>2550.1238</FinishTime>
+<Laps>20</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="20">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,Opposite,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Eskwen</Name>
+<Connected>1</Connected>
+<VehFile>RPM_17.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>1-#17 eskwen</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>17</CarNumber>
+<TeamName>Team Russian Poisonous Milk</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>8</GridPos>
+<Position>7</Position>
+<ClassGridPos>7</ClassGridPos>
+<ClassPosition>6</ClassPosition>
+<Points>2</Points>
+<ClassPoints>4</ClassPoints>
+<LapRankIncludingDiscos>9</LapRankIncludingDiscos>
+<Lap num="1" p="3" et="217.2764" s1="32.8058" s2="50.5528" s3="32.7671" fuel="0.341">116.1257</Lap>
+<Lap num="2" p="9" et="333.4020" s1="35.3713" s2="70.5900" s3="51.2380" fuel="0.306" pit="1">157.1992</Lap>
+<Lap num="3" p="7" et="490.6012" s1="44.4745" s2="55.6322" s3="49.4179" fuel="0.698" pit="1">149.5246</Lap>
+<Lap num="4" p="6" et="640.1259" s1="34.8870" s2="65.0491" s3="42.8472" fuel="0.675">142.7833</Lap>
+<Lap num="5" p="6" et="782.9092" s1="39.8080" s2="70.3092" s3="47.3536" fuel="0.647">157.4708</Lap>
+<Lap num="6" p="6" et="940.3799" s1="28.8258" s2="47.9554" s3="31.7691" fuel="0.604">108.5504</Lap>
+<Lap num="7" p="5" et="1048.9303" s1="28.2886" s2="47.9750" s3="33.9191" fuel="0.569">110.1827</Lap>
+<Lap num="8" p="4" et="1159.1130" s1="35.1282" s2="60.9287" s3="44.1364" fuel="0.545">140.1933</Lap>
+<Lap num="9" p="4" et="1299.3064" s1="42.7325" s2="68.4518" s3="38.0303" fuel="0.525">149.2146</Lap>
+<Lap num="10" p="4" et="1448.5210" s1="36.2730" s2="68.6609" s3="48.0596" fuel="0.498">152.9934</Lap>
+<Lap num="11" p="4" et="1601.5144" s1="28.1413" s2="48.5682" s3="31.4498" fuel="0.455">108.1593</Lap>
+<Lap num="12" p="6" et="1709.6737" s1="29.2495" s2="51.4491" s3="35.0711" fuel="0.412">115.7698</Lap>
+<Lap num="13" p="3" et="1825.4435" s1="29.9118" s2="60.6423" s3="50.4176" fuel="0.388">140.9716</Lap>
+<Lap num="14" p="5" et="1966.4150" s1="29.3996" s2="48.3534" s3="34.1173" fuel="0.365">111.8703</Lap>
+<Lap num="15" p="4" et="2078.2854" s1="29.5058" s2="48.7939" s3="32.6279" fuel="0.341">110.9276</Lap>
+<Lap num="16" p="4" et="2189.2129" s1="29.9529" s2="65.4535" s3="49.0089" fuel="0.314">144.4153</Lap>
+<Lap num="17" p="7" et="2333.6282" s1="27.9614" s2="48.9455" s3="41.3956" fuel="0.275">118.3024</Lap>
+<Lap num="18" p="7" et="2451.9307" s1="29.0406" s2="47.1335" s3="31.6060" fuel="0.231">107.7801</Lap>
+<Lap num="19" p="7" et="2559.7107" s1="28.3226" s2="67.6244" s3="48.4850" fuel="0.196" pit="1">144.4321</Lap>
+<Lap num="20" p="7" et="2704.1428" s1="44.3870" s2="46.1371" s3="30.9449" fuel="0.192">121.4690</Lap>
+<BestLapTime>107.7801</BestLapTime>
+<FinishTime>2608.3354</FinishTime>
+<Laps>20</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="20">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Parker Chen</Name>
+<Connected>1</Connected>
+<VehFile>SPR_48.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>1-#48 Parker Chen</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>48</CarNumber>
+<TeamName>Shanghai Power Racing</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>10</GridPos>
+<Position>11</Position>
+<ClassGridPos>9</ClassGridPos>
+<ClassPosition>9</ClassPosition>
+<Points>0</Points>
+<ClassPoints>0</ClassPoints>
+<LapRankIncludingDiscos>10</LapRankIncludingDiscos>
+<Lap num="1" p="4" et="217.2764" s1="34.2415" s2="49.5063" s3="33.7536" fuel="0.267">117.5014</Lap>
+<Lap num="2" p="4" et="334.7778" s1="34.7152" s2="67.2668" s3="44.7624" fuel="0.231">146.7444</Lap>
+<Lap num="3" p="4" et="481.5222" s1="40.0095" s2="65.8690" s3="45.7582" fuel="0.204">151.6367</Lap>
+<BestLapTime>117.5014</BestLapTime>
+<Laps>3</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>Engine</DNFReason>
+<ControlAndAids startLap="1" endLap="3">PlayerControl,TC=3,ABS=2,Stability=1,AutoShift=3,Steering=1,Clutch,Opposite,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>ghgyyukg</Name>
+<Connected>1</Connected>
+<VehFile>SAFETYCAR.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>Safety Pace Car</VehName>
+<CarType>OFCR Safety Car</CarType>
+<CarClass>OFCR Safety Car</CarClass>
+<CarNumber>00</CarNumber>
+<TeamName>Safety Car</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>12</GridPos>
+<Position>10</Position>
+<ClassGridPos>1</ClassGridPos>
+<ClassPosition>1</ClassPosition>
+<Points>0</Points>
+<ClassPoints>25</ClassPoints>
+<LapRankIncludingDiscos>11</LapRankIncludingDiscos>
+<Lap num="1" p="11" et="217.2764" s1="149.3449" s2="67.8725" s3="43.4495" fuel="0.341">260.6669</Lap>
+<Lap num="2" p="11" et="477.9432" s1="39.2995" s2="67.7157" s3="43.4616" fuel="0.325">150.4769</Lap>
+<Lap num="3" p="11" et="628.4200" s1="39.0902" s2="66.6468" s3="43.0958" fuel="0.314">148.8327</Lap>
+<Lap num="4" p="10" et="777.2528" s1="38.6514" s2="66.1313" s3="231.4727" fuel="0.302" pit="1">336.2554</Lap>
+<Lap num="5" p="10" et="1113.5082" s1="71.2751" s2="67.3478" s3="42.8145" fuel="0.290">181.4374</Lap>
+<Lap num="6" p="10" et="1294.9457" s1="38.6942" s2="66.2213" s3="42.7980" fuel="0.275">147.7135</Lap>
+<Lap num="7" p="10" et="1442.6592" s1="38.0701" s2="66.9810" s3="253.8951" fuel="0.263" pit="1">358.9462</Lap>
+<Lap num="8" p="10" et="1801.6055" s1="44.4258" s2="67.4465" s3="177.9030" fuel="0.251" pit="1">289.7753</Lap>
+<BestLapTime>147.7135</BestLapTime>
+<Laps>8</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>DNF</DNFReason>
+<ControlAndAids startLap="1" endLap="8">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Steering=1,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>OMGCA</Name>
+<Connected>1</Connected>
+<VehFile>XTG_23.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>1-#23 OMGCA</VehName>
+<CarType>2018 OFCR</CarType>
+<CarClass>2018 OFCR</CarClass>
+<CarNumber>23</CarNumber>
+<TeamName>xTacing OFCR Team</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>3</GridPos>
+<Position>12</Position>
+<ClassGridPos>3</ClassGridPos>
+<ClassPosition>10</ClassPosition>
+<Points>0</Points>
+<ClassPoints>0</ClassPoints>
+<LapRankIncludingDiscos>12</LapRankIncludingDiscos>
+<Laps>0</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>Engine</DNFReason>
+</Driver>
+</Race>
+</RaceResults>
+</rFactorXML>

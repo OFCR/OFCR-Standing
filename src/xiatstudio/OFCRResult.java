@@ -113,7 +113,7 @@ public class OFCRResult {
         int minute = (int) Math.floor(rawTime / 60);
         double second = rawTime - minute*60;
         
-        DecimalFormat df = new DecimalFormat("00.###");
+        DecimalFormat df = new DecimalFormat("00.000");
         String formattedSecond = df.format(second);
         
         formattedTime = String.valueOf(minute) + ":" + formattedSecond;

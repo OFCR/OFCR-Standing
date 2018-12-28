@@ -1,5 +1,7 @@
 package xiatstudio;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,16 +21,21 @@ public class XMLHandler extends DefaultHandler {
 	boolean dName = false;
 	boolean dNumber = false;
 	boolean dTeam = false;
+	boolean dSession = false;
 
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException{
-		if(qName.equalsIgnoreCase("Driver")){
+		if(qName.equalsIgnoreCase("ServerName")){
+			dSession = true;
+		}
+		else if(qName.equalsIgnoreCase("Driver")){
 			currentDriver = new Driver(" ");
 			
 			if(driverList == null) {
 				driverList = new ArrayList<>();
 			}
-		} else if(qName.equalsIgnoreCase("Name"))
+		} 
+		else if(qName.equalsIgnoreCase("Name"))
 			dName = true;
 		else if(qName.equalsIgnoreCase("CarNumber"))
 			dNumber = true;
@@ -40,7 +47,11 @@ public class XMLHandler extends DefaultHandler {
 
 	@Override
 	public void endElement(String uri, String localName, String qName) throws SAXException{
-		if(dName){
+		if(dSession){
+			createCSVFile(data.toString());
+			dSession = false;
+		}
+		else if(dName){
 			currentDriver.setName(data.toString());
 			dName = false;
 		}
@@ -62,5 +73,14 @@ public class XMLHandler extends DefaultHandler {
 	@Override
 	public void characters(char ch[], int start, int length) throws SAXException{
 		data.append(new String(ch,start,length));
+	}
+
+	public void createCSVFile(String fileName){
+		File f = new File(fileName + ".csv");
+		try{
+			f.createNewFile();
+		} catch (IOException e){
+			e.printStackTrace();
+		}
 	}
 }

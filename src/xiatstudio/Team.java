@@ -38,6 +38,8 @@ public class Team {
 			return "NorthernChina Racing";
 		else if(name.equals("MMP"))
 			return "Mamaipi GP";
+		else if(name.equals("SPR"))
+			return "Shanghai Power Racing";
 		else
 			return name;
 	}

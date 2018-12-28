@@ -16,7 +16,7 @@ public class OFCRResult {
         try{
             SAXParser saxParser = saxParserFactory.newSAXParser();
             XMLHandler handler = new XMLHandler();
-            saxParser.parse(new File("09MONR.xml"),handler);
+            saxParser.parse(new File("sample.xml"),handler);
 
             List<Driver> driverList = handler.getDriverList();
 

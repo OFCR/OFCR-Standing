@@ -5,7 +5,7 @@ public class Team {
 	int teamPoints;
 	
 	public Team(String name) {
-		this.teamName = name;
+		this.teamName = abbrToFull(name);
 		this.teamPoints = 0;
 	}
 	
@@ -23,6 +23,23 @@ public class Team {
 	
 	public int getPoints() {
 		return this.teamPoints;
+	}
+
+	public String abbrToFull(String name){
+		if(name.equals("XTG"))
+			return "xTacing OFCR Team";
+		else if(name.equals("KST"))
+			return "Kimi Sleeping Team";
+		else if(name.equals("RPM"))
+			return "Team Russian Poisonous Milk";
+		else if(name.equals("FBT"))
+			return "Team FlyingBird";
+		else if(name.equals("NCR"))
+			return "NorthernChina Racing";
+		else if(name.equals("MMP"))
+			return "Mamaipi GP";
+		else
+			return name;
 	}
 }
 

@@ -31,6 +31,7 @@ public class XMLHandler extends DefaultHandler {
 	boolean dPos = false;
 	boolean dTime = false;
 	boolean dPB = false;
+	boolean dPosdiff = false;
 
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException{
@@ -52,6 +53,8 @@ public class XMLHandler extends DefaultHandler {
 			dPos = true;
 		else if (qName.equalsIgnoreCase("TeamName"))
 			dTeam = true;
+		else if (qName.equalsIgnoreCase("GridPos"))
+			dPosdiff = true;
 		else if (qName.equalsIgnoreCase("BestLapTime"))
 			dPB = true;
 		else if (qName.equalsIgnoreCase("FinishTime"))
@@ -89,6 +92,10 @@ public class XMLHandler extends DefaultHandler {
 			currentDriver.setTeam(tmpTeam);
 			dTeam = false;
 		}
+		else if(dPosdiff){
+			currentDriver.setPosGain(Integer.parseInt(data.toString()));
+			dPosdiff = false;
+		}
 		else if(dPB){
 			currentDriver.setPB(Double.parseDouble(data.toString()));
 			dPB = false;
@@ -103,6 +110,7 @@ public class XMLHandler extends DefaultHandler {
 		}
 		
 		if(qName.equalsIgnoreCase("Driver")){
+			currentDriver.setPosGain(currentDriver.getPosGain()-currentDriver.getPos());
 			driverList.add(currentDriver);
 		}
 	}

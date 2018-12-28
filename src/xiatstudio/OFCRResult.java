@@ -17,7 +17,7 @@ public class OFCRResult {
         try{
             SAXParser saxParser = saxParserFactory.newSAXParser();
             XMLHandler handler = new XMLHandler();
-            saxParser.parse(new File("09MONR.xml"),handler);
+            saxParser.parse(new File("08AUTR.xml"),handler);
 
             List<Driver> driverList = handler.getDriverList();
 
@@ -36,7 +36,8 @@ public class OFCRResult {
                 writer.append("Team,");
                 writer.append("Laps,");
                 writer.append("Time/Gap,");
-                writer.append("Personal Best");
+                writer.append("Personal Best,");
+                writer.append("Position Diff");
                 writer.append("\r\n");
 
                 int i = 0;
@@ -48,6 +49,7 @@ public class OFCRResult {
                     }
 
                     Driver tmpDriver = driverList.get(i);
+            
                     writer.append(String.valueOf(j));
                     writer.append(',');
 
@@ -90,6 +92,13 @@ public class OFCRResult {
                     else {
                     	writer.append(timeFormat(tmpDriver.getPB()));
                     }
+                    writer.append(',');
+
+                    if(tmpDriver.getPosGain() > 0)
+                        writer.append("+" + String.valueOf(tmpDriver.getPosGain()));
+                    else
+                        writer.append(String.valueOf(tmpDriver.getPosGain()));
+                        
                     writer.append("\r\n");
 
                     i = 0;

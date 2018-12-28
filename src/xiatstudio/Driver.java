@@ -9,6 +9,7 @@ public class Driver {
 	double time;
 	int pos;
 	double PB;
+	int positionGain;
 
 	public Driver(String name) {
 		this.driverName = name;
@@ -19,6 +20,7 @@ public class Driver {
 		this.time = 0;
 		this.pos = 0;
 		this.PB = 0;
+		this.positionGain = 0;
 	}
 	
 	public void setName(String newName) {
@@ -84,4 +86,13 @@ public class Driver {
 	public double getPB(){
 		return this.PB;
 	}
+
+	public void setPosGain(int gain){
+		this.positionGain = gain;
+	}
+
+	public int getPosGain(){
+		return this.positionGain;
+	}
 }
+

@@ -6,8 +6,8 @@ public class Driver {
 	int driverPoints;
 	Team driverTeam;
 	
-	public Driver() {
-		this.driverName = "DRIVERNAME";
+	public Driver(String name) {
+		this.driverName = name;
 		this.driverNumber = 0;
 		this.driverPoints = 0;
 		this.driverTeam = new Team("TEAMNAME");

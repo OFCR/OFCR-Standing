@@ -21,8 +21,12 @@ public class OFCRResult {
             List<Driver> driverList = handler.getDriverList();
             List<Integer> lapList = handler.getLapList();
             List<Integer> posList = handler.getPosList();
+            List<Double> timeList = handler.getTimeList();
 
             String fileName = handler.getFileName();
+
+            double timePivot = 0;
+            int leaderLap = 0;
 
             FileWriter writer;
             
@@ -32,7 +36,8 @@ public class OFCRResult {
                 writer.append("No.,");
                 writer.append("Name,");
                 writer.append("Team,");
-                writer.append("Laps");
+                writer.append("Laps,");
+                writer.append("Time/Gap");
                 writer.append("\r\n");
 
                 int i = 0;
@@ -55,7 +60,22 @@ public class OFCRResult {
                     writer.append(',');
 
                     writer.append(String.valueOf(lapList.get(i)));
-                    writer.append("\r\n");
+                    writer.append(',');
+                    
+                    if(j == 1){
+                        timePivot = timeList.get(i);
+                        leaderLap = lapList.get(i);
+                        writer.append(String.valueOf(timeList.get(i)));
+                        writer.append("\r\n");
+                    }
+                    else if(leaderLap == lapList.get(i)){
+                        writer.append("+" + String.format("%.3f",timeList.get(i) - timePivot));
+                        writer.append("\r\n");
+                    }
+                    else{
+                        writer.append("+" + String.valueOf(leaderLap - lapList.get(i)) + " Lap(s)");
+                        writer.append("\r\n");
+                    }
 
                     i = 0;
                     j++;

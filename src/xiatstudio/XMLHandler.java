@@ -23,6 +23,10 @@ public class XMLHandler extends DefaultHandler {
 		return fileName + ".csv";
 	}
 
+	public String getMDFile(){
+		return fileName+".MD";
+	}
+
 	boolean dName = false;
 	boolean dNumber = false;
 	boolean dTeam = false;
@@ -72,6 +76,7 @@ public class XMLHandler extends DefaultHandler {
 	public void endElement(String uri, String localName, String qName) throws SAXException{
 		if(dSession){
 			createCSVFile(data.toString(),true);
+			createMDFile(data.toString(),true);
 			fileName = data.toString();
 			dSession = false;
 		}
@@ -122,6 +127,19 @@ public class XMLHandler extends DefaultHandler {
 
 	public void createCSVFile(String fileName, boolean overwrite){
 		File f = new File(fileName + ".csv");
+
+		if(overwrite == true)
+			f.delete();
+
+		try{
+			f.createNewFile();
+		} catch (IOException e){
+			e.printStackTrace();
+		}
+	}
+
+	public void createMDFile(String fileName, boolean overwrite){
+		File f = new File(fileName + ".MD");
 
 		if(overwrite == true)
 			f.delete();

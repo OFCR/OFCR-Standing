@@ -115,6 +115,7 @@ public class OFCRResult {
         try {
             writer = new FileWriter(f, true);
 
+            writer.append("<font size=\"2\" face=\"Calibri\" >\r\n");
             writer.append("<table style=\"width:100%\">");
             writer.append("\r\n");
             String title[] = { "Pos.", "No.", "Driver", "Team", "Points","Participation Rate","Win Rate","Podium Rate","Points Rate","DNF Rate" };
@@ -131,7 +132,7 @@ public class OFCRResult {
                         String.valueOf(seasonList.get(i).getPoints()),startRate,winRate,podiumRate,pointRate,dnfRate };
                 createHTMLRow(writer, row);
             }
-            writer.append("</table>");
+            writer.append("</table></font>");
             writer.flush();
             writer.close();
         } catch (IOException ioe) {

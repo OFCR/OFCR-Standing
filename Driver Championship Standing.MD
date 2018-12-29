@@ -1,3 +1,4 @@
+<font size="2" face="Calibri" >
 <table style="width:100%">
 	<tr>
 		<th>Pos.</th>
@@ -323,4 +324,4 @@
 		<th>5.88 %</th>
 		<th>5.88 %</th>
 	</tr>
-</table>
+</table></font>

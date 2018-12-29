@@ -73,7 +73,7 @@
 		<th>7</th>
 		<th>75</th>
 		<th>MSC</th>
-		<th>Team FlyingBird</th>
+		<th>Audi Sport Team FlyingBird</th>
 		<th>23</th>
 		<th>+1 Lap</th>
 		<th>1:24.655</th>

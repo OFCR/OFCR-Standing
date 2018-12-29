@@ -33,7 +33,7 @@ public class Team {
 		else if(name.equals("RPM"))
 			return "Team Russian Poisonous Milk";
 		else if(name.equals("FBT"))
-			return "Team FlyingBird";
+			return "Audi Sport Team FlyingBird";
 		else if(name.equals("NCR"))
 			return "NorthernChina Racing";
 		else if(name.equals("MMP"))

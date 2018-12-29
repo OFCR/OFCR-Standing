@@ -1,4 +1,4 @@
-<table style="width:50%">
+<table style="width:100%">
 	<tr>
 		<th>Pos.</th>
 		<th>No.</th>

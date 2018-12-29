@@ -115,7 +115,7 @@ public class OFCRResult {
         try {
             writer = new FileWriter(f, true);
 
-            writer.append("<table style=\"width:50%\">");
+            writer.append("<table style=\"width:100%\">");
             writer.append("\r\n");
             String title[] = { "Pos.", "No.", "Driver", "Team", "Points","Participation Rate","Win Rate","Podium Rate","Points Rate","DNF Rate" };
             double totalRace = 17;

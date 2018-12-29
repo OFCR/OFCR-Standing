@@ -54,7 +54,7 @@ public class OFCRResult {
             } else {
                 counter = 0;
                 while (counter < seasonList.size()) {
-                    if (seasonList.get(counter).getNumber() == roundList.get(i).getNumber()) {
+                    if (seasonList.get(counter).getName().equals(roundList.get(i).getName())) {
                         break;
                     } else {
                         counter++;
@@ -71,7 +71,7 @@ public class OFCRResult {
         int counter = 0;
         for (int i = 0; i < roundList.size(); i++) {
             counter = 0;
-            while (seasonList.get(counter).getNumber() != roundList.get(i).getNumber()) {
+            while (!seasonList.get(counter).getName().equals(roundList.get(i).getName())) {
                 counter++;
             }
             seasonList.get(counter).addPoints(roundList.get(i).getPoints());

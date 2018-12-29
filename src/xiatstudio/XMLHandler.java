@@ -14,17 +14,17 @@ public class XMLHandler extends DefaultHandler {
 	Driver currentDriver = null;
 	StringBuilder data = null;
 	String fileName = null;
-	
-	public List<Driver> getDriverList(){
+
+	public List<Driver> getDriverList() {
 		return driverList;
 	}
 
-	public String getFileName(){
+	public String getFileName() {
 		return fileName + ".csv";
 	}
 
-	public String getMDFile(){
-		return fileName+".MD";
+	public String getMDFile() {
+		return fileName + ".MD";
 	}
 
 	boolean dName = false;
@@ -39,25 +39,23 @@ public class XMLHandler extends DefaultHandler {
 	boolean dPoints = false;
 
 	@Override
-	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException{
-		if(qName.equalsIgnoreCase("ServerName")){
+	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
+		if (qName.equalsIgnoreCase("ServerName")) {
 			dSession = true;
 			driverList = null;
-		}
-		else if(qName.equalsIgnoreCase("Driver")){
+		} else if (qName.equalsIgnoreCase("Driver")) {
 			currentDriver = new Driver(" ");
-			
-			if(driverList == null) {
+
+			if (driverList == null) {
 				driverList = new ArrayList<>();
 			}
-		} 
-		else if(qName.equalsIgnoreCase("Name"))
+		} else if (qName.equalsIgnoreCase("Name"))
 			dName = true;
-		else if(qName.equalsIgnoreCase("CarNumber"))
+		else if (qName.equalsIgnoreCase("CarNumber"))
 			dNumber = true;
-		else if(qName.equalsIgnoreCase("Position"))
+		else if (qName.equalsIgnoreCase("Position"))
 			dPos = true;
-		else if(qName.equalsIgnoreCase("Points"))
+		else if (qName.equalsIgnoreCase("Points"))
 			dPoints = true;
 		else if (qName.equalsIgnoreCase("TeamName"))
 			dTeam = true;
@@ -67,64 +65,54 @@ public class XMLHandler extends DefaultHandler {
 			dPB = true;
 		else if (qName.equalsIgnoreCase("FinishTime"))
 			dTime = true;
-		else if (qName.equalsIgnoreCase("Laps")){
-			if(currentDriver != null)
+		else if (qName.equalsIgnoreCase("Laps")) {
+			if (currentDriver != null)
 				dLaps = true;
 		}
-				
-			
+
 		data = new StringBuilder();
 	}
 
 	@Override
-	public void endElement(String uri, String localName, String qName) throws SAXException{
-		if(dSession){
-			createCSVFile(".\\2018_Result_CSV\\"+data.toString(),true);
-			createMDFile(".\\2018_Result_MD\\"+data.toString(),true);
+	public void endElement(String uri, String localName, String qName) throws SAXException {
+		if (dSession) {
+			createCSVFile(".\\2018_Result_CSV\\" + data.toString(), true);
+			createMDFile(".\\2018_Result_MD\\" + data.toString(), true);
 			fileName = data.toString();
 			dSession = false;
-		}
-		else if(dName){
+		} else if (dName) {
 			currentDriver.setName(data.toString());
 			dName = false;
-		}
-		else if(dNumber){
+		} else if (dNumber) {
 			currentDriver.setNumber(Integer.parseInt(data.toString()));
 			dNumber = false;
-		}
-		else if(dPos){
+		} else if (dPos) {
 			currentDriver.setPos(Integer.parseInt(data.toString()));
 			dPos = false;
-		}
-		else if(dPoints){
+		} else if (dPoints) {
 			currentDriver.addPoints(Integer.parseInt(data.toString()));
 			dPoints = false;
-		}
-		else if(dTeam){
+		} else if (dTeam) {
 			Team tmpTeam = new Team(data.toString());
 			currentDriver.setTeam(tmpTeam);
 			dTeam = false;
-		}
-		else if(dPosdiff){
+		} else if (dPosdiff) {
 			currentDriver.setPosGain(Integer.parseInt(data.toString()));
 			dPosdiff = false;
-		}
-		else if(dPB){
+		} else if (dPB) {
 			currentDriver.setPB(Double.parseDouble(data.toString()));
 			dPB = false;
-		}
-		else if(dTime){
+		} else if (dTime) {
 			currentDriver.setTime(Double.parseDouble(data.toString()));
 			dTime = false;
-		}
-		else if(dLaps){
+		} else if (dLaps) {
 			currentDriver.setLap(Integer.parseInt(data.toString()));
 			dLaps = false;
 		}
-		
-		if(qName.equalsIgnoreCase("Driver")){
-			currentDriver.setPosGain(currentDriver.getPosGain()-currentDriver.getPos());
-			if(currentDriver.getTeam().getName().equals("Safety Car")){
+
+		if (qName.equalsIgnoreCase("Driver")) {
+			currentDriver.setPosGain(currentDriver.getPosGain() - currentDriver.getPos());
+			if (currentDriver.getTeam().getName().equals("Safety Car")) {
 				currentDriver.addPoints(-currentDriver.getPoints());
 			}
 			driverList.add(currentDriver);
@@ -132,32 +120,32 @@ public class XMLHandler extends DefaultHandler {
 	}
 
 	@Override
-	public void characters(char ch[], int start, int length) throws SAXException{
-		data.append(new String(ch,start,length));
+	public void characters(char ch[], int start, int length) throws SAXException {
+		data.append(new String(ch, start, length));
 	}
 
-	public void createCSVFile(String fileName, boolean overwrite){
+	public void createCSVFile(String fileName, boolean overwrite) {
 		File f = new File(fileName + ".csv");
 
-		if(overwrite == true)
+		if (overwrite == true)
 			f.delete();
 
-		try{
+		try {
 			f.createNewFile();
-		} catch (IOException e){
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}
 
-	public void createMDFile(String fileName, boolean overwrite){
+	public void createMDFile(String fileName, boolean overwrite) {
 		File f = new File(fileName + ".MD");
 
-		if(overwrite == true)
+		if (overwrite == true)
 			f.delete();
 
-		try{
+		try {
 			f.createNewFile();
-		} catch (IOException e){
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 	}

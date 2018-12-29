@@ -22,77 +22,76 @@ public class Driver {
 		this.PB = 0;
 		this.positionGain = 0;
 	}
-	
+
 	public void setName(String newName) {
 		this.driverName = newName;
 	}
-	
+
 	public String getName() {
 		return this.driverName;
 	}
-	
+
 	public void setNumber(int newNumber) {
 		this.driverNumber = newNumber;
 	}
-	
+
 	public int getNumber() {
 		return this.driverNumber;
 	}
-	
+
 	public void addPoints(int newPoints) {
 		this.driverPoints += newPoints;
 	}
-	
+
 	public int getPoints() {
 		return this.driverPoints;
 	}
-	
+
 	public void setTeam(Team newTeam) {
 		this.driverTeam = newTeam;
 	}
-	
+
 	public Team getTeam() {
 		return this.driverTeam;
 	}
 
-	public void setPos(int newPos){
+	public void setPos(int newPos) {
 		this.pos = newPos;
 	}
 
-	public int getPos(){
+	public int getPos() {
 		return this.pos;
 	}
 
-	public void setLap(int newLap){
+	public void setLap(int newLap) {
 		this.laps = newLap;
 	}
 
-	public int getLap(){
+	public int getLap() {
 		return this.laps;
 	}
 
-	public void setTime(double newTime){
+	public void setTime(double newTime) {
 		this.time = newTime;
 	}
 
-	public double getTime(){
+	public double getTime() {
 		return this.time;
 	}
 
-	public void setPB(double newPB){
+	public void setPB(double newPB) {
 		this.PB = newPB;
 	}
-	
-	public double getPB(){
+
+	public double getPB() {
 		return this.PB;
 	}
 
-	public void setPosGain(int gain){
+	public void setPosGain(int gain) {
 		this.positionGain = gain;
 	}
 
-	public int getPosGain(){
+	public int getPosGain() {
 		return this.positionGain;
 	}
 }
-

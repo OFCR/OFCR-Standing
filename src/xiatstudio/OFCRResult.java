@@ -41,7 +41,6 @@ public class OFCRResult {
 
             createFinalStanding(seasonList);
 
-
         } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
@@ -50,63 +49,63 @@ public class OFCRResult {
     public static void addDriver(List<Driver> seasonList, List<Driver> roundList) {
         int counter = 0;
         for (int i = 0; i < roundList.size(); i++) {
-            if(seasonList.size() == 0){
+            if (seasonList.size() == 0) {
                 seasonList.add(roundList.get(0));
-            }
-            else{
+            } else {
                 counter = 0;
-                while(counter < seasonList.size()){
-                    if(seasonList.get(counter).getName().equals(roundList.get(i).getName())){
+                while (counter < seasonList.size()) {
+                    if (seasonList.get(counter).getName().equals(roundList.get(i).getName())) {
                         break;
-                    }
-                    else{
+                    } else {
                         counter++;
                     }
                 }
-                if(counter == seasonList.size()){
+                if (counter == seasonList.size()) {
                     seasonList.add(roundList.get(i));
                 }
             }
         }
     }
 
-    public static void updatePoints(List<Driver> seasonList, List<Driver> roundList){
+    public static void updatePoints(List<Driver> seasonList, List<Driver> roundList) {
         int counter = 0;
-        for(int i = 0; i < roundList.size(); i++){
+        for (int i = 0; i < roundList.size(); i++) {
             counter = 0;
-            while(!seasonList.get(counter).getName().equals(roundList.get(i).getName())){
+            while (!seasonList.get(counter).getName().equals(roundList.get(i).getName())) {
                 counter++;
             }
             seasonList.get(counter).addPoints(roundList.get(i).getPoints());
         }
     }
 
-    public static void createFinalStanding(List<Driver> seasonList){
+    public static void createFinalStanding(List<Driver> seasonList) {
         File f = new File("Driver Championship Standing.MD");
         f.delete();
-        try{
+        try {
             f.createNewFile();
-        } catch (IOException ioe){
+        } catch (IOException ioe) {
             ioe.printStackTrace();
         }
 
         seasonList.sort(Comparator.comparingInt(Driver::getPoints).reversed());
         FileWriter writer;
-        try{
-            writer = new FileWriter(f,true);
+        try {
+            writer = new FileWriter(f, true);
 
             writer.append("<table style=\"width:100%\">");
             writer.append("\r\n");
-            String title[] = { "Pos.","No.","Driver","Points" };
+            String title[] = { "Pos.", "No.", "Driver", "Team", "Points" };
             createHTMLRow(writer, title);
-            for(int i = 0; i < seasonList.size(); i++){
-                String row[] = {String.valueOf(i+1),String.valueOf(seasonList.get(i).getNumber()),seasonList.get(i).getName(),String.valueOf(seasonList.get(i).getPoints())};
+            for (int i = 0; i < seasonList.size(); i++) {
+                String row[] = { String.valueOf(i + 1), String.valueOf(seasonList.get(i).getNumber()),
+                        seasonList.get(i).getName(), seasonList.get(i).getTeam().getName(),
+                        String.valueOf(seasonList.get(i).getPoints()) };
                 createHTMLRow(writer, row);
             }
             writer.append("</table>");
             writer.flush();
             writer.close();
-        } catch (IOException ioe){
+        } catch (IOException ioe) {
             ioe.printStackTrace();
         }
     }

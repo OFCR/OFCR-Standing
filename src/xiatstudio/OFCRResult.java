@@ -97,18 +97,6 @@ public class OFCRResult {
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
-        for(int i = 0; i < seasonList.size(); i++){
-            if(seasonList.get(i).getDNF() != 0)
-                seasonList.get(i).dnfCounts--;
-            if(seasonList.get(i).getWin() != 0)
-                seasonList.get(i).winCounts--;
-            if(seasonList.get(i).getStart() != 0)
-                seasonList.get(i).seasonStarts--;
-            if(seasonList.get(i).getPointStart() != 0)
-                seasonList.get(i).pointCounts--;
-            if(seasonList.get(i).getPodium() != 0)
-                seasonList.get(i).podiumCounts--;
-        }
 
         seasonList.sort(Comparator.comparingInt(Driver::getPoints).reversed());
         FileWriter writer;
@@ -118,7 +106,7 @@ public class OFCRResult {
             writer.append("<table style=\"width:100%\">");
             writer.append("\r\n");
             String title[] = { "Pos.", "No.", "Driver", "Team", "Points","Participation Rate","Win Rate","Podium Rate","Points Rate","DNF Rate" };
-            double totalRace = 17;
+            double totalRace = 18;
             createHTMLRow(writer, title);
             for (int i = 0; i < seasonList.size(); i++) {
                 String startRate = String.format("%.2f",seasonList.get(i).getStart()*100/totalRace) + " %";

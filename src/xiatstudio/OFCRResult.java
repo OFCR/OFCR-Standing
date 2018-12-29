@@ -115,7 +115,7 @@ public class OFCRResult {
         try {
             writer = new FileWriter(f, true);
 
-            writer.append("<font size=\"2\" face=\"Calibri\" >\r\n");
+            writer.append("<font size=\"2\" >\r\n");
             writer.append("<table style=\"width:100%\">");
             writer.append("\r\n");
             String title[] = { "Pos.", "No.", "Driver", "Team", "Points","Participation Rate","Win Rate","Podium Rate","Points Rate","DNF Rate" };

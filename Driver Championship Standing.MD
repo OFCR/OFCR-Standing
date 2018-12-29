@@ -1,4 +1,4 @@
-<font size="2" face="Calibri" >
+<font size="2" >
 <table style="width:100%">
 	<tr>
 		<th>Pos.</th>

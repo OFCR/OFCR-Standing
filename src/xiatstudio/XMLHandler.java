@@ -82,12 +82,21 @@ public class XMLHandler extends DefaultHandler {
 			dSession = false;
 		} else if (dName) {
 			currentDriver.setName(data.toString());
+
 			dName = false;
 		} else if (dNumber) {
 			currentDriver.setNumber(Integer.parseInt(data.toString()));
 			dNumber = false;
 		} else if (dPos) {
 			currentDriver.setPos(Integer.parseInt(data.toString()));
+			if (Integer.parseInt(data.toString()) <= 8) {
+				currentDriver.regPoint();
+				if (Integer.parseInt(data.toString()) <= 3) {
+					currentDriver.regPodium();
+					if (Integer.parseInt(data.toString()) <= 1)
+						currentDriver.regWin();
+				}
+			}
 			dPos = false;
 		} else if (dPoints) {
 			currentDriver.addPoints(Integer.parseInt(data.toString()));
@@ -95,6 +104,9 @@ public class XMLHandler extends DefaultHandler {
 		} else if (dTeam) {
 			Team tmpTeam = new Team(data.toString());
 			currentDriver.setTeam(tmpTeam);
+			if (!currentDriver.getTeam().getName().equals("Satefy Car")) {
+				currentDriver.regStart();
+			}
 			dTeam = false;
 		} else if (dPosdiff) {
 			currentDriver.setPosGain(Integer.parseInt(data.toString()));
@@ -115,6 +127,8 @@ public class XMLHandler extends DefaultHandler {
 			if (currentDriver.getTeam().getName().equals("Safety Car")) {
 				currentDriver.addPoints(-currentDriver.getPoints());
 			}
+			if (currentDriver.getTime() == 0)
+				currentDriver.regDNF();
 			driverList.add(currentDriver);
 		}
 	}

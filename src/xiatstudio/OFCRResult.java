@@ -75,6 +75,16 @@ public class OFCRResult {
                 counter++;
             }
             seasonList.get(counter).addPoints(roundList.get(i).getPoints());
+            if (roundList.get(i).getDNF() == 1)
+                seasonList.get(counter).regDNF();
+            if (roundList.get(i).getWin() == 1)
+                seasonList.get(counter).regWin();
+            if (roundList.get(i).getStart() == 1)
+                seasonList.get(counter).regStart();
+            if (roundList.get(i).getPointStart() == 1)
+                seasonList.get(counter).regPoint();
+            if (roundList.get(i).getPodium() == 1)
+                seasonList.get(counter).regPodium();
         }
     }
 
@@ -94,12 +104,21 @@ public class OFCRResult {
 
             writer.append("<table style=\"width:100%\">");
             writer.append("\r\n");
-            String title[] = { "Pos.", "No.", "Driver", "Team", "Points" };
+            String title[] = { "Pos.", "No.", "Driver", "Team", "Points", "Participation Rate", "Win Rate",
+                    "Podium Rate", "Points Rate", "DNF Rate" };
+            double totalRace = 17;
             createHTMLRow(writer, title);
             for (int i = 0; i < seasonList.size(); i++) {
+                String startRate = String.format("%.2f", (seasonList.get(i).getStart() - 1) * 100 / totalRace) + " %";
+                String winRate = String.format("%.2f", (seasonList.get(i).getWin() - 1) * 100 / totalRace) + " %";
+                String podiumRate = String.format("%.2f", (seasonList.get(i).getPodium() - 1) * 100 / totalRace) + " %";
+                String pointRate = String.format("%.2f", (seasonList.get(i).getPointStart() - 1) * 100 / totalRace)
+                        + " %";
+                String dnfRate = String.format("%.2f", (seasonList.get(i).getDNF() - 1) * 100 / totalRace) + " %";
                 String row[] = { String.valueOf(i + 1), String.valueOf(seasonList.get(i).getNumber()),
                         seasonList.get(i).getName(), seasonList.get(i).getTeam().getName(),
-                        String.valueOf(seasonList.get(i).getPoints()) };
+                        String.valueOf(seasonList.get(i).getPoints()), startRate, winRate, podiumRate, pointRate,
+                        dnfRate };
                 createHTMLRow(writer, row);
             }
             writer.append("</table>");

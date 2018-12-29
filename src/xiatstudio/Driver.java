@@ -10,6 +10,11 @@ public class Driver {
 	int pos;
 	double PB;
 	int positionGain;
+	int seasonStarts;
+	int winCounts;
+	int podiumCounts;
+	int pointCounts;
+	int dnfCounts;
 
 	public Driver(String name) {
 		this.driverName = name;
@@ -21,6 +26,11 @@ public class Driver {
 		this.pos = 0;
 		this.PB = 0;
 		this.positionGain = 0;
+		this.seasonStarts = 0;
+		this.winCounts = 0;
+		this.podiumCounts = 0;
+		this.pointCounts = 0;
+		this.dnfCounts = 0;
 	}
 
 	public void setName(String newName) {
@@ -93,5 +103,45 @@ public class Driver {
 
 	public int getPosGain() {
 		return this.positionGain;
+	}
+
+	public void regStart() {
+		this.seasonStarts++;
+	}
+
+	public int getStart() {
+		return this.seasonStarts;
+	}
+
+	public void regWin() {
+		this.winCounts++;
+	}
+
+	public int getWin() {
+		return this.winCounts;
+	}
+
+	public void regPodium() {
+		this.podiumCounts++;
+	}
+
+	public int getPodium() {
+		return this.podiumCounts;
+	}
+
+	public void regPoint() {
+		this.pointCounts++;
+	}
+
+	public int getPointStart() {
+		return this.pointCounts;
+	}
+
+	public void regDNF() {
+		this.dnfCounts++;
+	}
+
+	public int getDNF() {
+		return this.dnfCounts;
 	}
 }

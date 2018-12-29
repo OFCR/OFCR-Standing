@@ -115,8 +115,7 @@ public class OFCRResult {
         try {
             writer = new FileWriter(f, true);
 
-            writer.append("<font size=\"2\" >\r\n");
-            writer.append("<table style=\"width:100%\">");
+            writer.append("<table style=\"width:50%\">");
             writer.append("\r\n");
             String title[] = { "Pos.", "No.", "Driver", "Team", "Points","Participation Rate","Win Rate","Podium Rate","Points Rate","DNF Rate" };
             double totalRace = 17;
@@ -132,7 +131,7 @@ public class OFCRResult {
                         String.valueOf(seasonList.get(i).getPoints()),startRate,winRate,podiumRate,pointRate,dnfRate };
                 createHTMLRow(writer, row);
             }
-            writer.append("</table></font>");
+            writer.append("</table>");
             writer.flush();
             writer.close();
         } catch (IOException ioe) {

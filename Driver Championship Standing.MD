@@ -1,5 +1,4 @@
-<font size="2" >
-<table style="width:100%">
+<table style="width:50%">
 	<tr>
 		<th>Pos.</th>
 		<th>No.</th>
@@ -324,4 +323,4 @@
 		<th>5.88 %</th>
 		<th>5.88 %</th>
 	</tr>
-</table></font>
+</table>

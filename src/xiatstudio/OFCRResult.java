@@ -75,17 +75,18 @@ public class OFCRResult {
                 counter++;
             }
             seasonList.get(counter).addPoints(roundList.get(i).getPoints());
-            if (roundList.get(i).getDNF() == 1)
+            if(roundList.get(i).getDNF() == 1)
                 seasonList.get(counter).regDNF();
-            if (roundList.get(i).getWin() == 1)
+            if(roundList.get(i).getWin() == 1)
                 seasonList.get(counter).regWin();
-            if (roundList.get(i).getStart() == 1)
+            if(roundList.get(i).getStart() == 1)
                 seasonList.get(counter).regStart();
-            if (roundList.get(i).getPointStart() == 1)
+            if(roundList.get(i).getPointStart() == 1)
                 seasonList.get(counter).regPoint();
-            if (roundList.get(i).getPodium() == 1)
+            if(roundList.get(i).getPodium() == 1)
                 seasonList.get(counter).regPodium();
         }
+        
     }
 
     public static void createFinalStanding(List<Driver> seasonList) {
@@ -96,6 +97,18 @@ public class OFCRResult {
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
+        for(int i = 0; i < seasonList.size(); i++){
+            if(seasonList.get(i).getDNF() != 0)
+                seasonList.get(i).dnfCounts--;
+            if(seasonList.get(i).getWin() != 0)
+                seasonList.get(i).winCounts--;
+            if(seasonList.get(i).getStart() != 0)
+                seasonList.get(i).seasonStarts--;
+            if(seasonList.get(i).getPointStart() != 0)
+                seasonList.get(i).pointCounts--;
+            if(seasonList.get(i).getPodium() != 0)
+                seasonList.get(i).podiumCounts--;
+        }
 
         seasonList.sort(Comparator.comparingInt(Driver::getPoints).reversed());
         FileWriter writer;
@@ -104,21 +117,18 @@ public class OFCRResult {
 
             writer.append("<table style=\"width:100%\">");
             writer.append("\r\n");
-            String title[] = { "Pos.", "No.", "Driver", "Team", "Points", "Participation Rate", "Win Rate",
-                    "Podium Rate", "Points Rate", "DNF Rate" };
+            String title[] = { "Pos.", "No.", "Driver", "Team", "Points","Participation Rate","Win Rate","Podium Rate","Points Rate","DNF Rate" };
             double totalRace = 17;
             createHTMLRow(writer, title);
             for (int i = 0; i < seasonList.size(); i++) {
-                String startRate = String.format("%.2f", (seasonList.get(i).getStart() - 1) * 100 / totalRace) + " %";
-                String winRate = String.format("%.2f", (seasonList.get(i).getWin() - 1) * 100 / totalRace) + " %";
-                String podiumRate = String.format("%.2f", (seasonList.get(i).getPodium() - 1) * 100 / totalRace) + " %";
-                String pointRate = String.format("%.2f", (seasonList.get(i).getPointStart() - 1) * 100 / totalRace)
-                        + " %";
-                String dnfRate = String.format("%.2f", (seasonList.get(i).getDNF() - 1) * 100 / totalRace) + " %";
+                String startRate = String.format("%.2f",seasonList.get(i).getStart()*100/totalRace) + " %";
+                String winRate = String.format("%.2f",seasonList.get(i).getWin()*100/totalRace) + " %";
+                String podiumRate = String.format("%.2f",seasonList.get(i).getPodium()*100/totalRace) + " %";
+                String pointRate = String.format("%.2f",seasonList.get(i).getPointStart()*100/totalRace) + " %";
+                String dnfRate = String.format("%.2f",seasonList.get(i).getDNF()*100/totalRace) + " %";
                 String row[] = { String.valueOf(i + 1), String.valueOf(seasonList.get(i).getNumber()),
                         seasonList.get(i).getName(), seasonList.get(i).getTeam().getName(),
-                        String.valueOf(seasonList.get(i).getPoints()), startRate, winRate, podiumRate, pointRate,
-                        dnfRate };
+                        String.valueOf(seasonList.get(i).getPoints()),startRate,winRate,podiumRate,pointRate,dnfRate };
                 createHTMLRow(writer, row);
             }
             writer.append("</table>");

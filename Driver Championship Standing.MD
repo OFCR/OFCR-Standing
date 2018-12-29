@@ -42,7 +42,7 @@
 		<th>NorthernChina Racing</th>
 		<th>189</th>
 		<th>100.00 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
 		<th>41.18 %</th>
 		<th>94.12 %</th>
 		<th>23.53 %</th>
@@ -81,7 +81,7 @@
 		<th>0.00 %</th>
 		<th>5.88 %</th>
 		<th>70.59 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
 	</tr>
 	<tr>
 		<th>7</th>
@@ -90,7 +90,7 @@
 		<th>Kimi Sleeping Team</th>
 		<th>75</th>
 		<th>58.82 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
 		<th>17.65 %</th>
 		<th>47.06 %</th>
 		<th>5.88 %</th>
@@ -114,10 +114,10 @@
 		<th>NorthernChina Racing</th>
 		<th>30</th>
 		<th>23.53 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
 		<th>0.00 %</th>
 		<th>23.53 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
 	</tr>
 	<tr>
 		<th>10</th>
@@ -126,10 +126,10 @@
 		<th>Audi Sport Team FlyingBird</th>
 		<th>30</th>
 		<th>5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
 		<th>5.88 %</th>
 		<th>5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
 	</tr>
 	<tr>
 		<th>11</th>
@@ -138,8 +138,8 @@
 		<th>xTacing OFCR Team</th>
 		<th>24</th>
 		<th>35.29 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>17.65 %</th>
 		<th>11.76 %</th>
 	</tr>
@@ -150,8 +150,8 @@
 		<th>Team Russian Poisonous Milk</th>
 		<th>20</th>
 		<th>58.82 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>23.53 %</th>
 		<th>23.53 %</th>
 	</tr>
@@ -162,10 +162,10 @@
 		<th>Shanghai Power Racing</th>
 		<th>20</th>
 		<th>5.88 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
 	</tr>
 	<tr>
 		<th>14</th>
@@ -174,7 +174,7 @@
 		<th>xTacing OFCR Team</th>
 		<th>18</th>
 		<th>41.18 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
 		<th>0.00 %</th>
 		<th>11.76 %</th>
 		<th>5.88 %</th>
@@ -186,8 +186,8 @@
 		<th>Kimi Sleeping Team</th>
 		<th>18</th>
 		<th>23.53 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>17.65 %</th>
 		<th>0.00 %</th>
 	</tr>
@@ -198,8 +198,8 @@
 		<th>Shanghai Power Racing</th>
 		<th>15</th>
 		<th>94.12 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>29.41 %</th>
 		<th>58.82 %</th>
 	</tr>
@@ -210,10 +210,10 @@
 		<th>Shanghai Power Racing</th>
 		<th>8</th>
 		<th>11.76 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
 	</tr>
 	<tr>
 		<th>18</th>
@@ -222,8 +222,8 @@
 		<th>Shanghai Power Racing</th>
 		<th>6</th>
 		<th>23.53 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>5.88 %</th>
 		<th>5.88 %</th>
 	</tr>
@@ -234,10 +234,10 @@
 		<th>Audi Sport Team FlyingBird</th>
 		<th>5</th>
 		<th>11.76 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>11.76 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
 	</tr>
 	<tr>
 		<th>20</th>
@@ -246,8 +246,8 @@
 		<th>Kimi Sleeping Team</th>
 		<th>4</th>
 		<th>41.18 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>17.65 %</th>
 		<th>29.41 %</th>
 	</tr>
@@ -258,8 +258,8 @@
 		<th>Kimi Sleeping Team</th>
 		<th>3</th>
 		<th>35.29 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>23.53 %</th>
 		<th>5.88 %</th>
 	</tr>
@@ -270,9 +270,9 @@
 		<th>Mamaipi GP</th>
 		<th>0</th>
 		<th>11.76 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>11.76 %</th>
 	</tr>
 	<tr>
@@ -282,9 +282,9 @@
 		<th>xTacing OFCR Team</th>
 		<th>0</th>
 		<th>5.88 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>5.88 %</th>
 	</tr>
 	<tr>
@@ -294,9 +294,9 @@
 		<th>NorthernChina Racing</th>
 		<th>0</th>
 		<th>11.76 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>5.88 %</th>
 	</tr>
 	<tr>
@@ -306,9 +306,9 @@
 		<th>xTacing OFCR Team</th>
 		<th>0</th>
 		<th>11.76 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>11.76 %</th>
 	</tr>
 	<tr>
@@ -318,8 +318,8 @@
 		<th>Shanghai Power Racing</th>
 		<th>0</th>
 		<th>5.88 %</th>
-		<th>-5.88 %</th>
-		<th>-5.88 %</th>
+		<th>0.00 %</th>
+		<th>0.00 %</th>
 		<th>5.88 %</th>
 		<th>5.88 %</th>
 	</tr>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rF [
+<!ENTITY rFEnt "rFactor Entity">
+]>
+<rFactorXML version="1.0">
+<RaceResults>
+<Setting>Multiplayer</Setting>
+<ServerName>OFCR Winter Test</ServerName>
+<PlayerFile>OMGCA</PlayerFile>
+<DateTime>1546271420</DateTime>
+<TimeString>2018/12/31 15:50:20</TimeString>
+<Mod>OFCR2019.rfm</Mod>
+<Season></Season>
+<TrackVenue>OFCR Season 2019</TrackVenue>
+<TrackCourse>TIAida</TrackCourse>
+<TrackEvent>01.Pacific</TrackEvent>
+<TrackLength>3670.1</TrackLength>
+<GameVersion>1.255</GameVersion>
+<Dedicated>0</Dedicated>
+<ConnectionType upload="64" download="64">ISDN</ConnectionType>
+<RaceLaps>5</RaceLaps>
+<RaceTime>0</RaceTime>
+<MechFailRate>2</MechFailRate>
+<DamageMult>50</DamageMult>
+<FuelMult>1</FuelMult>
+<TireMult>1</TireMult>
+<VehiclesAllowed>|OFCR_2019</VehiclesAllowed>
+<ParcFerme>3</ParcFerme>
+<FixedSetups>0</FixedSetups>
+<FreeSettings>2147483647</FreeSettings>
+<FixedUpgrades>0</FixedUpgrades>
+<Race>
+<DateTime>1546271457</DateTime>
+<TimeString>2018/12/31 15:50:57</TimeString>
+<Laps>5</Laps>
+<Minutes>0</Minutes>
+<Stream>
+<Score et="67.0">hcehce419(14) lap=0 point=1 t=24.945 et=66.626</Score>
+<Score et="67.1">OMGCA(24) lap=0 point=1 t=25.372 et=67.052</Score>
+<Score et="67.8">wagonggong(19) lap=0 point=1 t=25.758 et=67.439</Score>
+<Incident et="67.8">Bob(20) reported contact (0.03) with another vehicle Parker Chen(21)</Incident>
+<Incident et="67.9">Parker Chen(21) reported contact (0.06) with another vehicle Bob(20)</Incident>
+<Score et="67.9">INpurpose(22) lap=0 point=1 t=26.018 et=67.699</Score>
+<Score et="68.7">Parker Chen(21) lap=0 point=1 t=26.783 et=68.464</Score>
+<Score et="69.0">Bob(20) lap=0 point=1 t=27.090 et=68.771</Score>
+<Score et="89.9">hcehce419(14) lap=0 point=2 t=47.791 et=89.472</Score>
+<Score et="90.6">OMGCA(24) lap=0 point=2 t=48.870 et=90.551</Score>
+<Score et="91.3">wagonggong(19) lap=0 point=2 t=49.145 et=90.826</Score>
+<Score et="91.3">INpurpose(22) lap=0 point=2 t=49.416 et=91.096</Score>
+<Score et="92.0">Parker Chen(21) lap=0 point=2 t=50.038 et=91.719</Score>
+<Incident et="94.1">OMGCA(24) reported contact (0.00) with another vehicle wagonggong(19)</Incident>
+<Score et="109.4">Bob(20) lap=0 point=2 t=67.472 et=109.153</Score>
+<Incident et="112.8">wagonggong(19) reported contact (0.10) with another vehicle INpurpose(22)</Incident>
+<Incident et="114.4">Bob(20) reported contact (0.84) with Immovable</Incident>
+<Incident et="114.5">Bob(20) reported contact (0.61) with Wing</Incident>
+<Incident et="114.5">Bob(20) reported contact (0.42) with Wing</Incident>
+<Incident et="114.5">Bob(20) reported contact (0.16) with Wing</Incident>
+<Incident et="114.5">Bob(20) reported contact (0.87) with Wing</Incident>
+<Incident et="114.6">Bob(20) reported contact (0.68) with Wing</Incident>
+<Score et="114.6">hcehce419(14) lap=1 point=0 t=72.513 et=114.194</Score>
+<Incident et="114.8">Bob(20) reported contact (0.32) with Immovable</Incident>
+<Score et="116.0">OMGCA(24) lap=1 point=0 t=74.284 et=115.964</Score>
+<Score et="117.1">INpurpose(22) lap=1 point=0 t=75.137 et=116.817</Score>
+<Score et="117.2">wagonggong(19) lap=1 point=0 t=75.115 et=116.796</Score>
+<Score et="117.6">Parker Chen(21) lap=1 point=0 t=75.666 et=117.347</Score>
+<Score et="134.9">hcehce419(14) lap=1 point=1 t=20.329 et=134.523</Score>
+<Score et="136.6">OMGCA(24) lap=1 point=1 t=20.644 et=136.609</Score>
+<Score et="137.8">INpurpose(22) lap=1 point=1 t=20.754 et=137.572</Score>
+<Score et="138.9">Parker Chen(21) lap=1 point=1 t=21.330 et=138.677</Score>
+<Score et="142.9">wagonggong(19) lap=1 point=1 t=25.703 et=142.499</Score>
+<Score et="157.4">hcehce419(14) lap=1 point=2 t=42.831 et=157.025</Score>
+<Score et="159.5">OMGCA(24) lap=1 point=2 t=43.526 et=159.490</Score>
+<Score et="160.5">INpurpose(22) lap=1 point=2 t=43.414 et=160.231</Score>
+<Score et="162.3">Parker Chen(21) lap=1 point=2 t=44.672 et=162.019</Score>
+<Score et="166.0">wagonggong(19) lap=1 point=2 t=48.752 et=165.548</Score>
+<Incident et="179.7">OMGCA(24) reported contact (1.00) with Immovable</Incident>
+<Incident et="179.7">OMGCA(24) reported contact (0.23) with Track</Incident>
+<Incident et="179.9">OMGCA(24) reported contact (0.58) with Immovable</Incident>
+<Incident et="180.0">OMGCA(24) reported contact (1.00) with Wing</Incident>
+<Incident et="180.0">OMGCA(24) reported contact (0.13) with Wing</Incident>
+<Incident et="180.0">OMGCA(24) reported contact (0.10) with Immovable</Incident>
+<Incident et="180.0">OMGCA(24) reported contact (0.00) with Wing</Incident>
+<Incident et="180.2">OMGCA(24) reported contact (0.13) with Track</Incident>
+<Chat et="180.5">OMGCA: ......</Chat>
+<Score et="181.9">hcehce419(14) lap=2 point=0 t=67.305 et=181.498</Score>
+<Score et="185.0">INpurpose(22) lap=2 point=0 t=67.958 et=184.776</Score>
+<Incident et="186.8">OMGCA(24) reported contact (1.00) with another vehicle wagonggong(19)</Incident>
+<Score et="187.7">Parker Chen(21) lap=2 point=0 t=70.150 et=187.497</Score>
+<Chat et="189.4">OMGCA: .....</Chat>
+<Score et="191.4">wagonggong(19) lap=2 point=0 t=74.184 et=190.980</Score>
+<Score et="202.4">hcehce419(14) lap=2 point=1 t=20.430 et=201.929</Score>
+<Score et="205.7">INpurpose(22) lap=2 point=1 t=20.607 et=205.382</Score>
+<Score et="208.7">Parker Chen(21) lap=2 point=1 t=20.940 et=208.437</Score>
+<Score et="212.7">wagonggong(19) lap=2 point=1 t=21.309 et=212.288</Score>
+<Score et="219.7">OMGCA(24) lap=2 point=0 t=103.726 et=219.691</Score>
+<Score et="225.0">hcehce419(14) lap=2 point=2 t=43.052 et=224.550</Score>
+<Score et="228.4">INpurpose(22) lap=2 point=2 t=43.379 et=228.155</Score>
+<Score et="232.3">Parker Chen(21) lap=2 point=2 t=44.479 et=231.976</Score>
+<Score et="235.8">wagonggong(19) lap=2 point=2 t=44.467 et=235.447</Score>
+<Incident et="246.7">hcehce419(14) reported contact (0.19) with Immovable</Incident>
+<Score et="250.5">hcehce419(14) lap=3 point=0 t=68.578 et=250.077</Score>
+<Score et="252.8">INpurpose(22) lap=3 point=0 t=67.766 et=252.542</Score>
+<Score et="258.3">Parker Chen(21) lap=3 point=0 t=70.543 et=258.040</Score>
+<Score et="261.0">wagonggong(19) lap=3 point=0 t=69.650 et=260.630</Score>
+<Score et="271.4">hcehce419(14) lap=3 point=1 t=20.846 et=270.923</Score>
+<Score et="273.3">INpurpose(22) lap=3 point=1 t=20.455 et=272.996</Score>
+<Score et="274.7">OMGCA(24) lap=2 point=1 t=55.035 et=274.725</Score>
+<Score et="279.0">Parker Chen(21) lap=3 point=1 t=20.766 et=278.805</Score>
+<Score et="282.0">wagonggong(19) lap=3 point=1 t=20.916 et=281.546</Score>
+<Score et="294.1">hcehce419(14) lap=3 point=2 t=43.585 et=293.662</Score>
+<Score et="295.8">INpurpose(22) lap=3 point=2 t=42.927 et=295.469</Score>
+<Score et="302.9">Parker Chen(21) lap=3 point=2 t=44.636 et=302.676</Score>
+<Score et="305.2">wagonggong(19) lap=3 point=2 t=44.148 et=304.778</Score>
+<Score et="318.4">hcehce419(14) lap=4 point=0 t=67.978 et=318.054</Score>
+<Score et="320.0">INpurpose(22) lap=4 point=0 t=67.150 et=319.692</Score>
+<Score et="328.7">Parker Chen(21) lap=4 point=0 t=70.443 et=328.482</Score>
+<Score et="330.6">wagonggong(19) lap=4 point=0 t=69.587 et=330.217</Score>
+<Score et="339.0">hcehce419(14) lap=4 point=1 t=20.476 et=338.530</Score>
+<Score et="340.3">INpurpose(22) lap=4 point=1 t=20.309 et=340.000</Score>
+<Score et="349.9">Parker Chen(21) lap=4 point=1 t=21.134 et=349.616</Score>
+<Score et="351.9">wagonggong(19) lap=4 point=1 t=21.199 et=351.415</Score>
+<Score et="361.8">hcehce419(14) lap=4 point=2 t=43.376 et=361.431</Score>
+<Chat et="361.9">hcehce419: 2333333333333333333333333333333333333333333333</Chat>
+<Score et="363.3">INpurpose(22) lap=4 point=2 t=43.280 et=362.972</Score>
+<Score et="367.4">OMGCA(24) lap=2 point=2 t=147.737 et=367.427</Score>
+<Score et="373.3">Parker Chen(21) lap=4 point=2 t=44.502 et=372.984</Score>
+<Score et="375.0">wagonggong(19) lap=4 point=2 t=44.339 et=374.556</Score>
+<Score et="387.2">Checkered for hcehce419, laps=5/5, endET=386.785309/306254101833471170000000000000000000000.000000, crossedAfterTime=0</Score>
+<Score et="387.2">hcehce419(14) lap=5 point=0 t=68.731 et=386.785</Score>
+<Score et="388.5">INpurpose(22) lap=5 point=0 t=68.525 et=388.217</Score>
+<Incident et="396.3">Parker Chen(21) reported contact (0.94) with another vehicle wagonggong(19)</Incident>
+<Incident et="396.3">Parker Chen(21) reported contact (0.71) with another vehicle wagonggong(19)</Incident>
+<Incident et="396.4">Parker Chen(21) reported contact (0.19) with another vehicle wagonggong(19)</Incident>
+<Incident et="396.5">wagonggong(19) reported contact (0.87) with another vehicle Parker Chen(21)</Incident>
+<Incident et="396.5">wagonggong(19) reported contact (1.00) with Wing</Incident>
+<Incident et="396.5">wagonggong(19) reported contact (0.16) with another vehicle Parker Chen(21)</Incident>
+<Incident et="396.5">wagonggong(19) reported contact (1.00) with Wing</Incident>
+<Incident et="396.5">wagonggong(19) reported contact (0.03) with another vehicle Parker Chen(21)</Incident>
+<Incident et="396.5">wagonggong(19) reported contact (0.55) with Wing</Incident>
+<Incident et="396.5">wagonggong(19) reported contact (0.10) with another vehicle Parker Chen(21)</Incident>
+<Incident et="396.6">wagonggong(19) reported contact (0.03) with another vehicle Parker Chen(21)</Incident>
+<Incident et="399.5">hcehce419(14) reported contact (0.39) with Immovable</Incident>
+<Incident et="400.2">wagonggong(19) reported contact (0.03) with Immovable</Incident>
+<Incident et="400.3">wagonggong(19) reported contact (0.26) with Immovable</Incident>
+<Score et="402.0">wagonggong(19) lap=5 point=0 t=71.434 et=401.651</Score>
+<Chat et="403.8">wagonggong: wtf</Chat>
+<Incident et="405.5">wagonggong(19) reported contact (0.06) with Immovable</Incident>
+<Chat et="418.9">Parker Chen: shit</Chat>
+<Chat et="426.5">hcehce419: no fuel?</Chat>
+<Incident et="433.6">OMGCA(24) reported contact (0.03) with Immovable</Incident>
+<Chat et="434.5">Parker Chen: no fuel with 5 metre to finish</Chat>
+<Score et="437.7">OMGCA(24) lap=3 point=0 t=217.961 et=437.652</Score>
+<Chat et="441.3">hcehce419: lol</Chat>
+<Chat et="442.5">wagonggong: 500 plz</Chat>
+<Incident et="446.9">OMGCA(24) reported contact (0.35) with another vehicle hcehce419(14)</Incident>
+<Incident et="447.3">hcehce419(14) reported contact (0.26) with another vehicle OMGCA(24)</Incident>
+<Incident et="447.3">hcehce419(14) reported contact (0.26) with another vehicle OMGCA(24)</Incident>
+<Incident et="447.4">hcehce419(14) reported contact (0.06) with another vehicle OMGCA(24)</Incident>
+<Chat et="448.8">Parker Chen: i</Chat>
+<Chat et="459.5">Parker Chen: i stopped at 5 totally</Chat>
+<Chat et="493.9">wagonggong: re</Chat>
+<Chat et="501.9">hcehce419: no</Chat>
+<Chat et="503.8">INpurpose: i cant see startlights</Chat>
+<Chat et="503.8">hcehce419: 1 min to go</Chat>
+<Chat et="507.8">wagonggong: shit lag</Chat>
+<Chat et="521.4">wagonggong: start race on time</Chat>
+</Stream>
+<MostLapsCompleted>5</MostLapsCompleted>
+<Driver>
+<Name>INpurpose</Name>
+<Connected>1</Connected>
+<VehFile>YAR_32.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>#1 - 32.INpurpose</VehName>
+<CarType>OFCR Season2019</CarType>
+<CarClass>OFCR Season2019</CarClass>
+<CarNumber>32</CarNumber>
+<TeamName>Yostar AzurLane Racing</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>1</GridPos>
+<Position>2</Position>
+<ClassGridPos>1</ClassGridPos>
+<ClassPosition>2</ClassPosition>
+<Points>15</Points>
+<ClassPoints>15</ClassPoints>
+<LapRankIncludingDiscos>1</LapRankIncludingDiscos>
+<Lap num="1" p="4" et="41.6808" s1="26.0181" s2="23.3975" s3="25.7209" fuel="0.137">75.1366</Lap>
+<Lap num="2" p="2" et="116.8174" s1="20.7543" s2="22.6597" s3="24.5441" fuel="0.110">67.9581</Lap>
+<Lap num="3" p="2" et="184.7755" s1="20.6068" s2="22.7723" s3="24.3871" fuel="0.082">67.7661</Lap>
+<Lap num="4" p="2" et="252.5417" s1="20.4547" s2="22.4724" s3="24.2229" fuel="0.051">67.1500</Lap>
+<Lap num="5" p="2" et="319.6917" s1="20.3087" s2="22.9714" s3="25.2448" fuel="0.027">68.5250</Lap>
+<BestLapTime>67.1500</BestLapTime>
+<FinishTime>346.5359</FinishTime>
+<Laps>5</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="5">PlayerControl,TC=3,ABS=1,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>hcehce419</Name>
+<Connected>1</Connected>
+<VehFile>FBT_19.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>#3 - 19. hcehce419</VehName>
+<CarType>OFCR Season2019</CarType>
+<CarClass>OFCR Season2019</CarClass>
+<CarNumber>19</CarNumber>
+<TeamName>Team FlyingBird</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>2</GridPos>
+<Position>1</Position>
+<ClassGridPos>2</ClassGridPos>
+<ClassPosition>1</ClassPosition>
+<Points>20</Points>
+<ClassPoints>20</ClassPoints>
+<LapRankIncludingDiscos>2</LapRankIncludingDiscos>
+<Lap num="1" p="1" et="41.6808" s1="24.9448" s2="22.8464" s3="24.7218" fuel="0.173">72.5129</Lap>
+<Lap num="2" p="1" et="114.1937" s1="20.3288" s2="22.5023" s3="24.4735" fuel="0.141">67.3046</Lap>
+<Lap num="3" p="1" et="181.4983" s1="20.4303" s2="22.6214" s3="25.5268" fuel="0.110">68.5785</Lap>
+<Lap num="4" p="1" et="250.0768" s1="20.8463" s2="22.7387" s3="24.3926" fuel="0.078">67.9776</Lap>
+<Lap num="5" p="1" et="318.0544" s1="20.4761" s2="22.9001" s3="25.3548" fuel="0.047">68.7310</Lap>
+<BestLapTime>67.3046</BestLapTime>
+<FinishTime>345.1045</FinishTime>
+<Laps>5</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="5">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Steering=1,Clutch,Opposite,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>wagonggong</Name>
+<Connected>1</Connected>
+<VehFile>RPM_01.VEH</VehFile>
+<UpgradeCode>02000000 00000000</UpgradeCode>
+<VehName>#1 - 01.wagonggong</VehName>
+<CarType>OFCR Season2019</CarType>
+<CarClass>OFCR Season2019</CarClass>
+<CarNumber>01</CarNumber>
+<TeamName>Team Russian Poisonous Milk</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>4</GridPos>
+<Position>3</Position>
+<ClassGridPos>4</ClassGridPos>
+<ClassPosition>3</ClassPosition>
+<Points>12</Points>
+<ClassPoints>12</ClassPoints>
+<LapRankIncludingDiscos>3</LapRankIncludingDiscos>
+<Lap num="1" p="4" et="41.6808" s1="25.7579" s2="23.3873" s3="25.9699" fuel="0.188">75.1150</Lap>
+<Lap num="2" p="4" et="116.7959" s1="25.7033" s2="23.0490" s3="25.4315" fuel="0.157">74.1838</Lap>
+<Lap num="3" p="4" et="190.9796" s1="21.3086" s2="23.1589" s3="25.1827" fuel="0.125">69.6502</Lap>
+<Lap num="4" p="4" et="260.6298" s1="20.9164" s2="23.2320" s3="25.4385" fuel="0.090">69.5869</Lap>
+<Lap num="5" p="3" et="330.2167" s1="21.1986" s2="23.1404" s3="27.0954" fuel="0.059">71.4345</Lap>
+<BestLapTime>69.5869</BestLapTime>
+<FinishTime>359.9703</FinishTime>
+<Laps>5</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="5">PlayerControl,TC=3,ABS=2,Stability=2,AutoShift=3,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Parker Chen</Name>
+<Connected>1</Connected>
+<VehFile>MRT_48.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>#1 - 48.Parker Chen</VehName>
+<CarType>OFCR Season2019</CarType>
+<CarClass>OFCR Season2019</CarClass>
+<CarNumber>48</CarNumber>
+<TeamName>MacauTime Racing by Shanghai Power Team</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>5</GridPos>
+<Position>4</Position>
+<ClassGridPos>5</ClassGridPos>
+<ClassPosition>4</ClassPosition>
+<Points>10</Points>
+<ClassPoints>10</ClassPoints>
+<LapRankIncludingDiscos>4</LapRankIncludingDiscos>
+<Lap num="1" p="5" et="41.6808" s1="26.7830" s2="23.2550" s3="25.6280" fuel="0.129">75.6660</Lap>
+<Lap num="2" p="3" et="117.3468" s1="21.3304" s2="23.3417" s3="25.4780" fuel="0.094">70.1501</Lap>
+<Lap num="3" p="3" et="187.4969" s1="20.9400" s2="23.5393" s3="26.0635" fuel="0.063">70.5427</Lap>
+<Lap num="4" p="3" et="258.0397" s1="20.7658" s2="23.8703" s3="25.8066" fuel="0.027">70.4427</Lap>
+<BestLapTime>70.1501</BestLapTime>
+<Laps>4</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>Fuel</DNFReason>
+<ControlAndAids startLap="1" endLap="4">PlayerControl,TC=3,ABS=2,Stability=1,AutoShift=3,Steering=1,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>OMGCA</Name>
+<Connected>1</Connected>
+<VehFile>XTG_23.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>#1 - 23. OMGCA</VehName>
+<CarType>OFCR Season2019</CarType>
+<CarClass>OFCR Season2019</CarClass>
+<CarNumber>23</CarNumber>
+<TeamName>xTacing OFCR Team</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>3</GridPos>
+<Position>5</Position>
+<ClassGridPos>3</ClassGridPos>
+<ClassPosition>5</ClassPosition>
+<Points>8</Points>
+<ClassPoints>8</ClassPoints>
+<LapRankIncludingDiscos>5</LapRankIncludingDiscos>
+<Lap num="1" p="2" et="41.6808" s1="25.3716" s2="23.4981" s3="25.4138" fuel="0.216">74.2836</Lap>
+<Lap num="2" p="5" et="115.9644" s1="20.6444" s2="22.8816" s3="60.2002" fuel="0.180">103.7262</Lap>
+<Lap num="3" p="5" et="219.6906" s1="55.0346" s2="92.7019" s3="70.2246" fuel="0.149">217.9611</Lap>
+<BestLapTime>74.2836</BestLapTime>
+<FinishTime>395.9709</FinishTime>
+<Laps>3</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="3">PlayerControl,TC=3,ABS=2,Stability=2,Steering=1,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Bob</Name>
+<Connected>1</Connected>
+<VehFile>IXR_28.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>#1 - 28. Bob</VehName>
+<CarType>OFCR Season2019</CarType>
+<CarClass>OFCR Season2019</CarClass>
+<CarNumber>28</CarNumber>
+<TeamName>Inori-XT Racing</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>6</GridPos>
+<Position>6</Position>
+<ClassGridPos>6</ClassGridPos>
+<ClassPosition>6</ClassPosition>
+<Points>0</Points>
+<ClassPoints>0</ClassPoints>
+<LapRankIncludingDiscos>6</LapRankIncludingDiscos>
+<Laps>0</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>DNF</DNFReason>
+</Driver>
+</Race>
+</RaceResults>
+</rFactorXML>

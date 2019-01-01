@@ -106,7 +106,9 @@ public class OFCRResult {
             writer.append("<table style=\"width:100%\">");
             writer.append("\r\n");
             String title[] = { "Pos.", "No.", "Driver", "Team", "Points","Participation Rate","Win Rate","Podium Rate","Points Rate","DNF Rate" };
-            double totalRace = 18;
+            File folder = new File(".\\2018_Result_RAW\\");
+            File[] listOfFiles = folder.listFiles();
+            double totalRace = listOfFiles.length;
             createHTMLRow(writer, title);
             for (int i = 0; i < seasonList.size(); i++) {
                 String startRate = String.format("%.2f",seasonList.get(i).getStart()*100/totalRace) + " %";

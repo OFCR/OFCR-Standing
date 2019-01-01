@@ -21,7 +21,7 @@
 		<th>16.67 %</th>
 		<th>83.33 %</th>
 		<th>94.44 %</th>
-		<th>11.11 %</th>
+		<th>5.56 %</th>
 	</tr>
 	<tr>
 		<th>2</th>
@@ -37,18 +37,6 @@
 	</tr>
 	<tr>
 		<th>3</th>
-		<th>22</th>
-		<th>smallbubble</th>
-		<th>NorthernChina Racing</th>
-		<th>189</th>
-		<th>100.00 %</th>
-		<th>0.00 %</th>
-		<th>44.44 %</th>
-		<th>94.44 %</th>
-		<th>27.78 %</th>
-	</tr>
-	<tr>
-		<th>4</th>
 		<th>23</th>
 		<th>OMGCA</th>
 		<th>xTacing OFCR Team</th>
@@ -60,16 +48,28 @@
 		<th>11.11 %</th>
 	</tr>
 	<tr>
+		<th>4</th>
+		<th>22</th>
+		<th>smallbubble</th>
+		<th>NorthernChina Racing</th>
+		<th>186</th>
+		<th>100.00 %</th>
+		<th>0.00 %</th>
+		<th>44.44 %</th>
+		<th>94.44 %</th>
+		<th>22.22 %</th>
+	</tr>
+	<tr>
 		<th>5</th>
 		<th>5</th>
 		<th>DUO MEI</th>
 		<th>xTacing OFCR Team</th>
-		<th>143</th>
+		<th>146</th>
 		<th>66.67 %</th>
 		<th>5.56 %</th>
 		<th>33.33 %</th>
 		<th>61.11 %</th>
-		<th>11.11 %</th>
+		<th>5.56 %</th>
 	</tr>
 	<tr>
 		<th>6</th>

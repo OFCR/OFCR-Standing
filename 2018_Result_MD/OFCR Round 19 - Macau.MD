@@ -14,30 +14,30 @@
 		<th>21</th>
 		<th>lovepes2010</th>
 		<th>Audi Sport Team FlyingBird</th>
-		<th>16</th>
-		<th>0:00.000</th>
-		<th>1:48.081</th>
+		<th>20</th>
+		<th>40:20.413</th>
+		<th>1:47.536</th>
 		<th>+1</th>
 	</tr>
 	<tr>
 		<th>2</th>
-		<th>22</th>
-		<th>smallbubble</th>
-		<th>NorthernChina Racing</th>
-		<th>16</th>
-		<th>+0.000</th>
-		<th>1:47.645</th>
-		<th>+5</th>
-	</tr>
-	<tr>
-		<th>3</th>
 		<th>91</th>
 		<th>DUO MEI</th>
 		<th>Team Russian Poisonous Milk</th>
-		<th>16</th>
-		<th>+0.000</th>
-		<th>1:48.616</th>
-		<th>-2</th>
+		<th>20</th>
+		<th>+2.122</th>
+		<th>1:46.622</th>
+		<th>-1</th>
+	</tr>
+	<tr>
+		<th>3</th>
+		<th>22</th>
+		<th>smallbubble</th>
+		<th>NorthernChina Racing</th>
+		<th>20</th>
+		<th>+12.049</th>
+		<th>1:47.007</th>
+		<th>+4</th>
 	</tr>
 	<tr>
 		<th>4</th>

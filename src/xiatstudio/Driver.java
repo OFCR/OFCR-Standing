@@ -112,6 +112,10 @@ public class Driver {
 	public int getStart() {
 		return this.seasonStarts;
 	}
+	
+	public void resetStart() {
+		this.seasonStarts = 0;
+	}
 
 	public void regWin() {
 		this.winCounts++;
@@ -119,6 +123,10 @@ public class Driver {
 
 	public int getWin() {
 		return this.winCounts;
+	}
+	
+	public void resetWin() {
+		this.winCounts = 0;
 	}
 
 	public void regPodium() {
@@ -129,12 +137,20 @@ public class Driver {
 		return this.podiumCounts;
 	}
 
+	public void resetPodium() {
+		this.podiumCounts = 0;
+	}
+	
 	public void regPoint() {
 		this.pointCounts++;
 	}
 
 	public int getPointStart() {
 		return this.pointCounts;
+	}
+	
+	public void resetPointStart() {
+		this.pointCounts = 0;
 	}
 
 	public void regDNF() {
@@ -143,5 +159,9 @@ public class Driver {
 
 	public int getDNF() {
 		return this.dnfCounts;
+	}
+	
+	public void resetDNF() {
+		this.dnfCounts = 0;
 	}
 }

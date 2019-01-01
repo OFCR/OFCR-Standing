@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 import java.util.List;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 
 import xiatstudio.Driver;
@@ -50,7 +49,11 @@ public class OFCRResult {
         int counter = 0;
         for (int i = 0; i < roundList.size(); i++) {
             if (seasonList.size() == 0) {
-                seasonList.add(roundList.get(0));
+            	Driver tmpDriver = new Driver(" ");
+            	tmpDriver.setNumber(roundList.get(0).getNumber());
+            	tmpDriver.setName(roundList.get(0).getName());
+            	tmpDriver.setTeam(roundList.get(0).getTeam());
+                seasonList.add(tmpDriver);
             } else {
                 counter = 0;
                 while (counter < seasonList.size()) {
@@ -61,7 +64,11 @@ public class OFCRResult {
                     }
                 }
                 if (counter == seasonList.size()) {
-                    seasonList.add(roundList.get(i));
+                	Driver tmpDriver = new Driver(" ");
+                	tmpDriver.setNumber(roundList.get(i).getNumber());
+                	tmpDriver.setName(roundList.get(i).getName());
+                	tmpDriver.setTeam(roundList.get(i).getTeam());
+                    seasonList.add(tmpDriver);
                 }
             }
         }
@@ -79,8 +86,8 @@ public class OFCRResult {
                 seasonList.get(counter).regDNF();
             if(roundList.get(i).getWin() == 1)
                 seasonList.get(counter).regWin();
-            if(roundList.get(i).getStart() == 1)
-                seasonList.get(counter).regStart();
+            if(roundList.get(i).getStart() == 1) 
+            	seasonList.get(counter).regStart();
             if(roundList.get(i).getPointStart() == 1)
                 seasonList.get(counter).regPoint();
             if(roundList.get(i).getPodium() == 1)

@@ -118,11 +118,12 @@ public class OFCRResult {
             double totalRace = listOfFiles.length;
             createHTMLRow(writer, title);
             for (int i = 0; i < seasonList.size(); i++) {
+            	double driverStarts = seasonList.get(i).getStart();
                 String startRate = String.format("%.2f",seasonList.get(i).getStart()*100/totalRace) + " %";
-                String winRate = String.format("%.2f",seasonList.get(i).getWin()*100/totalRace) + " %";
-                String podiumRate = String.format("%.2f",seasonList.get(i).getPodium()*100/totalRace) + " %";
-                String pointRate = String.format("%.2f",seasonList.get(i).getPointStart()*100/totalRace) + " %";
-                String dnfRate = String.format("%.2f",seasonList.get(i).getDNF()*100/totalRace) + " %";
+                String winRate = String.format("%.2f",seasonList.get(i).getWin()*100/driverStarts) + " %";
+                String podiumRate = String.format("%.2f",seasonList.get(i).getPodium()*100/driverStarts) + " %";
+                String pointRate = String.format("%.2f",seasonList.get(i).getPointStart()*100/driverStarts) + " %";
+                String dnfRate = String.format("%.2f",seasonList.get(i).getDNF()*100/driverStarts) + " %";
                 String row[] = { String.valueOf(i + 1), String.valueOf(seasonList.get(i).getNumber()),
                         seasonList.get(i).getName(), seasonList.get(i).getTeam().getName(),
                         String.valueOf(seasonList.get(i).getPoints()),startRate,winRate,podiumRate,pointRate,dnfRate };

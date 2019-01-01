@@ -1,8 +1,13 @@
 package xiatstudio;
 
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.event.ActionEvent;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.text.DecimalFormat;
 import java.util.List;
 import java.util.ArrayList;
@@ -10,6 +15,10 @@ import java.util.Comparator;
 
 import xiatstudio.Driver;
 
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.UIManager;
+import javax.swing.JFileChooser;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -18,6 +27,7 @@ import org.xml.sax.SAXException;
 
 public class OFCRResult {
     public static void main(String args[]) {
+        /*
         SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
         try {
             SAXParser saxParser = saxParserFactory.newSAXParser();
@@ -42,7 +52,49 @@ public class OFCRResult {
 
         } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
+        }*/
+        GUISetup();
+    }
+
+    public static void GUISetup(){
+        try {
+			UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+		} catch (Exception e) {
+			e.printStackTrace();
         }
+        
+        JFrame mainFrame = new JFrame();
+        mainFrame.setTitle("OFCR Result Exporter");
+        mainFrame.setSize(600,250);
+        mainFrame.setVisible(true);
+        mainFrame.setLayout(new GridBagLayout());
+        mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        GridBagConstraints c = new GridBagConstraints();
+        c.fill = GridBagConstraints.HORIZONTAL;
+        c.gridx = 0;
+        c.gridy = 0;
+
+        JButton updateSeason = new JButton("Choose season folder");
+
+        mainFrame.add(updateSeason,c);
+        mainFrame.setVisible(true);
+
+        updateSeason.addActionListener(new ActionListener(){
+            @Override
+            public void actionPerformed(ActionEvent e){
+                String xmlPath, mdPath, csvPath;
+                JFileChooser fc = new JFileChooser(".\\");
+                fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
+
+                switch(fc.showOpenDialog(mainFrame)){
+                    case JFileChooser.APPROVE_OPTION:
+                        xmlPath = fc.getSelectedFile().getPath();
+                        System.out.println(xmlPath);
+                        break;
+                }
+            }
+        });
     }
 
     public static void addDriver(List<Driver> seasonList, List<Driver> roundList) {

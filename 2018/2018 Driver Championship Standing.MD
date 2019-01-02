@@ -1,4 +1,4 @@
-## 2018 OFCR Season Driver Championship Standing  
+##2018 OFCR Season Driver Championship Standing
 <table style="width:100%">
 	<tr>
 		<th>Pos.</th>

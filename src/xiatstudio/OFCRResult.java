@@ -28,44 +28,39 @@ import org.xml.sax.SAXException;
 public class OFCRResult {
     public static void main(String args[]) {
         /*
-        SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
-        try {
-            SAXParser saxParser = saxParserFactory.newSAXParser();
-            XMLHandler handler = new XMLHandler();
-
-            File folder = new File(".\\2018_Result_RAW\\");
-            File[] listOfFiles = folder.listFiles();
-            String[] fileList = new String[listOfFiles.length];
-            List<Driver> seasonList = new ArrayList<>();
-
-            for (int i = 0; i < listOfFiles.length; i++) {
-                fileList[i] = (".\\2018_Result_RAW\\" + listOfFiles[i].getName());
-                saxParser.parse(new File(fileList[i]), handler);
-                List<Driver> driverList = handler.getDriverList();
-                addDriver(seasonList, driverList);
-                updatePoints(seasonList, driverList);
-                exportCSV(handler.getFileName(), driverList);
-                exportMD(handler.getMDFile(), driverList);
-            }
-
-            createFinalStanding(seasonList);
-
-        } catch (ParserConfigurationException | SAXException | IOException e) {
-            e.printStackTrace();
-        }*/
+         * SAXParserFactory saxParserFactory = SAXParserFactory.newInstance(); try {
+         * SAXParser saxParser = saxParserFactory.newSAXParser(); XMLHandler handler =
+         * new XMLHandler();
+         * 
+         * File folder = new File(".\\2018_Result_RAW\\"); File[] listOfFiles =
+         * folder.listFiles(); String[] fileList = new String[listOfFiles.length];
+         * List<Driver> seasonList = new ArrayList<>();
+         * 
+         * for (int i = 0; i < listOfFiles.length; i++) { fileList[i] =
+         * (".\\2018_Result_RAW\\" + listOfFiles[i].getName()); saxParser.parse(new
+         * File(fileList[i]), handler); List<Driver> driverList =
+         * handler.getDriverList(); addDriver(seasonList, driverList);
+         * updatePoints(seasonList, driverList); exportCSV(handler.getFileName(),
+         * driverList); exportMD(handler.getMDFile(), driverList); }
+         * 
+         * createFinalStanding(seasonList);
+         * 
+         * } catch (ParserConfigurationException | SAXException | IOException e) {
+         * e.printStackTrace(); }
+         */
         GUISetup();
     }
 
-    public static void GUISetup(){
+    public static void GUISetup() {
         try {
-			UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
-		} catch (Exception e) {
-			e.printStackTrace();
+            UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-        
+
         JFrame mainFrame = new JFrame();
         mainFrame.setTitle("OFCR Result Exporter");
-        mainFrame.setSize(600,250);
+        mainFrame.setSize(600, 250);
         mainFrame.setVisible(true);
         mainFrame.setLayout(new GridBagLayout());
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -77,34 +72,68 @@ public class OFCRResult {
 
         JButton updateSeason = new JButton("Choose season folder");
 
-        mainFrame.add(updateSeason,c);
+        mainFrame.add(updateSeason, c);
         mainFrame.setVisible(true);
 
-        updateSeason.addActionListener(new ActionListener(){
+        updateSeason.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e){
+            public void actionPerformed(ActionEvent e) {
                 String xmlPath, mdPath, csvPath;
+                String seasonIndex;
                 JFileChooser fc = new JFileChooser(".\\");
                 fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 
-                switch(fc.showOpenDialog(mainFrame)){
-                    case JFileChooser.APPROVE_OPTION:
-                        xmlPath = fc.getSelectedFile().getPath();
-                        System.out.println(xmlPath);
-                        break;
+                switch (fc.showOpenDialog(mainFrame)) {
+                case JFileChooser.APPROVE_OPTION:
+                    xmlPath = fc.getSelectedFile().getAbsolutePath();
+                    xmlPath = xmlPath.replace("\\", "/");
+
+                    String tmpStrArr[] = xmlPath.split("/");
+                    seasonIndex = tmpStrArr[tmpStrArr.length - 2];
+
+                    seasonParser(Integer.parseInt(seasonIndex), xmlPath + "/");
+                    break;
                 }
             }
         });
+    }
+
+    public static void seasonParser(int season, String sourcePath) {
+        SAXParserFactory saxParserFactory = SAXParserFactory.newInstance();
+        try {
+            SAXParser saxParser = saxParserFactory.newSAXParser();
+            XMLHandler handler = new XMLHandler();
+
+            File folder = new File(sourcePath);
+            File[] listOfFiles = folder.listFiles();
+            String[] fileList = new String[listOfFiles.length];
+            List<Driver> seasonList = new ArrayList<>();
+
+            for (int i = 0; i < listOfFiles.length; i++) {
+                fileList[i] = (sourcePath + listOfFiles[i].getName());
+                saxParser.parse(new File(fileList[i]), handler);
+                List<Driver> driverList = handler.getDriverList();
+                addDriver(seasonList, driverList);
+                updatePoints(seasonList, driverList);
+                exportCSV(season, handler.getFileName(), driverList);
+                exportMD(season, handler.getMDFile(), driverList);
+            }
+
+            createFinalStanding(season, sourcePath, seasonList);
+
+        } catch (ParserConfigurationException | SAXException | IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static void addDriver(List<Driver> seasonList, List<Driver> roundList) {
         int counter = 0;
         for (int i = 0; i < roundList.size(); i++) {
             if (seasonList.size() == 0) {
-            	Driver tmpDriver = new Driver(" ");
-            	tmpDriver.setNumber(roundList.get(0).getNumber());
-            	tmpDriver.setName(roundList.get(0).getName());
-            	tmpDriver.setTeam(roundList.get(0).getTeam());
+                Driver tmpDriver = new Driver(" ");
+                tmpDriver.setNumber(roundList.get(0).getNumber());
+                tmpDriver.setName(roundList.get(0).getName());
+                tmpDriver.setTeam(roundList.get(0).getTeam());
                 seasonList.add(tmpDriver);
             } else {
                 counter = 0;
@@ -116,10 +145,10 @@ public class OFCRResult {
                     }
                 }
                 if (counter == seasonList.size()) {
-                	Driver tmpDriver = new Driver(" ");
-                	tmpDriver.setNumber(roundList.get(i).getNumber());
-                	tmpDriver.setName(roundList.get(i).getName());
-                	tmpDriver.setTeam(roundList.get(i).getTeam());
+                    Driver tmpDriver = new Driver(" ");
+                    tmpDriver.setNumber(roundList.get(i).getNumber());
+                    tmpDriver.setName(roundList.get(i).getName());
+                    tmpDriver.setTeam(roundList.get(i).getTeam());
                     seasonList.add(tmpDriver);
                 }
             }
@@ -134,22 +163,23 @@ public class OFCRResult {
                 counter++;
             }
             seasonList.get(counter).addPoints(roundList.get(i).getPoints());
-            if(roundList.get(i).getDNF() == 1)
+            if (roundList.get(i).getDNF() == 1)
                 seasonList.get(counter).regDNF();
-            if(roundList.get(i).getWin() == 1)
+            if (roundList.get(i).getWin() == 1)
                 seasonList.get(counter).regWin();
-            if(roundList.get(i).getStart() == 1) 
-            	seasonList.get(counter).regStart();
-            if(roundList.get(i).getPointStart() == 1)
+            if (roundList.get(i).getStart() == 1)
+                seasonList.get(counter).regStart();
+            if (roundList.get(i).getPointStart() == 1)
                 seasonList.get(counter).regPoint();
-            if(roundList.get(i).getPodium() == 1)
+            if (roundList.get(i).getPodium() == 1)
                 seasonList.get(counter).regPodium();
         }
-        
+
     }
 
-    public static void createFinalStanding(List<Driver> seasonList) {
-        File f = new File("Driver Championship Standing.MD");
+    public static void createFinalStanding(int season, String sourcePath, List<Driver> seasonList) {
+        String seasonFolder = ".\\" + season + "\\";
+        File f = new File(seasonFolder + season + " Driver Championship Standing.MD");
         f.delete();
         try {
             f.createNewFile();
@@ -161,24 +191,26 @@ public class OFCRResult {
         FileWriter writer;
         try {
             writer = new FileWriter(f, true);
-
+            writer.append("##"+season+" OFCR Season Driver Championship Standing\r\n");
             writer.append("<table style=\"width:100%\">");
             writer.append("\r\n");
-            String title[] = { "Pos.", "No.", "Driver", "Team", "Points","Participation Rate","Win Rate","Podium Rate","Points Rate","DNF Rate" };
-            File folder = new File(".\\2018_Result_RAW\\");
+            String title[] = { "Pos.", "No.", "Driver", "Team", "Points", "Participation Rate", "Win Rate",
+                    "Podium Rate", "Points Rate", "DNF Rate" };
+            File folder = new File(sourcePath);
             File[] listOfFiles = folder.listFiles();
             double totalRace = listOfFiles.length;
             createHTMLRow(writer, title);
             for (int i = 0; i < seasonList.size(); i++) {
-            	double driverStarts = seasonList.get(i).getStart();
-                String startRate = String.format("%.2f",seasonList.get(i).getStart()*100/totalRace) + " %";
-                String winRate = String.format("%.2f",seasonList.get(i).getWin()*100/driverStarts) + " %";
-                String podiumRate = String.format("%.2f",seasonList.get(i).getPodium()*100/driverStarts) + " %";
-                String pointRate = String.format("%.2f",seasonList.get(i).getPointStart()*100/driverStarts) + " %";
-                String dnfRate = String.format("%.2f",seasonList.get(i).getDNF()*100/driverStarts) + " %";
+                double driverStarts = seasonList.get(i).getStart();
+                String startRate = String.format("%.2f", seasonList.get(i).getStart() * 100 / totalRace) + " %";
+                String winRate = String.format("%.2f", seasonList.get(i).getWin() * 100 / driverStarts) + " %";
+                String podiumRate = String.format("%.2f", seasonList.get(i).getPodium() * 100 / driverStarts) + " %";
+                String pointRate = String.format("%.2f", seasonList.get(i).getPointStart() * 100 / driverStarts) + " %";
+                String dnfRate = String.format("%.2f", seasonList.get(i).getDNF() * 100 / driverStarts) + " %";
                 String row[] = { String.valueOf(i + 1), String.valueOf(seasonList.get(i).getNumber()),
                         seasonList.get(i).getName(), seasonList.get(i).getTeam().getName(),
-                        String.valueOf(seasonList.get(i).getPoints()),startRate,winRate,podiumRate,pointRate,dnfRate };
+                        String.valueOf(seasonList.get(i).getPoints()), startRate, winRate, podiumRate, pointRate,
+                        dnfRate };
                 createHTMLRow(writer, row);
             }
             writer.append("</table>");
@@ -203,12 +235,15 @@ public class OFCRResult {
             return String.valueOf(d.getPosGain());
     }
 
-    public static void exportMD(String fileName, List<Driver> driverList) {
+    public static void exportMD(int season, String fileName, List<Driver> driverList) {
+        String seasonFolder = ".\\" + String.valueOf(season) + "\\";
+        new File(seasonFolder + season + "_Result_MD\\").mkdir();
+        File f = new File(seasonFolder + season + "_Result_MD\\" + season + " " + fileName);
         FileWriter mdWriter;
         double timePivot = 0;
         int leaderLap = 0;
         try {
-            mdWriter = new FileWriter(".\\2018_Result_MD\\" + fileName, true);
+            mdWriter = new FileWriter(f.getPath(), true);
             mdWriter.append("<table style=\"width:100%\">");
             mdWriter.append("\r\n");
             String title[] = { "Pos.", "No.", "Name", "Team", "Laps", "Time/Gap", "Personal Best", "Position Diff" };
@@ -262,12 +297,15 @@ public class OFCRResult {
         }
     }
 
-    public static void exportCSV(String fileName, List<Driver> driverList) {
+    public static void exportCSV(int season, String fileName, List<Driver> driverList) {
+        String seasonFolder = ".\\" + season + "\\";
+        new File(seasonFolder + season + "_Result_CSV\\").mkdir();
+        File f = new File(seasonFolder + season + "_Result_CSV\\" + season + " " + fileName);
         FileWriter writer;
         double timePivot = 0;
         int leaderLap = 0;
         try {
-            writer = new FileWriter(".\\2018_Result_CSV\\" + fileName, true);
+            writer = new FileWriter(f.getPath(), true);
             writer.append("Pos.,");
             writer.append("No.,");
             writer.append("Name,");

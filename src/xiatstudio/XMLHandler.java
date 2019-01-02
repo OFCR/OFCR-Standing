@@ -76,13 +76,10 @@ public class XMLHandler extends DefaultHandler {
 	@Override
 	public void endElement(String uri, String localName, String qName) throws SAXException {
 		if (dSession) {
-			createCSVFile(".\\2018_Result_CSV\\" + data.toString(), true);
-			createMDFile(".\\2018_Result_MD\\" + data.toString(), true);
 			fileName = data.toString();
 			dSession = false;
 		} else if (dName) {
 			currentDriver.setName(data.toString());
-
 			dName = false;
 		} else if (dNumber) {
 			currentDriver.setNumber(Integer.parseInt(data.toString()));

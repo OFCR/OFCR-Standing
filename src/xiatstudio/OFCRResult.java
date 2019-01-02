@@ -1,5 +1,8 @@
 package xiatstudio;
 
+import java.awt.Component;
+import java.awt.Container;
+import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
@@ -26,28 +29,8 @@ import javax.xml.parsers.SAXParserFactory;
 import org.xml.sax.SAXException;
 
 public class OFCRResult {
+	static Font xtDefault = new Font("Microsoft Yahei", Font.PLAIN, 14);
     public static void main(String args[]) {
-        /*
-         * SAXParserFactory saxParserFactory = SAXParserFactory.newInstance(); try {
-         * SAXParser saxParser = saxParserFactory.newSAXParser(); XMLHandler handler =
-         * new XMLHandler();
-         * 
-         * File folder = new File(".\\2018_Result_RAW\\"); File[] listOfFiles =
-         * folder.listFiles(); String[] fileList = new String[listOfFiles.length];
-         * List<Driver> seasonList = new ArrayList<>();
-         * 
-         * for (int i = 0; i < listOfFiles.length; i++) { fileList[i] =
-         * (".\\2018_Result_RAW\\" + listOfFiles[i].getName()); saxParser.parse(new
-         * File(fileList[i]), handler); List<Driver> driverList =
-         * handler.getDriverList(); addDriver(seasonList, driverList);
-         * updatePoints(seasonList, driverList); exportCSV(handler.getFileName(),
-         * driverList); exportMD(handler.getMDFile(), driverList); }
-         * 
-         * createFinalStanding(seasonList);
-         * 
-         * } catch (ParserConfigurationException | SAXException | IOException e) {
-         * e.printStackTrace(); }
-         */
         GUISetup();
     }
 
@@ -57,11 +40,11 @@ public class OFCRResult {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+        
         JFrame mainFrame = new JFrame();
         mainFrame.setTitle("OFCR Result Exporter");
         mainFrame.setSize(600, 250);
-        mainFrame.setVisible(true);
+        mainFrame.setFont(xtDefault);
         mainFrame.setLayout(new GridBagLayout());
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -73,14 +56,16 @@ public class OFCRResult {
         JButton updateSeason = new JButton("Choose season folder");
 
         mainFrame.add(updateSeason, c);
+        updateSeason.setFont(xtDefault);
         mainFrame.setVisible(true);
 
         updateSeason.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String xmlPath, mdPath, csvPath;
+                String xmlPath;
                 String seasonIndex;
                 JFileChooser fc = new JFileChooser(".\\");
+                setFileChooserFont(fc.getComponents());
                 fc.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 
                 switch (fc.showOpenDialog(mainFrame)) {
@@ -96,6 +81,17 @@ public class OFCRResult {
                 }
             }
         });
+    }
+
+    public static void setFileChooserFont(Component[] comp) {
+        for (int i = 0; i < comp.length; i++) {
+            if (comp[i] instanceof Container)
+                setFileChooserFont(((Container) comp[i]).getComponents());
+            try {
+                comp[i].setFont(xtDefault);
+            } catch (Exception e) {
+            }
+        }
     }
 
     public static void seasonParser(int season, String sourcePath) {

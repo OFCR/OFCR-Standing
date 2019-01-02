@@ -191,7 +191,7 @@ public class OFCRResult {
         FileWriter writer;
         try {
             writer = new FileWriter(f, true);
-            writer.append("##"+season+" OFCR Season Driver Championship Standing\r\n");
+            writer.append("## "+season+" OFCR Season Driver Championship Standing  \r\n");
             writer.append("<table style=\"width:100%\">");
             writer.append("\r\n");
             String title[] = { "Pos.", "No.", "Driver", "Team", "Points", "Participation Rate", "Win Rate",

@@ -240,7 +240,24 @@ public class OFCRResult {
         int leaderLap = 0;
         try {
             mdWriter = new FileWriter(f.getPath(), true);
-            mdWriter.append("<table style=\"width:100%\">");
+            mdWriter.append("---");
+            mdWriter.append("\r\n");
+            
+            mdWriter.append("layout: page");
+            mdWriter.append("\r\n");
+            
+            mdWriter.append("title: "+f.getName());
+            mdWriter.append("\r\n");
+            
+            mdWriter.append("published: true");
+            mdWriter.append("\r\n");
+            
+            mdWriter.append("---");
+            mdWriter.append("\r\n");
+            mdWriter.append("\r\n");
+            
+            mdWriter.append("<font size=\"2\">\r\n");
+            mdWriter.append("<table style=\"width:120%\">");
             mdWriter.append("\r\n");
             String title[] = { "Pos.", "No.", "Name", "Team", "Laps", "Time/Gap", "Personal Best", "Position Diff" };
             createHTMLRow(mdWriter, title);
@@ -285,7 +302,7 @@ public class OFCRResult {
                 i = 0;
                 j++;
             }
-            mdWriter.append("</table>");
+            mdWriter.append("</table>\r\n</font>");
             mdWriter.flush();
             mdWriter.close();
         } catch (IOException ioe) {
